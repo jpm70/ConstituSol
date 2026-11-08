@@ -1,0 +1,6 @@
+{
+  "name": "Casillero Mental CE — Constitución Española",
+  "description": "Sistema Mayor (Casillero Mental) completo de los 169 artículos de la Constitución Española con fichas mnemotécnicas, historias absurdas, prompts de imagen y exportación datos_ce.js.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
