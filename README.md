@@ -155,7 +155,7 @@ Cada uno de los 169 artículos sigue estrictamente este esquema estructurado:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/TU_USUARIO/constitusol.git
+   git clone https://github.com/jpm70/constitusol.git
    cd constitusol
    ```
 
