@@ -18,6 +18,24 @@ const STORAGE_KEY_RACHA_ACTUAL = 'racha_actual';
 const STORAGE_KEY_MEJOR_RACHA = 'mejor_racha';
 const STORAGE_KEY_ARTICULOS_FALLOS = 'articulos_con_fallos';
 const STORAGE_KEY_MAPA_FALLOS = 'ce_mapa_fallos_v1';
+const STORAGE_KEY_SIMULACRO_CONFIG = 'ce_simulacro_config_v1';
+const STORAGE_KEY_SIMULACRO_HISTORIAL = 'ce_simulacro_historial_v1';
+
+interface ConfigSimulacro {
+  preguntas: number;
+  minutos: number;
+  penalizacion: number;
+}
+
+interface ResultadoSimulacro {
+  fecha: string;
+  preguntas: number;
+  aciertos: number;
+  fallos: number;
+  blancos: number;
+  nota: number;
+  segundos: number;
+}
 
 interface EstadoRacha {
   ultimo_acceso: string;
@@ -243,7 +261,7 @@ function barajarArray<T>(array: T[]): T[] {
 
 export default function App() {
   const [activeView, setActiveView] = useState<'mesa' | 'vanilla_js' | 'datos_ce'>('mesa');
-  const [modoActual, setModoActual] = useState<'modo1' | 'modo2' | 'modo3' | 'modo4' | 'mapa'>('modo1');
+  const [modoActual, setModoActual] = useState<'modo1' | 'modo2' | 'modo3' | 'modo4' | 'simulacro' | 'mapa'>('modo1');
   const [filtroDominio, setFiltroDominio] = useState<'todos' | 'no_dominados' | 'dominados' | 'con_fallos'>('todos');
   const [dominadosIds, setDominadosIds] = useState<number[]>(() => leerArticulosDominadosStorage());
   const [fallosIds, setFallosIds] = useState<number[]>(() => leerArticulosConFallosStorage());
@@ -320,8 +338,13 @@ export default function App() {
     let seleccionNumeroId: number | null = null;
     let seleccionConceptoId: number | null = null;
     let parejasResueltas = 0;
+    let temporizadorSimulacro: ReturnType<typeof setInterval> | null = null;
 
     function limpiarMesaDeTrabajo() {
+      if (temporizadorSimulacro) {
+        clearInterval(temporizadorSimulacro);
+        temporizadorSimulacro = null;
+      }
       if (!contenedorMesa) return;
       contenedorMesa.innerHTML = '';
       seleccionNumeroId = null;
@@ -905,6 +928,9 @@ export default function App() {
       const aciertosIniciales = leerAciertosCazadorStorage();
 
       const testTrampa = articulo.test_trampa;
+      // En las preguntas de localización («¿En qué artículo…?») la cabecera y el anclaje mental
+      // delatarían la respuesta: se ocultan hasta responder.
+      const esLocalizacion = testTrampa.enunciado.startsWith('¿En qué artículo');
       const opcionesConMetadatos = testTrampa.opciones.map((texto, idxOriginal) => ({
         texto,
         esCorrecta: idxOriginal === testTrampa.indice_correcta
@@ -960,17 +986,17 @@ export default function App() {
       cardCazador.innerHTML = `
         <header class="cazador-header">
           <div class="cazador-header-top">
-            <span class="cazador-art-badge">🎯 Artículo ${articulo.id_articulo} CE</span>
+            <span class="cazador-art-badge" id="cazador-badge-articulo">${esLocalizacion ? '🎯 Pregunta de localización' : `🎯 Artículo ${articulo.id_articulo} CE`}</span>
             <span class="cazador-aciertos-pill" id="pill-aciertos-cazador">
               ✓ Aciertos acumulados: ${aciertosIniciales}
             </span>
           </div>
 
           <div class="cazador-title-row">
-            <h2 class="cazador-tema-titulo">${articulo.tema_general}</h2>
+            <h2 class="cazador-tema-titulo" id="cazador-tema-titulo">${esLocalizacion ? '¿Dónde está este precepto?' : articulo.tema_general}</h2>
             <button
               type="button"
-              class="btn-anclaje-mental"
+              class="btn-anclaje-mental${esLocalizacion ? ' is-hidden' : ''}"
               id="btn-toggle-anclaje"
               aria-expanded="false"
             >
@@ -1051,6 +1077,13 @@ export default function App() {
         btn.addEventListener('click', () => {
           if (btn.disabled) return;
           const esCorrecta = btn.getAttribute('data-es-correcta') === 'true';
+          if (esLocalizacion) {
+            const badge = cardCazador.querySelector('#cazador-badge-articulo');
+            const titulo = cardCazador.querySelector('#cazador-tema-titulo');
+            if (badge) badge.textContent = `🎯 Artículo ${articulo.id_articulo} CE`;
+            if (titulo) titulo.textContent = articulo.tema_general;
+            btnAnclaje?.classList.remove('is-hidden');
+          }
 
           botonesOpcion.forEach((b) => {
             b.disabled = true;
@@ -1525,6 +1558,381 @@ export default function App() {
       });
     }
 
+    // ---------------------------------------------------------------------
+    // MODO 6: SIMULACRO DE EXAMEN (tiempo, penalización por error y nota)
+    // ---------------------------------------------------------------------
+    function escaparHtml(texto: string): string {
+      return String(texto)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function leerConfigSimulacro(): ConfigSimulacro {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY_SIMULACRO_CONFIG);
+        const parsed = raw ? JSON.parse(raw) : null;
+        if (parsed && typeof parsed === 'object') {
+          return {
+            preguntas: [10, 25, 50, 100].includes(parsed.preguntas) ? parsed.preguntas : 25,
+            minutos: [0, 10, 25, 50, 100].includes(parsed.minutos) ? parsed.minutos : 25,
+            penalizacion: [0, 0.25, 1 / 3].some((p) => Math.abs(p - parsed.penalizacion) < 1e-6)
+              ? parsed.penalizacion
+              : 1 / 3
+          };
+        }
+      } catch {
+        // Ignorar configuración corrupta
+      }
+      return { preguntas: 25, minutos: 25, penalizacion: 1 / 3 };
+    }
+
+    function leerHistorialSimulacros(): ResultadoSimulacro[] {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY_SIMULACRO_HISTORIAL);
+        const parsed = raw ? JSON.parse(raw) : [];
+        return Array.isArray(parsed)
+          ? parsed.filter((r) => r && typeof r.nota === 'number' && typeof r.fecha === 'string').slice(0, 10)
+          : [];
+      } catch {
+        return [];
+      }
+    }
+
+    function formatearTiempo(segundos: number): string {
+      const s = Math.max(0, Math.round(segundos));
+      return `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`;
+    }
+
+    function iniciarModoSimulacro(mazo: ArticuloCE[]) {
+      if (!contenedorMesa) return;
+      const config = leerConfigSimulacro();
+      const historial = leerHistorialSimulacros();
+      const maxPreguntas = mazo.length;
+
+      const hud = document.createElement('section');
+      hud.className = 'tablero-hud';
+      hud.innerHTML = `
+        <div class="hud-metrics">
+          <span>ConstituSol · Modo 6: Simulacro de Examen</span>
+          <span class="hud-separator">·</span>
+          <span>${maxPreguntas} artículo(s) disponibles con el filtro actual</span>
+        </div>
+      `;
+      contenedorMesa.appendChild(hud);
+
+      const opcionesSelect = (valores: { v: number; t: string }[], actual: number) =>
+        valores
+          .map((o) => `<option value="${o.v}" ${Math.abs(o.v - actual) < 1e-6 ? 'selected' : ''}>${o.t}</option>`)
+          .join('');
+
+      const historialHtml = historial.length
+        ? `<ul class="simulacro-historial-lista">${historial
+            .map(
+              (r) => `<li><span>${escaparHtml(r.fecha)}</span><span>${r.preguntas} preguntas</span><strong class="${r.nota >= 5 ? 'nota-apto' : 'nota-no-apto'}">${r.nota.toFixed(2)}</strong></li>`
+            )
+            .join('')}</ul>`
+        : '<p class="simulacro-muted">Aún no has hecho ningún simulacro.</p>';
+
+      const panel = document.createElement('section');
+      panel.className = 'cazador-contenedor';
+      panel.innerHTML = `
+        <article class="cazador-card simulacro-card" id="simulacro-config">
+          <header class="cazador-header">
+            <span class="cazador-art-badge">📝 Simulacro de examen</span>
+            <h2 class="cazador-tema-titulo">Prepara el examen como el día de verdad</h2>
+            <p class="simulacro-muted">
+              Preguntas al azar de los artículos del filtro actual, sin ver la solución hasta entregar.
+              Puedes dejar preguntas en blanco y volver a ellas. Al terminar verás tu nota sobre 10,
+              la corrección de cada fallo y los artículos fallados pasarán a tu lista de repaso.
+            </p>
+          </header>
+          <div class="simulacro-config-grid">
+            <label>Número de preguntas
+              <select id="sim-preguntas">${opcionesSelect(
+                [10, 25, 50, 100].filter((n) => n <= maxPreguntas || n === 10).map((n) => ({ v: n, t: `${Math.min(n, maxPreguntas)} preguntas` })),
+                config.preguntas
+              )}</select>
+            </label>
+            <label>Tiempo
+              <select id="sim-minutos">${opcionesSelect(
+                [
+                  { v: 0, t: 'Sin límite' },
+                  { v: 10, t: '10 minutos' },
+                  { v: 25, t: '25 minutos' },
+                  { v: 50, t: '50 minutos' },
+                  { v: 100, t: '100 minutos' }
+                ],
+                config.minutos
+              )}</select>
+            </label>
+            <label>Penalización por error
+              <select id="sim-penalizacion">${opcionesSelect(
+                [
+                  { v: 1 / 3, t: 'Cada 3 errores restan 1 acierto (−1/3)' },
+                  { v: 0.25, t: 'Cada 4 errores restan 1 acierto (−1/4)' },
+                  { v: 0, t: 'Sin penalización' }
+                ],
+                config.penalizacion
+              )}</select>
+            </label>
+          </div>
+          <button type="button" class="btn-mesa btn-mesa-primary simulacro-empezar" id="btn-empezar-simulacro">
+            ▶ Empezar simulacro
+          </button>
+          <div class="simulacro-historial">
+            <h3>Tus últimos simulacros</h3>
+            ${historialHtml}
+          </div>
+        </article>
+      `;
+      contenedorMesa.appendChild(panel);
+
+      panel.querySelector('#btn-empezar-simulacro')?.addEventListener('click', () => {
+        const nuevaConfig: ConfigSimulacro = {
+          preguntas: Number((panel.querySelector('#sim-preguntas') as HTMLSelectElement).value),
+          minutos: Number((panel.querySelector('#sim-minutos') as HTMLSelectElement).value),
+          penalizacion: Number((panel.querySelector('#sim-penalizacion') as HTMLSelectElement).value)
+        };
+        try {
+          localStorage.setItem(STORAGE_KEY_SIMULACRO_CONFIG, JSON.stringify(nuevaConfig));
+        } catch {
+          // Ignorar
+        }
+        limpiarMesaDeTrabajo();
+        ejecutarSimulacro(mazo, nuevaConfig);
+      });
+    }
+
+    function ejecutarSimulacro(mazo: ArticuloCE[], config: ConfigSimulacro) {
+      if (!contenedorMesa) return;
+      const seleccion = barajarArray(mazo).slice(0, Math.min(config.preguntas, mazo.length));
+      const letras = ['A', 'B', 'C', 'D'];
+      const preguntas = seleccion.map((articulo) => ({
+        articulo,
+        opciones: barajarArray(
+          articulo.test_trampa.opciones.map((texto, idx) => ({ texto, esCorrecta: idx === articulo.test_trampa.indice_correcta }))
+        ),
+        respuesta: null as number | null
+      }));
+      let actual = 0;
+      let entregado = false;
+      const inicio = Date.now();
+      const limiteSeg = config.minutos > 0 ? config.minutos * 60 : 0;
+
+      const hud = document.createElement('section');
+      hud.className = 'tablero-hud simulacro-hud';
+      hud.innerHTML = `
+        <div class="hud-metrics">
+          <span>📝 Simulacro en curso</span>
+          <span class="hud-separator">·</span>
+          <span id="sim-progreso"></span>
+          <span class="hud-separator">·</span>
+          <span id="sim-reloj" class="simulacro-reloj"></span>
+        </div>
+        <button type="button" class="btn-mesa btn-sm btn-mesa-primary" id="btn-entregar-simulacro">Entregar examen</button>
+      `;
+      contenedorMesa.appendChild(hud);
+
+      const zona = document.createElement('section');
+      zona.className = 'cazador-contenedor';
+      contenedorMesa.appendChild(zona);
+
+      const reloj = hud.querySelector('#sim-reloj') as HTMLElement;
+      const progreso = hud.querySelector('#sim-progreso') as HTMLElement;
+
+      function actualizarHud() {
+        const contestadas = preguntas.filter((p) => p.respuesta !== null).length;
+        progreso.textContent = `${contestadas} / ${preguntas.length} contestadas`;
+        const transcurrido = (Date.now() - inicio) / 1000;
+        if (limiteSeg > 0) {
+          const restante = limiteSeg - transcurrido;
+          reloj.textContent = `⏱ ${formatearTiempo(restante)} restantes`;
+          reloj.classList.toggle('is-urgente', restante <= 60);
+          if (restante <= 0 && !entregado) entregar(true);
+        } else {
+          reloj.textContent = `⏱ ${formatearTiempo(transcurrido)}`;
+        }
+      }
+
+      function pintarPregunta() {
+        const p = preguntas[actual];
+        const rejilla = preguntas
+          .map(
+            (q, i) =>
+              `<button type="button" class="simulacro-num ${i === actual ? 'is-actual' : ''} ${q.respuesta !== null ? 'is-contestada' : ''}" data-ir="${i}" aria-label="Pregunta ${i + 1}${q.respuesta !== null ? ' (contestada)' : ''}">${i + 1}</button>`
+          )
+          .join('');
+        zona.innerHTML = `
+          <article class="cazador-card simulacro-card">
+            <header class="cazador-header">
+              <div class="cazador-header-top">
+                <span class="cazador-art-badge">Pregunta ${actual + 1} de ${preguntas.length}</span>
+              </div>
+            </header>
+            <div class="cazador-enunciado-box">
+              <p class="cazador-enunciado-texto">${p.articulo.test_trampa.enunciado}</p>
+            </div>
+            <div class="cazador-opciones-lista" role="radiogroup" aria-label="Opciones de respuesta">
+              ${p.opciones
+                .map(
+                  (o, i) => `
+                <button type="button" role="radio" aria-checked="${p.respuesta === i}" class="cazador-opcion-btn simulacro-opcion ${p.respuesta === i ? 'is-marcada' : ''}" data-opcion="${i}">
+                  <span class="cazador-opcion-letra">${letras[i]}</span>
+                  <span class="cazador-opcion-contenido"><span class="cazador-opcion-texto">${o.texto}</span></span>
+                </button>`
+                )
+                .join('')}
+            </div>
+            <div class="simulacro-nav">
+              <button type="button" class="btn-mesa btn-sm" id="sim-anterior" ${actual === 0 ? 'disabled' : ''}>← Anterior</button>
+              <button type="button" class="btn-mesa btn-sm" id="sim-blanco" ${p.respuesta === null ? 'disabled' : ''}>Dejar en blanco</button>
+              <button type="button" class="btn-mesa btn-sm btn-mesa-primary" id="sim-siguiente">${actual === preguntas.length - 1 ? 'Revisar y entregar' : 'Siguiente →'}</button>
+            </div>
+            <nav class="simulacro-rejilla" aria-label="Ir a una pregunta">${rejilla}</nav>
+          </article>
+        `;
+        zona.querySelectorAll('.simulacro-opcion').forEach((btn) => {
+          btn.addEventListener('click', () => {
+            p.respuesta = Number((btn as HTMLElement).dataset.opcion);
+            pintarPregunta();
+            actualizarHud();
+          });
+        });
+        zona.querySelector('#sim-anterior')?.addEventListener('click', () => {
+          actual = Math.max(0, actual - 1);
+          pintarPregunta();
+        });
+        zona.querySelector('#sim-blanco')?.addEventListener('click', () => {
+          p.respuesta = null;
+          pintarPregunta();
+          actualizarHud();
+        });
+        zona.querySelector('#sim-siguiente')?.addEventListener('click', () => {
+          if (actual === preguntas.length - 1) {
+            (hud.querySelector('#btn-entregar-simulacro') as HTMLButtonElement)?.click();
+          } else {
+            actual += 1;
+            pintarPregunta();
+          }
+        });
+        zona.querySelectorAll('[data-ir]').forEach((b) => {
+          b.addEventListener('click', () => {
+            actual = Number((b as HTMLElement).dataset.ir);
+            pintarPregunta();
+          });
+        });
+      }
+
+      function entregar(porTiempo = false) {
+        if (entregado) return;
+        entregado = true;
+        if (temporizadorSimulacro) {
+          clearInterval(temporizadorSimulacro);
+          temporizadorSimulacro = null;
+        }
+        const segundos = Math.round((Date.now() - inicio) / 1000);
+        const aciertos = preguntas.filter((p) => p.respuesta !== null && p.opciones[p.respuesta].esCorrecta).length;
+        const fallosLista = preguntas.filter((p) => p.respuesta !== null && !p.opciones[p.respuesta].esCorrecta);
+        const blancos = preguntas.filter((p) => p.respuesta === null).length;
+        const neta = aciertos - fallosLista.length * config.penalizacion;
+        const nota = Math.max(0, (neta / preguntas.length) * 10);
+
+        // Los artículos fallados pasan a la lista de repaso (y los que no se contestaron, no)
+        let ultimo: { fallosIds: number[]; mapaFallos: Record<number, number> } | null = null;
+        for (const p of fallosLista) ultimo = registrarFalloArticuloStorage(p.articulo.id);
+        if (ultimo) {
+          setFallosIds(ultimo.fallosIds);
+          setMapaFallos({ ...ultimo.mapaFallos });
+        }
+
+        const resultado: ResultadoSimulacro = {
+          fecha: new Date().toLocaleString('es-ES', { dateStyle: 'short', timeStyle: 'short' }),
+          preguntas: preguntas.length,
+          aciertos,
+          fallos: fallosLista.length,
+          blancos,
+          nota: Math.round(nota * 100) / 100,
+          segundos
+        };
+        try {
+          const hist = [resultado, ...leerHistorialSimulacros()].slice(0, 10);
+          localStorage.setItem(STORAGE_KEY_SIMULACRO_HISTORIAL, JSON.stringify(hist));
+        } catch {
+          // Ignorar
+        }
+
+        const penalTxt =
+          config.penalizacion === 0 ? 'sin penalización' : config.penalizacion === 0.25 ? 'cada 4 errores restan 1 acierto' : 'cada 3 errores restan 1 acierto';
+        const correccionHtml = preguntas
+          .map((p, i) => {
+            if (p.respuesta !== null && p.opciones[p.respuesta].esCorrecta) return '';
+            const correcta = p.opciones.find((o) => o.esCorrecta)?.texto ?? '';
+            const marcada = p.respuesta === null ? null : p.opciones[p.respuesta].texto;
+            return `
+              <li class="simulacro-correccion-item ${p.respuesta === null ? 'is-blanco' : 'is-fallo'}">
+                <div class="simulacro-correccion-cabecera">
+                  <strong>Pregunta ${i + 1} · Artículo ${p.articulo.id_articulo}</strong>
+                  <span>${p.respuesta === null ? 'En blanco' : 'Fallo'}</span>
+                </div>
+                <p class="simulacro-correccion-enunciado">${p.articulo.test_trampa.enunciado}</p>
+                ${marcada ? `<p class="simulacro-tu-respuesta">✗ Tu respuesta: ${marcada}</p>` : ''}
+                <p class="simulacro-respuesta-correcta">✓ Correcta: ${correcta}</p>
+                <p class="simulacro-explicacion">${p.articulo.test_trampa.trampa_explicacion}</p>
+              </li>`;
+          })
+          .join('');
+
+        hud.innerHTML = `
+          <div class="hud-metrics">
+            <span>📝 Simulacro entregado${porTiempo ? ' (se acabó el tiempo)' : ''}</span>
+          </div>
+          <button type="button" class="btn-mesa btn-sm btn-mesa-primary" id="btn-nuevo-simulacro">Nuevo simulacro</button>
+        `;
+        zona.innerHTML = `
+          <article class="cazador-card simulacro-card" id="simulacro-resultado">
+            <header class="cazador-header">
+              <span class="cazador-art-badge">Resultado del simulacro</span>
+              <div class="simulacro-nota ${nota >= 5 ? 'nota-apto' : 'nota-no-apto'}">
+                <span class="simulacro-nota-valor" id="sim-nota">${nota.toFixed(2)}</span>
+                <span class="simulacro-nota-sobre">/ 10</span>
+              </div>
+              <p class="simulacro-muted">
+                ${aciertos} aciertos · ${fallosLista.length} fallos · ${blancos} en blanco · ${penalTxt} ·
+                tiempo ${formatearTiempo(segundos)}
+              </p>
+            </header>
+            ${
+              fallosLista.length
+                ? `<button type="button" class="btn-mesa btn-mesa-primary" id="btn-repasar-fallos-simulacro">⚠️ Repasar los ${fallosLista.length} artículo(s) fallados en el Cazador de Trampas</button>`
+                : ''
+            }
+            ${correccionHtml ? `<h3 class="simulacro-subtitulo">Corrección</h3><ol class="simulacro-correccion">${correccionHtml}</ol>` : '<p class="simulacro-muted">¡Pleno! Ningún fallo ni pregunta en blanco.</p>'}
+          </article>
+        `;
+        zona.querySelector('#btn-repasar-fallos-simulacro')?.addEventListener('click', () => {
+          setFiltroDominio('con_fallos');
+          setModoActual('modo4');
+        });
+        hud.querySelector('#btn-nuevo-simulacro')?.addEventListener('click', () => {
+          limpiarMesaDeTrabajo();
+          iniciarModoSimulacro(obtenerMazoFiltrado());
+        });
+        contenedorMesa?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+
+      hud.querySelector('#btn-entregar-simulacro')?.addEventListener('click', () => {
+        const blancos = preguntas.filter((p) => p.respuesta === null).length;
+        if (blancos > 0 && !window.confirm(`Te quedan ${blancos} pregunta(s) en blanco. ¿Entregar el examen de todos modos?`)) return;
+        entregar(false);
+      });
+
+      pintarPregunta();
+      actualizarHud();
+      temporizadorSimulacro = setInterval(actualizarHud, 1000);
+    }
+
     limpiarMesaDeTrabajo();
     if (modoActual === 'mapa') {
       iniciarModoMapaConstitucional();
@@ -1545,7 +1953,12 @@ export default function App() {
       iniciarModoLluviaConceptos(mazoFiltrado);
     } else if (modoActual === 'modo4') {
       iniciarModoCazadorTrampas(mazoFiltrado);
+    } else if (modoActual === 'simulacro') {
+      iniciarModoSimulacro(mazoFiltrado);
     }
+    return () => {
+      if (temporizadorSimulacro) clearInterval(temporizadorSimulacro);
+    };
   }, [activeView, modoActual, filtroDominio]);
 
   const handleCopy = (text: string, key: string) => {
@@ -1673,6 +2086,13 @@ export default function App() {
                     className={`mode-btn ${modoActual === 'modo4' ? 'is-active' : ''}`}
                   >
                     Modo 4: Cazador de Trampas
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setModoActual('simulacro')}
+                    className={`mode-btn ${modoActual === 'simulacro' ? 'is-active' : ''}`}
+                  >
+                    📝 Simulacro de Examen
                   </button>
                   <button
                     type="button"

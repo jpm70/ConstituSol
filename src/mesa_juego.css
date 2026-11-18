@@ -2466,3 +2466,241 @@
 
 
 
+
+/* =========================================================================
+   MODO 6: SIMULACRO DE EXAMEN
+   ========================================================================= */
+.simulacro-card {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.simulacro-muted {
+  color: var(--card-muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0.35rem 0 0;
+}
+
+.simulacro-config-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 0.85rem;
+}
+
+.simulacro-config-grid label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--card-ink);
+}
+
+.simulacro-config-grid select {
+  min-height: 44px;
+  border: 2px solid #cbd5e1;
+  border-radius: 0.6rem;
+  padding: 0.5rem 0.65rem;
+  font: inherit;
+  font-weight: 500;
+  background: #ffffff;
+  color: #0f172a;
+}
+
+.simulacro-empezar {
+  align-self: flex-start;
+  min-height: 48px;
+  padding: 0.7rem 1.4rem;
+}
+
+.simulacro-historial h3,
+.simulacro-subtitulo {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--card-ink);
+  margin: 0.25rem 0 0.5rem;
+}
+
+.simulacro-historial-lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.simulacro-historial-lista li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  font-size: 0.85rem;
+  color: #334155;
+}
+
+.nota-apto {
+  color: #047857;
+}
+
+.nota-no-apto {
+  color: #b91c1c;
+}
+
+.simulacro-reloj {
+  font-family: var(--font-mono, monospace);
+  font-weight: 700;
+}
+
+.simulacro-reloj.is-urgente {
+  color: #fca5a5;
+}
+
+.cazador-opcion-btn.is-marcada {
+  border-color: #0284c7;
+  background: #e0f2fe;
+  box-shadow: 0 0 0 2px rgba(2, 132, 199, 0.25);
+}
+
+.cazador-opcion-btn.is-marcada .cazador-opcion-letra {
+  background: #0284c7;
+  border-color: #0284c7;
+  color: #ffffff;
+}
+
+.simulacro-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: space-between;
+}
+
+.simulacro-rejilla {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.simulacro-num {
+  min-width: 36px;
+  min-height: 36px;
+  border-radius: 0.45rem;
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+  color: #475569;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.simulacro-num.is-contestada {
+  background: #e0f2fe;
+  border-color: #7dd3fc;
+  color: #075985;
+}
+
+.simulacro-num.is-actual {
+  outline: 2px solid #f59e0b;
+  outline-offset: 1px;
+}
+
+.simulacro-nota {
+  display: flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  margin-top: 0.5rem;
+}
+
+.simulacro-nota-valor {
+  font-size: clamp(2.4rem, 8vw, 3.4rem);
+  font-weight: 800;
+  line-height: 1;
+}
+
+.simulacro-nota-sobre {
+  font-size: 1.1rem;
+  color: var(--card-muted);
+  font-weight: 600;
+}
+
+.simulacro-correccion {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.simulacro-correccion-item {
+  border-radius: 0.75rem;
+  padding: 0.85rem 1rem;
+  border: 2px solid #fecaca;
+  background: #fef2f2;
+  color: #1e293b;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  overflow-wrap: break-word;
+}
+
+.simulacro-correccion-item.is-blanco {
+  border-color: #e2e8f0;
+  background: #f8fafc;
+}
+
+.simulacro-correccion-cabecera {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  font-size: 0.82rem;
+  color: #475569;
+}
+
+.simulacro-correccion-item p {
+  margin: 0.4rem 0 0;
+}
+
+.simulacro-tu-respuesta {
+  color: #b91c1c;
+}
+
+.simulacro-respuesta-correcta {
+  color: #047857;
+  font-weight: 600;
+}
+
+.simulacro-explicacion {
+  color: #475569;
+  font-size: 0.85rem;
+}
+
+
+/* Botones secundarios dentro de la tarjeta blanca del simulacro (btn-mesa está pensado para el tapete verde) */
+.simulacro-card .btn-mesa:not(.btn-mesa-primary) {
+  background: #ffffff;
+  color: #0f172a;
+  border: 2px solid #cbd5e1;
+}
+
+.simulacro-card .btn-mesa:not(.btn-mesa-primary):hover:not(:disabled) {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+}
+
+.simulacro-card .btn-mesa:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+/* El anclaje mental se oculta en las preguntas de localización hasta responder */
+.btn-anclaje-mental.is-hidden {
+  display: none;
+}
