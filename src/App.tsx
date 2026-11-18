@@ -2011,44 +2011,15 @@ export default function App() {
           ConstituSol
         </a>
 
-        {/* Zone 2: 3 concise single-line navigation links (touch-friendly >= 44px) */}
-        <nav className="flex items-center gap-2 sm:gap-6 text-xs sm:text-sm font-medium text-slate-300 overflow-x-auto max-w-full">
+        {/* Las herramientas de desarrollo están al pie («Para docentes y desarrolladores»): aquí solo se vuelve al estudio */}
+        {activeView !== 'mesa' && (
           <button
             onClick={() => setActiveView('mesa')}
-            className={`min-h-[44px] px-2.5 sm:px-1 inline-flex items-center hover:text-white transition-colors whitespace-nowrap shrink-0 cursor-pointer ${
-              activeView === 'mesa' ? 'text-amber-400 border-b-2 border-amber-400 font-semibold' : ''
-            }`}
+            className="min-h-[44px] px-4 py-2 text-xs sm:text-sm font-semibold text-slate-950 bg-amber-400 rounded-lg hover:bg-amber-300 transition-colors whitespace-nowrap shrink-0 inline-flex items-center gap-2 cursor-pointer"
           >
-            Mesa de Trabajo
+            ← Volver al estudio
           </button>
-          <button
-            onClick={() => setActiveView('vanilla_js')}
-            className={`min-h-[44px] px-2.5 sm:px-1 inline-flex items-center hover:text-white transition-colors whitespace-nowrap shrink-0 cursor-pointer ${
-              activeView === 'vanilla_js' ? 'text-amber-400 border-b-2 border-amber-400 font-semibold' : ''
-            }`}
-          >
-            Código ConstituSol
-          </button>
-          <button
-            onClick={() => setActiveView('datos_ce')}
-            className={`min-h-[44px] px-2.5 sm:px-1 inline-flex items-center hover:text-white transition-colors whitespace-nowrap shrink-0 cursor-pointer ${
-              activeView === 'datos_ce' ? 'text-amber-400 border-b-2 border-amber-400 font-semibold' : ''
-            }`}
-          >
-            JSON Puro (Apartados)
-          </button>
-        </nav>
-
-        {/* Zone 3: 1 primary action (touch-friendly >= 44px) */}
-        <div className="flex items-center gap-3 shrink-0">
-          <button
-            onClick={handleDownloadSpaHtml}
-            className="min-h-[44px] px-4 py-2 text-xs font-semibold text-slate-950 bg-amber-400 rounded-lg hover:bg-amber-300 transition-colors whitespace-nowrap shrink-0 inline-flex items-center gap-2 cursor-pointer"
-          >
-            <Download className="w-4 h-4" />
-            Descargar ConstituSol
-          </button>
-        </div>
+        )}
       </header>
 
       {/* VIEW 1: MESA DE TRABAJO CONSTITUSOL */}
@@ -2534,6 +2505,42 @@ export default function App() {
           )}
         </main>
       )}
+
+      {/* Pie: herramientas para docentes y desarrolladores, fuera de la vista del opositor */}
+      <footer className="mt-auto bg-[#0b291d] text-slate-400 border-t border-amber-500/20 px-4 py-4 text-xs">
+        <details className="max-w-[1320px] mx-auto">
+          <summary className="cursor-pointer select-none min-h-[44px] inline-flex items-center hover:text-slate-200">
+            Para docentes y desarrolladores
+          </summary>
+          <div className="flex flex-wrap gap-2 pt-2 pb-1">
+            <button
+              onClick={() => {
+                setActiveView('vanilla_js');
+                window.scrollTo({ top: 0 });
+              }}
+              className="min-h-[44px] px-3 py-2 rounded-lg border border-slate-600 text-slate-200 hover:bg-white/10 cursor-pointer"
+            >
+              Código ConstituSol
+            </button>
+            <button
+              onClick={() => {
+                setActiveView('datos_ce');
+                window.scrollTo({ top: 0 });
+              }}
+              className="min-h-[44px] px-3 py-2 rounded-lg border border-slate-600 text-slate-200 hover:bg-white/10 cursor-pointer"
+            >
+              JSON Puro (Apartados)
+            </button>
+            <button
+              onClick={handleDownloadSpaHtml}
+              className="min-h-[44px] px-3 py-2 rounded-lg border border-slate-600 text-slate-200 hover:bg-white/10 inline-flex items-center gap-2 cursor-pointer"
+            >
+              <Download className="w-4 h-4" />
+              Descargar ConstituSol
+            </button>
+          </div>
+        </details>
+      </footer>
     </div>
   );
 }
