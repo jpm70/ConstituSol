@@ -216,15 +216,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 7 de la Constitución Española («Sindicatos y asociaciones empresariales»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los sindicatos de trabajadores y las asociaciones empresariales contribuyen a la defensa y promoción de los intereses económicos y sociales que les son propios.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre sindicatos y asociaciones empresariales sin autorización previa del Tribunal Constitucional.",
-        "Los sindicatos de trabajadores y las asociaciones empresariales contribuyen a la defensa y promoción de los intereses económicos y sociales que les son propios.",
-        "Para lo previsto en el artículo 7 (sindicatos y asociaciones empresariales), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 7 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 8.",
+        "En el artículo 7.",
+        "En el artículo 6.",
+        "En el artículo 17."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 7 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 7 («Sindicatos y asociaciones empresariales»). Los tribunales preguntan mucho por la ubicación exacta: el 8 trata sobre «misión de fuerzas armadas»; el 6 trata sobre «partidos y pluralismo político»; el 17 trata sobre «libertad personal y detención»."
     },
     "id": 7,
     "concepto_clave": "Sindicatos y asociaciones empresariales",
@@ -323,15 +323,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 10 de la Constitución Española («Dignidad y derechos humanos»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Las normas relativas a los derechos fundamentales y a las libertades que la Constitución reconoce se interpretarán de conformidad con la Declaración Universal de Derechos Humanos y los tratados y acuerdos internacionales sobre las mismas materias ratificados por España.»",
       "opciones": [
-        "La dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad, el respeto a la ley orgánica con mayoría de tres quintos y a los derechos de los demás son fundamento del orden político y de la...",
-        "La dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad, el respeto a la ley y a los derechos de los demás son fundamento del orden político y de la...",
-        "Para lo previsto en el artículo 10 (dignidad y derechos humanos), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 10 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 11.",
+        "En el artículo 10.",
+        "En el artículo 9.",
+        "En el artículo 20."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 10 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 10 («Dignidad y derechos humanos»). Los tribunales preguntan mucho por la ubicación exacta: el 11 trata sobre «nacionalidad española y convenios»; el 9 trata sobre «legalidad y garantías jurídicas»; el 20 trata sobre «libertad de expresión informativa»."
     },
     "id": 10,
     "concepto_clave": "Dignidad y derechos humanos",
@@ -391,15 +391,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 12 de la Constitución Española («Mayoría a dieciocho años»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 12.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre mayoría a dieciocho años sin autorización previa del Tribunal Constitucional.",
+        "Los españoles son mayores de edad a los dieciséis años.",
         "Los españoles son mayores de edad a los dieciocho años.",
-        "Para lo previsto en el artículo 12 (mayoría a dieciocho años), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 12 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Los ciudadanos residentes son mayores de edad a los dieciocho años.",
+        "Los ciudadanos residentes son mayores de edad a los dieciséis años."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 12 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 12.1 dice: «Los españoles son mayores de edad a los dieciocho años.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «dieciocho años» por «dieciséis años»; «españoles» por «ciudadanos residentes»."
     },
     "id": 12,
     "concepto_clave": "Mayoría a dieciocho años",
@@ -464,15 +464,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 14 de la Constitución Española («Igualdad ante la ley»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 14.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Los españoles son iguales ante la ley orgánica con mayoría de tres quintos, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social.",
+        "Los españoles son iguales ante la ley orgánica, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social.",
         "Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social.",
-        "Para lo previsto en el artículo 14 (igualdad ante la ley), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 14 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Los ciudadanos residentes son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social.",
+        "Los ciudadanos residentes son iguales ante la ley orgánica, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 14 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 14.1 dice: «Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley» por «ley orgánica»; «españoles» por «ciudadanos residentes»."
     },
     "id": 14,
     "concepto_clave": "Igualdad ante la ley",
@@ -649,15 +649,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 19 de la Constitución Española («Libertad de residencia nacional»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los españoles tienen derecho a elegir libremente su residencia y a circular por el territorio nacional.»",
       "opciones": [
-        "Los españoles tienen deber inexcusable sujeto a autorización previa a elegir libremente su residencia y a circular por el territorio nacional.",
-        "Los españoles tienen derecho a elegir libremente su residencia y a circular por el territorio nacional.",
-        "Para lo previsto en el artículo 19 (libertad de residencia nacional), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 19 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 20.",
+        "En el artículo 19.",
+        "En el artículo 18.",
+        "En el artículo 29."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 19 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 19 («Libertad de residencia nacional»). Los tribunales preguntan mucho por la ubicación exacta: el 20 trata sobre «libertad de expresión informativa»; el 18 trata sobre «honor, intimidad y domicilio»; el 29 trata sobre «derecho de petición escrita»."
     },
     "id": 19,
     "concepto_clave": "Libertad de residencia nacional",
@@ -698,15 +698,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 20 de la Constitución Española («Libertad de expresión informativa»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 20.5 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Se reconocen y protegen los deber inexcusable sujeto a autorización previas: a) A expresar y difundir libremente los pensamientos, ideas y opiniones mediante la palabra, el escrito o cualquier otro medio de reproducción.",
-        "Se reconocen y protegen los derechos: a) A expresar y difundir libremente los pensamientos, ideas y opiniones mediante la palabra, el escrito o cualquier otro medio de reproducción.",
-        "Para lo previsto en el artículo 20 (libertad de expresión informativa), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 20 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Sólo podrá acordarse el secuestro de publicaciones, grabaciones y otros medios de información en virtud de resolución administrativa.",
+        "Sólo podrá acordarse el secuestro de publicaciones, grabaciones y otros medios de información en virtud de resolución judicial.",
+        "Sólo deberá acordarse el secuestro de publicaciones, grabaciones y otros medios de información en virtud de resolución judicial.",
+        "Sólo deberá acordarse el secuestro de publicaciones, grabaciones y otros medios de información en virtud de resolución administrativa."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 20 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 20.5 dice: «Sólo podrá acordarse el secuestro de publicaciones, grabaciones y otros medios de información en virtud de resolución judicial.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «resolución judicial» por «resolución administrativa»; «podrá» por «deberá»."
     },
     "id": 20,
     "concepto_clave": "Libertad de expresión informativa",
@@ -781,15 +781,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 22 de la Constitución Española («Derecho constitucional de asociación»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 22.4 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Se reconoce el deber inexcusable sujeto a autorización previa de asociación.",
-        "Se reconoce el derecho de asociación.",
-        "Para lo previsto en el artículo 22 (derecho constitucional de asociación), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 22 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las asociaciones sólo podrán ser disueltas o suspendidas en sus actividades en virtud de resolución administrativa motivada.",
+        "Las asociaciones sólo podrán ser disueltas o suspendidas en sus actividades en virtud de resolución judicial motivada.",
+        "Las asociaciones sólo deberán ser disueltas o suspendidas en sus actividades en virtud de resolución judicial motivada.",
+        "Las asociaciones sólo deberán ser disueltas o suspendidas en sus actividades en virtud de resolución administrativa motivada."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 22 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 22.4 dice: «Las asociaciones sólo podrán ser disueltas o suspendidas en sus actividades en virtud de resolución judicial motivada.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «resolución judicial» por «resolución administrativa»; «podrán» por «deberán»."
     },
     "id": 22,
     "concepto_clave": "Derecho constitucional de asociación",
@@ -815,15 +815,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 23 de la Constitución Española («Participación y cargos públicos»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los ciudadanos tienen el derecho a participar en los asuntos públicos, directamente o por medio de representantes, libremente elegidos en elecciones periódicas por sufragio universal.»",
       "opciones": [
-        "Los ciudadanos tienen el deber inexcusable sujeto a autorización previa a participar en los asuntos públicos, directamente o por medio de representantes, libremente elegidos en elecciones periódicas por sufragio universal.",
-        "Los ciudadanos tienen el derecho a participar en los asuntos públicos, directamente o por medio de representantes, libremente elegidos en elecciones periódicas por sufragio universal.",
-        "Para lo previsto en el artículo 23 (participación y cargos públicos), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 23 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 24.",
+        "En el artículo 23.",
+        "En el artículo 22.",
+        "En el artículo 33."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 23 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 23 («Participación y cargos públicos»). Los tribunales preguntan mucho por la ubicación exacta: el 24 trata sobre «tutela judicial sin indefensión»; el 22 trata sobre «derecho constitucional de asociación»; el 33 trata sobre «propiedad privada y herencia»."
     },
     "id": 23,
     "concepto_clave": "Participación y cargos públicos",
@@ -849,15 +849,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 24 de la Constitución Española («Tutela judicial sin indefensión»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Asimismo, todos tienen derecho al Juez ordinario predeterminado por la ley, a la defensa y a la asistencia de letrado, a ser informados de la acusación formulada contra ellos, a un proceso público sin dilaciones indebidas y con todas las garantías, a utilizar los medios de prueba pertinentes para su…»",
       "opciones": [
-        "Todas las personas tienen deber inexcusable sujeto a autorización previa a obtener la tutela efectiva de los jueces y tribunales en el ejercicio de sus derechos e intereses legítimos, sin que, en ningún caso, pueda producirse indefensión.",
-        "Todas las personas tienen derecho a obtener la tutela efectiva de los jueces y tribunales en el ejercicio de sus derechos e intereses legítimos, sin que, en ningún caso, pueda producirse indefensión.",
-        "Para lo previsto en el artículo 24 (tutela judicial sin indefensión), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 24 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 25.",
+        "En el artículo 24.",
+        "En el artículo 23.",
+        "En el artículo 34."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 24 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 24 («Tutela judicial sin indefensión»). Los tribunales preguntan mucho por la ubicación exacta: el 25 trata sobre «legalidad penal y reinserción»; el 23 trata sobre «participación y cargos públicos»; el 34 trata sobre «derecho general de fundación»."
     },
     "id": 24,
     "concepto_clave": "Tutela judicial sin indefensión",
@@ -888,15 +888,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 25 de la Constitución Española («Legalidad penal y reinserción»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «El condenado a pena de prisión que estuviere cumpliendo la misma gozará de los derechos fundamentales de este Capítulo, a excepción de los que se vean expresamente limitados por el contenido del fallo condenatorio, el sentido de la pena y la ley penitenciaria.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre legalidad penal y reinserción sin autorización previa del Tribunal Constitucional.",
-        "Nadie puede ser condenado o sancionado por acciones u omisiones que en el momento de producirse no constituyan delito, falta o infracción administrativa, según la legislación vigente en aquel momento.",
-        "Para lo previsto en el artículo 25 (legalidad penal y reinserción), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 25 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 26.",
+        "En el artículo 25.",
+        "En el artículo 24.",
+        "En el artículo 35."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 25 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 25 («Legalidad penal y reinserción»). Los tribunales preguntan mucho por la ubicación exacta: el 26 trata sobre «prohibición tribunales de honor»; el 24 trata sobre «tutela judicial sin indefensión»; el 35 trata sobre «deber y derecho trabajar»."
     },
     "id": 25,
     "concepto_clave": "Legalidad penal y reinserción",
@@ -917,15 +917,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 26 de la Constitución Española («Prohibición Tribunales de Honor»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Se prohíben los Tribunales de Honor en el ámbito de la Administración civil y de las organizaciones profesionales.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre prohibición tribunales de honor sin autorización previa del Tribunal Constitucional.",
-        "Se prohíben los Tribunales de Honor en el ámbito de la Administración civil y de las organizaciones profesionales.",
-        "Para lo previsto en el artículo 26 (prohibición tribunales de honor), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 26 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 27.",
+        "En el artículo 26.",
+        "En el artículo 25.",
+        "En el artículo 36."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 26 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 26 («Prohibición Tribunales de Honor»). Los tribunales preguntan mucho por la ubicación exacta: el 27 trata sobre «derecho a la educación»; el 25 trata sobre «legalidad penal y reinserción»; el 36 trata sobre «régimen de colegios profesionales»."
     },
     "id": 26,
     "concepto_clave": "Prohibición Tribunales de Honor",
@@ -991,15 +991,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 27 de la Constitución Española («Derecho a la educación»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 27.10 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Todos tienen el deber inexcusable sujeto a autorización previa a la educación.",
-        "Todos tienen el derecho a la educación.",
-        "Para lo previsto en el artículo 27 (derecho a la educación), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 27 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Se reconoce la autonomía de las Universidades, en los términos que la ley orgánica establezca.",
+        "Se reconoce la autonomía de las Universidades, en los términos que la ley establezca.",
+        "Se garantiza la autonomía de las Universidades, en los términos que la ley establezca.",
+        "Se garantiza la autonomía de las Universidades, en los términos que la ley orgánica establezca."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 27 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 27.10 dice: «Se reconoce la autonomía de las Universidades, en los términos que la ley establezca.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley» por «ley orgánica»; «reconoce» por «garantiza»."
     },
     "id": 27,
     "concepto_clave": "Derecho a la educación",
@@ -1025,15 +1025,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 28 de la Constitución Española («Libertad sindical y huelga»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 28.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Todos tienen deber inexcusable sujeto a autorización previa a sindicarse libremente.",
-        "Todos tienen derecho a sindicarse libremente.",
-        "Para lo previsto en el artículo 28 (libertad sindical y huelga), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 28 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "La ley deberá limitar o exceptuar el ejercicio de este derecho a las Fuerzas o Institutos armados o a los demás Cuerpos sometidos a disciplina militar y regulará las peculiaridades de su ejercicio para los funcionarios públicos.",
+        "La ley podrá limitar o exceptuar el ejercicio de este derecho a las Fuerzas o Institutos armados o a los demás Cuerpos sometidos a disciplina militar y regulará las peculiaridades de su ejercicio para los funcionarios públicos.",
+        "La ley orgánica podrá limitar o exceptuar el ejercicio de este derecho a las Fuerzas o Institutos armados o a los demás Cuerpos sometidos a disciplina militar y regulará las peculiaridades de su ejercicio para los funcionarios públicos.",
+        "La ley orgánica deberá limitar o exceptuar el ejercicio de este derecho a las Fuerzas o Institutos armados o a los demás Cuerpos sometidos a disciplina militar y regulará las peculiaridades de su ejercicio para los funcionarios públicos."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 28 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 28.1 dice: «La ley podrá limitar o exceptuar el ejercicio de este derecho a las Fuerzas o Institutos armados o a los demás Cuerpos sometidos a disciplina militar y regulará las peculiaridades de su ejercicio para los funcionarios públicos.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrá» por «deberá»; «ley» por «ley orgánica»."
     },
     "id": 28,
     "concepto_clave": "Libertad sindical y huelga",
@@ -1059,15 +1059,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 29 de la Constitución Española («Derecho de petición escrita»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 29.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Todos los españoles tendrán el derecho de petición individual y colectiva, por escrito, en la forma y con los efectos que determine la ley orgánica con mayoría de tres quintos.",
+        "Todos los españoles tendrán el derecho de petición individual y colectiva, por escrito, en la forma y con los efectos que determine la ley orgánica.",
         "Todos los españoles tendrán el derecho de petición individual y colectiva, por escrito, en la forma y con los efectos que determine la ley.",
-        "Para lo previsto en el artículo 29 (derecho de petición escrita), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 29 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Todos los ciudadanos residentes tendrán el derecho de petición individual y colectiva, por escrito, en la forma y con los efectos que determine la ley.",
+        "Todos los ciudadanos residentes tendrán el derecho de petición individual y colectiva, por escrito, en la forma y con los efectos que determine la ley orgánica."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 29 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 29.1 dice: «Todos los españoles tendrán el derecho de petición individual y colectiva, por escrito, en la forma y con los efectos que determine la ley.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley» por «ley orgánica»; «españoles» por «ciudadanos residentes»."
     },
     "id": 29,
     "concepto_clave": "Derecho de petición escrita",
@@ -1103,15 +1103,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 30 de la Constitución Española («Derecho deber defender España»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 30.4 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Los españoles tienen el deber inexcusable sujeto a autorización previa y el deber de defender a España.",
-        "Los españoles tienen el derecho y el deber de defender a España.",
-        "Para lo previsto en el artículo 30 (derecho deber defender españa), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 30 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Mediante ley deberán regularse los deberes de los ciudadanos en los casos de grave riesgo, catástrofe o calamidad pública.",
+        "Mediante ley podrán regularse los deberes de los ciudadanos en los casos de grave riesgo, catástrofe o calamidad pública.",
+        "Mediante ley orgánica podrán regularse los deberes de los ciudadanos en los casos de grave riesgo, catástrofe o calamidad pública.",
+        "Mediante ley orgánica deberán regularse los deberes de los ciudadanos en los casos de grave riesgo, catástrofe o calamidad pública."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 30 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 30.4 dice: «Mediante ley podrán regularse los deberes de los ciudadanos en los casos de grave riesgo, catástrofe o calamidad pública.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrán» por «deberán»; «ley» por «ley orgánica»."
     },
     "id": 30,
     "concepto_clave": "Derecho deber defender España",
@@ -1142,15 +1142,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 31 de la Constitución Española («Sistema tributario y gasto»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 31.3 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre sistema tributario y gasto sin autorización previa del Tribunal Constitucional.",
-        "Todos contribuirán al sostenimiento de los gastos públicos de acuerdo con su capacidad económica mediante un sistema tributario justo inspirado en los principios de igualdad y progresividad que, en ningún ca...",
-        "Para lo previsto en el artículo 31 (sistema tributario y gasto), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 31 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Sólo deberán establecerse prestaciones personales o patrimoniales de carácter público con arreglo a la ley.",
+        "Sólo podrán establecerse prestaciones personales o patrimoniales de carácter público con arreglo a la ley.",
+        "Sólo podrán establecerse prestaciones personales o patrimoniales de carácter público con arreglo a la ley orgánica.",
+        "Sólo deberán establecerse prestaciones personales o patrimoniales de carácter público con arreglo a la ley orgánica."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 31 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 31.3 dice: «Sólo podrán establecerse prestaciones personales o patrimoniales de carácter público con arreglo a la ley.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrán» por «deberán»; «ley» por «ley orgánica»."
     },
     "id": 31,
     "concepto_clave": "Sistema tributario y gasto",
@@ -1176,15 +1176,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 32 de la Constitución Española («Matrimonio en plena igualdad»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «La ley regulará las formas de matrimonio, la edad y capacidad para contraerlo, los derechos y deberes de los cónyuges, las causas de separación y disolución y sus efectos.»",
       "opciones": [
-        "El hombre y la mujer tienen deber inexcusable sujeto a autorización previa a contraer matrimonio con plena igualdad jurídica.",
-        "El hombre y la mujer tienen derecho a contraer matrimonio con plena igualdad jurídica.",
-        "Para lo previsto en el artículo 32 (matrimonio en plena igualdad), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 32 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 33.",
+        "En el artículo 32.",
+        "En el artículo 31.",
+        "En el artículo 42."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 32 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 32 («Matrimonio en plena igualdad»). Los tribunales preguntan mucho por la ubicación exacta: el 33 trata sobre «propiedad privada y herencia»; el 31 trata sobre «sistema tributario y gasto»; el 42 trata sobre «derechos de emigrantes españoles»."
     },
     "id": 32,
     "concepto_clave": "Matrimonio en plena igualdad",
@@ -1215,15 +1215,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 33 de la Constitución Española («Propiedad privada y herencia»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Nadie podrá ser privado de sus bienes y derechos sino por causa justificada de utilidad pública o interés social, mediante la correspondiente indemnización y de conformidad con lo dispuesto por las leyes.»",
       "opciones": [
-        "Se reconoce el deber inexcusable sujeto a autorización previa a la propiedad privada y a la herencia.",
-        "Se reconoce el derecho a la propiedad privada y a la herencia.",
-        "Para lo previsto en el artículo 33 (propiedad privada y herencia), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 33 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 34.",
+        "En el artículo 33.",
+        "En el artículo 32.",
+        "En el artículo 43."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 33 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 33 («Propiedad privada y herencia»). Los tribunales preguntan mucho por la ubicación exacta: el 34 trata sobre «derecho general de fundación»; el 32 trata sobre «matrimonio en plena igualdad»; el 43 trata sobre «protección salud y deporte»."
     },
     "id": 33,
     "concepto_clave": "Propiedad privada y herencia",
@@ -1249,15 +1249,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 34 de la Constitución Española («Derecho general de fundación»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 34.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Se reconoce el derecho de fundación para fines de interés general, con arreglo a la ley orgánica con mayoría de tres quintos.",
+        "Se reconoce el derecho de fundación para fines de interés general, con arreglo a la ley orgánica.",
         "Se reconoce el derecho de fundación para fines de interés general, con arreglo a la ley.",
-        "Para lo previsto en el artículo 34 (derecho general de fundación), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 34 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Se garantiza el derecho de fundación para fines de interés general, con arreglo a la ley.",
+        "Se garantiza el derecho de fundación para fines de interés general, con arreglo a la ley orgánica."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 34 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 34.1 dice: «Se reconoce el derecho de fundación para fines de interés general, con arreglo a la ley.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley» por «ley orgánica»; «reconoce» por «garantiza»."
     },
     "id": 34,
     "concepto_clave": "Derecho general de fundación",
@@ -1283,15 +1283,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 35 de la Constitución Española («Deber y derecho trabajar»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 35.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Todos los españoles tienen el deber de trabajar y el deber inexcusable sujeto a autorización previa al trabajo, a la libre elección de profesión u oficio, a la promoción a través del trabajo y a una remuneración suficiente para satisfacer sus nec...",
-        "Todos los españoles tienen el deber de trabajar y el derecho al trabajo, a la libre elección de profesión u oficio, a la promoción a través del trabajo y a una remuneración suficiente para satisfacer sus nec...",
-        "Para lo previsto en el artículo 35 (deber y derecho trabajar), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 35 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Todos los españoles tienen el deber de trabajar y el derecho al trabajo, a la libre elección de profesión u oficio, a la promoción a través del trabajo y a una remuneración suficiente para satisfacer sus necesidades y las de su familia, sin que salvo autorización judicial pueda hacerse discriminación por razón de sexo.",
+        "Todos los españoles tienen el deber de trabajar y el derecho al trabajo, a la libre elección de profesión u oficio, a la promoción a través del trabajo y a una remuneración suficiente para satisfacer sus necesidades y las de su familia, sin que en ningún caso pueda hacerse discriminación por razón de sexo.",
+        "Todos los españoles tienen el derecho de trabajar y el derecho al trabajo, a la libre elección de profesión u oficio, a la promoción a través del trabajo y a una remuneración suficiente para satisfacer sus necesidades y las de su familia, sin que en ningún caso pueda hacerse discriminación por razón de sexo.",
+        "Todos los ciudadanos residentes tienen el deber de trabajar y el derecho al trabajo, a la libre elección de profesión u oficio, a la promoción a través del trabajo y a una remuneración suficiente para satisfacer sus necesidades y las de su familia, sin que en ningún caso pueda hacerse discriminación por razón de sexo."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 35 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 35.1 dice: «Todos los españoles tienen el deber de trabajar y el derecho al trabajo, a la libre elección de profesión u oficio, a la promoción a través del trabajo y a una remuneración suficiente para satisfacer sus necesidades y las de su familia, sin que en ningún caso pueda hacerse discriminación por razón de sexo.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «en ningún caso» por «salvo autorización judicial»; «tienen el deber» por «tienen el derecho»; «españoles» por «ciudadanos residentes»."
     },
     "id": 35,
     "concepto_clave": "Deber y derecho trabajar",
@@ -1312,15 +1312,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 36 de la Constitución Española («Régimen de Colegios Profesionales»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «La ley regulará las peculiaridades propias del régimen jurídico de los Colegios Profesionales y el ejercicio de las profesiones tituladas.»",
       "opciones": [
-        "La ley orgánica con mayoría de tres quintos regulará las peculiaridades propias del régimen jurídico de los Colegios Profesionales y el ejercicio de las profesiones tituladas.",
-        "La ley regulará las peculiaridades propias del régimen jurídico de los Colegios Profesionales y el ejercicio de las profesiones tituladas.",
-        "Para lo previsto en el artículo 36 (régimen de colegios profesionales), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 36 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 37.",
+        "En el artículo 36.",
+        "En el artículo 35.",
+        "En el artículo 46."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 36 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 36 («Régimen de Colegios Profesionales»). Los tribunales preguntan mucho por la ubicación exacta: el 37 trata sobre «negociación y conflicto laboral»; el 35 trata sobre «deber y derecho trabajar»; el 46 trata sobre «conservación del patrimonio histórico»."
     },
     "id": 36,
     "concepto_clave": "Régimen de Colegios Profesionales",
@@ -1346,15 +1346,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 37 de la Constitución Española («Negociación y conflicto laboral»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «La ley que regule el ejercicio de este derecho, sin perjuicio de las limitaciones que puedan establecer, incluirá las garantías precisas para asegurar el funcionamiento de los servicios esenciales de la comunidad.»",
       "opciones": [
-        "La ley orgánica con mayoría de tres quintos garantizará el derecho a la negociación colectiva laboral entre los representantes de los trabajadores y empresarios, así como la fuerza vinculante de los convenios.",
-        "La ley garantizará el derecho a la negociación colectiva laboral entre los representantes de los trabajadores y empresarios, así como la fuerza vinculante de los convenios.",
-        "Para lo previsto en el artículo 37 (negociación y conflicto laboral), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 37 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 38.",
+        "En el artículo 37.",
+        "En el artículo 36.",
+        "En el artículo 47."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 37 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 37 («Negociación y conflicto laboral»). Los tribunales preguntan mucho por la ubicación exacta: el 38 trata sobre «libertad empresarial de mercado»; el 36 trata sobre «régimen de colegios profesionales»; el 47 trata sobre «derecho a vivienda digna»."
     },
     "id": 37,
     "concepto_clave": "Negociación y conflicto laboral",
@@ -1375,15 +1375,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 38 de la Constitución Española («Libertad empresarial de mercado»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los poderes públicos garantizan y protegen su ejercicio y la defensa de la productividad, de acuerdo con las exigencias de la economía general y, en su caso, de la planificación.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre libertad empresarial de mercado sin autorización previa del Tribunal Constitucional.",
-        "Se reconoce la libertad de empresa en el marco de la economía de mercado.",
-        "Para lo previsto en el artículo 38 (libertad empresarial de mercado), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 38 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 39.",
+        "En el artículo 38.",
+        "En el artículo 37.",
+        "En el artículo 48."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 38 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 38 («Libertad empresarial de mercado»). Los tribunales preguntan mucho por la ubicación exacta: el 39 trata sobre «protección integral de familia»; el 37 trata sobre «negociación y conflicto laboral»; el 48 trata sobre «participación libre de juventud»."
     },
     "id": 38,
     "concepto_clave": "Libertad empresarial de mercado",
@@ -1419,15 +1419,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 39 de la Constitución Española («Protección integral de familia»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 39.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre protección integral de familia sin autorización previa del Tribunal Constitucional.",
-        "Los poderes públicos aseguran la protección social, económica y jurídica de la familia.",
-        "Para lo previsto en el artículo 39 (protección integral de familia), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 39 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Los poderes públicos aseguran, asimismo, la protección integral de los hijos, iguales éstos ante la ley orgánica con independencia de su filiación, y de las madres, cualquiera que sea su estado civil.",
+        "Los poderes públicos aseguran, asimismo, la protección integral de los hijos, iguales éstos ante la ley con independencia de su filiación, y de las madres, cualquiera que sea su estado civil.",
+        "Las Comunidades Autónomas aseguran, asimismo, la protección integral de los hijos, iguales éstos ante la ley con independencia de su filiación, y de las madres, cualquiera que sea su estado civil.",
+        "Las Comunidades Autónomas aseguran, asimismo, la protección integral de los hijos, iguales éstos ante la ley orgánica con independencia de su filiación, y de las madres, cualquiera que sea su estado civil."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 39 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 39.2 dice: «Los poderes públicos aseguran, asimismo, la protección integral de los hijos, iguales éstos ante la ley con independencia de su filiación, y de las madres, cualquiera que sea su estado civil.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley» por «ley orgánica»; «Los poderes públicos» por «Las Comunidades Autónomas»."
     },
     "id": 39,
     "concepto_clave": "Protección integral de familia",
@@ -1453,15 +1453,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 40 de la Constitución Española («Progreso económico y empleo»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Asimismo, los poderes públicos fomentarán una política que garantice la formación y readaptación profesionales; velarán por la seguridad e higiene en el trabajo y garantizarán el descanso necesario, mediante la limitación de la jornada laboral, las vacaciones periódicas retribuidas y la promoción de…»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre progreso económico y empleo sin autorización previa del Tribunal Constitucional.",
-        "Los poderes públicos promoverán las condiciones favorables para el progreso social y económico y para una distribución de la renta regional y personal más equitativa, en el marco de una política de estabilid...",
-        "Para lo previsto en el artículo 40 (progreso económico y empleo), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 40 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 41.",
+        "En el artículo 40.",
+        "En el artículo 39.",
+        "En el artículo 50."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 40 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 40 («Progreso económico y empleo»). Los tribunales preguntan mucho por la ubicación exacta: el 41 trata sobre «régimen de seguridad social»; el 39 trata sobre «protección integral de familia»; el 50 trata sobre «pensiones de tercera edad»."
     },
     "id": 40,
     "concepto_clave": "Progreso económico y empleo",
@@ -1482,15 +1482,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 41 de la Constitución Española («Régimen de Seguridad Social»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los poderes públicos mantendrán un régimen público de Seguridad Social para todos los ciudadanos, que garantice la asistencia y prestaciones sociales suficientes ante situaciones de necesidad, especialmente en caso de desempleo.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre régimen de seguridad social sin autorización previa del Tribunal Constitucional.",
-        "Los poderes públicos mantendrán un régimen público de Seguridad Social para todos los ciudadanos, que garantice la asistencia y prestaciones sociales suficientes ante situaciones de necesidad, especialmente...",
-        "Para lo previsto en el artículo 41 (régimen de seguridad social), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 41 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 42.",
+        "En el artículo 41.",
+        "En el artículo 40.",
+        "En el artículo 51."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 41 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 41 («Régimen de Seguridad Social»). Los tribunales preguntan mucho por la ubicación exacta: el 42 trata sobre «derechos de emigrantes españoles»; el 40 trata sobre «progreso económico y empleo»; el 51 trata sobre «defensa consumidores y usuarios»."
     },
     "id": 41,
     "concepto_clave": "Régimen de Seguridad Social",
@@ -1511,15 +1511,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 42 de la Constitución Española («Derechos de emigrantes españoles»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «El Estado velará especialmente por la salvaguardia de los derechos económicos y sociales de los trabajadores españoles en el extranjero y orientará su política hacia su retorno.»",
       "opciones": [
-        "El Estado velará especialmente por la salvaguardia de los deber inexcusable sujeto a autorización previas económicos y sociales de los trabajadores españoles en el extranjero y orientará su política hacia su retorno.",
-        "El Estado velará especialmente por la salvaguardia de los derechos económicos y sociales de los trabajadores españoles en el extranjero y orientará su política hacia su retorno.",
-        "Para lo previsto en el artículo 42 (derechos de emigrantes españoles), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 42 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 43.",
+        "En el artículo 42.",
+        "En el artículo 41.",
+        "En el artículo 52."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 42 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 42 («Derechos de emigrantes españoles»). Los tribunales preguntan mucho por la ubicación exacta: el 43 trata sobre «protección salud y deporte»; el 41 trata sobre «régimen de seguridad social»; el 52 trata sobre «organizaciones de intereses económicos»."
     },
     "id": 42,
     "concepto_clave": "Derechos de emigrantes españoles",
@@ -1550,15 +1550,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 43 de la Constitución Española («Protección salud y deporte»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Compete a los poderes públicos organizar y tutelar la salud pública a través de medidas preventivas y de las prestaciones y servicios necesarios.»",
       "opciones": [
-        "Se reconoce el deber inexcusable sujeto a autorización previa a la protección de la salud.",
-        "Se reconoce el derecho a la protección de la salud.",
-        "Para lo previsto en el artículo 43 (protección salud y deporte), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 43 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 44.",
+        "En el artículo 43.",
+        "En el artículo 42.",
+        "En el artículo 53."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 43 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 43 («Protección salud y deporte»). Los tribunales preguntan mucho por la ubicación exacta: el 44 trata sobre «acceso cultural e investigación»; el 42 trata sobre «derechos de emigrantes españoles»; el 53 trata sobre «garantías de derechos fundamentales»."
     },
     "id": 43,
     "concepto_clave": "Protección salud y deporte",
@@ -1584,15 +1584,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 44 de la Constitución Española («Acceso cultural e investigación»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los poderes públicos promoverán la ciencia y la investigación científica y técnica en beneficio del interés general.»",
       "opciones": [
-        "Los poderes públicos promoverán y tutelarán el acceso a la cultura, a la que todos tienen deber inexcusable sujeto a autorización previa.",
-        "Los poderes públicos promoverán y tutelarán el acceso a la cultura, a la que todos tienen derecho.",
-        "Para lo previsto en el artículo 44 (acceso cultural e investigación), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 44 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 45.",
+        "En el artículo 44.",
+        "En el artículo 43.",
+        "En el artículo 54."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 44 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 44 («Acceso cultural e investigación»). Los tribunales preguntan mucho por la ubicación exacta: el 45 trata sobre «protección del medio ambiente»; el 43 trata sobre «protección salud y deporte»; el 54 trata sobre «institución defensor del pueblo»."
     },
     "id": 44,
     "concepto_clave": "Acceso cultural e investigación",
@@ -1623,15 +1623,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 45 de la Constitución Española («Protección del medio ambiente»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los poderes públicos velarán por la utilización racional de todos los recursos naturales, con el fin de proteger y mejorar la calidad de la vida y defender y restaurar el medio ambiente, apoyándose en la indispensable solidaridad colectiva.»",
       "opciones": [
-        "Todos tienen el deber inexcusable sujeto a autorización previa a disfrutar de un medio ambiente adecuado para el desarrollo de la persona, así como el deber de conservarlo.",
-        "Todos tienen el derecho a disfrutar de un medio ambiente adecuado para el desarrollo de la persona, así como el deber de conservarlo.",
-        "Para lo previsto en el artículo 45 (protección del medio ambiente), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 45 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 46.",
+        "En el artículo 45.",
+        "En el artículo 44.",
+        "En el artículo 55."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 45 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 45 («Protección del medio ambiente»). Los tribunales preguntan mucho por la ubicación exacta: el 46 trata sobre «conservación del patrimonio histórico»; el 44 trata sobre «acceso cultural e investigación»; el 55 trata sobre «suspensión de derechos fundamentales»."
     },
     "id": 45,
     "concepto_clave": "Protección del medio ambiente",
@@ -1652,15 +1652,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 46 de la Constitución Española («Conservación del patrimonio histórico»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los poderes públicos garantizarán la conservación y promoverán el enriquecimiento del patrimonio histórico, cultural y artístico de los pueblos de España y de los bienes que lo integran, cualquiera que sea su régimen jurídico y su titularidad.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre conservación del patrimonio histórico sin autorización previa del Tribunal Constitucional.",
-        "Los poderes públicos garantizarán la conservación y promoverán el enriquecimiento del patrimonio histórico, cultural y artístico de los pueblos de España y de los bienes que lo integran, cualquiera que sea s...",
-        "Para lo previsto en el artículo 46 (conservación del patrimonio histórico), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 46 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 47.",
+        "En el artículo 46.",
+        "En el artículo 45.",
+        "En el artículo 56."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 46 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 46 («Conservación del patrimonio histórico»). Los tribunales preguntan mucho por la ubicación exacta: el 47 trata sobre «derecho a vivienda digna»; el 45 trata sobre «protección del medio ambiente»; el 56 trata sobre «el rey jefe estatal»."
     },
     "id": 46,
     "concepto_clave": "Conservación del patrimonio histórico",
@@ -1681,15 +1681,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 47 de la Constitución Española («Derecho a vivienda digna»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los poderes públicos promoverán las condiciones necesarias y establecerán las normas pertinentes para hacer efectivo este derecho, regulando la utilización del suelo de acuerdo con el interés general para impedir la especulación.»",
       "opciones": [
-        "Todos los españoles tienen deber inexcusable sujeto a autorización previa a disfrutar de una vivienda digna y adecuada.",
-        "Todos los españoles tienen derecho a disfrutar de una vivienda digna y adecuada.",
-        "Para lo previsto en el artículo 47 (derecho a vivienda digna), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 47 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 48.",
+        "En el artículo 47.",
+        "En el artículo 46.",
+        "En el artículo 57."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 47 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 47 («Derecho a vivienda digna»). Los tribunales preguntan mucho por la ubicación exacta: el 48 trata sobre «participación libre de juventud»; el 46 trata sobre «conservación del patrimonio histórico»; el 57 trata sobre «sucesión hereditaria en corona»."
     },
     "id": 47,
     "concepto_clave": "Derecho a vivienda digna",
@@ -1710,15 +1710,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 48 de la Constitución Española («Participación libre de juventud»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los poderes públicos promoverán las condiciones para la participación libre y eficaz de la juventud en el desarrollo político, social, económico y cultural.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre participación libre de juventud sin autorización previa del Tribunal Constitucional.",
-        "Los poderes públicos promoverán las condiciones para la participación libre y eficaz de la juventud en el desarrollo político, social, económico y cultural.",
-        "Para lo previsto en el artículo 48 (participación libre de juventud), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 48 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 49.",
+        "En el artículo 48.",
+        "En el artículo 47.",
+        "En el artículo 58."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 48 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 48 («Participación libre de juventud»). Los tribunales preguntan mucho por la ubicación exacta: el 49 trata sobre «inclusión personas con discapacidad»; el 47 trata sobre «derecho a vivienda digna»; el 58 trata sobre «estatuto del consorte real»."
     },
     "id": 48,
     "concepto_clave": "Participación libre de juventud",
@@ -1744,15 +1744,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 49 de la Constitución Española («Inclusión personas con discapacidad»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los poderes públicos impulsarán las políticas que garanticen la plena autonomía personal y la inclusión social de las personas con discapacidad, en entornos universalmente accesibles.»",
       "opciones": [
-        "Las personas con discapacidad ejercen los deber inexcusable sujeto a autorización previas previstos en este Título en condiciones de libertad e igualdad reales y efectivas.",
-        "Las personas con discapacidad ejercen los derechos previstos en este Título en condiciones de libertad e igualdad reales y efectivas.",
-        "Para lo previsto en el artículo 49 (inclusión personas con discapacidad), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 49 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 50.",
+        "En el artículo 49.",
+        "En el artículo 48.",
+        "En el artículo 59."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 49 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 49 («Inclusión personas con discapacidad»). Los tribunales preguntan mucho por la ubicación exacta: el 50 trata sobre «pensiones de tercera edad»; el 48 trata sobre «participación libre de juventud»; el 59 trata sobre «regencia constitucional del reino»."
     },
     "id": 49,
     "concepto_clave": "Inclusión personas con discapacidad",
@@ -1773,15 +1773,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 50 de la Constitución Española («Pensiones de tercera edad»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Asimismo, y con independencia de las obligaciones familiares, promoverán su bienestar mediante un sistema de servicios sociales que atenderán sus problemas específicos de salud, vivienda, cultura y ocio.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre pensiones de tercera edad sin autorización previa del Tribunal Constitucional.",
-        "Los poderes públicos garantizarán, mediante pensiones adecuadas y periódicamente actualizadas, la suficiencia económica a los ciudadanos durante la tercera edad.",
-        "Para lo previsto en el artículo 50 (pensiones de tercera edad), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 50 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 51.",
+        "En el artículo 50.",
+        "En el artículo 49.",
+        "En el artículo 60."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 50 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 50 («Pensiones de tercera edad»). Los tribunales preguntan mucho por la ubicación exacta: el 51 trata sobre «defensa consumidores y usuarios»; el 49 trata sobre «inclusión personas con discapacidad»; el 60 trata sobre «tutela del rey menor»."
     },
     "id": 50,
     "concepto_clave": "Pensiones de tercera edad",
@@ -1812,15 +1812,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 51 de la Constitución Española («Defensa consumidores y usuarios»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 51.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre defensa consumidores y usuarios sin autorización previa del Tribunal Constitucional.",
-        "Los poderes públicos garantizarán la defensa de los consumidores y usuarios, protegiendo, mediante procedimientos eficaces, la seguridad, la salud y los legítimos intereses económicos de los mismos.",
-        "Para lo previsto en el artículo 51 (defensa consumidores y usuarios), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 51 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Los poderes públicos promoverán la información y la educación de los consumidores y usuarios, fomentarán sus organizaciones y oirán a éstas en las cuestiones que puedan afectar a aquéllos, en los términos que la ley orgánica establezca.",
+        "Los poderes públicos promoverán la información y la educación de los consumidores y usuarios, fomentarán sus organizaciones y oirán a éstas en las cuestiones que puedan afectar a aquéllos, en los términos que la ley establezca.",
+        "Las Comunidades Autónomas promoverán la información y la educación de los consumidores y usuarios, fomentarán sus organizaciones y oirán a éstas en las cuestiones que puedan afectar a aquéllos, en los términos que la ley establezca.",
+        "Las Comunidades Autónomas promoverán la información y la educación de los consumidores y usuarios, fomentarán sus organizaciones y oirán a éstas en las cuestiones que puedan afectar a aquéllos, en los términos que la ley orgánica establezca."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 51 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 51.2 dice: «Los poderes públicos promoverán la información y la educación de los consumidores y usuarios, fomentarán sus organizaciones y oirán a éstas en las cuestiones que puedan afectar a aquéllos, en los términos que la ley establezca.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley» por «ley orgánica»; «Los poderes públicos» por «Las Comunidades Autónomas»."
     },
     "id": 51,
     "concepto_clave": "Defensa consumidores y usuarios",
@@ -1841,15 +1841,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 52 de la Constitución Española («Organizaciones de intereses económicos»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «La ley regulará las organizaciones profesionales que contribuyan a la defensa de los intereses económicos que les sean propios.»",
       "opciones": [
-        "La ley orgánica con mayoría de tres quintos regulará las organizaciones profesionales que contribuyan a la defensa de los intereses económicos que les sean propios.",
-        "La ley regulará las organizaciones profesionales que contribuyan a la defensa de los intereses económicos que les sean propios.",
-        "Para lo previsto en el artículo 52 (organizaciones de intereses económicos), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 52 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 53.",
+        "En el artículo 52.",
+        "En el artículo 51.",
+        "En el artículo 62."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 52 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 52 («Organizaciones de intereses económicos»). Los tribunales preguntan mucho por la ubicación exacta: el 53 trata sobre «garantías de derechos fundamentales»; el 51 trata sobre «defensa consumidores y usuarios»; el 62 trata sobre «funciones constitucionales del rey»."
     },
     "id": 52,
     "concepto_clave": "Organizaciones de intereses económicos",
@@ -1880,15 +1880,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 53 de la Constitución Española («Garantías de derechos fundamentales»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 53.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Los deber inexcusable sujeto a autorización previas y libertades reconocidos en el Capítulo segundo del presente Título vinculan a todos los poderes públicos.",
-        "Los derechos y libertades reconocidos en el Capítulo segundo del presente Título vinculan a todos los poderes públicos.",
-        "Para lo previsto en el artículo 53 (garantías de derechos fundamentales), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 53 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Sólo por ley, que en todo caso podrá respetar su contenido esencial, deberá regularse el ejercicio de tales derechos y libertades, que se tutelarán de acuerdo con lo previsto en el artículo 161, 1, a).",
+        "Sólo por ley, que en todo caso deberá respetar su contenido esencial, podrá regularse el ejercicio de tales derechos y libertades, que se tutelarán de acuerdo con lo previsto en el artículo 161, 1, a).",
+        "Sólo por ley orgánica, que en todo caso deberá respetar su contenido esencial, podrá regularse el ejercicio de tales derechos y libertades, que se tutelarán de acuerdo con lo previsto en el artículo 161, 1, a).",
+        "Sólo por ley, que en su caso deberá respetar su contenido esencial, podrá regularse el ejercicio de tales derechos y libertades, que se tutelarán de acuerdo con lo previsto en el artículo 161, 1, a)."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 53 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 53.1 dice: «Sólo por ley, que en todo caso deberá respetar su contenido esencial, podrá regularse el ejercicio de tales derechos y libertades, que se tutelarán de acuerdo con lo previsto en el artículo 161, 1, a).». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrá» por «deberá»; «ley» por «ley orgánica»; «en todo caso» por «en su caso»."
     },
     "id": 53,
     "concepto_clave": "Garantías de derechos fundamentales",
@@ -1943,15 +1943,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 55 de la Constitución Española («Suspensión de derechos fundamentales»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 55.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Los derechos reconocidos en los artículos 17, 18, apartados 2 y 3, artículos 19, 20, apartados 1, a) y d), y 5, artículos 21, 28, apartado 2, y artículo 37, apartado 2, deberán obligatoriamente en todo caso ser suspendidos cuando se acuer...",
-        "Los derechos reconocidos en los artículos 17, 18, apartados 2 y 3, artículos 19, 20, apartados 1, a) y d), y 5, artículos 21, 28, apartado 2, y artículo 37, apartado 2, podrán ser suspendidos cuando se acuer...",
-        "Para lo previsto en el artículo 55 (suspensión de derechos fundamentales), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 55 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Una ley ordinaria podrá determinar la forma y los casos en los que, de forma individual y con la necesaria intervención judicial y el adecuado control parlamentario…",
+        "Una ley orgánica podrá determinar la forma y los casos en los que, de forma individual y con la necesaria intervención judicial y el adecuado control parlamentario…",
+        "Una ley orgánica deberá determinar la forma y los casos en los que, de forma individual y con la necesaria intervención judicial y el adecuado control parlamentario…",
+        "Una ley ordinaria deberá determinar la forma y los casos en los que, de forma individual y con la necesaria intervención judicial y el adecuado control parlamentario…"
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 55 de la CE: el texto constitucional utiliza el verbo potestativo \"podrán\", no un mandato imperativo (\"deberán\"). Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 55.2 dice: «Una ley orgánica podrá determinar la forma y los casos en los que, de forma individual y con la necesaria intervención judicial y el adecuado control parlamentario…». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley orgánica» por «ley ordinaria»; «podrá» por «deberá»."
     },
     "id": 55,
     "concepto_clave": "Suspensión de derechos fundamentales",
@@ -2031,15 +2031,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 57 de la Constitución Española («Sucesión hereditaria en Corona»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «La sucesión en el trono seguirá el orden regular de primogenitura y representación, siendo preferida siempre la línea anterior a las posteriores; en la misma línea, el grado más próximo al más remoto; en el mismo grado, el varón a la mujer, y en el mismo sexo, la persona de más edad a la de menos.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre sucesión hereditaria en corona sin autorización previa del Tribunal Constitucional.",
-        "La Corona de España es hereditaria en los sucesores de S.",
-        "Para lo previsto en el artículo 57 (sucesión hereditaria en corona), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 57 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 58.",
+        "En el artículo 57.",
+        "En el artículo 56.",
+        "En el artículo 67."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 57 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 57 («Sucesión hereditaria en Corona»). Los tribunales preguntan mucho por la ubicación exacta: el 58 trata sobre «estatuto del consorte real»; el 56 trata sobre «el rey jefe estatal»; el 67 trata sobre «mandato parlamentario e incompatibilidad»."
     },
     "id": 57,
     "concepto_clave": "Sucesión hereditaria en Corona",
@@ -2060,15 +2060,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 58 de la Constitución Española («Estatuto del consorte real»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «La Reina consorte o el consorte de la Reina no podrán asumir funciones constitucionales, salvo lo dispuesto para la Regencia.»",
       "opciones": [
-        "La Reina consorte o el consorte de la Reina no deberán obligatoriamente en todo caso asumir funciones constitucionales, salvo lo dispuesto para la Regencia.",
-        "La Reina consorte o el consorte de la Reina no podrán asumir funciones constitucionales, salvo lo dispuesto para la Regencia.",
-        "Para lo previsto en el artículo 58 (estatuto del consorte real), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 58 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 59.",
+        "En el artículo 58.",
+        "En el artículo 57.",
+        "En el artículo 68."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 58 de la CE: el texto constitucional utiliza el verbo potestativo \"podrán\", no un mandato imperativo (\"deberán\"). Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 58 («Estatuto del consorte real»). Los tribunales preguntan mucho por la ubicación exacta: el 59 trata sobre «regencia constitucional del reino»; el 57 trata sobre «sucesión hereditaria en corona»; el 68 trata sobre «composición electoral del congreso»."
     },
     "id": 58,
     "concepto_clave": "Estatuto del consorte real",
@@ -2109,15 +2109,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 59 de la Constitución Española («Regencia constitucional del Reino»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Cuando el Rey fuere menor de edad, el padre o la madre del Rey y, en su defecto, el pariente mayor de edad más próximo a suceder en la Corona, según el orden establecido en la Constitución, entrará a ejercer inmediatamente la Regencia y la ejercerá durante el tiempo de la minoría de edad del Rey.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre regencia constitucional del reino sin autorización previa del Tribunal Constitucional.",
-        "Cuando el Rey fuere menor de edad, el padre o la madre del Rey y, en su defecto, el pariente mayor de edad más próximo a suceder en la Corona, según el orden establecido en la Constitución, entrará a ejercer...",
-        "Para lo previsto en el artículo 59 (regencia constitucional del reino), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 59 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 60.",
+        "En el artículo 59.",
+        "En el artículo 58.",
+        "En el artículo 69."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 59 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 59 («Regencia constitucional del Reino»). Los tribunales preguntan mucho por la ubicación exacta: el 60 trata sobre «tutela del rey menor»; el 58 trata sobre «estatuto del consorte real»; el 69 trata sobre «composición territorial del senado»."
     },
     "id": 59,
     "concepto_clave": "Regencia constitucional del Reino",
@@ -2143,15 +2143,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 60 de la Constitución Española («Tutela del Rey menor»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 60.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre tutela del rey menor sin autorización previa del Tribunal Constitucional.",
-        "Será tutor del Rey menor la persona que en su testamento hubiese nombrado el Rey difunto, siempre que sea mayor de edad y español de nacimiento; si no lo hubiese nombrado, será tutor el padre o la madre mien...",
-        "Para lo previsto en el artículo 60 (tutela del rey menor), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 60 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En su defecto, lo nombrarán las Cortes Generales, pero no podrán acumularse los cargos de Regente y de tutor sino en el padre, madre o ascendientes directos del Presidente del Gobierno.",
+        "En su defecto, lo nombrarán las Cortes Generales, pero no podrán acumularse los cargos de Regente y de tutor sino en el padre, madre o ascendientes directos del Rey.",
+        "En su defecto, lo nombrarán las Cortes Generales, pero no deberán acumularse los cargos de Regente y de tutor sino en el padre, madre o ascendientes directos del Rey.",
+        "En su defecto, lo nombrarán las Cortes Generales, pero no deberán acumularse los cargos de Regente y de tutor sino en el padre, madre o ascendientes directos del Presidente del Gobierno."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 60 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 60.1 dice: «En su defecto, lo nombrarán las Cortes Generales, pero no podrán acumularse los cargos de Regente y de tutor sino en el padre, madre o ascendientes directos del Rey.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Rey» por «Presidente del Gobierno»; «podrán» por «deberán»."
     },
     "id": 60,
     "concepto_clave": "Tutela del Rey menor",
@@ -2177,15 +2177,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 61 de la Constitución Española («Proclamación y juramento real»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 61.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "El Rey, al ser proclamado ante las Cortes Generales, prestará juramento de desempeñar fielmente sus funciones, guardar y hacer guardar la Constitución y las leyes y respetar los derechos de los ciudadanos y...",
-        "El Rey, al ser proclamado ante las Cortes Generales, prestará juramento de desempeñar fielmente sus funciones, guardar y hacer guardar la Constitución y las leyes y respetar los derechos de los ciudadanos y...",
-        "Para lo previsto en el artículo 61 (proclamación y juramento real), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 61 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Presidente del Gobierno, al ser proclamado ante las Cortes Generales, prestará juramento de desempeñar fielmente sus funciones, guardar y hacer guardar la Constitución y las leyes y respetar los derechos de los ciudadanos y de las Comunidades Autónomas.",
+        "El Rey, al ser proclamado ante las Cortes Generales, prestará juramento de desempeñar fielmente sus funciones, guardar y hacer guardar la Constitución y las leyes y respetar los derechos de los ciudadanos y de las Comunidades Autónomas.",
+        "El Rey, al ser proclamado ante las Cortes Generales, prestará juramento de desempeñar fielmente sus funciones, guardar y hacer guardar la Constitución y las leyes y respetar los derechos de los ciudadanos y de las Diputaciones Provinciales.",
+        "El Presidente del Gobierno, al ser proclamado ante las Cortes Generales, prestará juramento de desempeñar fielmente sus funciones, guardar y hacer guardar la Constitución y las leyes y respetar los derechos de los ciudadanos y de las Diputaciones Provinciales."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 61 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 61.1 dice: «El Rey, al ser proclamado ante las Cortes Generales, prestará juramento de desempeñar fielmente sus funciones, guardar y hacer guardar la Constitución y las leyes y respetar los derechos de los ciudadanos y de las Comunidades Autónomas.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Rey» por «Presidente del Gobierno»; «Comunidades Autónomas» por «Diputaciones Provinciales»."
     },
     "id": 61,
     "concepto_clave": "Proclamación y juramento real",
@@ -2206,15 +2206,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 62 de la Constitución Española («Funciones constitucionales del Rey»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 62.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Corresponde al Rey: a) Sancionar y promulgar las leyes.",
-        "Corresponde al Rey: a) Sancionar y promulgar las leyes.",
-        "Para lo previsto en el artículo 62 (funciones constitucionales del rey), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 62 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Corresponde al Presidente del Gobierno: i) Ejercer el derecho de gracia con arreglo a la ley, que no podrá autorizar indultos generales.",
+        "Corresponde al Rey: i) Ejercer el derecho de gracia con arreglo a la ley, que no podrá autorizar indultos generales.",
+        "Corresponde al Rey: i) Ejercer el derecho de gracia con arreglo a la ley, que no deberá autorizar indultos generales.",
+        "Corresponde al Rey: i) Ejercer el derecho de gracia con arreglo a la ley orgánica, que no podrá autorizar indultos generales."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 62 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 62.1 dice: «Corresponde al Rey: i) Ejercer el derecho de gracia con arreglo a la ley, que no podrá autorizar indultos generales.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Rey» por «Presidente del Gobierno»; «podrá» por «deberá»; «ley» por «ley orgánica»."
     },
     "id": 62,
     "concepto_clave": "Funciones constitucionales del Rey",
@@ -2245,15 +2245,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 63 de la Constitución Española («Acreditación diplomática y tratados»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Al Rey corresponde manifestar el consentimiento del Estado para obligarse internacionalmente por medio de tratados, de conformidad con la Constitución y las leyes.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre acreditación diplomática y tratados sin autorización previa del Tribunal Constitucional.",
-        "El Rey acredita a los embajadores y otros representantes diplomáticos.",
-        "Para lo previsto en el artículo 63 (acreditación diplomática y tratados), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 63 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 64.",
+        "En el artículo 63.",
+        "En el artículo 62.",
+        "En el artículo 73."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 63 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 63 («Acreditación diplomática y tratados»). Los tribunales preguntan mucho por la ubicación exacta: el 64 trata sobre «refrendo de actos reales»; el 62 trata sobre «funciones constitucionales del rey»; el 73 trata sobre «períodos de sesiones parlamentarias»."
     },
     "id": 63,
     "concepto_clave": "Acreditación diplomática y tratados",
@@ -2279,15 +2279,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 64 de la Constitución Española («Refrendo de actos reales»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «La propuesta y el nombramiento del Presidente del Gobierno, y la disolución prevista en el artículo 99, serán refrendados por el Presidente del Congreso.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre refrendo de actos reales sin autorización previa del Tribunal Constitucional.",
-        "Los actos del Rey serán refrendados por el Presidente del Gobierno y, en su caso, por los Ministros competentes.",
-        "Para lo previsto en el artículo 64 (refrendo de actos reales), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 64 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 65.",
+        "En el artículo 64.",
+        "En el artículo 63.",
+        "En el artículo 74."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 64 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 64 («Refrendo de actos reales»). Los tribunales preguntan mucho por la ubicación exacta: el 65 trata sobre «presupuesto de casa real»; el 63 trata sobre «acreditación diplomática y tratados»; el 74 trata sobre «sesiones conjuntas de cámaras»."
     },
     "id": 64,
     "concepto_clave": "Refrendo de actos reales",
@@ -2313,15 +2313,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 65 de la Constitución Española («Presupuesto de Casa Real»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «El Rey recibe de los Presupuestos del Estado una cantidad global para el sostenimiento de su Familia y Casa, y distribuye libremente la misma.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre presupuesto de casa real sin autorización previa del Tribunal Constitucional.",
-        "El Rey recibe de los Presupuestos del Estado una cantidad global para el sostenimiento de su Familia y Casa, y distribuye libremente la misma.",
-        "Para lo previsto en el artículo 65 (presupuesto de casa real), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 65 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 66.",
+        "En el artículo 65.",
+        "En el artículo 64.",
+        "En el artículo 75."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 65 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 65 («Presupuesto de Casa Real»). Los tribunales preguntan mucho por la ubicación exacta: el 66 trata sobre «potestades de cortes generales»; el 64 trata sobre «refrendo de actos reales»; el 75 trata sobre «pleno y comisiones parlamentarias»."
     },
     "id": 65,
     "concepto_clave": "Presupuesto de Casa Real",
@@ -2352,15 +2352,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 66 de la Constitución Española («Potestades de Cortes Generales»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Las Cortes Generales ejercen la potestad legislativa del Estado, aprueban sus Presupuestos, controlan la acción del Gobierno y tienen las demás competencias que les atribuya la Constitución.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre potestades de cortes generales sin autorización previa del Tribunal Constitucional.",
-        "Las Cortes Generales representan al pueblo español y están formadas por el Congreso de los Diputados y el Senado.",
-        "Para lo previsto en el artículo 66 (potestades de cortes generales), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 66 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 67.",
+        "En el artículo 66.",
+        "En el artículo 65.",
+        "En el artículo 76."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 66 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 66 («Potestades de Cortes Generales»). Los tribunales preguntan mucho por la ubicación exacta: el 67 trata sobre «mandato parlamentario e incompatibilidad»; el 65 trata sobre «presupuesto de casa real»; el 76 trata sobre «comisiones parlamentarias de investigación»."
     },
     "id": 66,
     "concepto_clave": "Potestades de Cortes Generales",
@@ -2391,15 +2391,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 67 de la Constitución Española («Mandato parlamentario e incompatibilidad»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Las reuniones de Parlamentarios que se celebren sin convocatoria reglamentaria no vincularán a las Cámaras, y no podrán ejercer sus funciones ni ostentar sus privilegios.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre mandato parlamentario e incompatibilidad sin autorización previa del Tribunal Constitucional.",
-        "Nadie podrá ser miembro de las dos Cámaras simultáneamente, ni acumular el acta de una Asamblea de Comunidad Autónoma con la de Diputado al Congreso.",
-        "Para lo previsto en el artículo 67 (mandato parlamentario e incompatibilidad), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 67 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 68.",
+        "En el artículo 67.",
+        "En el artículo 66.",
+        "En el artículo 77."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 67 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 67 («Mandato parlamentario e incompatibilidad»). Los tribunales preguntan mucho por la ubicación exacta: el 68 trata sobre «composición electoral del congreso»; el 66 trata sobre «potestades de cortes generales»; el 77 trata sobre «peticiones escritas a cámaras»."
     },
     "id": 67,
     "concepto_clave": "Mandato parlamentario e incompatibilidad",
@@ -2499,15 +2499,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 69 de la Constitución Española («Composición territorial del Senado»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 69.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre composición territorial del senado sin autorización previa del Tribunal Constitucional.",
-        "El Senado es la Cámara de representación territorial.",
-        "Para lo previsto en el artículo 69 (composición territorial del senado), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 69 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En cada provincia se elegirán cuatro Senadores por sufragio universal, libre, igual, directo y secreto por los votantes de cada una de ellas, en los términos que señale una ley ordinaria.",
+        "En cada provincia se elegirán cuatro Senadores por sufragio universal, libre, igual, directo y secreto por los votantes de cada una de ellas, en los términos que señale una ley orgánica.",
+        "En cada comarca se elegirán cuatro Senadores por sufragio universal, libre, igual, directo y secreto por los votantes de cada una de ellas, en los términos que señale una ley orgánica.",
+        "En cada comarca se elegirán cuatro Senadores por sufragio universal, libre, igual, directo y secreto por los votantes de cada una de ellas, en los términos que señale una ley ordinaria."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 69 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 69.2 dice: «En cada provincia se elegirán cuatro Senadores por sufragio universal, libre, igual, directo y secreto por los votantes de cada una de ellas, en los términos que señale una ley orgánica.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley orgánica» por «ley ordinaria»; «provincia» por «comarca»."
     },
     "id": 69,
     "concepto_clave": "Composición territorial del Senado",
@@ -2533,15 +2533,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 70 de la Constitución Española («Inelegibilidad e incompatibilidad parlamentaria»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 70.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "La ley orgánica con mayoría de tres quintos electoral determinará las causas de inelegibilidad e incompatibilidad de los Diputados y Senadores, que comprenderán, en todo caso: a) A los componentes del Tribunal Constitucional.",
-        "La ley electoral determinará las causas de inelegibilidad e incompatibilidad de los Diputados y Senadores, que comprenderán, en todo caso: a) A los componentes del Tribunal Constitucional.",
-        "Para lo previsto en el artículo 70 (inelegibilidad e incompatibilidad parlamentaria), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 70 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "La ley orgánica electoral determinará las causas de inelegibilidad e incompatibilidad de los Diputados y Senadores, que comprenderán, en todo caso: f) A los miembros de las Juntas Electorales.",
+        "La ley electoral determinará las causas de inelegibilidad e incompatibilidad de los Diputados y Senadores, que comprenderán, en todo caso: f) A los miembros de las Juntas Electorales.",
+        "La ley electoral determinará las causas de inelegibilidad e incompatibilidad de los Diputados y Senadores, que comprenderán, en su caso: f) A los miembros de las Juntas Electorales.",
+        "La ley orgánica electoral determinará las causas de inelegibilidad e incompatibilidad de los Diputados y Senadores, que comprenderán, en su caso: f) A los miembros de las Juntas Electorales."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 70 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 70.1 dice: «La ley electoral determinará las causas de inelegibilidad e incompatibilidad de los Diputados y Senadores, que comprenderán, en todo caso: f) A los miembros de las Juntas Electorales.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley» por «ley orgánica»; «en todo caso» por «en su caso»."
     },
     "id": 70,
     "concepto_clave": "Inelegibilidad e incompatibilidad parlamentaria",
@@ -2577,15 +2577,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 71 de la Constitución Española («Prerrogativas de los parlamentarios»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Durante el período de su mandato los Diputados y Senadores gozarán asimismo de inmunidad y sólo podrán ser detenidos en caso de flagrante delito.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre prerrogativas de los parlamentarios sin autorización previa del Tribunal Constitucional.",
-        "Los Diputados y Senadores gozarán de inviolabilidad por las opiniones manifestadas en el ejercicio de sus funciones.",
-        "Para lo previsto en el artículo 71 (prerrogativas de los parlamentarios), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 71 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 72.",
+        "En el artículo 71.",
+        "En el artículo 70.",
+        "En el artículo 81."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 71 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 71 («Prerrogativas de los parlamentarios»). Los tribunales preguntan mucho por la ubicación exacta: el 72 trata sobre «autonomía reglamentaria de cámaras»; el 70 trata sobre «inelegibilidad e incompatibilidad parlamentaria»; el 81 trata sobre «aprobación de leyes orgánicas»."
     },
     "id": 71,
     "concepto_clave": "Prerrogativas de los parlamentarios",
@@ -2616,15 +2616,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 72 de la Constitución Española («Autonomía reglamentaria de Cámaras»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Las sesiones conjuntas serán presididas por el Presidente del Congreso y se regirán por un Reglamento de las Cortes Generales aprobado por mayoría absoluta de cada Cámara.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre autonomía reglamentaria de cámaras sin autorización previa del Tribunal Constitucional.",
-        "Las Cámaras establecen sus propios Reglamentos, aprueban autónomamente sus presupuestos y, de común acuerdo, regulan el Estatuto del Personal de las Cortes Generales.",
-        "Para lo previsto en el artículo 72 (autonomía reglamentaria de cámaras), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 72 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 73.",
+        "En el artículo 72.",
+        "En el artículo 71.",
+        "En el artículo 82."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 72 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 72 («Autonomía reglamentaria de Cámaras»). Los tribunales preguntan mucho por la ubicación exacta: el 73 trata sobre «períodos de sesiones parlamentarias»; el 71 trata sobre «prerrogativas de los parlamentarios»; el 82 trata sobre «delegación legislativa al gobierno»."
     },
     "id": 72,
     "concepto_clave": "Autonomía reglamentaria de Cámaras",
@@ -2650,15 +2650,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 73 de la Constitución Española («Períodos de sesiones parlamentarias»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 73.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre períodos de sesiones parlamentarias sin autorización previa del Tribunal Constitucional.",
-        "Las Cámaras se reunirán anualmente en dos períodos ordinarios de sesiones: el primero, de septiembre a diciembre, y el segundo, de febrero a junio.",
-        "Para lo previsto en el artículo 73 (períodos de sesiones parlamentarias), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 73 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las Cámaras podrán reunirse en sesiones extraordinarias a petición del Gobierno, de la Diputación Permanente o de la mayoría simple de los miembros de cualquiera de las Cámaras.",
+        "Las Cámaras podrán reunirse en sesiones extraordinarias a petición del Gobierno, de la Diputación Permanente o de la mayoría absoluta de los miembros de cualquiera de las Cámaras.",
+        "Las Cámaras deberán reunirse en sesiones extraordinarias a petición del Gobierno, de la Diputación Permanente o de la mayoría absoluta de los miembros de cualquiera de las Cámaras.",
+        "Las Cámaras deberán reunirse en sesiones extraordinarias a petición del Gobierno, de la Diputación Permanente o de la mayoría simple de los miembros de cualquiera de las Cámaras."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 73 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 73.2 dice: «Las Cámaras podrán reunirse en sesiones extraordinarias a petición del Gobierno, de la Diputación Permanente o de la mayoría absoluta de los miembros de cualquiera de las Cámaras.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «mayoría absoluta» por «mayoría simple»; «podrán» por «deberán»."
     },
     "id": 73,
     "concepto_clave": "Períodos de sesiones parlamentarias",
@@ -2684,15 +2684,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 74 de la Constitución Española («Sesiones conjuntas de Cámaras»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «En ambos casos, si no hubiera acuerdo entre Senado y Congreso, se intentará obtener por una Comisión Mixta compuesta de igual número de Diputados y Senadores.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre sesiones conjuntas de cámaras sin autorización previa del Tribunal Constitucional.",
-        "Las Cámaras se reunirán en sesión conjunta para ejercer las competencias no legislativas que el Título II atribuye expresamente a las Cortes Generales.",
-        "Para lo previsto en el artículo 74 (sesiones conjuntas de cámaras), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 74 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 75.",
+        "En el artículo 74.",
+        "En el artículo 73.",
+        "En el artículo 84."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 74 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 74 («Sesiones conjuntas de Cámaras»). Los tribunales preguntan mucho por la ubicación exacta: el 75 trata sobre «pleno y comisiones parlamentarias»; el 73 trata sobre «períodos de sesiones parlamentarias»; el 84 trata sobre «revocación de delegación legislativa»."
     },
     "id": 74,
     "concepto_clave": "Sesiones conjuntas de Cámaras",
@@ -2723,15 +2723,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 75 de la Constitución Española («Pleno y Comisiones parlamentarias»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 75.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre pleno y comisiones parlamentarias sin autorización previa del Tribunal Constitucional.",
-        "Las Cámaras funcionarán en Pleno y por Comisiones.",
-        "Para lo previsto en el artículo 75 (pleno y comisiones parlamentarias), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 75 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las Cámaras deberán delegar en las Comisiones Legislativas Permanentes la aprobación de proyectos o proposiciones de ley.",
+        "Las Cámaras podrán delegar en las Comisiones Legislativas Permanentes la aprobación de proyectos o proposiciones de ley.",
+        "Las Cámaras podrán delegar en las Comisiones Legislativas Permanentes la aprobación de proyectos o proposiciones de ley orgánica.",
+        "Las Cámaras deberán delegar en las Comisiones Legislativas Permanentes la aprobación de proyectos o proposiciones de ley orgánica."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 75 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 75.2 dice: «Las Cámaras podrán delegar en las Comisiones Legislativas Permanentes la aprobación de proyectos o proposiciones de ley.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrán» por «deberán»; «ley» por «ley orgánica»."
     },
     "id": 75,
     "concepto_clave": "Pleno y Comisiones parlamentarias",
@@ -2757,15 +2757,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 76 de la Constitución Española («Comisiones parlamentarias de investigación»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 76.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "El Congreso y el Senado, y, en su caso, ambas Cámaras conjuntamente, deberán obligatoriamente en todo caso nombrar Comisiones de investigación sobre cualquier asunto de interés público.",
+        "El Congreso y el Congreso de los Diputados, y, en su caso, ambas Cámaras conjuntamente, podrán nombrar Comisiones de investigación sobre cualquier asunto de interés público.",
         "El Congreso y el Senado, y, en su caso, ambas Cámaras conjuntamente, podrán nombrar Comisiones de investigación sobre cualquier asunto de interés público.",
-        "Para lo previsto en el artículo 76 (comisiones parlamentarias de investigación), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 76 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Congreso y el Senado, y, en su caso, ambas Cámaras conjuntamente, deberán nombrar Comisiones de investigación sobre cualquier asunto de interés público.",
+        "El Congreso y el Congreso de los Diputados, y, en su caso, ambas Cámaras conjuntamente, deberán nombrar Comisiones de investigación sobre cualquier asunto de interés público."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 76 de la CE: el texto constitucional utiliza el verbo potestativo \"podrán\", no un mandato imperativo (\"deberán\"). Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 76.1 dice: «El Congreso y el Senado, y, en su caso, ambas Cámaras conjuntamente, podrán nombrar Comisiones de investigación sobre cualquier asunto de interés público.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Senado» por «Congreso de los Diputados»; «podrán» por «deberán»."
     },
     "id": 76,
     "concepto_clave": "Comisiones parlamentarias de investigación",
@@ -2791,15 +2791,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 77 de la Constitución Española («Peticiones escritas a Cámaras»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Las Cámaras pueden recibir peticiones individuales y colectivas, siempre por escrito, quedando prohibida la presentación directa por manifestaciones ciudadanas.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre peticiones escritas a cámaras sin autorización previa del Tribunal Constitucional.",
-        "Las Cámaras pueden recibir peticiones individuales y colectivas, siempre por escrito, quedando prohibida la presentación directa por manifestaciones ciudadanas.",
-        "Para lo previsto en el artículo 77 (peticiones escritas a cámaras), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 77 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 78.",
+        "En el artículo 77.",
+        "En el artículo 76.",
+        "En el artículo 87."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 77 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 77 («Peticiones escritas a Cámaras»). Los tribunales preguntan mucho por la ubicación exacta: el 78 trata sobre «diputaciones permanentes de cámaras»; el 76 trata sobre «comisiones parlamentarias de investigación»; el 87 trata sobre «titulares de iniciativa legislativa»."
     },
     "id": 77,
     "concepto_clave": "Peticiones escritas a Cámaras",
@@ -2835,15 +2835,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 78 de la Constitución Española («Diputaciones Permanentes de Cámaras»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Las Diputaciones Permanentes estarán presididas por el Presidente de la Cámara respectiva y tendrán como funciones la prevista en el artículo 73, la de asumir las facultades que correspondan a las Cámaras, de acuerdo con los artículos 86 y 116, en caso de que éstas hubieren sido disueltas o hubiere…»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre diputaciones permanentes de cámaras sin autorización previa del Tribunal Constitucional.",
-        "En cada Cámara habrá una Diputación Permanente compuesta por un mínimo de veintiún miembros, que representarán a los grupos parlamentarios, en proporción a su importancia numérica.",
-        "Para lo previsto en el artículo 78 (diputaciones permanentes de cámaras), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 78 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 79.",
+        "En el artículo 78.",
+        "En el artículo 77.",
+        "En el artículo 88."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 78 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 78 («Diputaciones Permanentes de Cámaras»). Los tribunales preguntan mucho por la ubicación exacta: el 79 trata sobre «adopción de acuerdos parlamentarios»; el 77 trata sobre «peticiones escritas a cámaras»; el 88 trata sobre «aprobación proyectos de ley»."
     },
     "id": 78,
     "concepto_clave": "Diputaciones Permanentes de Cámaras",
@@ -2874,15 +2874,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 79 de la Constitución Española («Adopción de acuerdos parlamentarios»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 79.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre adopción de acuerdos parlamentarios sin autorización previa del Tribunal Constitucional.",
-        "Para adoptar acuerdos, las Cámaras deben estar reunidas reglamentariamente y con asistencia de la mayoría de sus miembros.",
-        "Para lo previsto en el artículo 79 (adopción de acuerdos parlamentarios), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 79 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Dichos acuerdos, para ser válidos, podrán ser aprobados por la mayoría de los miembros presentes, sin perjuicio de las mayorías especiales que establezcan la Constitución o las leyes orgánicas y las que para elección de personas establezcan los Reglamentos de las Cámaras.",
+        "Dichos acuerdos, para ser válidos, deberán ser aprobados por la mayoría de los miembros presentes, sin perjuicio de las mayorías especiales que establezcan la Constitución o las leyes orgánicas y las que para elección de personas establezcan los Reglamentos de las Cámaras.",
+        "Dichos acuerdos, para ser válidos, deberán ser aprobados por la mayoría de los miembros presentes, sin perjuicio de las mayorías especiales que establezcan la Constitución o las leyes ordinarias y las que para elección de personas establezcan los Reglamentos de las Cámaras.",
+        "Dichos acuerdos, para ser válidos, podrán ser aprobados por la mayoría de los miembros presentes, sin perjuicio de las mayorías especiales que establezcan la Constitución o las leyes ordinarias y las que para elección de personas establezcan los Reglamentos de las Cámaras."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 79 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 79.2 dice: «Dichos acuerdos, para ser válidos, deberán ser aprobados por la mayoría de los miembros presentes, sin perjuicio de las mayorías especiales que establezcan la Constitución o las leyes orgánicas y las que para elección de personas establezcan los Reglamentos de las Cámaras.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «deberán» por «podrán»; «leyes orgánicas» por «leyes ordinarias»."
     },
     "id": 79,
     "concepto_clave": "Adopción de acuerdos parlamentarios",
@@ -2903,15 +2903,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 80 de la Constitución Española («Publicidad de sesiones plenarias»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Las sesiones plenarias de las Cámaras serán públicas, salvo acuerdo en contrario de cada Cámara, adoptado por mayoría absoluta o con arreglo al Reglamento.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre publicidad de sesiones plenarias sin autorización previa del Tribunal Constitucional.",
-        "Las sesiones plenarias de las Cámaras serán públicas, salvo acuerdo en contrario de cada Cámara, adoptado por mayoría absoluta o con arreglo al Reglamento.",
-        "Para lo previsto en el artículo 80 (publicidad de sesiones plenarias), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 80 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 81.",
+        "En el artículo 80.",
+        "En el artículo 79.",
+        "En el artículo 90."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 80 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 80 («Publicidad de sesiones plenarias»). Los tribunales preguntan mucho por la ubicación exacta: el 81 trata sobre «aprobación de leyes orgánicas»; el 79 trata sobre «adopción de acuerdos parlamentarios»; el 90 trata sobre «enmienda o veto senatorial»."
     },
     "id": 80,
     "concepto_clave": "Publicidad de sesiones plenarias",
@@ -2991,15 +2991,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 82 de la Constitución Española («Delegación legislativa al Gobierno»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 82.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Las Cortes Generales podrán delegar en el Gobierno la potestad de dictar normas con rango de ley orgánica con mayoría de tres quintos sobre materias determinadas no incluidas en el artículo anterior.",
-        "Las Cortes Generales podrán delegar en el Gobierno la potestad de dictar normas con rango de ley sobre materias determinadas no incluidas en el artículo anterior.",
-        "Para lo previsto en el artículo 82 (delegación legislativa al gobierno), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 82 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "La delegación legislativa podrá otorgarse mediante una ley de bases cuando su objeto sea la formación de textos articulados o por una ley ordinaria cuando se trate de refundir varios textos legales en uno solo.",
+        "La delegación legislativa deberá otorgarse mediante una ley de bases cuando su objeto sea la formación de textos articulados o por una ley ordinaria cuando se trate de refundir varios textos legales en uno solo.",
+        "La delegación legislativa deberá otorgarse mediante una ley orgánica de bases cuando su objeto sea la formación de textos articulados o por una ley ordinaria cuando se trate de refundir varios textos legales en uno solo.",
+        "La delegación legislativa podrá otorgarse mediante una ley orgánica de bases cuando su objeto sea la formación de textos articulados o por una ley ordinaria cuando se trate de refundir varios textos legales en uno solo."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 82 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 82.2 dice: «La delegación legislativa deberá otorgarse mediante una ley de bases cuando su objeto sea la formación de textos articulados o por una ley ordinaria cuando se trate de refundir varios textos legales en uno solo.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «deberá» por «podrá»; «ley» por «ley orgánica»."
     },
     "id": 82,
     "concepto_clave": "Delegación legislativa al Gobierno",
@@ -3020,15 +3020,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 83 de la Constitución Española («Límites de leyes básicas»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 83.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Las leyes de bases no podrán en ningún caso: a) Autorizar la modificación de la propia ley orgánica con mayoría de tres quintos de bases.",
-        "Las leyes de bases no podrán en ningún caso: a) Autorizar la modificación de la propia ley de bases.",
-        "Para lo previsto en el artículo 83 (límites de leyes básicas), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 83 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las leyes de bases no deberán en ningún caso: b) Facultar para dictar normas con carácter retroactivo.",
+        "Las leyes de bases no podrán en ningún caso: b) Facultar para dictar normas con carácter retroactivo.",
+        "Las leyes de bases no podrán salvo autorización judicial: b) Facultar para dictar normas con carácter retroactivo.",
+        "Las leyes de bases no deberán salvo autorización judicial: b) Facultar para dictar normas con carácter retroactivo."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 83 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 83.1 dice: «Las leyes de bases no podrán en ningún caso: b) Facultar para dictar normas con carácter retroactivo.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrán» por «deberán»; «en ningún caso» por «salvo autorización judicial»."
     },
     "id": 83,
     "concepto_clave": "Límites de leyes básicas",
@@ -3049,15 +3049,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 84 de la Constitución Española («Revocación de delegación legislativa»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 84.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Cuando una proposición de ley orgánica con mayoría de tres quintos o una enmienda fuere contraria a una delegación legislativa en vigor, el Gobierno está facultado para oponerse a su tramitación.",
-        "Cuando una proposición de ley o una enmienda fuere contraria a una delegación legislativa en vigor, el Gobierno está facultado para oponerse a su tramitación.",
-        "Para lo previsto en el artículo 84 (revocación de delegación legislativa), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 84 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En tal supuesto, deberá presentarse una proposición de ley para la derogación total o parcial de la ley de delegación.",
+        "En tal supuesto, podrá presentarse una proposición de ley para la derogación total o parcial de la ley de delegación.",
+        "En tal supuesto, podrá presentarse una proposición de ley orgánica para la derogación total o parcial de la ley de delegación.",
+        "En tal supuesto, deberá presentarse una proposición de ley orgánica para la derogación total o parcial de la ley de delegación."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 84 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 84.1 dice: «En tal supuesto, podrá presentarse una proposición de ley para la derogación total o parcial de la ley de delegación.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrá» por «deberá»; «ley» por «ley orgánica»."
     },
     "id": 84,
     "concepto_clave": "Revocación de delegación legislativa",
@@ -3078,15 +3078,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 85 de la Constitución Española («Concepto de Decretos Legislativos»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Las disposiciones del Gobierno que contengan legislación delegada recibirán el título de Decretos Legislativos.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre concepto de decretos legislativos sin autorización previa del Tribunal Constitucional.",
-        "Las disposiciones del Gobierno que contengan legislación delegada recibirán el título de Decretos Legislativos.",
-        "Para lo previsto en el artículo 85 (concepto de decretos legislativos), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 85 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 86.",
+        "En el artículo 85.",
+        "En el artículo 84.",
+        "En el artículo 95."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 85 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 85 («Concepto de Decretos Legislativos»). Los tribunales preguntan mucho por la ubicación exacta: el 86 trata sobre «convalidación de reales decretos-leyes»; el 84 trata sobre «revocación de delegación legislativa»; el 95 trata sobre «control constitucional de tratados»."
     },
     "id": 85,
     "concepto_clave": "Concepto de Decretos Legislativos",
@@ -3156,15 +3156,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 87 de la Constitución Española («Titulares de iniciativa legislativa»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 87.3 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre titulares de iniciativa legislativa sin autorización previa del Tribunal Constitucional.",
-        "La iniciativa legislativa corresponde al Gobierno, al Congreso y al Senado, de acuerdo con la Constitución y los Reglamentos de las Cámaras.",
-        "Para lo previsto en el artículo 87 (titulares de iniciativa legislativa), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 87 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En todo caso se exigirán no menos de 250.000 firmas acreditadas.",
+        "En todo caso se exigirán no menos de 500.000 firmas acreditadas.",
+        "En su caso se exigirán no menos de 500.000 firmas acreditadas.",
+        "En su caso se exigirán no menos de 250.000 firmas acreditadas."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 87 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 87.3 dice: «En todo caso se exigirán no menos de 500.000 firmas acreditadas.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «500.000» por «250.000»; «En todo caso» por «En su caso»."
     },
     "id": 87,
     "concepto_clave": "Titulares de iniciativa legislativa",
@@ -3185,15 +3185,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 88 de la Constitución Española («Aprobación proyectos de ley»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los proyectos de ley serán aprobados en Consejo de Ministros, que los someterá al Congreso, acompañados de una exposición de motivos y de los antecedentes necesarios para pronunciarse sobre ellos.»",
       "opciones": [
-        "Los proyectos de ley orgánica con mayoría de tres quintos serán aprobados en Consejo de Ministros, que los someterá al Congreso, acompañados de una exposición de motivos y de los antecedentes necesarios para pronunciarse sobre ellos.",
-        "Los proyectos de ley serán aprobados en Consejo de Ministros, que los someterá al Congreso, acompañados de una exposición de motivos y de los antecedentes necesarios para pronunciarse sobre ellos.",
-        "Para lo previsto en el artículo 88 (aprobación proyectos de ley), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 88 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 89.",
+        "En el artículo 88.",
+        "En el artículo 87.",
+        "En el artículo 98."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 88 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 88 («Aprobación proyectos de ley»). Los tribunales preguntan mucho por la ubicación exacta: el 89 trata sobre «tramitación proposiciones de ley»; el 87 trata sobre «titulares de iniciativa legislativa»; el 98 trata sobre «composición y estatuto gubernamental»."
     },
     "id": 88,
     "concepto_clave": "Aprobación proyectos de ley",
@@ -3219,15 +3219,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 89 de la Constitución Española («Tramitación proposiciones de ley»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 89.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "La tramitación de las proposiciones de ley orgánica con mayoría de tres quintos se regulará por los Reglamentos de las Cámaras, sin que la prioridad debida a los proyectos de ley impida el ejercicio de la iniciativa legislativa en los términos...",
-        "La tramitación de las proposiciones de ley se regulará por los Reglamentos de las Cámaras, sin que la prioridad debida a los proyectos de ley impida el ejercicio de la iniciativa legislativa en los términos...",
-        "Para lo previsto en el artículo 89 (tramitación proposiciones de ley), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 89 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las proposiciones de ley que, de acuerdo con el artículo 87, tome en consideración el Congreso de los Diputados, se remitirán al Congreso para su trámite en éste como tal proposición.",
+        "Las proposiciones de ley que, de acuerdo con el artículo 87, tome en consideración el Senado, se remitirán al Congreso para su trámite en éste como tal proposición.",
+        "Las proposiciones de ley orgánica que, de acuerdo con el artículo 87, tome en consideración el Senado, se remitirán al Congreso para su trámite en éste como tal proposición.",
+        "Las proposiciones de ley orgánica que, de acuerdo con el artículo 87, tome en consideración el Congreso de los Diputados, se remitirán al Congreso para su trámite en éste como tal proposición."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 89 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 89.2 dice: «Las proposiciones de ley que, de acuerdo con el artículo 87, tome en consideración el Senado, se remitirán al Congreso para su trámite en éste como tal proposición.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Senado» por «Congreso de los Diputados»; «ley» por «ley orgánica»."
     },
     "id": 89,
     "concepto_clave": "Tramitación proposiciones de ley",
@@ -3326,15 +3326,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 92 de la Constitución Española («Convocatoria de referéndum consultivo»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 92.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Las decisiones políticas de especial trascendencia deberán obligatoriamente en todo caso ser sometidas a referéndum consultivo de todos los ciudadanos.",
-        "Las decisiones políticas de especial trascendencia podrán ser sometidas a referéndum consultivo de todos los ciudadanos.",
-        "Para lo previsto en el artículo 92 (convocatoria de referéndum consultivo), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 92 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El referéndum será convocado por el Presidente del Gobierno, mediante propuesta del Rey, previamente autorizada por el Congreso de los Diputados.",
+        "El referéndum será convocado por el Rey, mediante propuesta del Presidente del Gobierno, previamente autorizada por el Congreso de los Diputados.",
+        "El referéndum será convocado por el Rey, mediante propuesta del Presidente del Gobierno, previamente autorizada por el Senado.",
+        "El referéndum será convocado por el Presidente del Gobierno, mediante propuesta del Rey, previamente autorizada por el Senado."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 92 de la CE: el texto constitucional utiliza el verbo potestativo \"podrán\", no un mandato imperativo (\"deberán\"). Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 92.2 dice: «El referéndum será convocado por el Rey, mediante propuesta del Presidente del Gobierno, previamente autorizada por el Congreso de los Diputados.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Presidente del Gobierno» por «Rey»; «Congreso de los Diputados» por «Senado»."
     },
     "id": 92,
     "concepto_clave": "Convocatoria de referéndum consultivo",
@@ -3355,15 +3355,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 93 de la Constitución Española («Cesión constitucional por tratados»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 93.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Mediante ley ordinaria o real decreto se podrá autorizar la celebración de tratados por los que se atribuya a una organización o institución internacional el ejercicio de competencias derivadas de la Constitución.",
+        "Mediante ley ordinaria se podrá autorizar la celebración de tratados por los que se atribuya a una organización o institución internacional el ejercicio de competencias derivadas de la Constitución.",
         "Mediante ley orgánica se podrá autorizar la celebración de tratados por los que se atribuya a una organización o institución internacional el ejercicio de competencias derivadas de la Constitución.",
-        "Para lo previsto en el artículo 93 (cesión constitucional por tratados), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 93 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Mediante ley orgánica se deberá autorizar la celebración de tratados por los que se atribuya a una organización o institución internacional el ejercicio de competencias derivadas de la Constitución.",
+        "Mediante ley ordinaria se deberá autorizar la celebración de tratados por los que se atribuya a una organización o institución internacional el ejercicio de competencias derivadas de la Constitución."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 93 de la CE: el precepto exige expresamente \"ley orgánica\", no ley ordinaria ni reglamento. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 93.1 dice: «Mediante ley orgánica se podrá autorizar la celebración de tratados por los que se atribuya a una organización o institución internacional el ejercicio de competencias derivadas de la Constitución.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley orgánica» por «ley ordinaria»; «podrá» por «deberá»."
     },
     "id": 93,
     "concepto_clave": "Cesión constitucional por tratados",
@@ -3389,15 +3389,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 94 de la Constitución Española («Autorización parlamentaria de tratados»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «La prestación del consentimiento del Estado para obligarse por medio de tratados o convenios requerirá la previa autorización de las Cortes Generales, en los siguientes casos: a) Tratados de carácter político. b) Tratados o convenios de carácter militar. c) Tratados o convenios que afecten a la…»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre autorización parlamentaria de tratados sin autorización previa del Tribunal Constitucional.",
-        "La prestación del consentimiento del Estado para obligarse por medio de tratados o convenios requerirá la previa autorización de las Cortes Generales, en los siguientes casos: a) Tratados de carácter político.",
-        "Para lo previsto en el artículo 94 (autorización parlamentaria de tratados), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 94 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 95.",
+        "En el artículo 94.",
+        "En el artículo 93.",
+        "En el artículo 104."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 94 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 94 («Autorización parlamentaria de tratados»). Los tribunales preguntan mucho por la ubicación exacta: el 95 trata sobre «control constitucional de tratados»; el 93 trata sobre «cesión constitucional por tratados»; el 104 trata sobre «fuerzas y cuerpos policiales»."
     },
     "id": 94,
     "concepto_clave": "Autorización parlamentaria de tratados",
@@ -3423,15 +3423,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 95 de la Constitución Española («Control constitucional de tratados»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 95.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre control constitucional de tratados sin autorización previa del Tribunal Constitucional.",
-        "La celebración de un tratado internacional que contenga estipulaciones contrarias a la Constitución exigirá la previa revisión constitucional.",
-        "Para lo previsto en el artículo 95 (control constitucional de tratados), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 95 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Gobierno o cualquiera de las Cámaras puede requerir al Tribunal Supremo para que declare si existe o no esa contradicción.",
+        "El Gobierno o cualquiera de las Cámaras puede requerir al Tribunal Constitucional para que declare si existe o no esa contradicción.",
+        "El Consejo de Estado o cualquiera de las Cámaras puede requerir al Tribunal Constitucional para que declare si existe o no esa contradicción.",
+        "El Consejo de Estado o cualquiera de las Cámaras puede requerir al Tribunal Supremo para que declare si existe o no esa contradicción."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 95 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 95.2 dice: «El Gobierno o cualquiera de las Cámaras puede requerir al Tribunal Constitucional para que declare si existe o no esa contradicción.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Tribunal Constitucional» por «Tribunal Supremo»; «El Gobierno» por «El Consejo de Estado»."
     },
     "id": 95,
     "concepto_clave": "Control constitucional de tratados",
@@ -3457,15 +3457,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 96 de la Constitución Española («Vigencia interna de tratados»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Sus disposiciones sólo podrán ser derogadas, modificadas o suspendidas en la forma prevista en los propios tratados o de acuerdo con las normas generales del Derecho internacional.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre vigencia interna de tratados sin autorización previa del Tribunal Constitucional.",
-        "Los tratados internacionales válidamente celebrados, una vez publicados oficialmente en España, formarán parte del ordenamiento interno.",
-        "Para lo previsto en el artículo 96 (vigencia interna de tratados), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 96 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 97.",
+        "En el artículo 96.",
+        "En el artículo 95.",
+        "En el artículo 106."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 96 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 96 («Vigencia interna de tratados»). Los tribunales preguntan mucho por la ubicación exacta: el 97 trata sobre «funciones directivas del gobierno»; el 95 trata sobre «control constitucional de tratados»; el 106 trata sobre «control judicial e indemnización»."
     },
     "id": 96,
     "concepto_clave": "Vigencia interna de tratados",
@@ -3486,15 +3486,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 97 de la Constitución Española («Funciones directivas del Gobierno»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «El Gobierno dirige la política interior y exterior, la Administración civil y militar y la defensa del Estado.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre funciones directivas del gobierno sin autorización previa del Tribunal Constitucional.",
-        "El Gobierno dirige la política interior y exterior, la Administración civil y militar y la defensa del Estado.",
-        "Para lo previsto en el artículo 97 (funciones directivas del gobierno), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 97 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 98.",
+        "En el artículo 97.",
+        "En el artículo 96.",
+        "En el artículo 107."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 97 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 97 («Funciones directivas del Gobierno»). Los tribunales preguntan mucho por la ubicación exacta: el 98 trata sobre «composición y estatuto gubernamental»; el 96 trata sobre «vigencia interna de tratados»; el 107 trata sobre «el consejo de estado»."
     },
     "id": 97,
     "concepto_clave": "Funciones directivas del Gobierno",
@@ -3530,15 +3530,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 98 de la Constitución Española («Composición y estatuto gubernamental»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 98.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "El Gobierno se compone del Presidente, de los Vicepresidentes, en su caso, de los Ministros y de los demás miembros que establezca la ley orgánica con mayoría de tres quintos.",
+        "El Consejo de Estado se compone del Presidente, de los Vicepresidentes, en su caso, de los Ministros y de los demás miembros que establezca la ley.",
         "El Gobierno se compone del Presidente, de los Vicepresidentes, en su caso, de los Ministros y de los demás miembros que establezca la ley.",
-        "Para lo previsto en el artículo 98 (composición y estatuto gubernamental), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 98 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Gobierno se compone del Presidente, de los Vicepresidentes, en su caso, de los Ministros y de los demás miembros que establezca la ley orgánica.",
+        "El Consejo de Estado se compone del Presidente, de los Vicepresidentes, en su caso, de los Ministros y de los demás miembros que establezca la ley orgánica."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 98 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 98.1 dice: «El Gobierno se compone del Presidente, de los Vicepresidentes, en su caso, de los Ministros y de los demás miembros que establezca la ley.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «El Gobierno» por «El Consejo de Estado»; «ley» por «ley orgánica»."
     },
     "id": 98,
     "concepto_clave": "Composición y estatuto gubernamental",
@@ -3608,15 +3608,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 100 de la Constitución Española («Nombramiento de los Ministros»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los demás miembros del Gobierno serán nombrados y separados por el Rey, a propuesta de su Presidente.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre nombramiento de los ministros sin autorización previa del Tribunal Constitucional.",
-        "Los demás miembros del Gobierno serán nombrados y separados por el Rey, a propuesta de su Presidente.",
-        "Para lo previsto en el artículo 100 (nombramiento de los ministros), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 100 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 101.",
+        "En el artículo 100.",
+        "En el artículo 99.",
+        "En el artículo 110."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 100 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 100 («Nombramiento de los Ministros»). Los tribunales preguntan mucho por la ubicación exacta: el 101 trata sobre «supuestos de cese gubernamental»; el 99 trata sobre «investidura del presidente gubernamental»; el 110 trata sobre «comparecencia gubernamental en cámaras»."
     },
     "id": 100,
     "concepto_clave": "Nombramiento de los Ministros",
@@ -3642,15 +3642,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 101 de la Constitución Española («Supuestos de cese gubernamental»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «El Gobierno cesa tras la celebración de elecciones generales, en los casos de pérdida de la confianza parlamentaria previstos en la Constitución, o por dimisión o fallecimiento de su Presidente.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre supuestos de cese gubernamental sin autorización previa del Tribunal Constitucional.",
-        "El Gobierno cesa tras la celebración de elecciones generales, en los casos de pérdida de la confianza parlamentaria previstos en la Constitución, o por dimisión o fallecimiento de su Presidente.",
-        "Para lo previsto en el artículo 101 (supuestos de cese gubernamental), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 101 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 102.",
+        "En el artículo 101.",
+        "En el artículo 100.",
+        "En el artículo 111."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 101 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 101 («Supuestos de cese gubernamental»). Los tribunales preguntan mucho por la ubicación exacta: el 102 trata sobre «responsabilidad criminal del gobierno»; el 100 trata sobre «nombramiento de los ministros»; el 111 trata sobre «interpelaciones y preguntas parlamentarias»."
     },
     "id": 101,
     "concepto_clave": "Supuestos de cese gubernamental",
@@ -3681,15 +3681,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 102 de la Constitución Española («Responsabilidad criminal del Gobierno»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 102.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre responsabilidad criminal del gobierno sin autorización previa del Tribunal Constitucional.",
-        "La responsabilidad criminal del Presidente y los demás miembros del Gobierno será exigible, en su caso, ante la Sala de lo Penal del Tribunal Supremo.",
-        "Para lo previsto en el artículo 102 (responsabilidad criminal del gobierno), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 102 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Si la acusación fuere por traición o por cualquier delito contra la seguridad del Estado en el ejercicio de sus funciones, sólo podrá ser planteada por iniciativa de la cuarta parte de los miembros del Congreso, y con la aprobación de la mayoría simple del mismo.",
+        "Si la acusación fuere por traición o por cualquier delito contra la seguridad del Estado en el ejercicio de sus funciones, sólo podrá ser planteada por iniciativa de la cuarta parte de los miembros del Congreso, y con la aprobación de la mayoría absoluta del mismo.",
+        "Si la acusación fuere por traición o por cualquier delito contra la seguridad del Estado en el ejercicio de sus funciones, sólo deberá ser planteada por iniciativa de la cuarta parte de los miembros del Congreso, y con la aprobación de la mayoría absoluta del mismo.",
+        "Si la acusación fuere por traición o por cualquier delito contra la seguridad del Estado en el ejercicio de sus funciones, sólo deberá ser planteada por iniciativa de la cuarta parte de los miembros del Congreso, y con la aprobación de la mayoría simple del mismo."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 102 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 102.2 dice: «Si la acusación fuere por traición o por cualquier delito contra la seguridad del Estado en el ejercicio de sus funciones, sólo podrá ser planteada por iniciativa de la cuarta parte de los miembros del Congreso, y con la aprobación de la mayoría absoluta del mismo.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «mayoría absoluta» por «mayoría simple»; «podrá» por «deberá»."
     },
     "id": 102,
     "concepto_clave": "Responsabilidad criminal del Gobierno",
@@ -3720,15 +3720,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 103 de la Constitución Española («Principios de Administración Pública»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «La ley regulará el estatuto de los funcionarios públicos, el acceso a la función pública de acuerdo con los principios de mérito y capacidad, las peculiaridades del ejercicio de su derecho a sindicación, el sistema de incompatibilidades y las garantías para la imparcialidad en el ejercicio de sus…»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre principios de administración pública sin autorización previa del Tribunal Constitucional.",
-        "La Administración Pública sirve con objetividad los intereses generales y actúa de acuerdo con los principios de eficacia, jerarquía, descentralización, desconcentración y coordinación, con sometimiento plen...",
-        "Para lo previsto en el artículo 103 (principios de administración pública), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 103 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 104.",
+        "En el artículo 103.",
+        "En el artículo 102.",
+        "En el artículo 113."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 103 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 103 («Principios de Administración Pública»). Los tribunales preguntan mucho por la ubicación exacta: el 104 trata sobre «fuerzas y cuerpos policiales»; el 102 trata sobre «responsabilidad criminal del gobierno»; el 113 trata sobre «moción de censura constructiva»."
     },
     "id": 103,
     "concepto_clave": "Principios de Administración Pública",
@@ -3754,15 +3754,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 104 de la Constitución Española («Fuerzas y Cuerpos policiales»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Las Fuerzas y Cuerpos de seguridad, bajo la dependencia del Gobierno, tendrán como misión proteger el libre ejercicio de los derechos y libertades y garantizar la seguridad ciudadana.»",
       "opciones": [
-        "Las Fuerzas y Cuerpos de seguridad, bajo la dependencia del Gobierno, tendrán como misión proteger el libre ejercicio de los deber inexcusable sujeto a autorización previas y libertades y garantizar la seguridad ciudadana.",
-        "Las Fuerzas y Cuerpos de seguridad, bajo la dependencia del Gobierno, tendrán como misión proteger el libre ejercicio de los derechos y libertades y garantizar la seguridad ciudadana.",
-        "Para lo previsto en el artículo 104 (fuerzas y cuerpos policiales), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 104 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 105.",
+        "En el artículo 104.",
+        "En el artículo 103.",
+        "En el artículo 114."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 104 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 104 («Fuerzas y Cuerpos policiales»). Los tribunales preguntan mucho por la ubicación exacta: el 105 trata sobre «audiencia y archivos administrativos»; el 103 trata sobre «principios de administración pública»; el 114 trata sobre «efectos de dimisión gubernamental»."
     },
     "id": 104,
     "concepto_clave": "Fuerzas y Cuerpos policiales",
@@ -3783,15 +3783,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 105 de la Constitución Española («Audiencia y archivos administrativos»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «La ley regulará: a) La audiencia de los ciudadanos, directamente o a través de las organizaciones y asociaciones reconocidas por la ley, en el procedimiento de elaboración de las disposiciones administrativas que les afecten. b) El acceso de los ciudadanos a los archivos y registros administrativos,…»",
       "opciones": [
-        "La ley orgánica con mayoría de tres quintos regulará: a) La audiencia de los ciudadanos, directamente o a través de las organizaciones y asociaciones reconocidas por la ley, en el procedimiento de elaboración de las disposiciones administrativa...",
-        "La ley regulará: a) La audiencia de los ciudadanos, directamente o a través de las organizaciones y asociaciones reconocidas por la ley, en el procedimiento de elaboración de las disposiciones administrativa...",
-        "Para lo previsto en el artículo 105 (audiencia y archivos administrativos), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 105 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 106.",
+        "En el artículo 105.",
+        "En el artículo 104.",
+        "En el artículo 115."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 105 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 105 («Audiencia y archivos administrativos»). Los tribunales preguntan mucho por la ubicación exacta: el 106 trata sobre «control judicial e indemnización»; el 104 trata sobre «fuerzas y cuerpos policiales»; el 115 trata sobre «disolución anticipada de cámaras»."
     },
     "id": 105,
     "concepto_clave": "Audiencia y archivos administrativos",
@@ -3817,15 +3817,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 106 de la Constitución Española («Control judicial e indemnización»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los particulares, en los términos establecidos por la ley, tendrán derecho a ser indemnizados por toda lesión que sufran en cualquiera de sus bienes y derechos, salvo en los casos de fuerza mayor, siempre que la lesión sea consecuencia del funcionamiento de los servicios públicos.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre control judicial e indemnización sin autorización previa del Tribunal Constitucional.",
-        "Los Tribunales controlan la potestad reglamentaria y la legalidad de la actuación administrativa, así como el sometimiento de ésta a los fines que la justifican.",
-        "Para lo previsto en el artículo 106 (control judicial e indemnización), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 106 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 107.",
+        "En el artículo 106.",
+        "En el artículo 105.",
+        "En el artículo 116."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 106 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 106 («Control judicial e indemnización»). Los tribunales preguntan mucho por la ubicación exacta: el 107 trata sobre «el consejo de estado»; el 105 trata sobre «audiencia y archivos administrativos»; el 116 trata sobre «estados alarma, excepción, sitio»."
     },
     "id": 106,
     "concepto_clave": "Control judicial e indemnización",
@@ -3846,15 +3846,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 107 de la Constitución Española («El Consejo de Estado»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «El Consejo de Estado es el supremo órgano consultivo del Gobierno.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre el consejo de estado sin autorización previa del Tribunal Constitucional.",
-        "El Consejo de Estado es el supremo órgano consultivo del Gobierno.",
-        "Para lo previsto en el artículo 107 (el consejo de estado), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 107 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 108.",
+        "En el artículo 107.",
+        "En el artículo 106.",
+        "En el artículo 117."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 107 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 107 («El Consejo de Estado»). Los tribunales preguntan mucho por la ubicación exacta: el 108 trata sobre «responsabilidad política del gobierno»; el 106 trata sobre «control judicial e indemnización»; el 117 trata sobre «independencia del poder judicial»."
     },
     "id": 107,
     "concepto_clave": "El Consejo de Estado",
@@ -3875,15 +3875,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 108 de la Constitución Española («Responsabilidad política del Gobierno»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 108.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre responsabilidad política del gobierno sin autorización previa del Tribunal Constitucional.",
+        "El Gobierno responde solidariamente en su gestión política ante el Senado.",
         "El Gobierno responde solidariamente en su gestión política ante el Congreso de los Diputados.",
-        "Para lo previsto en el artículo 108 (responsabilidad política del gobierno), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 108 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Consejo de Estado responde solidariamente en su gestión política ante el Congreso de los Diputados.",
+        "El Consejo de Estado responde solidariamente en su gestión política ante el Senado."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 108 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 108.1 dice: «El Gobierno responde solidariamente en su gestión política ante el Congreso de los Diputados.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Congreso de los Diputados» por «Senado»; «El Gobierno» por «El Consejo de Estado»."
     },
     "id": 108,
     "concepto_clave": "Responsabilidad política del Gobierno",
@@ -3904,15 +3904,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 109 de la Constitución Española («Derecho parlamentario de información»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 109.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Las Cámaras y sus Comisiones deberán obligatoriamente en todo caso recabar, a través de los Presidentes de aquéllas, la información y ayuda que precisen del Gobierno y de sus Departamentos y de cualesquiera autoridades del Estado y de las...",
-        "Las Cámaras y sus Comisiones podrán recabar, a través de los Presidentes de aquéllas, la información y ayuda que precisen del Gobierno y de sus Departamentos y de cualesquiera autoridades del Estado y de las...",
-        "Para lo previsto en el artículo 109 (derecho parlamentario de información), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 109 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las Cámaras y sus Comisiones deberán recabar, a través de los Presidentes de aquéllas, la información y ayuda que precisen del Gobierno y de sus Departamentos y de cualesquiera autoridades del Estado y de las Comunidades Autónomas.",
+        "Las Cámaras y sus Comisiones podrán recabar, a través de los Presidentes de aquéllas, la información y ayuda que precisen del Gobierno y de sus Departamentos y de cualesquiera autoridades del Estado y de las Comunidades Autónomas.",
+        "Las Cámaras y sus Comisiones podrán recabar, a través de los Presidentes de aquéllas, la información y ayuda que precisen del Gobierno y de sus Departamentos y de cualesquiera autoridades del Estado y de las Diputaciones Provinciales.",
+        "Las Cámaras y sus Comisiones deberán recabar, a través de los Presidentes de aquéllas, la información y ayuda que precisen del Gobierno y de sus Departamentos y de cualesquiera autoridades del Estado y de las Diputaciones Provinciales."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 109 de la CE: el texto constitucional utiliza el verbo potestativo \"podrán\", no un mandato imperativo (\"deberán\"). Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 109.1 dice: «Las Cámaras y sus Comisiones podrán recabar, a través de los Presidentes de aquéllas, la información y ayuda que precisen del Gobierno y de sus Departamentos y de cualesquiera autoridades del Estado y de las Comunidades Autónomas.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrán» por «deberán»; «Comunidades Autónomas» por «Diputaciones Provinciales»."
     },
     "id": 109,
     "concepto_clave": "Derecho parlamentario de información",
@@ -3938,15 +3938,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 110 de la Constitución Española («Comparecencia gubernamental en Cámaras»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los miembros del Gobierno tienen acceso a las sesiones de las Cámaras y a sus Comisiones y la facultad de hacerse oír en ellas, y podrán solicitar que informen ante las mismas funcionarios de sus Departamentos.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre comparecencia gubernamental en cámaras sin autorización previa del Tribunal Constitucional.",
-        "Las Cámaras y sus Comisiones pueden reclamar la presencia de los miembros del Gobierno.",
-        "Para lo previsto en el artículo 110 (comparecencia gubernamental en cámaras), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 110 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 111.",
+        "En el artículo 110.",
+        "En el artículo 109.",
+        "En el artículo 120."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 110 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 110 («Comparecencia gubernamental en Cámaras»). Los tribunales preguntan mucho por la ubicación exacta: el 111 trata sobre «interpelaciones y preguntas parlamentarias»; el 109 trata sobre «derecho parlamentario de información»; el 120 trata sobre «publicidad y motivación judicial»."
     },
     "id": 110,
     "concepto_clave": "Comparecencia gubernamental en Cámaras",
@@ -3972,15 +3972,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 111 de la Constitución Española («Interpelaciones y preguntas parlamentarias»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «El Gobierno y cada uno de sus miembros están sometidos a las interpelaciones y preguntas que se le formulen en las Cámaras.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre interpelaciones y preguntas parlamentarias sin autorización previa del Tribunal Constitucional.",
-        "El Gobierno y cada uno de sus miembros están sometidos a las interpelaciones y preguntas que se le formulen en las Cámaras.",
-        "Para lo previsto en el artículo 111 (interpelaciones y preguntas parlamentarias), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 111 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 112.",
+        "En el artículo 111.",
+        "En el artículo 110.",
+        "En el artículo 121."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 111 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 111 («Interpelaciones y preguntas parlamentarias»). Los tribunales preguntan mucho por la ubicación exacta: el 112 trata sobre «planteamiento cuestión de confianza»; el 110 trata sobre «comparecencia gubernamental en cámaras»; el 121 trata sobre «indemnización por error judicial»."
     },
     "id": 111,
     "concepto_clave": "Interpelaciones y preguntas parlamentarias",
@@ -4079,15 +4079,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 114 de la Constitución Española («Efectos de dimisión gubernamental»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 114.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre efectos de dimisión gubernamental sin autorización previa del Tribunal Constitucional.",
-        "Si el Congreso niega su confianza al Gobierno, éste presentará su dimisión al Rey, procediéndose a continuación a la designación de Presidente del Gobierno, según lo dispuesto en el artículo 99.",
-        "Para lo previsto en el artículo 114 (efectos de dimisión gubernamental), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 114 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Si el Congreso adopta una moción de censura, el Gobierno presentará su dimisión al Presidente del Gobierno y el candidato incluido en aquélla se entenderá investido de la confianza de la Cámara a los efectos previstos en el artículo 99.",
+        "Si el Congreso adopta una moción de censura, el Gobierno presentará su dimisión al Rey y el candidato incluido en aquélla se entenderá investido de la confianza de la Cámara a los efectos previstos en el artículo 99.",
+        "Si el Congreso adopta una moción de censura, el Consejo de Estado presentará su dimisión al Rey y el candidato incluido en aquélla se entenderá investido de la confianza de la Cámara a los efectos previstos en el artículo 99.",
+        "Si el Congreso adopta una moción de censura, el Consejo de Estado presentará su dimisión al Presidente del Gobierno y el candidato incluido en aquélla se entenderá investido de la confianza de la Cámara a los efectos previstos en el artículo 99."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 114 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 114.2 dice: «Si el Congreso adopta una moción de censura, el Gobierno presentará su dimisión al Rey y el candidato incluido en aquélla se entenderá investido de la confianza de la Cámara a los efectos previstos en el artículo 99.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Rey» por «Presidente del Gobierno»; «el Gobierno» por «el Consejo de Estado»."
     },
     "id": 114,
     "concepto_clave": "Efectos de dimisión gubernamental",
@@ -4118,15 +4118,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 115 de la Constitución Española («Disolución anticipada de Cámaras»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 115.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre disolución anticipada de cámaras sin autorización previa del Tribunal Constitucional.",
-        "El Presidente del Gobierno, previa deliberación del Consejo de Ministros, y bajo su exclusiva responsabilidad, podrá proponer la disolución del Congreso, del Senado o de las Cortes Generales, que será decret...",
-        "Para lo previsto en el artículo 115 (disolución anticipada de cámaras), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 115 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Rey, previa deliberación del Consejo de Ministros, y bajo su exclusiva responsabilidad, podrá proponer la disolución del Congreso, del Senado o de las Cortes Generales, que será decretada por el Presidente del Gobierno.",
+        "El Presidente del Gobierno, previa deliberación del Consejo de Ministros, y bajo su exclusiva responsabilidad, podrá proponer la disolución del Congreso, del Senado o de las Cortes Generales, que será decretada por el Rey.",
+        "El Presidente del Gobierno, previa deliberación del Consejo de Ministros, y bajo su exclusiva responsabilidad, podrá proponer la disolución del Congreso, del Congreso de los Diputados o de las Cortes Generales, que será decretada por el Rey.",
+        "El Presidente del Gobierno, previa deliberación del Consejo de Ministros, y bajo su exclusiva responsabilidad, deberá proponer la disolución del Congreso, del Senado o de las Cortes Generales, que será decretada por el Rey."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 115 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 115.1 dice: «El Presidente del Gobierno, previa deliberación del Consejo de Ministros, y bajo su exclusiva responsabilidad, podrá proponer la disolución del Congreso, del Senado o de las Cortes Generales, que será decretada por el Rey.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Presidente del Gobierno» por «Rey»; «Senado» por «Congreso de los Diputados»; «podrá» por «deberá»."
     },
     "id": 115,
     "concepto_clave": "Disolución anticipada de Cámaras",
@@ -4226,15 +4226,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 117 de la Constitución Española («Independencia del Poder Judicial»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 117.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "La justicia emana del pueblo y se administra en nombre del Rey por Jueces y Magistrados integrantes del poder judicial, independientes, inamovibles, responsables y sometidos únicamente al imperio de la ley orgánica con mayoría de tres quintos.",
+        "La justicia emana del pueblo y se administra en nombre del Presidente del Gobierno por Jueces y Magistrados integrantes del poder judicial, independientes, inamovibles, responsables y sometidos únicamente al imperio de la ley.",
         "La justicia emana del pueblo y se administra en nombre del Rey por Jueces y Magistrados integrantes del poder judicial, independientes, inamovibles, responsables y sometidos únicamente al imperio de la ley.",
-        "Para lo previsto en el artículo 117 (independencia del poder judicial), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 117 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "La justicia emana del pueblo y se administra en nombre del Rey por Jueces y Fiscales integrantes del poder judicial, independientes, inamovibles, responsables y sometidos únicamente al imperio de la ley.",
+        "La justicia emana del pueblo y se administra en nombre del Rey por Jueces y Magistrados integrantes del poder judicial, independientes, inamovibles, responsables y sometidos únicamente al imperio de la ley orgánica."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 117 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 117.1 dice: «La justicia emana del pueblo y se administra en nombre del Rey por Jueces y Magistrados integrantes del poder judicial, independientes, inamovibles, responsables y sometidos únicamente al imperio de la ley.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Rey» por «Presidente del Gobierno»; «Jueces y Magistrados» por «Jueces y Fiscales»; «ley» por «ley orgánica»."
     },
     "id": 117,
     "concepto_clave": "Independencia del Poder Judicial",
@@ -4255,15 +4255,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 118 de la Constitución Española («Cumplimiento de sentencias judiciales»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Es obligado cumplir las sentencias y demás resoluciones firmes de los Jueces y Tribunales, así como prestar la colaboración requerida por éstos en el curso del proceso y en la ejecución de lo resuelto.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre cumplimiento de sentencias judiciales sin autorización previa del Tribunal Constitucional.",
-        "Es obligado cumplir las sentencias y demás resoluciones firmes de los Jueces y Tribunales, así como prestar la colaboración requerida por éstos en el curso del proceso y en la ejecución de lo resuelto.",
-        "Para lo previsto en el artículo 118 (cumplimiento de sentencias judiciales), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 118 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 119.",
+        "En el artículo 118.",
+        "En el artículo 117.",
+        "En el artículo 128."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 118 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 118 («Cumplimiento de sentencias judiciales»). Los tribunales preguntan mucho por la ubicación exacta: el 119 trata sobre «derecho a justicia gratuita»; el 117 trata sobre «independencia del poder judicial»; el 128 trata sobre «subordinación de riqueza nacional»."
     },
     "id": 118,
     "concepto_clave": "Cumplimiento de sentencias judiciales",
@@ -4284,15 +4284,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 119 de la Constitución Española («Derecho a justicia gratuita»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 119.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "La justicia será gratuita cuando así lo disponga la ley orgánica con mayoría de tres quintos y, en todo caso, respecto de quienes acrediten insuficiencia de recursos para litigar.",
+        "La justicia será gratuita cuando así lo disponga la ley orgánica y, en todo caso, respecto de quienes acrediten insuficiencia de recursos para litigar.",
         "La justicia será gratuita cuando así lo disponga la ley y, en todo caso, respecto de quienes acrediten insuficiencia de recursos para litigar.",
-        "Para lo previsto en el artículo 119 (derecho a justicia gratuita), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 119 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "La justicia será gratuita cuando así lo disponga la ley y, en su caso, respecto de quienes acrediten insuficiencia de recursos para litigar.",
+        "La justicia será gratuita cuando así lo disponga la ley orgánica y, en su caso, respecto de quienes acrediten insuficiencia de recursos para litigar."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 119 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 119.1 dice: «La justicia será gratuita cuando así lo disponga la ley y, en todo caso, respecto de quienes acrediten insuficiencia de recursos para litigar.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley» por «ley orgánica»; «en todo caso» por «en su caso»."
     },
     "id": 119,
     "concepto_clave": "Derecho a justicia gratuita",
@@ -4323,15 +4323,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 120 de la Constitución Española («Publicidad y motivación judicial»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Las actuaciones judiciales serán públicas, con las excepciones que prevean las leyes de procedimiento.»",
       "opciones": [
-        "Las actuaciones judiciales serán públicas, con las excepciones que prevean las leyes de procedimiento.",
-        "Las actuaciones judiciales serán públicas, con las excepciones que prevean las leyes de procedimiento.",
-        "Para lo previsto en el artículo 120 (publicidad y motivación judicial), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 120 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 121.",
+        "En el artículo 120.",
+        "En el artículo 119.",
+        "En el artículo 130."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 120 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 120 («Publicidad y motivación judicial»). Los tribunales preguntan mucho por la ubicación exacta: el 121 trata sobre «indemnización por error judicial»; el 119 trata sobre «derecho a justicia gratuita»; el 130 trata sobre «modernización de sectores económicos»."
     },
     "id": 120,
     "concepto_clave": "Publicidad y motivación judicial",
@@ -4352,15 +4352,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 121 de la Constitución Española («Indemnización por error judicial»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los daños causados por error judicial, así como los que sean consecuencia del funcionamiento anormal de la Administración de Justicia, darán derecho a una indemnización a cargo del Estado, conforme a la ley.»",
       "opciones": [
-        "Los daños causados por error judicial, así como los que sean consecuencia del funcionamiento anormal de la Administración de Justicia, darán derecho a una indemnización a cargo del Estado, conforme a la ley orgánica con mayoría de tres quintos.",
-        "Los daños causados por error judicial, así como los que sean consecuencia del funcionamiento anormal de la Administración de Justicia, darán derecho a una indemnización a cargo del Estado, conforme a la ley.",
-        "Para lo previsto en el artículo 121 (indemnización por error judicial), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 121 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 122.",
+        "En el artículo 121.",
+        "En el artículo 120.",
+        "En el artículo 131."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 121 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 121 («Indemnización por error judicial»). Los tribunales preguntan mucho por la ubicación exacta: el 122 trata sobre «consejo general poder judicial»; el 120 trata sobre «publicidad y motivación judicial»; el 131 trata sobre «planificación económica por ley»."
     },
     "id": 121,
     "concepto_clave": "Indemnización por error judicial",
@@ -4425,15 +4425,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 123 de la Constitución Española («El Tribunal Supremo español»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 123.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre el tribunal supremo español sin autorización previa del Tribunal Constitucional.",
-        "El Tribunal Supremo, con jurisdicción en toda España, es el órgano jurisdiccional superior en todos los órdenes, salvo lo dispuesto en materia de garantías constitucionales.",
-        "Para lo previsto en el artículo 123 (el tribunal supremo español), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 123 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Presidente del Tribunal Constitucional será nombrado por el Rey, a propuesta del Consejo General del Poder Judicial, en la forma que determine la ley.",
+        "El Presidente del Tribunal Supremo será nombrado por el Rey, a propuesta del Consejo General del Poder Judicial, en la forma que determine la ley.",
+        "El Presidente del Tribunal Supremo será nombrado por el Presidente del Gobierno, a propuesta del Consejo General del Poder Judicial, en la forma que determine la ley.",
+        "El Presidente del Tribunal Supremo será nombrado por el Rey, a propuesta del Ministerio de Justicia, en la forma que determine la ley."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 123 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 123.2 dice: «El Presidente del Tribunal Supremo será nombrado por el Rey, a propuesta del Consejo General del Poder Judicial, en la forma que determine la ley.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Tribunal Supremo» por «Tribunal Constitucional»; «Rey» por «Presidente del Gobierno»; «Consejo General del Poder Judicial» por «Ministerio de Justicia»."
     },
     "id": 123,
     "concepto_clave": "El Tribunal Supremo español",
@@ -4469,15 +4469,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 124 de la Constitución Española («Misión del Ministerio Fiscal»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 124.4 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "El Ministerio Fiscal, sin perjuicio de las funciones encomendadas a otros órganos, tiene por misión promover la acción de la justicia en defensa de la legalidad, de los deber inexcusable sujeto a autorización previas de los ciudadanos y del inter...",
-        "El Ministerio Fiscal, sin perjuicio de las funciones encomendadas a otros órganos, tiene por misión promover la acción de la justicia en defensa de la legalidad, de los derechos de los ciudadanos y del inter...",
-        "Para lo previsto en el artículo 124 (misión del ministerio fiscal), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 124 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Fiscal General del Estado será nombrado por el Presidente del Gobierno, a propuesta del Gobierno, oído el Consejo General del Poder Judicial.",
+        "El Fiscal General del Estado será nombrado por el Rey, a propuesta del Gobierno, oído el Consejo General del Poder Judicial.",
+        "El Fiscal General del Estado será nombrado por el Rey, a propuesta del Gobierno, oído el Ministerio de Justicia.",
+        "El Fiscal General del Estado será nombrado por el Presidente del Gobierno, a propuesta del Gobierno, oído el Ministerio de Justicia."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 124 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 124.4 dice: «El Fiscal General del Estado será nombrado por el Rey, a propuesta del Gobierno, oído el Consejo General del Poder Judicial.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Rey» por «Presidente del Gobierno»; «Consejo General del Poder Judicial» por «Ministerio de Justicia»."
     },
     "id": 124,
     "concepto_clave": "Misión del Ministerio Fiscal",
@@ -4498,15 +4498,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 125 de la Constitución Española («Acción popular y Jurado»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 125.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Los ciudadanos podrán ejercer la acción popular y participar en la Administración de Justicia mediante la institución del Jurado, en la forma y con respecto a aquellos procesos penales que la ley orgánica con mayoría de tres quintos determine,...",
-        "Los ciudadanos podrán ejercer la acción popular y participar en la Administración de Justicia mediante la institución del Jurado, en la forma y con respecto a aquellos procesos penales que la ley determine,...",
-        "Para lo previsto en el artículo 125 (acción popular y jurado), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 125 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Los ciudadanos deberán ejercer la acción popular y participar en la Administración de Justicia mediante la institución del Jurado, en la forma y con respecto a aquellos procesos penales que la ley determine, así como en los Tribunales consuetudinarios y tradicionales.",
+        "Los ciudadanos podrán ejercer la acción popular y participar en la Administración de Justicia mediante la institución del Jurado, en la forma y con respecto a aquellos procesos penales que la ley determine, así como en los Tribunales consuetudinarios y tradicionales.",
+        "Los ciudadanos podrán ejercer la acción popular y participar en la Administración de Justicia mediante la institución del Jurado, en la forma y con respecto a aquellos procesos penales que la ley orgánica determine, así como en los Tribunales consuetudinarios y tradicionales.",
+        "Los ciudadanos deberán ejercer la acción popular y participar en la Administración de Justicia mediante la institución del Jurado, en la forma y con respecto a aquellos procesos penales que la ley orgánica determine, así como en los Tribunales consuetudinarios y tradicionales."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 125 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 125.1 dice: «Los ciudadanos podrán ejercer la acción popular y participar en la Administración de Justicia mediante la institución del Jurado, en la forma y con respecto a aquellos procesos penales que la ley determine, así como en los Tribunales consuetudinarios y tradicionales.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrán» por «deberán»; «ley» por «ley orgánica»."
     },
     "id": 125,
     "concepto_clave": "Acción popular y Jurado",
@@ -4527,15 +4527,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 126 de la Constitución Española («Dependencia de policía judicial»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 126.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "La policía judicial depende de los Jueces, de los Tribunales y del Ministerio Fiscal en sus funciones de averiguación del delito y descubrimiento y aseguramiento del delincuente, en los términos que la ley orgánica con mayoría de tres quintos e...",
-        "La policía judicial depende de los Jueces, de los Tribunales y del Ministerio Fiscal en sus funciones de averiguación del delito y descubrimiento y aseguramiento del delincuente, en los términos que la ley e...",
-        "Para lo previsto en el artículo 126 (dependencia de policía judicial), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 126 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "La policía judicial depende de los Jueces, de los Tribunales y del Defensor del Pueblo en sus funciones de averiguación del delito y descubrimiento y aseguramiento del delincuente, en los términos que la ley establezca.",
+        "La policía judicial depende de los Jueces, de los Tribunales y del Ministerio Fiscal en sus funciones de averiguación del delito y descubrimiento y aseguramiento del delincuente, en los términos que la ley establezca.",
+        "La policía judicial depende de los Jueces, de los Tribunales y del Ministerio Fiscal en sus funciones de averiguación del delito y descubrimiento y aseguramiento del delincuente, en los términos que la ley orgánica establezca.",
+        "La policía judicial depende de los Jueces, de los Tribunales y del Defensor del Pueblo en sus funciones de averiguación del delito y descubrimiento y aseguramiento del delincuente, en los términos que la ley orgánica establezca."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 126 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 126.1 dice: «La policía judicial depende de los Jueces, de los Tribunales y del Ministerio Fiscal en sus funciones de averiguación del delito y descubrimiento y aseguramiento del delincuente, en los términos que la ley establezca.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Ministerio Fiscal» por «Defensor del Pueblo»; «ley» por «ley orgánica»."
     },
     "id": 126,
     "concepto_clave": "Dependencia de policía judicial",
@@ -4561,15 +4561,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 127 de la Constitución Española («Incompatibilidades de jueces activos»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 127.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Los Jueces y Magistrados así como los Fiscales, mientras se hallen en activo, no deberán obligatoriamente en todo caso desempeñar otros cargos públicos, ni pertenecer a partidos políticos o sindicatos.",
-        "Los Jueces y Magistrados así como los Fiscales, mientras se hallen en activo, no podrán desempeñar otros cargos públicos, ni pertenecer a partidos políticos o sindicatos.",
-        "Para lo previsto en el artículo 127 (incompatibilidades de jueces activos), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 127 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "La ley establecerá el régimen de incompatibilidades de los miembros del poder judicial, que podrá asegurar la total independencia de los mismos.",
+        "La ley establecerá el régimen de incompatibilidades de los miembros del poder judicial, que deberá asegurar la total independencia de los mismos.",
+        "La ley orgánica establecerá el régimen de incompatibilidades de los miembros del poder judicial, que deberá asegurar la total independencia de los mismos.",
+        "La ley orgánica establecerá el régimen de incompatibilidades de los miembros del poder judicial, que podrá asegurar la total independencia de los mismos."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 127 de la CE: el texto constitucional utiliza el verbo potestativo \"podrán\", no un mandato imperativo (\"deberán\"). Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 127.2 dice: «La ley establecerá el régimen de incompatibilidades de los miembros del poder judicial, que deberá asegurar la total independencia de los mismos.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «deberá» por «podrá»; «ley» por «ley orgánica»."
     },
     "id": 127,
     "concepto_clave": "Incompatibilidades de jueces activos",
@@ -4595,15 +4595,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 128 de la Constitución Española («Subordinación de riqueza nacional»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 128.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre subordinación de riqueza nacional sin autorización previa del Tribunal Constitucional.",
-        "Toda la riqueza del país en sus distintas formas y sea cual fuere su titularidad está subordinada al interés general.",
-        "Para lo previsto en el artículo 128 (subordinación de riqueza nacional), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 128 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Mediante ley se deberá reservar al sector público recursos o servicios esenciales, especialmente en caso de monopolio y asimismo acordar la intervención de empresas cuando así lo exigiere el interés general.",
+        "Mediante ley se podrá reservar al sector público recursos o servicios esenciales, especialmente en caso de monopolio y asimismo acordar la intervención de empresas cuando así lo exigiere el interés general.",
+        "Mediante ley orgánica se podrá reservar al sector público recursos o servicios esenciales, especialmente en caso de monopolio y asimismo acordar la intervención de empresas cuando así lo exigiere el interés general.",
+        "Mediante ley orgánica se deberá reservar al sector público recursos o servicios esenciales, especialmente en caso de monopolio y asimismo acordar la intervención de empresas cuando así lo exigiere el interés general."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 128 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 128.2 dice: «Mediante ley se podrá reservar al sector público recursos o servicios esenciales, especialmente en caso de monopolio y asimismo acordar la intervención de empresas cuando así lo exigiere el interés general.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrá» por «deberá»; «ley» por «ley orgánica»."
     },
     "id": 128,
     "concepto_clave": "Subordinación de riqueza nacional",
@@ -4629,15 +4629,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 129 de la Constitución Española («Participación social y cooperativas»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «La ley establecerá las formas de participación de los interesados en la Seguridad Social y en la actividad de los organismos públicos cuya función afecte directamente a la calidad de la vida o al bienestar general.»",
       "opciones": [
-        "La ley orgánica con mayoría de tres quintos establecerá las formas de participación de los interesados en la Seguridad Social y en la actividad de los organismos públicos cuya función afecte directamente a la calidad de la vida o al bienestar g...",
-        "La ley establecerá las formas de participación de los interesados en la Seguridad Social y en la actividad de los organismos públicos cuya función afecte directamente a la calidad de la vida o al bienestar g...",
-        "Para lo previsto en el artículo 129 (participación social y cooperativas), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 129 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 130.",
+        "En el artículo 129.",
+        "En el artículo 128.",
+        "En el artículo 139."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 129 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 129 («Participación social y cooperativas»). Los tribunales preguntan mucho por la ubicación exacta: el 130 trata sobre «modernización de sectores económicos»; el 128 trata sobre «subordinación de riqueza nacional»; el 139 trata sobre «igualdad territorial de derechos»."
     },
     "id": 129,
     "concepto_clave": "Participación social y cooperativas",
@@ -4663,15 +4663,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 130 de la Constitución Española («Modernización de sectores económicos»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 130.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre modernización de sectores económicos sin autorización previa del Tribunal Constitucional.",
-        "Los poderes públicos atenderán a la modernización y desarrollo de todos los sectores económicos y, en particular, de la agricultura, de la ganadería, de la pesca y de la artesanía, a fin de equiparar el nive...",
-        "Para lo previsto en el artículo 130 (modernización de sectores económicos), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 130 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las Comunidades Autónomas atenderán a la modernización y desarrollo de todos los sectores económicos y, en particular, de la agricultura, de la ganadería, de la pesca y de la artesanía, a fin de equiparar el nivel de vida de todos los españoles.",
+        "Los poderes públicos atenderán a la modernización y desarrollo de todos los sectores económicos y, en particular, de la agricultura, de la ganadería, de la pesca y de la artesanía, a fin de equiparar el nivel de vida de todos los españoles.",
+        "Los poderes públicos atenderán a la modernización y desarrollo de todos los sectores económicos y, en particular, de la agricultura, de la ganadería, de la pesca y de la artesanía, a fin de equiparar el nivel de vida de todos los ciudadanos residentes.",
+        "Las Comunidades Autónomas atenderán a la modernización y desarrollo de todos los sectores económicos y, en particular, de la agricultura, de la ganadería, de la pesca y de la artesanía, a fin de equiparar el nivel de vida de todos los ciudadanos residentes."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 130 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 130.1 dice: «Los poderes públicos atenderán a la modernización y desarrollo de todos los sectores económicos y, en particular, de la agricultura, de la ganadería, de la pesca y de la artesanía, a fin de equiparar el nivel de vida de todos los españoles.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Los poderes públicos» por «Las Comunidades Autónomas»; «españoles» por «ciudadanos residentes»."
     },
     "id": 130,
     "concepto_clave": "Modernización de sectores económicos",
@@ -4697,15 +4697,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 131 de la Constitución Española («Planificación económica por ley»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 131.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "El Estado, mediante ley orgánica con mayoría de tres quintos, podrá planificar la actividad económica general para atender a las necesidades colectivas, equilibrar y armonizar el desarrollo regional y sectorial y estimular el crecimiento de la...",
-        "El Estado, mediante ley, podrá planificar la actividad económica general para atender a las necesidades colectivas, equilibrar y armonizar el desarrollo regional y sectorial y estimular el crecimiento de la...",
-        "Para lo previsto en el artículo 131 (planificación económica por ley), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 131 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Consejo de Estado elaborará los proyectos de planificación, de acuerdo con las previsiones que le sean suministradas por las Comunidades Autónomas y el asesoramiento y colaboración de los sindicatos y otras organizaciones profesionales, empresariales y económicas.",
+        "El Gobierno elaborará los proyectos de planificación, de acuerdo con las previsiones que le sean suministradas por las Comunidades Autónomas y el asesoramiento y colaboración de los sindicatos y otras organizaciones profesionales, empresariales y económicas.",
+        "El Gobierno elaborará los proyectos de planificación, de acuerdo con las previsiones que le sean suministradas por las Diputaciones Provinciales y el asesoramiento y colaboración de los sindicatos y otras organizaciones profesionales, empresariales y económicas.",
+        "El Consejo de Estado elaborará los proyectos de planificación, de acuerdo con las previsiones que le sean suministradas por las Diputaciones Provinciales y el asesoramiento y colaboración de los sindicatos y otras organizaciones profesionales, empresariales y económicas."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 131 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 131.2 dice: «El Gobierno elaborará los proyectos de planificación, de acuerdo con las previsiones que le sean suministradas por las Comunidades Autónomas y el asesoramiento y colaboración de los sindicatos y otras organizaciones profesionales, empresariales y económicas.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «El Gobierno» por «El Consejo de Estado»; «Comunidades Autónomas» por «Diputaciones Provinciales»."
     },
     "id": 131,
     "concepto_clave": "Planificación económica por ley",
@@ -4736,15 +4736,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 132 de la Constitución Española («Bienes de dominio público»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 132.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "La ley orgánica con mayoría de tres quintos regulará el régimen jurídico de los bienes de dominio público y de los comunales, inspirándose en los principios de inalienabilidad, imprescriptibilidad e inembargabilidad, así como su desafectación.",
-        "La ley regulará el régimen jurídico de los bienes de dominio público y de los comunales, inspirándose en los principios de inalienabilidad, imprescriptibilidad e inembargabilidad, así como su desafectación.",
-        "Para lo previsto en el artículo 132 (bienes de dominio público), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 132 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Son bienes de dominio público estatal los que determine la ley orgánica y, en todo caso, la zona marítimo-terrestre, las playas, el mar territorial y los recursos naturales de la zona económica y la plataforma continental.",
+        "Son bienes de dominio público estatal los que determine la ley y, en todo caso, la zona marítimo-terrestre, las playas, el mar territorial y los recursos naturales de la zona económica y la plataforma continental.",
+        "Son bienes de dominio público estatal los que determine la ley y, en su caso, la zona marítimo-terrestre, las playas, el mar territorial y los recursos naturales de la zona económica y la plataforma continental.",
+        "Son bienes de dominio público estatal los que determine la ley orgánica y, en su caso, la zona marítimo-terrestre, las playas, el mar territorial y los recursos naturales de la zona económica y la plataforma continental."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 132 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 132.2 dice: «Son bienes de dominio público estatal los que determine la ley y, en todo caso, la zona marítimo-terrestre, las playas, el mar territorial y los recursos naturales de la zona económica y la plataforma continental.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley» por «ley orgánica»; «en todo caso» por «en su caso»."
     },
     "id": 132,
     "concepto_clave": "Bienes de dominio público",
@@ -4780,15 +4780,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 133 de la Constitución Española («Potestad tributaria del Estado»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 133.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "La potestad originaria para establecer los tributos corresponde exclusivamente al Estado, mediante ley orgánica con mayoría de tres quintos.",
-        "La potestad originaria para establecer los tributos corresponde exclusivamente al Estado, mediante ley.",
-        "Para lo previsto en el artículo 133 (potestad tributaria del estado), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 133 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las Diputaciones Provinciales y las Corporaciones locales podrán establecer y exigir tributos, de acuerdo con la Constitución y las leyes.",
+        "Las Comunidades Autónomas y las Corporaciones locales podrán establecer y exigir tributos, de acuerdo con la Constitución y las leyes.",
+        "Las Comunidades Autónomas y las Corporaciones locales deberán establecer y exigir tributos, de acuerdo con la Constitución y las leyes.",
+        "Las Diputaciones Provinciales y las Corporaciones locales deberán establecer y exigir tributos, de acuerdo con la Constitución y las leyes."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 133 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 133.2 dice: «Las Comunidades Autónomas y las Corporaciones locales podrán establecer y exigir tributos, de acuerdo con la Constitución y las leyes.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Comunidades Autónomas» por «Diputaciones Provinciales»; «podrán» por «deberán»."
     },
     "id": 133,
     "concepto_clave": "Potestad tributaria del Estado",
@@ -4839,15 +4839,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 134 de la Constitución Española («Presupuestos Generales del Estado»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 134.3 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre presupuestos generales del estado sin autorización previa del Tribunal Constitucional.",
-        "Corresponde al Gobierno la elaboración de los Presupuestos Generales del Estado y a las Cortes Generales, su examen, enmienda y aprobación.",
-        "Para lo previsto en el artículo 134 (presupuestos generales del estado), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 134 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Gobierno deberá presentar ante el Congreso de los Diputados los Presupuestos Generales del Estado al menos cuatro meses antes de la expiración de los del año anterior.",
+        "El Gobierno deberá presentar ante el Congreso de los Diputados los Presupuestos Generales del Estado al menos tres meses antes de la expiración de los del año anterior.",
+        "El Gobierno deberá presentar ante el Senado los Presupuestos Generales del Estado al menos tres meses antes de la expiración de los del año anterior.",
+        "El Consejo de Estado deberá presentar ante el Congreso de los Diputados los Presupuestos Generales del Estado al menos tres meses antes de la expiración de los del año anterior."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 134 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 134.3 dice: «El Gobierno deberá presentar ante el Congreso de los Diputados los Presupuestos Generales del Estado al menos tres meses antes de la expiración de los del año anterior.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «tres meses» por «cuatro meses»; «Congreso de los Diputados» por «Senado»; «El Gobierno» por «El Consejo de Estado»."
     },
     "id": 134,
     "concepto_clave": "Presupuestos Generales del Estado",
@@ -4893,15 +4893,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 135 de la Constitución Española («Principio de estabilidad presupuestaria»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 135.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre principio de estabilidad presupuestaria sin autorización previa del Tribunal Constitucional.",
-        "Todas las Administraciones Públicas adecuarán sus actuaciones al principio de estabilidad presupuestaria.",
-        "Para lo previsto en el artículo 135 (principio de estabilidad presupuestaria), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 135 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Una ley ordinaria fijará el déficit estructural máximo permitido al Estado y a las Comunidades Autónomas, en relación con su producto interior bruto.",
+        "Una ley orgánica fijará el déficit estructural máximo permitido al Estado y a las Comunidades Autónomas, en relación con su producto interior bruto.",
+        "Una ley orgánica fijará el déficit estructural máximo permitido al Estado y a las Diputaciones Provinciales, en relación con su producto interior bruto.",
+        "Una ley ordinaria fijará el déficit estructural máximo permitido al Estado y a las Diputaciones Provinciales, en relación con su producto interior bruto."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 135 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 135.2 dice: «Una ley orgánica fijará el déficit estructural máximo permitido al Estado y a las Comunidades Autónomas, en relación con su producto interior bruto.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley orgánica» por «ley ordinaria»; «Comunidades Autónomas» por «Diputaciones Provinciales»."
     },
     "id": 135,
     "concepto_clave": "Principio de estabilidad presupuestaria",
@@ -4937,15 +4937,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 136 de la Constitución Española («El Tribunal de Cuentas»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 136.4 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre el tribunal de cuentas sin autorización previa del Tribunal Constitucional.",
-        "El Tribunal de Cuentas es el supremo órgano fiscalizador de las cuentas y de la gestión económica de Estado, así como del sector público.",
-        "Para lo previsto en el artículo 136 (el tribunal de cuentas), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 136 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Una ley orgánica regulará la composición, organización y funciones del Banco de España.",
+        "Una ley orgánica regulará la composición, organización y funciones del Tribunal de Cuentas.",
+        "Una ley ordinaria regulará la composición, organización y funciones del Tribunal de Cuentas.",
+        "Una ley ordinaria regulará la composición, organización y funciones del Banco de España."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 136 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 136.4 dice: «Una ley orgánica regulará la composición, organización y funciones del Tribunal de Cuentas.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Tribunal de Cuentas» por «Banco de España»; «ley orgánica» por «ley ordinaria»."
     },
     "id": 136,
     "concepto_clave": "El Tribunal de Cuentas",
@@ -4966,15 +4966,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 137 de la Constitución Española («Organización territorial del Estado»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 137.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre organización territorial del estado sin autorización previa del Tribunal Constitucional.",
+        "El Estado se organiza territorialmente en municipios, en provincias y en las Diputaciones Provinciales que se constituyan.",
         "El Estado se organiza territorialmente en municipios, en provincias y en las Comunidades Autónomas que se constituyan.",
-        "Para lo previsto en el artículo 137 (organización territorial del estado), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 137 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Estado se organiza territorialmente en municipios, en comarcas y en las Comunidades Autónomas que se constituyan.",
+        "El Estado se organiza territorialmente en municipios, en comarcas y en las Diputaciones Provinciales que se constituyan."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 137 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 137.1 dice: «El Estado se organiza territorialmente en municipios, en provincias y en las Comunidades Autónomas que se constituyan.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Comunidades Autónomas» por «Diputaciones Provinciales»; «provincias» por «comarcas»."
     },
     "id": 137,
     "concepto_clave": "Organización territorial del Estado",
@@ -5000,15 +5000,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 138 de la Constitución Española («Principio de solidaridad interterritorial»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 138.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre principio de solidaridad interterritorial sin autorización previa del Tribunal Constitucional.",
-        "El Estado garantiza la realización efectiva del principio de solidaridad consagrado en el artículo 2 de la Constitución, velando por el establecimiento de un equilibrio económico, adecuado y justo entre las...",
-        "Para lo previsto en el artículo 138 (principio de solidaridad interterritorial), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 138 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las diferencias entre los Estatutos de las distintas Diputaciones Provinciales no podrán implicar, en ningún caso, privilegios económicos o sociales.",
+        "Las diferencias entre los Estatutos de las distintas Comunidades Autónomas no podrán implicar, en ningún caso, privilegios económicos o sociales.",
+        "Las diferencias entre los Estatutos de las distintas Comunidades Autónomas no deberán implicar, en ningún caso, privilegios económicos o sociales.",
+        "Las diferencias entre los Estatutos de las distintas Comunidades Autónomas no podrán implicar, salvo autorización judicial, privilegios económicos o sociales."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 138 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 138.2 dice: «Las diferencias entre los Estatutos de las distintas Comunidades Autónomas no podrán implicar, en ningún caso, privilegios económicos o sociales.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Comunidades Autónomas» por «Diputaciones Provinciales»; «podrán» por «deberán»; «en ningún caso» por «salvo autorización judicial»."
     },
     "id": 138,
     "concepto_clave": "Principio de solidaridad interterritorial",
@@ -5034,15 +5034,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 139 de la Constitución Española («Igualdad territorial de derechos»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Ninguna autoridad podrá adoptar medidas que directa o indirectamente obstaculicen la libertad de circulación y establecimiento de las personas y la libre circulación de bienes en todo el territorio español.»",
       "opciones": [
-        "Todos los españoles tienen los mismos deber inexcusable sujeto a autorización previas y obligaciones en cualquier parte del territorio del Estado.",
-        "Todos los españoles tienen los mismos derechos y obligaciones en cualquier parte del territorio del Estado.",
-        "Para lo previsto en el artículo 139 (igualdad territorial de derechos), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 139 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 140.",
+        "En el artículo 139.",
+        "En el artículo 138.",
+        "En el artículo 149."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 139 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 139 («Igualdad territorial de derechos»). Los tribunales preguntan mucho por la ubicación exacta: el 140 trata sobre «autonomía constitucional de municipios»; el 138 trata sobre «principio de solidaridad interterritorial»; el 149 trata sobre «competencias exclusivas del estado»."
     },
     "id": 139,
     "concepto_clave": "Igualdad territorial de derechos",
@@ -5063,15 +5063,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 140 de la Constitución Española («Autonomía constitucional de municipios»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 140.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre autonomía constitucional de municipios sin autorización previa del Tribunal Constitucional.",
+        "La Constitución garantiza la autonomía de las provincias.",
         "La Constitución garantiza la autonomía de los municipios.",
-        "Para lo previsto en el artículo 140 (autonomía constitucional de municipios), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 140 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "La Constitución reconoce la autonomía de los municipios.",
+        "La Constitución reconoce la autonomía de las provincias."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 140 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 140.1 dice: «La Constitución garantiza la autonomía de los municipios.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «los municipios» por «las provincias»; «garantiza» por «reconoce»."
     },
     "id": 140,
     "concepto_clave": "Autonomía constitucional de municipios",
@@ -5107,15 +5107,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 141 de la Constitución Española («Administración provincial e insular»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 141.3 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre administración provincial e insular sin autorización previa del Tribunal Constitucional.",
-        "La provincia es una entidad local con personalidad jurídica propia, determinada por la agrupación de municipios y división territorial para el cumplimiento de las actividades del Estado.",
-        "Para lo previsto en el artículo 141 (administración provincial e insular), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 141 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Se deberán crear agrupaciones de municipios diferentes de la provincia.",
+        "Se podrán crear agrupaciones de municipios diferentes de la provincia.",
+        "Se podrán crear agrupaciones de municipios diferentes de la comarca.",
+        "Se deberán crear agrupaciones de municipios diferentes de la comarca."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 141 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 141.3 dice: «Se podrán crear agrupaciones de municipios diferentes de la provincia.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrán» por «deberán»; «provincia» por «comarca»."
     },
     "id": 141,
     "concepto_clave": "Administración provincial e insular",
@@ -5136,15 +5136,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 142 de la Constitución Española («Suficiencia de Haciendas locales»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 142.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Las Haciendas locales deberán disponer de los medios suficientes para el desempeño de las funciones que la ley orgánica con mayoría de tres quintos atribuye a las Corporaciones respectivas y se nutrirán fundamentalmente de tributos propios y de...",
-        "Las Haciendas locales deberán disponer de los medios suficientes para el desempeño de las funciones que la ley atribuye a las Corporaciones respectivas y se nutrirán fundamentalmente de tributos propios y de...",
-        "Para lo previsto en el artículo 142 (suficiencia de haciendas locales), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 142 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las Haciendas locales podrán disponer de los medios suficientes para el desempeño de las funciones que la ley atribuye a las Corporaciones respectivas y se nutrirán fundamentalmente de tributos propios y de participación en los del Estado y de las Comunidades Autónomas.",
+        "Las Haciendas locales deberán disponer de los medios suficientes para el desempeño de las funciones que la ley atribuye a las Corporaciones respectivas y se nutrirán fundamentalmente de tributos propios y de participación en los del Estado y de las Comunidades Autónomas.",
+        "Las Haciendas locales deberán disponer de los medios suficientes para el desempeño de las funciones que la ley atribuye a las Corporaciones respectivas y se nutrirán fundamentalmente de tributos propios y de participación en los del Estado y de las Diputaciones Provinciales.",
+        "Las Haciendas locales deberán disponer de los medios suficientes para el desempeño de las funciones que la ley orgánica atribuye a las Corporaciones respectivas y se nutrirán fundamentalmente de tributos propios y de participación en los del Estado y de las Comunidades Autónomas."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 142 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 142.1 dice: «Las Haciendas locales deberán disponer de los medios suficientes para el desempeño de las funciones que la ley atribuye a las Corporaciones respectivas y se nutrirán fundamentalmente de tributos propios y de participación en los del Estado y de las Comunidades Autónomas.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «deberán» por «podrán»; «Comunidades Autónomas» por «Diputaciones Provinciales»; «ley» por «ley orgánica»."
     },
     "id": 142,
     "concepto_clave": "Suficiencia de Haciendas locales",
@@ -5175,15 +5175,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 143 de la Constitución Española («Iniciativa autonómica vía ordinaria»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 143.3 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En el ejercicio del deber inexcusable sujeto a autorización previa a la autonomía reconocido en el artículo 2 de la Constitución, las provincias limítrofes con características históricas, culturales y económicas comunes, los territorios insulares...",
-        "En el ejercicio del derecho a la autonomía reconocido en el artículo 2 de la Constitución, las provincias limítrofes con características históricas, culturales y económicas comunes, los territorios insulares...",
-        "Para lo previsto en el artículo 143 (iniciativa autonómica vía ordinaria), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 143 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "La iniciativa, en caso de no prosperar, solamente podrá reiterarse pasados cuatro años.",
+        "La iniciativa, en caso de no prosperar, solamente podrá reiterarse pasados cinco años.",
+        "La iniciativa, en caso de no prosperar, solamente deberá reiterarse pasados cinco años.",
+        "La iniciativa, en caso de no prosperar, solamente deberá reiterarse pasados cuatro años."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 143 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 143.3 dice: «La iniciativa, en caso de no prosperar, solamente podrá reiterarse pasados cinco años.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «cinco años» por «cuatro años»; «podrá» por «deberá»."
     },
     "id": 143,
     "concepto_clave": "Iniciativa autonómica vía ordinaria",
@@ -5204,15 +5204,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 144 de la Constitución Española («Facultades autonómicas por Cortes»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 144.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Las Cortes Generales, mediante ley ordinaria o real decreto, podrán, por motivos de interés nacional: a) Autorizar la constitución de una comunidad autónoma cuando su ámbito territorial no supere el de una provincia y no re...",
-        "Las Cortes Generales, mediante ley orgánica, podrán, por motivos de interés nacional: a) Autorizar la constitución de una comunidad autónoma cuando su ámbito territorial no supere el de una provincia y no re...",
-        "Para lo previsto en el artículo 144 (facultades autonómicas por cortes), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 144 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las Cortes Generales, mediante ley ordinaria, podrán, por motivos de interés nacional: c) Sustituir la iniciativa de las Corporaciones locales a que se refiere el apartado 2 del artículo 143.",
+        "Las Cortes Generales, mediante ley orgánica, podrán, por motivos de interés nacional: c) Sustituir la iniciativa de las Corporaciones locales a que se refiere el apartado 2 del artículo 143.",
+        "Las Cortes Generales, mediante ley orgánica, deberán, por motivos de interés nacional: c) Sustituir la iniciativa de las Corporaciones locales a que se refiere el apartado 2 del artículo 143.",
+        "Las Cortes Generales, mediante ley ordinaria, deberán, por motivos de interés nacional: c) Sustituir la iniciativa de las Corporaciones locales a que se refiere el apartado 2 del artículo 143."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 144 de la CE: el precepto exige expresamente \"ley orgánica\", no ley ordinaria ni reglamento. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 144.1 dice: «Las Cortes Generales, mediante ley orgánica, podrán, por motivos de interés nacional: c) Sustituir la iniciativa de las Corporaciones locales a que se refiere el apartado 2 del artículo 143.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley orgánica» por «ley ordinaria»; «podrán» por «deberán»."
     },
     "id": 144,
     "concepto_clave": "Facultades autonómicas por Cortes",
@@ -5238,15 +5238,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 145 de la Constitución Española («Relaciones y convenios autonómicos»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 145.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre relaciones y convenios autonómicos sin autorización previa del Tribunal Constitucional.",
+        "Salvo autorización judicial se admitirá la federación de Comunidades Autónomas.",
         "En ningún caso se admitirá la federación de Comunidades Autónomas.",
-        "Para lo previsto en el artículo 145 (relaciones y convenios autonómicos), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 145 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En ningún caso se admitirá la federación de Diputaciones Provinciales.",
+        "Salvo autorización judicial se admitirá la federación de Diputaciones Provinciales."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 145 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 145.1 dice: «En ningún caso se admitirá la federación de Comunidades Autónomas.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «En ningún caso» por «Salvo autorización judicial»; «Comunidades Autónomas» por «Diputaciones Provinciales»."
     },
     "id": 145,
     "concepto_clave": "Relaciones y convenios autonómicos",
@@ -5267,15 +5267,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 146 de la Constitución Española («Elaboración del proyecto estatutario»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 146.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre elaboración del proyecto estatutario sin autorización previa del Tribunal Constitucional.",
-        "El proyecto de Estatuto será elaborado por una asamblea compuesta por los miembros de la Diputación u órgano interinsular de las provincias afectadas y por los Diputados y Senadores elegidos en ellas y será...",
-        "Para lo previsto en el artículo 146 (elaboración del proyecto estatutario), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 146 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El proyecto de Estatuto será elaborado por una asamblea compuesta por los miembros de la Diputación u órgano interinsular de las comarcas afectadas y por los Diputados y Senadores elegidos en ellas y será elevado a las Cortes Generales para su tramitación como ley.",
+        "El proyecto de Estatuto será elaborado por una asamblea compuesta por los miembros de la Diputación u órgano interinsular de las provincias afectadas y por los Diputados y Senadores elegidos en ellas y será elevado a las Cortes Generales para su tramitación como ley.",
+        "El proyecto de Estatuto será elaborado por una asamblea compuesta por los miembros de la Diputación u órgano interinsular de las provincias afectadas y por los Diputados y Senadores elegidos en ellas y será elevado a las Cortes Generales para su tramitación como ley orgánica.",
+        "El proyecto de Estatuto será elaborado por una asamblea compuesta por los miembros de la Diputación u órgano interinsular de las comarcas afectadas y por los Diputados y Senadores elegidos en ellas y será elevado a las Cortes Generales para su tramitación como ley orgánica."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 146 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 146.1 dice: «El proyecto de Estatuto será elaborado por una asamblea compuesta por los miembros de la Diputación u órgano interinsular de las provincias afectadas y por los Diputados y Senadores elegidos en ellas y será elevado a las Cortes Generales para su tramitación como ley.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «provincias» por «comarcas»; «ley» por «ley orgánica»."
     },
     "id": 146,
     "concepto_clave": "Elaboración del proyecto estatutario",
@@ -5306,15 +5306,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 147 de la Constitución Española («Estatutos de autonomía regional»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 147.3 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre estatutos de autonomía regional sin autorización previa del Tribunal Constitucional.",
-        "Dentro de los términos de la presente Constitución, los Estatutos serán la norma institucional básica de cada Comunidad Autónoma y el Estado los reconocerá y amparará como parte integrante de su ordenamiento...",
-        "Para lo previsto en el artículo 147 (estatutos de autonomía regional), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 147 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "La reforma de los Estatutos se ajustará al procedimiento establecido en los mismos y requerirá, en todo caso, la aprobación por las Cortes Generales, mediante ley ordinaria.",
+        "La reforma de los Estatutos se ajustará al procedimiento establecido en los mismos y requerirá, en todo caso, la aprobación por las Cortes Generales, mediante ley orgánica.",
+        "La reforma de los Estatutos se ajustará al procedimiento establecido en los mismos y requerirá, en su caso, la aprobación por las Cortes Generales, mediante ley orgánica.",
+        "La reforma de los Estatutos se ajustará al procedimiento establecido en los mismos y requerirá, en su caso, la aprobación por las Cortes Generales, mediante ley ordinaria."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 147 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 147.3 dice: «La reforma de los Estatutos se ajustará al procedimiento establecido en los mismos y requerirá, en todo caso, la aprobación por las Cortes Generales, mediante ley orgánica.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley orgánica» por «ley ordinaria»; «en todo caso» por «en su caso»."
     },
     "id": 147,
     "concepto_clave": "Estatutos de autonomía regional",
@@ -5340,15 +5340,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 148 de la Constitución Española («Competencias asumibles por Comunidades»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 148.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Las Comunidades Autónomas deberán obligatoriamente en todo caso asumir competencias en las siguientes materias: 1.ª Organización de sus instituciones de autogobierno.",
-        "Las Comunidades Autónomas podrán asumir competencias en las siguientes materias: 1.ª Organización de sus instituciones de autogobierno.",
-        "Para lo previsto en el artículo 148 (competencias asumibles por comunidades), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 148 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Transcurridos cuatro años, y mediante la reforma de sus Estatutos, las Comunidades Autónomas podrán ampliar sucesivamente sus competencias dentro del marco establecido en el artículo 149.",
+        "Transcurridos cinco años, y mediante la reforma de sus Estatutos, las Comunidades Autónomas podrán ampliar sucesivamente sus competencias dentro del marco establecido en el artículo 149.",
+        "Transcurridos cinco años, y mediante la reforma de sus Estatutos, las Diputaciones Provinciales podrán ampliar sucesivamente sus competencias dentro del marco establecido en el artículo 149.",
+        "Transcurridos cinco años, y mediante la reforma de sus Estatutos, las Comunidades Autónomas deberán ampliar sucesivamente sus competencias dentro del marco establecido en el artículo 149."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 148 de la CE: el texto constitucional utiliza el verbo potestativo \"podrán\", no un mandato imperativo (\"deberán\"). Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 148.2 dice: «Transcurridos cinco años, y mediante la reforma de sus Estatutos, las Comunidades Autónomas podrán ampliar sucesivamente sus competencias dentro del marco establecido en el artículo 149.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «cinco años» por «cuatro años»; «Comunidades Autónomas» por «Diputaciones Provinciales»; «podrán» por «deberán»."
     },
     "id": 148,
     "concepto_clave": "Competencias asumibles por Comunidades",
@@ -5379,15 +5379,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 149 de la Constitución Española («Competencias exclusivas del Estado»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 149.3 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "El Estado tiene competencia exclusiva sobre las siguientes materias: 1.ª La regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los deber inexcusable sujeto a autorización previas y en el cum...",
-        "El Estado tiene competencia exclusiva sobre las siguientes materias: 1.ª La regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cum...",
-        "Para lo previsto en el artículo 149 (competencias exclusivas del estado), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 149 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las materias no atribuidas expresamente al Estado por esta Constitución deberán corresponder a las Comunidades Autónomas, en virtud de sus respectivos Estatutos.",
+        "Las materias no atribuidas expresamente al Estado por esta Constitución podrán corresponder a las Comunidades Autónomas, en virtud de sus respectivos Estatutos.",
+        "Las materias no atribuidas expresamente al Estado por esta Constitución podrán corresponder a las Diputaciones Provinciales, en virtud de sus respectivos Estatutos.",
+        "Las materias no atribuidas expresamente al Estado por esta Constitución deberán corresponder a las Diputaciones Provinciales, en virtud de sus respectivos Estatutos."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 149 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 149.3 dice: «Las materias no atribuidas expresamente al Estado por esta Constitución podrán corresponder a las Comunidades Autónomas, en virtud de sus respectivos Estatutos.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrán» por «deberán»; «Comunidades Autónomas» por «Diputaciones Provinciales»."
     },
     "id": 149,
     "concepto_clave": "Competencias exclusivas del Estado",
@@ -5418,15 +5418,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 150 de la Constitución Española («Transferencia y armonización estatal»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 150.3 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Las Cortes Generales, en materias de competencia estatal, deberán obligatoriamente en todo caso atribuir a todas o a alguna de las Comunidades Autónomas la facultad de dictar, para sí mismas, normas legislativas en el marco de los princip...",
-        "Las Cortes Generales, en materias de competencia estatal, podrán atribuir a todas o a alguna de las Comunidades Autónomas la facultad de dictar, para sí mismas, normas legislativas en el marco de los princip...",
-        "Para lo previsto en el artículo 150 (transferencia y armonización estatal), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 150 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Estado deberá dictar leyes que establezcan los principios necesarios para armonizar las disposiciones normativas de las Comunidades Autónomas, aun en el caso de materias atribuidas a la competencia de éstas, cuando así lo exija el interés general.",
+        "El Estado podrá dictar leyes que establezcan los principios necesarios para armonizar las disposiciones normativas de las Comunidades Autónomas, aun en el caso de materias atribuidas a la competencia de éstas, cuando así lo exija el interés general.",
+        "El Estado podrá dictar leyes que establezcan los principios necesarios para armonizar las disposiciones normativas de las Diputaciones Provinciales, aun en el caso de materias atribuidas a la competencia de éstas, cuando así lo exija el interés general.",
+        "El Estado deberá dictar leyes que establezcan los principios necesarios para armonizar las disposiciones normativas de las Diputaciones Provinciales, aun en el caso de materias atribuidas a la competencia de éstas, cuando así lo exija el interés general."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 150 de la CE: el texto constitucional utiliza el verbo potestativo \"podrán\", no un mandato imperativo (\"deberán\"). Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 150.3 dice: «El Estado podrá dictar leyes que establezcan los principios necesarios para armonizar las disposiciones normativas de las Comunidades Autónomas, aun en el caso de materias atribuidas a la competencia de éstas, cuando así lo exija el interés general.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrá» por «deberá»; «Comunidades Autónomas» por «Diputaciones Provinciales»."
     },
     "id": 150,
     "concepto_clave": "Transferencia y armonización estatal",
@@ -5457,15 +5457,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 151 de la Constitución Española («Iniciativa autonómica vía especial»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 151.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre iniciativa autonómica vía especial sin autorización previa del Tribunal Constitucional.",
-        "No será preciso dejar transcurrir el plazo de cinco años, a que se refiere el apartado 2 del artículo 148, cuando la iniciativa del proceso autonómico sea acordada dentro del plazo del artículo 143.2, además...",
-        "Para lo previsto en el artículo 151 (iniciativa autonómica vía especial), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 151 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Aprobado el Estatuto, el Presidente del Gobierno lo sancionará y lo promulgará como ley. 5.º De no alcanzarse el acuerdo a que se refiere el apartado 2 de este número, el proyecto de Estatuto será tramitado como proyecto de ley ante las Cortes Generales.",
+        "Aprobado el Estatuto, el Rey lo sancionará y lo promulgará como ley. 5.º De no alcanzarse el acuerdo a que se refiere el apartado 2 de este número, el proyecto de Estatuto será tramitado como proyecto de ley ante las Cortes Generales.",
+        "Aprobado el Estatuto, el Rey lo sancionará y lo promulgará como ley orgánica. 5.º De no alcanzarse el acuerdo a que se refiere el apartado 2 de este número, el proyecto de Estatuto será tramitado como proyecto de ley ante las Cortes Generales.",
+        "Aprobado el Estatuto, el Presidente del Gobierno lo sancionará y lo promulgará como ley orgánica. 5.º De no alcanzarse el acuerdo a que se refiere el apartado 2 de este número, el proyecto de Estatuto será tramitado como proyecto de ley ante las Cortes Generales."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 151 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 151.2 dice: «Aprobado el Estatuto, el Rey lo sancionará y lo promulgará como ley. 5.º De no alcanzarse el acuerdo a que se refiere el apartado 2 de este número, el proyecto de Estatuto será tramitado como proyecto de ley ante las Cortes Generales.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Rey» por «Presidente del Gobierno»; «ley» por «ley orgánica»."
     },
     "id": 151,
     "concepto_clave": "Iniciativa autonómica vía especial",
@@ -5496,15 +5496,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 152 de la Constitución Española («Organización institucional de Comunidades»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 152.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre organización institucional de comunidades sin autorización previa del Tribunal Constitucional.",
-        "En los Estatutos aprobados por el procedimiento a que se refiere el artículo anterior, la organización institucional autonómica se basará en una Asamblea Legislativa, elegida por sufragio universal, con arre...",
-        "Para lo previsto en el artículo 152 (organización institucional de comunidades), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 152 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En los Estatutos de las Diputaciones Provinciales podrán establecerse los supuestos y las formas de participación de aquéllas en la organización de las demarcaciones judiciales del territorio.",
+        "En los Estatutos de las Comunidades Autónomas podrán establecerse los supuestos y las formas de participación de aquéllas en la organización de las demarcaciones judiciales del territorio.",
+        "En los Estatutos de las Comunidades Autónomas deberán establecerse los supuestos y las formas de participación de aquéllas en la organización de las demarcaciones judiciales del territorio.",
+        "En los Estatutos de las Diputaciones Provinciales deberán establecerse los supuestos y las formas de participación de aquéllas en la organización de las demarcaciones judiciales del territorio."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 152 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 152.1 dice: «En los Estatutos de las Comunidades Autónomas podrán establecerse los supuestos y las formas de participación de aquéllas en la organización de las demarcaciones judiciales del territorio.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Comunidades Autónomas» por «Diputaciones Provinciales»; «podrán» por «deberán»."
     },
     "id": 152,
     "concepto_clave": "Organización institucional de Comunidades",
@@ -5525,15 +5525,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 153 de la Constitución Española («Control de órganos autonómicos»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 153.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "El control de la actividad de los órganos de las Comunidades Autónomas se ejercerá: a) Por el Tribunal Constitucional, el relativo a la constitucionalidad de sus disposiciones normativas con fuerza de ley orgánica con mayoría de tres quintos.",
-        "El control de la actividad de los órganos de las Comunidades Autónomas se ejercerá: a) Por el Tribunal Constitucional, el relativo a la constitucionalidad de sus disposiciones normativas con fuerza de ley.",
-        "Para lo previsto en el artículo 153 (control de órganos autonómicos), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 153 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El control de la actividad de los órganos de las Comunidades Autónomas se ejercerá: d) Por el Banco de España, el económico y presupuestario.",
+        "El control de la actividad de los órganos de las Comunidades Autónomas se ejercerá: d) Por el Tribunal de Cuentas, el económico y presupuestario.",
+        "El control de la actividad de los órganos de las Diputaciones Provinciales se ejercerá: d) Por el Tribunal de Cuentas, el económico y presupuestario.",
+        "El control de la actividad de los órganos de las Diputaciones Provinciales se ejercerá: d) Por el Banco de España, el económico y presupuestario."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 153 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 153.1 dice: «El control de la actividad de los órganos de las Comunidades Autónomas se ejercerá: d) Por el Tribunal de Cuentas, el económico y presupuestario.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Tribunal de Cuentas» por «Banco de España»; «Comunidades Autónomas» por «Diputaciones Provinciales»."
     },
     "id": 153,
     "concepto_clave": "Control de órganos autonómicos",
@@ -5554,15 +5554,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 154 de la Constitución Española («El Delegado del Gobierno»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Un Delegado nombrado por el Gobierno dirigirá la Administración del Estado en el territorio de la Comunidad Autónoma y la coordinará, cuando proceda, con la administración propia de la Comunidad.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre el delegado del gobierno sin autorización previa del Tribunal Constitucional.",
-        "Un Delegado nombrado por el Gobierno dirigirá la Administración del Estado en el territorio de la Comunidad Autónoma y la coordinará, cuando proceda, con la administración propia de la Comunidad.",
-        "Para lo previsto en el artículo 154 (el delegado del gobierno), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 154 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 155.",
+        "En el artículo 154.",
+        "En el artículo 153.",
+        "En el artículo 164."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 154 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 154 («El Delegado del Gobierno»). Los tribunales preguntan mucho por la ubicación exacta: el 155 trata sobre «coerción estatal sobre comunidades»; el 153 trata sobre «control de órganos autonómicos»; el 164 trata sobre «sentencias del tribunal constitucional»."
     },
     "id": 154,
     "concepto_clave": "El Delegado del Gobierno",
@@ -5622,15 +5622,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 156 de la Constitución Española («Autonomía financiera de Comunidades»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 156.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre autonomía financiera de comunidades sin autorización previa del Tribunal Constitucional.",
-        "Las Comunidades Autónomas gozarán de autonomía financiera para el desarrollo y ejecución de sus competencias con arreglo a los principios de coordinación con la Hacienda estatal y de solidaridad entre todos...",
-        "Para lo previsto en el artículo 156 (autonomía financiera de comunidades), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 156 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las Diputaciones Provinciales podrán actuar como delegados o colaboradores del Estado para la recaudación, la gestión y la liquidación de los recursos tributarios de aquél, de acuerdo con las leyes y los Estatutos.",
+        "Las Comunidades Autónomas podrán actuar como delegados o colaboradores del Estado para la recaudación, la gestión y la liquidación de los recursos tributarios de aquél, de acuerdo con las leyes y los Estatutos.",
+        "Las Comunidades Autónomas deberán actuar como delegados o colaboradores del Estado para la recaudación, la gestión y la liquidación de los recursos tributarios de aquél, de acuerdo con las leyes y los Estatutos.",
+        "Las Diputaciones Provinciales deberán actuar como delegados o colaboradores del Estado para la recaudación, la gestión y la liquidación de los recursos tributarios de aquél, de acuerdo con las leyes y los Estatutos."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 156 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 156.2 dice: «Las Comunidades Autónomas podrán actuar como delegados o colaboradores del Estado para la recaudación, la gestión y la liquidación de los recursos tributarios de aquél, de acuerdo con las leyes y los Estatutos.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Comunidades Autónomas» por «Diputaciones Provinciales»; «podrán» por «deberán»."
     },
     "id": 156,
     "concepto_clave": "Autonomía financiera de Comunidades",
@@ -5661,15 +5661,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 157 de la Constitución Española («Recursos financieros de Comunidades»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 157.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre recursos financieros de comunidades sin autorización previa del Tribunal Constitucional.",
-        "Los recursos de las Comunidades Autónomas estarán constituidos por: a) Impuestos cedidos total o parcialmente por el Estado; recargos sobre impuestos estatales y otras participaciones en los ingresos del Est...",
-        "Para lo previsto en el artículo 157 (recursos financieros de comunidades), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 157 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las Diputaciones Provinciales no podrán en ningún caso adoptar medidas tributarias sobre bienes situados fuera de su territorio o que supongan obstáculo para la libre circulación de mercancías o servicios.",
+        "Las Comunidades Autónomas no podrán en ningún caso adoptar medidas tributarias sobre bienes situados fuera de su territorio o que supongan obstáculo para la libre circulación de mercancías o servicios.",
+        "Las Comunidades Autónomas no deberán en ningún caso adoptar medidas tributarias sobre bienes situados fuera de su territorio o que supongan obstáculo para la libre circulación de mercancías o servicios.",
+        "Las Comunidades Autónomas no podrán salvo autorización judicial adoptar medidas tributarias sobre bienes situados fuera de su territorio o que supongan obstáculo para la libre circulación de mercancías o servicios."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 157 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 157.2 dice: «Las Comunidades Autónomas no podrán en ningún caso adoptar medidas tributarias sobre bienes situados fuera de su territorio o que supongan obstáculo para la libre circulación de mercancías o servicios.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Comunidades Autónomas» por «Diputaciones Provinciales»; «podrán» por «deberán»; «en ningún caso» por «salvo autorización judicial»."
     },
     "id": 157,
     "concepto_clave": "Recursos financieros de Comunidades",
@@ -5695,15 +5695,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 158 de la Constitución Española («Fondo de Compensación Interterritorial»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 158.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre fondo de compensación interterritorial sin autorización previa del Tribunal Constitucional.",
-        "En los Presupuestos Generales del Estado podrá establecerse una asignación a las Comunidades Autónomas en función del volumen de los servicios y actividades estatales que hayan asumido y de la garantía de un...",
-        "Para lo previsto en el artículo 158 (fondo de compensación interterritorial), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 158 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En los Presupuestos Generales del Estado deberá establecerse una asignación a las Comunidades Autónomas en función del volumen de los servicios y actividades estatales que hayan asumido y de la garantía de un nivel mínimo en la prestación de los servicios públicos fundamentales en todo el territorio español.",
+        "En los Presupuestos Generales del Estado podrá establecerse una asignación a las Comunidades Autónomas en función del volumen de los servicios y actividades estatales que hayan asumido y de la garantía de un nivel mínimo en la prestación de los servicios públicos fundamentales en todo el territorio español.",
+        "En los Presupuestos Generales del Estado podrá establecerse una asignación a las Diputaciones Provinciales en función del volumen de los servicios y actividades estatales que hayan asumido y de la garantía de un nivel mínimo en la prestación de los servicios públicos fundamentales en todo el territorio español.",
+        "En los Presupuestos Generales del Estado deberá establecerse una asignación a las Diputaciones Provinciales en función del volumen de los servicios y actividades estatales que hayan asumido y de la garantía de un nivel mínimo en la prestación de los servicios públicos fundamentales en todo el territorio español."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 158 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 158.1 dice: «En los Presupuestos Generales del Estado podrá establecerse una asignación a las Comunidades Autónomas en función del volumen de los servicios y actividades estatales que hayan asumido y de la garantía de un nivel mínimo en la prestación de los servicios públicos fundamentales en todo el territorio español.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrá» por «deberá»; «Comunidades Autónomas» por «Diputaciones Provinciales»."
     },
     "id": 158,
     "concepto_clave": "Fondo de Compensación Interterritorial",
@@ -5773,15 +5773,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 160 de la Constitución Española («Presidente del Tribunal Constitucional»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 160.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre presidente del tribunal constitucional sin autorización previa del Tribunal Constitucional.",
+        "El Presidente del Tribunal Constitucional será nombrado entre sus miembros por el Rey, a propuesta del mismo Tribunal en pleno y por un período de cuatro años.",
         "El Presidente del Tribunal Constitucional será nombrado entre sus miembros por el Rey, a propuesta del mismo Tribunal en pleno y por un período de tres años.",
-        "Para lo previsto en el artículo 160 (presidente del tribunal constitucional), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 160 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Presidente del Tribunal Supremo será nombrado entre sus miembros por el Rey, a propuesta del mismo Tribunal en pleno y por un período de tres años.",
+        "El Presidente del Tribunal Constitucional será nombrado entre sus miembros por el Presidente del Gobierno, a propuesta del mismo Tribunal en pleno y por un período de tres años."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 160 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 160.1 dice: «El Presidente del Tribunal Constitucional será nombrado entre sus miembros por el Rey, a propuesta del mismo Tribunal en pleno y por un período de tres años.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «tres años» por «cuatro años»; «Tribunal Constitucional» por «Tribunal Supremo»; «Rey» por «Presidente del Gobierno»."
     },
     "id": 160,
     "concepto_clave": "Presidente del Tribunal Constitucional",
@@ -5807,15 +5807,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 161 de la Constitución Española («Jurisdicción del Tribunal Constitucional»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 161.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "El Tribunal Constitucional tiene jurisdicción en todo el territorio español y es competente para conocer: a) Del recurso de inconstitucionalidad contra leyes y disposiciones normativas con fuerza de ley orgánica con mayoría de tres quintos.",
-        "El Tribunal Constitucional tiene jurisdicción en todo el territorio español y es competente para conocer: a) Del recurso de inconstitucionalidad contra leyes y disposiciones normativas con fuerza de ley.",
-        "Para lo previsto en el artículo 161 (jurisdicción del tribunal constitucional), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 161 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "La impugnación producirá la suspensión de la disposición o resolución recurrida, pero el Tribunal, en su caso, deberá ratificarla o levantarla en un plazo no superior a cuatro meses.",
+        "La impugnación producirá la suspensión de la disposición o resolución recurrida, pero el Tribunal, en su caso, deberá ratificarla o levantarla en un plazo no superior a cinco meses.",
+        "La impugnación producirá la suspensión de la disposición o resolución recurrida, pero el Tribunal, en su caso, podrá ratificarla o levantarla en un plazo no superior a cinco meses.",
+        "La impugnación producirá la suspensión de la disposición o resolución recurrida, pero el Tribunal, en su caso, podrá ratificarla o levantarla en un plazo no superior a cuatro meses."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 161 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 161.2 dice: «La impugnación producirá la suspensión de la disposición o resolución recurrida, pero el Tribunal, en su caso, deberá ratificarla o levantarla en un plazo no superior a cinco meses.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «cinco meses» por «cuatro meses»; «deberá» por «podrá»."
     },
     "id": 161,
     "concepto_clave": "Jurisdicción del Tribunal Constitucional",
@@ -5841,15 +5841,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 162 de la Constitución Española («Legitimación ante Tribunal Constitucional»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 162.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre legitimación ante tribunal constitucional sin autorización previa del Tribunal Constitucional.",
-        "Están legitimados: a) Para interponer el recurso de inconstitucionalidad, el Presidente del Gobierno, el Defensor del Pueblo, 50 Diputados, 50 Senadores, los órganos colegiados ejecutivos de las Comunidades...",
-        "Para lo previsto en el artículo 162 (legitimación ante tribunal constitucional), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 162 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Están legitimados: a) Para interponer el recurso de inconstitucionalidad, el Presidente del Gobierno, el Defensor del Pueblo, 60 Diputados, 50 Senadores, los órganos colegiados ejecutivos de las Comunidades Autónomas y, en su caso, las Asambleas de las mismas.",
+        "Están legitimados: a) Para interponer el recurso de inconstitucionalidad, el Presidente del Gobierno, el Defensor del Pueblo, 50 Diputados, 50 Senadores, los órganos colegiados ejecutivos de las Comunidades Autónomas y, en su caso, las Asambleas de las mismas.",
+        "Están legitimados: a) Para interponer el recurso de inconstitucionalidad, el Rey, el Defensor del Pueblo, 50 Diputados, 50 Senadores, los órganos colegiados ejecutivos de las Comunidades Autónomas y, en su caso, las Asambleas de las mismas.",
+        "Están legitimados: a) Para interponer el recurso de inconstitucionalidad, el Presidente del Gobierno, el Ministerio Fiscal, 50 Diputados, 50 Senadores, los órganos colegiados ejecutivos de las Comunidades Autónomas y, en su caso, las Asambleas de las mismas."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 162 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 162.1 dice: «Están legitimados: a) Para interponer el recurso de inconstitucionalidad, el Presidente del Gobierno, el Defensor del Pueblo, 50 Diputados, 50 Senadores, los órganos colegiados ejecutivos de las Comunidades Autónomas y, en su caso, las Asambleas de las mismas.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «50» por «60»; «Presidente del Gobierno» por «Rey»; «Defensor del Pueblo» por «Ministerio Fiscal»."
     },
     "id": 162,
     "concepto_clave": "Legitimación ante Tribunal Constitucional",
@@ -5870,15 +5870,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 163 de la Constitución Española («Cuestión judicial de inconstitucionalidad»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 163.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Cuando un órgano judicial considere, en algún proceso, que una norma con rango de ley orgánica con mayoría de tres quintos, aplicable al caso, de cuya validez dependa el fallo, pueda ser contraria a la Constitución, planteará la cuestión ante e...",
-        "Cuando un órgano judicial considere, en algún proceso, que una norma con rango de ley, aplicable al caso, de cuya validez dependa el fallo, pueda ser contraria a la Constitución, planteará la cuestión ante e...",
-        "Para lo previsto en el artículo 163 (cuestión judicial de inconstitucionalidad), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 163 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Cuando un órgano judicial considere, en algún proceso, que una norma con rango de ley, aplicable al caso, de cuya validez dependa el fallo, pueda ser contraria a la Constitución, planteará la cuestión ante el Tribunal Supremo en los supuestos, en la forma y con los efectos que establezca la ley, que en ningún caso serán suspensivos.…",
+        "Cuando un órgano judicial considere, en algún proceso, que una norma con rango de ley, aplicable al caso, de cuya validez dependa el fallo, pueda ser contraria a la Constitución, planteará la cuestión ante el Tribunal Constitucional en los supuestos, en la forma y con los efectos que establezca la ley, que en ningún caso serán suspensivos.…",
+        "Cuando un órgano judicial considere, en algún proceso, que una norma con rango de ley, aplicable al caso, de cuya validez dependa el fallo, pueda ser contraria a la Constitución, planteará la cuestión ante el Tribunal Constitucional en los supuestos, en la forma y con los efectos que establezca la ley, que salvo autorización judicial serán suspensivos.…",
+        "Cuando un órgano judicial considere, en algún proceso, que una norma con rango de ley orgánica, aplicable al caso, de cuya validez dependa el fallo, pueda ser contraria a la Constitución, planteará la cuestión ante el Tribunal Constitucional en los supuestos, en la forma y con los efectos que establezca la ley, que en ningún caso serán suspensivos.…"
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 163 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 163.1 dice: «Cuando un órgano judicial considere, en algún proceso, que una norma con rango de ley, aplicable al caso, de cuya validez dependa el fallo, pueda ser contraria a la Constitución, planteará la cuestión ante el Tribunal Constitucional en los supuestos, en la forma y con los efectos que establezca la ley, que en ningún caso serán suspensivos.…». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Tribunal Constitucional» por «Tribunal Supremo»; «en ningún caso» por «salvo autorización judicial»; «ley» por «ley orgánica»."
     },
     "id": 163,
     "concepto_clave": "Cuestión judicial de inconstitucionalidad",
@@ -5904,15 +5904,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 164 de la Constitución Española («Sentencias del Tribunal Constitucional»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Las que declaren la inconstitucionalidad de una ley o de una norma con fuerza de ley y todas las que no se limiten a la estimación subjetiva de un derecho, tienen plenos efectos frente a todos.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre sentencias del tribunal constitucional sin autorización previa del Tribunal Constitucional.",
-        "Las sentencias del Tribunal Constitucional se publicarán en el boletín oficial del Estado con los votos particulares, si los hubiere.",
-        "Para lo previsto en el artículo 164 (sentencias del tribunal constitucional), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 164 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 165.",
+        "En el artículo 164.",
+        "En el artículo 163.",
+        "En el artículo 154."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 164 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 164 («Sentencias del Tribunal Constitucional»). Los tribunales preguntan mucho por la ubicación exacta: el 165 trata sobre «ley del tribunal constitucional»; el 163 trata sobre «cuestión judicial de inconstitucionalidad»; el 154 trata sobre «el delegado del gobierno»."
     },
     "id": 164,
     "concepto_clave": "Sentencias del Tribunal Constitucional",
@@ -5933,15 +5933,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 165 de la Constitución Española («Ley del Tribunal Constitucional»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 165.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Una ley ordinaria o real decreto regulará el funcionamiento del Tribunal Constitucional, el estatuto de sus miembros, el procedimiento ante el mismo y las condiciones para el ejercicio de las acciones.",
+        "Una ley orgánica regulará el funcionamiento del Tribunal Supremo, el estatuto de sus miembros, el procedimiento ante el mismo y las condiciones para el ejercicio de las acciones.",
         "Una ley orgánica regulará el funcionamiento del Tribunal Constitucional, el estatuto de sus miembros, el procedimiento ante el mismo y las condiciones para el ejercicio de las acciones.",
-        "Para lo previsto en el artículo 165 (ley del tribunal constitucional), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 165 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Una ley ordinaria regulará el funcionamiento del Tribunal Constitucional, el estatuto de sus miembros, el procedimiento ante el mismo y las condiciones para el ejercicio de las acciones.",
+        "Una ley ordinaria regulará el funcionamiento del Tribunal Supremo, el estatuto de sus miembros, el procedimiento ante el mismo y las condiciones para el ejercicio de las acciones."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 165 de la CE: el precepto exige expresamente \"ley orgánica\", no ley ordinaria ni reglamento. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 165.1 dice: «Una ley orgánica regulará el funcionamiento del Tribunal Constitucional, el estatuto de sus miembros, el procedimiento ante el mismo y las condiciones para el ejercicio de las acciones.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Tribunal Constitucional» por «Tribunal Supremo»; «ley orgánica» por «ley ordinaria»."
     },
     "id": 165,
     "concepto_clave": "Ley del Tribunal Constitucional",
@@ -5962,15 +5962,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 166 de la Constitución Española («Iniciativa de reforma constitucional»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «La iniciativa de reforma constitucional se ejercerá en los términos previstos en los apartados 1 y 2 del artículo 87.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre iniciativa de reforma constitucional sin autorización previa del Tribunal Constitucional.",
-        "La iniciativa de reforma constitucional se ejercerá en los términos previstos en los apartados 1 y 2 del artículo 87.",
-        "Para lo previsto en el artículo 166 (iniciativa de reforma constitucional), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 166 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 167.",
+        "En el artículo 166.",
+        "En el artículo 165.",
+        "En el artículo 156."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 166 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 166 («Iniciativa de reforma constitucional»). Los tribunales preguntan mucho por la ubicación exacta: el 167 trata sobre «reforma constitucional procedimiento ordinario»; el 165 trata sobre «ley del tribunal constitucional»; el 156 trata sobre «autonomía financiera de comunidades»."
     },
     "id": 166,
     "concepto_clave": "Iniciativa de reforma constitucional",
@@ -6069,15 +6069,15 @@ const constitucion_db = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 169 de la Constitución Española («Límites a reforma constitucional»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «No podrá iniciarse la reforma constitucional en tiempo de guerra o de vigencia de alguno de los estados previstos en el artículo 116.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre límites a reforma constitucional sin autorización previa del Tribunal Constitucional.",
-        "No podrá iniciarse la reforma constitucional en tiempo de guerra o de vigencia de alguno de los estados previstos en el artículo 116.",
-        "Para lo previsto en el artículo 169 (límites a reforma constitucional), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 169 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 168.",
+        "En el artículo 169.",
+        "En el artículo 159.",
+        "En el artículo 167."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 169 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 169 («Límites a reforma constitucional»). Los tribunales preguntan mucho por la ubicación exacta: el 168 trata sobre «reforma constitucional procedimiento agravado»; el 159 trata sobre «composición del tribunal constitucional»; el 167 trata sobre «reforma constitucional procedimiento ordinario»."
     },
     "id": 169,
     "concepto_clave": "Límites a reforma constitucional",
@@ -6275,15 +6275,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 7 de la Constitución Española («Sindicatos y asociaciones empresariales»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los sindicatos de trabajadores y las asociaciones empresariales contribuyen a la defensa y promoción de los intereses económicos y sociales que les son propios.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre sindicatos y asociaciones empresariales sin autorización previa del Tribunal Constitucional.",
-        "Los sindicatos de trabajadores y las asociaciones empresariales contribuyen a la defensa y promoción de los intereses económicos y sociales que les son propios.",
-        "Para lo previsto en el artículo 7 (sindicatos y asociaciones empresariales), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 7 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 8.",
+        "En el artículo 7.",
+        "En el artículo 6.",
+        "En el artículo 17."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 7 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 7 («Sindicatos y asociaciones empresariales»). Los tribunales preguntan mucho por la ubicación exacta: el 8 trata sobre «misión de fuerzas armadas»; el 6 trata sobre «partidos y pluralismo político»; el 17 trata sobre «libertad personal y detención»."
     }
   },
   {
@@ -6370,15 +6370,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 10 de la Constitución Española («Dignidad y derechos humanos»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Las normas relativas a los derechos fundamentales y a las libertades que la Constitución reconoce se interpretarán de conformidad con la Declaración Universal de Derechos Humanos y los tratados y acuerdos internacionales sobre las mismas materias ratificados por España.»",
       "opciones": [
-        "La dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad, el respeto a la ley orgánica con mayoría de tres quintos y a los derechos de los demás son fundamento del orden político y de la...",
-        "La dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad, el respeto a la ley y a los derechos de los demás son fundamento del orden político y de la...",
-        "Para lo previsto en el artículo 10 (dignidad y derechos humanos), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 10 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 11.",
+        "En el artículo 10.",
+        "En el artículo 9.",
+        "En el artículo 20."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 10 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 10 («Dignidad y derechos humanos»). Los tribunales preguntan mucho por la ubicación exacta: el 11 trata sobre «nacionalidad española y convenios»; el 9 trata sobre «legalidad y garantías jurídicas»; el 20 trata sobre «libertad de expresión informativa»."
     }
   },
   {
@@ -6430,15 +6430,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 12 de la Constitución Española («Mayoría a dieciocho años»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 12.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre mayoría a dieciocho años sin autorización previa del Tribunal Constitucional.",
+        "Los españoles son mayores de edad a los dieciséis años.",
         "Los españoles son mayores de edad a los dieciocho años.",
-        "Para lo previsto en el artículo 12 (mayoría a dieciocho años), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 12 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Los ciudadanos residentes son mayores de edad a los dieciocho años.",
+        "Los ciudadanos residentes son mayores de edad a los dieciséis años."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 12 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 12.1 dice: «Los españoles son mayores de edad a los dieciocho años.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «dieciocho años» por «dieciséis años»; «españoles» por «ciudadanos residentes»."
     }
   },
   {
@@ -6495,15 +6495,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 14 de la Constitución Española («Igualdad ante la ley»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 14.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Los españoles son iguales ante la ley orgánica con mayoría de tres quintos, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social.",
+        "Los españoles son iguales ante la ley orgánica, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social.",
         "Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social.",
-        "Para lo previsto en el artículo 14 (igualdad ante la ley), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 14 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Los ciudadanos residentes son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social.",
+        "Los ciudadanos residentes son iguales ante la ley orgánica, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 14 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 14.1 dice: «Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley» por «ley orgánica»; «españoles» por «ciudadanos residentes»."
     }
   },
   {
@@ -6660,15 +6660,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 19 de la Constitución Española («Libertad de residencia nacional»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los españoles tienen derecho a elegir libremente su residencia y a circular por el territorio nacional.»",
       "opciones": [
-        "Los españoles tienen deber inexcusable sujeto a autorización previa a elegir libremente su residencia y a circular por el territorio nacional.",
-        "Los españoles tienen derecho a elegir libremente su residencia y a circular por el territorio nacional.",
-        "Para lo previsto en el artículo 19 (libertad de residencia nacional), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 19 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 20.",
+        "En el artículo 19.",
+        "En el artículo 18.",
+        "En el artículo 29."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 19 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 19 («Libertad de residencia nacional»). Los tribunales preguntan mucho por la ubicación exacta: el 20 trata sobre «libertad de expresión informativa»; el 18 trata sobre «honor, intimidad y domicilio»; el 29 trata sobre «derecho de petición escrita»."
     }
   },
   {
@@ -6705,15 +6705,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 20 de la Constitución Española («Libertad de expresión informativa»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 20.5 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Se reconocen y protegen los deber inexcusable sujeto a autorización previas: a) A expresar y difundir libremente los pensamientos, ideas y opiniones mediante la palabra, el escrito o cualquier otro medio de reproducción.",
-        "Se reconocen y protegen los derechos: a) A expresar y difundir libremente los pensamientos, ideas y opiniones mediante la palabra, el escrito o cualquier otro medio de reproducción.",
-        "Para lo previsto en el artículo 20 (libertad de expresión informativa), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 20 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Sólo podrá acordarse el secuestro de publicaciones, grabaciones y otros medios de información en virtud de resolución administrativa.",
+        "Sólo podrá acordarse el secuestro de publicaciones, grabaciones y otros medios de información en virtud de resolución judicial.",
+        "Sólo deberá acordarse el secuestro de publicaciones, grabaciones y otros medios de información en virtud de resolución judicial.",
+        "Sólo deberá acordarse el secuestro de publicaciones, grabaciones y otros medios de información en virtud de resolución administrativa."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 20 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 20.5 dice: «Sólo podrá acordarse el secuestro de publicaciones, grabaciones y otros medios de información en virtud de resolución judicial.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «resolución judicial» por «resolución administrativa»; «podrá» por «deberá»."
     }
   },
   {
@@ -6780,15 +6780,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 22 de la Constitución Española («Derecho constitucional de asociación»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 22.4 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Se reconoce el deber inexcusable sujeto a autorización previa de asociación.",
-        "Se reconoce el derecho de asociación.",
-        "Para lo previsto en el artículo 22 (derecho constitucional de asociación), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 22 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las asociaciones sólo podrán ser disueltas o suspendidas en sus actividades en virtud de resolución administrativa motivada.",
+        "Las asociaciones sólo podrán ser disueltas o suspendidas en sus actividades en virtud de resolución judicial motivada.",
+        "Las asociaciones sólo deberán ser disueltas o suspendidas en sus actividades en virtud de resolución judicial motivada.",
+        "Las asociaciones sólo deberán ser disueltas o suspendidas en sus actividades en virtud de resolución administrativa motivada."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 22 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 22.4 dice: «Las asociaciones sólo podrán ser disueltas o suspendidas en sus actividades en virtud de resolución judicial motivada.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «resolución judicial» por «resolución administrativa»; «podrán» por «deberán»."
     }
   },
   {
@@ -6810,15 +6810,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 23 de la Constitución Española («Participación y cargos públicos»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los ciudadanos tienen el derecho a participar en los asuntos públicos, directamente o por medio de representantes, libremente elegidos en elecciones periódicas por sufragio universal.»",
       "opciones": [
-        "Los ciudadanos tienen el deber inexcusable sujeto a autorización previa a participar en los asuntos públicos, directamente o por medio de representantes, libremente elegidos en elecciones periódicas por sufragio universal.",
-        "Los ciudadanos tienen el derecho a participar en los asuntos públicos, directamente o por medio de representantes, libremente elegidos en elecciones periódicas por sufragio universal.",
-        "Para lo previsto en el artículo 23 (participación y cargos públicos), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 23 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 24.",
+        "En el artículo 23.",
+        "En el artículo 22.",
+        "En el artículo 33."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 23 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 23 («Participación y cargos públicos»). Los tribunales preguntan mucho por la ubicación exacta: el 24 trata sobre «tutela judicial sin indefensión»; el 22 trata sobre «derecho constitucional de asociación»; el 33 trata sobre «propiedad privada y herencia»."
     }
   },
   {
@@ -6840,15 +6840,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 24 de la Constitución Española («Tutela judicial sin indefensión»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Asimismo, todos tienen derecho al Juez ordinario predeterminado por la ley, a la defensa y a la asistencia de letrado, a ser informados de la acusación formulada contra ellos, a un proceso público sin dilaciones indebidas y con todas las garantías, a utilizar los medios de prueba pertinentes para su…»",
       "opciones": [
-        "Todas las personas tienen deber inexcusable sujeto a autorización previa a obtener la tutela efectiva de los jueces y tribunales en el ejercicio de sus derechos e intereses legítimos, sin que, en ningún caso, pueda producirse indefensión.",
-        "Todas las personas tienen derecho a obtener la tutela efectiva de los jueces y tribunales en el ejercicio de sus derechos e intereses legítimos, sin que, en ningún caso, pueda producirse indefensión.",
-        "Para lo previsto en el artículo 24 (tutela judicial sin indefensión), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 24 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 25.",
+        "En el artículo 24.",
+        "En el artículo 23.",
+        "En el artículo 34."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 24 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 24 («Tutela judicial sin indefensión»). Los tribunales preguntan mucho por la ubicación exacta: el 25 trata sobre «legalidad penal y reinserción»; el 23 trata sobre «participación y cargos públicos»; el 34 trata sobre «derecho general de fundación»."
     }
   },
   {
@@ -6875,15 +6875,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 25 de la Constitución Española («Legalidad penal y reinserción»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «El condenado a pena de prisión que estuviere cumpliendo la misma gozará de los derechos fundamentales de este Capítulo, a excepción de los que se vean expresamente limitados por el contenido del fallo condenatorio, el sentido de la pena y la ley penitenciaria.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre legalidad penal y reinserción sin autorización previa del Tribunal Constitucional.",
-        "Nadie puede ser condenado o sancionado por acciones u omisiones que en el momento de producirse no constituyan delito, falta o infracción administrativa, según la legislación vigente en aquel momento.",
-        "Para lo previsto en el artículo 25 (legalidad penal y reinserción), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 25 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 26.",
+        "En el artículo 25.",
+        "En el artículo 24.",
+        "En el artículo 35."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 25 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 25 («Legalidad penal y reinserción»). Los tribunales preguntan mucho por la ubicación exacta: el 26 trata sobre «prohibición tribunales de honor»; el 24 trata sobre «tutela judicial sin indefensión»; el 35 trata sobre «deber y derecho trabajar»."
     }
   },
   {
@@ -6900,15 +6900,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 26 de la Constitución Española («Prohibición Tribunales de Honor»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Se prohíben los Tribunales de Honor en el ámbito de la Administración civil y de las organizaciones profesionales.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre prohibición tribunales de honor sin autorización previa del Tribunal Constitucional.",
-        "Se prohíben los Tribunales de Honor en el ámbito de la Administración civil y de las organizaciones profesionales.",
-        "Para lo previsto en el artículo 26 (prohibición tribunales de honor), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 26 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 27.",
+        "En el artículo 26.",
+        "En el artículo 25.",
+        "En el artículo 36."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 26 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 26 («Prohibición Tribunales de Honor»). Los tribunales preguntan mucho por la ubicación exacta: el 27 trata sobre «derecho a la educación»; el 25 trata sobre «legalidad penal y reinserción»; el 36 trata sobre «régimen de colegios profesionales»."
     }
   },
   {
@@ -6970,15 +6970,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 27 de la Constitución Española («Derecho a la educación»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 27.10 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Todos tienen el deber inexcusable sujeto a autorización previa a la educación.",
-        "Todos tienen el derecho a la educación.",
-        "Para lo previsto en el artículo 27 (derecho a la educación), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 27 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Se reconoce la autonomía de las Universidades, en los términos que la ley orgánica establezca.",
+        "Se reconoce la autonomía de las Universidades, en los términos que la ley establezca.",
+        "Se garantiza la autonomía de las Universidades, en los términos que la ley establezca.",
+        "Se garantiza la autonomía de las Universidades, en los términos que la ley orgánica establezca."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 27 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 27.10 dice: «Se reconoce la autonomía de las Universidades, en los términos que la ley establezca.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley» por «ley orgánica»; «reconoce» por «garantiza»."
     }
   },
   {
@@ -7000,15 +7000,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 28 de la Constitución Española («Libertad sindical y huelga»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 28.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Todos tienen deber inexcusable sujeto a autorización previa a sindicarse libremente.",
-        "Todos tienen derecho a sindicarse libremente.",
-        "Para lo previsto en el artículo 28 (libertad sindical y huelga), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 28 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "La ley deberá limitar o exceptuar el ejercicio de este derecho a las Fuerzas o Institutos armados o a los demás Cuerpos sometidos a disciplina militar y regulará las peculiaridades de su ejercicio para los funcionarios públicos.",
+        "La ley podrá limitar o exceptuar el ejercicio de este derecho a las Fuerzas o Institutos armados o a los demás Cuerpos sometidos a disciplina militar y regulará las peculiaridades de su ejercicio para los funcionarios públicos.",
+        "La ley orgánica podrá limitar o exceptuar el ejercicio de este derecho a las Fuerzas o Institutos armados o a los demás Cuerpos sometidos a disciplina militar y regulará las peculiaridades de su ejercicio para los funcionarios públicos.",
+        "La ley orgánica deberá limitar o exceptuar el ejercicio de este derecho a las Fuerzas o Institutos armados o a los demás Cuerpos sometidos a disciplina militar y regulará las peculiaridades de su ejercicio para los funcionarios públicos."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 28 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 28.1 dice: «La ley podrá limitar o exceptuar el ejercicio de este derecho a las Fuerzas o Institutos armados o a los demás Cuerpos sometidos a disciplina militar y regulará las peculiaridades de su ejercicio para los funcionarios públicos.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrá» por «deberá»; «ley» por «ley orgánica»."
     }
   },
   {
@@ -7030,15 +7030,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 29 de la Constitución Española («Derecho de petición escrita»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 29.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Todos los españoles tendrán el derecho de petición individual y colectiva, por escrito, en la forma y con los efectos que determine la ley orgánica con mayoría de tres quintos.",
+        "Todos los españoles tendrán el derecho de petición individual y colectiva, por escrito, en la forma y con los efectos que determine la ley orgánica.",
         "Todos los españoles tendrán el derecho de petición individual y colectiva, por escrito, en la forma y con los efectos que determine la ley.",
-        "Para lo previsto en el artículo 29 (derecho de petición escrita), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 29 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Todos los ciudadanos residentes tendrán el derecho de petición individual y colectiva, por escrito, en la forma y con los efectos que determine la ley.",
+        "Todos los ciudadanos residentes tendrán el derecho de petición individual y colectiva, por escrito, en la forma y con los efectos que determine la ley orgánica."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 29 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 29.1 dice: «Todos los españoles tendrán el derecho de petición individual y colectiva, por escrito, en la forma y con los efectos que determine la ley.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley» por «ley orgánica»; «españoles» por «ciudadanos residentes»."
     }
   },
   {
@@ -7070,15 +7070,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 30 de la Constitución Española («Derecho deber defender España»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 30.4 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Los españoles tienen el deber inexcusable sujeto a autorización previa y el deber de defender a España.",
-        "Los españoles tienen el derecho y el deber de defender a España.",
-        "Para lo previsto en el artículo 30 (derecho deber defender españa), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 30 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Mediante ley deberán regularse los deberes de los ciudadanos en los casos de grave riesgo, catástrofe o calamidad pública.",
+        "Mediante ley podrán regularse los deberes de los ciudadanos en los casos de grave riesgo, catástrofe o calamidad pública.",
+        "Mediante ley orgánica podrán regularse los deberes de los ciudadanos en los casos de grave riesgo, catástrofe o calamidad pública.",
+        "Mediante ley orgánica deberán regularse los deberes de los ciudadanos en los casos de grave riesgo, catástrofe o calamidad pública."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 30 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 30.4 dice: «Mediante ley podrán regularse los deberes de los ciudadanos en los casos de grave riesgo, catástrofe o calamidad pública.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrán» por «deberán»; «ley» por «ley orgánica»."
     }
   },
   {
@@ -7105,15 +7105,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 31 de la Constitución Española («Sistema tributario y gasto»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 31.3 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre sistema tributario y gasto sin autorización previa del Tribunal Constitucional.",
-        "Todos contribuirán al sostenimiento de los gastos públicos de acuerdo con su capacidad económica mediante un sistema tributario justo inspirado en los principios de igualdad y progresividad que, en ningún ca...",
-        "Para lo previsto en el artículo 31 (sistema tributario y gasto), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 31 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Sólo deberán establecerse prestaciones personales o patrimoniales de carácter público con arreglo a la ley.",
+        "Sólo podrán establecerse prestaciones personales o patrimoniales de carácter público con arreglo a la ley.",
+        "Sólo podrán establecerse prestaciones personales o patrimoniales de carácter público con arreglo a la ley orgánica.",
+        "Sólo deberán establecerse prestaciones personales o patrimoniales de carácter público con arreglo a la ley orgánica."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 31 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 31.3 dice: «Sólo podrán establecerse prestaciones personales o patrimoniales de carácter público con arreglo a la ley.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrán» por «deberán»; «ley» por «ley orgánica»."
     }
   },
   {
@@ -7135,15 +7135,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 32 de la Constitución Española («Matrimonio en plena igualdad»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «La ley regulará las formas de matrimonio, la edad y capacidad para contraerlo, los derechos y deberes de los cónyuges, las causas de separación y disolución y sus efectos.»",
       "opciones": [
-        "El hombre y la mujer tienen deber inexcusable sujeto a autorización previa a contraer matrimonio con plena igualdad jurídica.",
-        "El hombre y la mujer tienen derecho a contraer matrimonio con plena igualdad jurídica.",
-        "Para lo previsto en el artículo 32 (matrimonio en plena igualdad), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 32 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 33.",
+        "En el artículo 32.",
+        "En el artículo 31.",
+        "En el artículo 42."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 32 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 32 («Matrimonio en plena igualdad»). Los tribunales preguntan mucho por la ubicación exacta: el 33 trata sobre «propiedad privada y herencia»; el 31 trata sobre «sistema tributario y gasto»; el 42 trata sobre «derechos de emigrantes españoles»."
     }
   },
   {
@@ -7170,15 +7170,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 33 de la Constitución Española («Propiedad privada y herencia»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Nadie podrá ser privado de sus bienes y derechos sino por causa justificada de utilidad pública o interés social, mediante la correspondiente indemnización y de conformidad con lo dispuesto por las leyes.»",
       "opciones": [
-        "Se reconoce el deber inexcusable sujeto a autorización previa a la propiedad privada y a la herencia.",
-        "Se reconoce el derecho a la propiedad privada y a la herencia.",
-        "Para lo previsto en el artículo 33 (propiedad privada y herencia), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 33 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 34.",
+        "En el artículo 33.",
+        "En el artículo 32.",
+        "En el artículo 43."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 33 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 33 («Propiedad privada y herencia»). Los tribunales preguntan mucho por la ubicación exacta: el 34 trata sobre «derecho general de fundación»; el 32 trata sobre «matrimonio en plena igualdad»; el 43 trata sobre «protección salud y deporte»."
     }
   },
   {
@@ -7200,15 +7200,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 34 de la Constitución Española («Derecho general de fundación»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 34.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Se reconoce el derecho de fundación para fines de interés general, con arreglo a la ley orgánica con mayoría de tres quintos.",
+        "Se reconoce el derecho de fundación para fines de interés general, con arreglo a la ley orgánica.",
         "Se reconoce el derecho de fundación para fines de interés general, con arreglo a la ley.",
-        "Para lo previsto en el artículo 34 (derecho general de fundación), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 34 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Se garantiza el derecho de fundación para fines de interés general, con arreglo a la ley.",
+        "Se garantiza el derecho de fundación para fines de interés general, con arreglo a la ley orgánica."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 34 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 34.1 dice: «Se reconoce el derecho de fundación para fines de interés general, con arreglo a la ley.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley» por «ley orgánica»; «reconoce» por «garantiza»."
     }
   },
   {
@@ -7230,15 +7230,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 35 de la Constitución Española («Deber y derecho trabajar»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 35.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Todos los españoles tienen el deber de trabajar y el deber inexcusable sujeto a autorización previa al trabajo, a la libre elección de profesión u oficio, a la promoción a través del trabajo y a una remuneración suficiente para satisfacer sus nec...",
-        "Todos los españoles tienen el deber de trabajar y el derecho al trabajo, a la libre elección de profesión u oficio, a la promoción a través del trabajo y a una remuneración suficiente para satisfacer sus nec...",
-        "Para lo previsto en el artículo 35 (deber y derecho trabajar), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 35 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Todos los españoles tienen el deber de trabajar y el derecho al trabajo, a la libre elección de profesión u oficio, a la promoción a través del trabajo y a una remuneración suficiente para satisfacer sus necesidades y las de su familia, sin que salvo autorización judicial pueda hacerse discriminación por razón de sexo.",
+        "Todos los españoles tienen el deber de trabajar y el derecho al trabajo, a la libre elección de profesión u oficio, a la promoción a través del trabajo y a una remuneración suficiente para satisfacer sus necesidades y las de su familia, sin que en ningún caso pueda hacerse discriminación por razón de sexo.",
+        "Todos los españoles tienen el derecho de trabajar y el derecho al trabajo, a la libre elección de profesión u oficio, a la promoción a través del trabajo y a una remuneración suficiente para satisfacer sus necesidades y las de su familia, sin que en ningún caso pueda hacerse discriminación por razón de sexo.",
+        "Todos los ciudadanos residentes tienen el deber de trabajar y el derecho al trabajo, a la libre elección de profesión u oficio, a la promoción a través del trabajo y a una remuneración suficiente para satisfacer sus necesidades y las de su familia, sin que en ningún caso pueda hacerse discriminación por razón de sexo."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 35 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 35.1 dice: «Todos los españoles tienen el deber de trabajar y el derecho al trabajo, a la libre elección de profesión u oficio, a la promoción a través del trabajo y a una remuneración suficiente para satisfacer sus necesidades y las de su familia, sin que en ningún caso pueda hacerse discriminación por razón de sexo.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «en ningún caso» por «salvo autorización judicial»; «tienen el deber» por «tienen el derecho»; «españoles» por «ciudadanos residentes»."
     }
   },
   {
@@ -7255,15 +7255,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 36 de la Constitución Española («Régimen de Colegios Profesionales»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «La ley regulará las peculiaridades propias del régimen jurídico de los Colegios Profesionales y el ejercicio de las profesiones tituladas.»",
       "opciones": [
-        "La ley orgánica con mayoría de tres quintos regulará las peculiaridades propias del régimen jurídico de los Colegios Profesionales y el ejercicio de las profesiones tituladas.",
-        "La ley regulará las peculiaridades propias del régimen jurídico de los Colegios Profesionales y el ejercicio de las profesiones tituladas.",
-        "Para lo previsto en el artículo 36 (régimen de colegios profesionales), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 36 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 37.",
+        "En el artículo 36.",
+        "En el artículo 35.",
+        "En el artículo 46."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 36 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 36 («Régimen de Colegios Profesionales»). Los tribunales preguntan mucho por la ubicación exacta: el 37 trata sobre «negociación y conflicto laboral»; el 35 trata sobre «deber y derecho trabajar»; el 46 trata sobre «conservación del patrimonio histórico»."
     }
   },
   {
@@ -7285,15 +7285,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 37 de la Constitución Española («Negociación y conflicto laboral»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «La ley que regule el ejercicio de este derecho, sin perjuicio de las limitaciones que puedan establecer, incluirá las garantías precisas para asegurar el funcionamiento de los servicios esenciales de la comunidad.»",
       "opciones": [
-        "La ley orgánica con mayoría de tres quintos garantizará el derecho a la negociación colectiva laboral entre los representantes de los trabajadores y empresarios, así como la fuerza vinculante de los convenios.",
-        "La ley garantizará el derecho a la negociación colectiva laboral entre los representantes de los trabajadores y empresarios, así como la fuerza vinculante de los convenios.",
-        "Para lo previsto en el artículo 37 (negociación y conflicto laboral), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 37 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 38.",
+        "En el artículo 37.",
+        "En el artículo 36.",
+        "En el artículo 47."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 37 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 37 («Negociación y conflicto laboral»). Los tribunales preguntan mucho por la ubicación exacta: el 38 trata sobre «libertad empresarial de mercado»; el 36 trata sobre «régimen de colegios profesionales»; el 47 trata sobre «derecho a vivienda digna»."
     }
   },
   {
@@ -7310,15 +7310,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 38 de la Constitución Española («Libertad empresarial de mercado»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los poderes públicos garantizan y protegen su ejercicio y la defensa de la productividad, de acuerdo con las exigencias de la economía general y, en su caso, de la planificación.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre libertad empresarial de mercado sin autorización previa del Tribunal Constitucional.",
-        "Se reconoce la libertad de empresa en el marco de la economía de mercado.",
-        "Para lo previsto en el artículo 38 (libertad empresarial de mercado), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 38 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 39.",
+        "En el artículo 38.",
+        "En el artículo 37.",
+        "En el artículo 48."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 38 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 38 («Libertad empresarial de mercado»). Los tribunales preguntan mucho por la ubicación exacta: el 39 trata sobre «protección integral de familia»; el 37 trata sobre «negociación y conflicto laboral»; el 48 trata sobre «participación libre de juventud»."
     }
   },
   {
@@ -7350,15 +7350,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 39 de la Constitución Española («Protección integral de familia»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 39.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre protección integral de familia sin autorización previa del Tribunal Constitucional.",
-        "Los poderes públicos aseguran la protección social, económica y jurídica de la familia.",
-        "Para lo previsto en el artículo 39 (protección integral de familia), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 39 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Los poderes públicos aseguran, asimismo, la protección integral de los hijos, iguales éstos ante la ley orgánica con independencia de su filiación, y de las madres, cualquiera que sea su estado civil.",
+        "Los poderes públicos aseguran, asimismo, la protección integral de los hijos, iguales éstos ante la ley con independencia de su filiación, y de las madres, cualquiera que sea su estado civil.",
+        "Las Comunidades Autónomas aseguran, asimismo, la protección integral de los hijos, iguales éstos ante la ley con independencia de su filiación, y de las madres, cualquiera que sea su estado civil.",
+        "Las Comunidades Autónomas aseguran, asimismo, la protección integral de los hijos, iguales éstos ante la ley orgánica con independencia de su filiación, y de las madres, cualquiera que sea su estado civil."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 39 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 39.2 dice: «Los poderes públicos aseguran, asimismo, la protección integral de los hijos, iguales éstos ante la ley con independencia de su filiación, y de las madres, cualquiera que sea su estado civil.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley» por «ley orgánica»; «Los poderes públicos» por «Las Comunidades Autónomas»."
     }
   },
   {
@@ -7380,15 +7380,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 40 de la Constitución Española («Progreso económico y empleo»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Asimismo, los poderes públicos fomentarán una política que garantice la formación y readaptación profesionales; velarán por la seguridad e higiene en el trabajo y garantizarán el descanso necesario, mediante la limitación de la jornada laboral, las vacaciones periódicas retribuidas y la promoción de…»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre progreso económico y empleo sin autorización previa del Tribunal Constitucional.",
-        "Los poderes públicos promoverán las condiciones favorables para el progreso social y económico y para una distribución de la renta regional y personal más equitativa, en el marco de una política de estabilid...",
-        "Para lo previsto en el artículo 40 (progreso económico y empleo), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 40 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 41.",
+        "En el artículo 40.",
+        "En el artículo 39.",
+        "En el artículo 50."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 40 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 40 («Progreso económico y empleo»). Los tribunales preguntan mucho por la ubicación exacta: el 41 trata sobre «régimen de seguridad social»; el 39 trata sobre «protección integral de familia»; el 50 trata sobre «pensiones de tercera edad»."
     }
   },
   {
@@ -7405,15 +7405,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 41 de la Constitución Española («Régimen de Seguridad Social»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los poderes públicos mantendrán un régimen público de Seguridad Social para todos los ciudadanos, que garantice la asistencia y prestaciones sociales suficientes ante situaciones de necesidad, especialmente en caso de desempleo.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre régimen de seguridad social sin autorización previa del Tribunal Constitucional.",
-        "Los poderes públicos mantendrán un régimen público de Seguridad Social para todos los ciudadanos, que garantice la asistencia y prestaciones sociales suficientes ante situaciones de necesidad, especialmente...",
-        "Para lo previsto en el artículo 41 (régimen de seguridad social), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 41 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 42.",
+        "En el artículo 41.",
+        "En el artículo 40.",
+        "En el artículo 51."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 41 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 41 («Régimen de Seguridad Social»). Los tribunales preguntan mucho por la ubicación exacta: el 42 trata sobre «derechos de emigrantes españoles»; el 40 trata sobre «progreso económico y empleo»; el 51 trata sobre «defensa consumidores y usuarios»."
     }
   },
   {
@@ -7430,15 +7430,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 42 de la Constitución Española («Derechos de emigrantes españoles»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «El Estado velará especialmente por la salvaguardia de los derechos económicos y sociales de los trabajadores españoles en el extranjero y orientará su política hacia su retorno.»",
       "opciones": [
-        "El Estado velará especialmente por la salvaguardia de los deber inexcusable sujeto a autorización previas económicos y sociales de los trabajadores españoles en el extranjero y orientará su política hacia su retorno.",
-        "El Estado velará especialmente por la salvaguardia de los derechos económicos y sociales de los trabajadores españoles en el extranjero y orientará su política hacia su retorno.",
-        "Para lo previsto en el artículo 42 (derechos de emigrantes españoles), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 42 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 43.",
+        "En el artículo 42.",
+        "En el artículo 41.",
+        "En el artículo 52."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 42 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 42 («Derechos de emigrantes españoles»). Los tribunales preguntan mucho por la ubicación exacta: el 43 trata sobre «protección salud y deporte»; el 41 trata sobre «régimen de seguridad social»; el 52 trata sobre «organizaciones de intereses económicos»."
     }
   },
   {
@@ -7465,15 +7465,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 43 de la Constitución Española («Protección salud y deporte»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Compete a los poderes públicos organizar y tutelar la salud pública a través de medidas preventivas y de las prestaciones y servicios necesarios.»",
       "opciones": [
-        "Se reconoce el deber inexcusable sujeto a autorización previa a la protección de la salud.",
-        "Se reconoce el derecho a la protección de la salud.",
-        "Para lo previsto en el artículo 43 (protección salud y deporte), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 43 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 44.",
+        "En el artículo 43.",
+        "En el artículo 42.",
+        "En el artículo 53."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 43 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 43 («Protección salud y deporte»). Los tribunales preguntan mucho por la ubicación exacta: el 44 trata sobre «acceso cultural e investigación»; el 42 trata sobre «derechos de emigrantes españoles»; el 53 trata sobre «garantías de derechos fundamentales»."
     }
   },
   {
@@ -7495,15 +7495,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 44 de la Constitución Española («Acceso cultural e investigación»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los poderes públicos promoverán la ciencia y la investigación científica y técnica en beneficio del interés general.»",
       "opciones": [
-        "Los poderes públicos promoverán y tutelarán el acceso a la cultura, a la que todos tienen deber inexcusable sujeto a autorización previa.",
-        "Los poderes públicos promoverán y tutelarán el acceso a la cultura, a la que todos tienen derecho.",
-        "Para lo previsto en el artículo 44 (acceso cultural e investigación), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 44 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 45.",
+        "En el artículo 44.",
+        "En el artículo 43.",
+        "En el artículo 54."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 44 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 44 («Acceso cultural e investigación»). Los tribunales preguntan mucho por la ubicación exacta: el 45 trata sobre «protección del medio ambiente»; el 43 trata sobre «protección salud y deporte»; el 54 trata sobre «institución defensor del pueblo»."
     }
   },
   {
@@ -7530,15 +7530,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 45 de la Constitución Española («Protección del medio ambiente»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los poderes públicos velarán por la utilización racional de todos los recursos naturales, con el fin de proteger y mejorar la calidad de la vida y defender y restaurar el medio ambiente, apoyándose en la indispensable solidaridad colectiva.»",
       "opciones": [
-        "Todos tienen el deber inexcusable sujeto a autorización previa a disfrutar de un medio ambiente adecuado para el desarrollo de la persona, así como el deber de conservarlo.",
-        "Todos tienen el derecho a disfrutar de un medio ambiente adecuado para el desarrollo de la persona, así como el deber de conservarlo.",
-        "Para lo previsto en el artículo 45 (protección del medio ambiente), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 45 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 46.",
+        "En el artículo 45.",
+        "En el artículo 44.",
+        "En el artículo 55."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 45 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 45 («Protección del medio ambiente»). Los tribunales preguntan mucho por la ubicación exacta: el 46 trata sobre «conservación del patrimonio histórico»; el 44 trata sobre «acceso cultural e investigación»; el 55 trata sobre «suspensión de derechos fundamentales»."
     }
   },
   {
@@ -7555,15 +7555,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 46 de la Constitución Española («Conservación del patrimonio histórico»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los poderes públicos garantizarán la conservación y promoverán el enriquecimiento del patrimonio histórico, cultural y artístico de los pueblos de España y de los bienes que lo integran, cualquiera que sea su régimen jurídico y su titularidad.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre conservación del patrimonio histórico sin autorización previa del Tribunal Constitucional.",
-        "Los poderes públicos garantizarán la conservación y promoverán el enriquecimiento del patrimonio histórico, cultural y artístico de los pueblos de España y de los bienes que lo integran, cualquiera que sea s...",
-        "Para lo previsto en el artículo 46 (conservación del patrimonio histórico), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 46 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 47.",
+        "En el artículo 46.",
+        "En el artículo 45.",
+        "En el artículo 56."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 46 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 46 («Conservación del patrimonio histórico»). Los tribunales preguntan mucho por la ubicación exacta: el 47 trata sobre «derecho a vivienda digna»; el 45 trata sobre «protección del medio ambiente»; el 56 trata sobre «el rey jefe estatal»."
     }
   },
   {
@@ -7580,15 +7580,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 47 de la Constitución Española («Derecho a vivienda digna»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los poderes públicos promoverán las condiciones necesarias y establecerán las normas pertinentes para hacer efectivo este derecho, regulando la utilización del suelo de acuerdo con el interés general para impedir la especulación.»",
       "opciones": [
-        "Todos los españoles tienen deber inexcusable sujeto a autorización previa a disfrutar de una vivienda digna y adecuada.",
-        "Todos los españoles tienen derecho a disfrutar de una vivienda digna y adecuada.",
-        "Para lo previsto en el artículo 47 (derecho a vivienda digna), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 47 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 48.",
+        "En el artículo 47.",
+        "En el artículo 46.",
+        "En el artículo 57."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 47 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 47 («Derecho a vivienda digna»). Los tribunales preguntan mucho por la ubicación exacta: el 48 trata sobre «participación libre de juventud»; el 46 trata sobre «conservación del patrimonio histórico»; el 57 trata sobre «sucesión hereditaria en corona»."
     }
   },
   {
@@ -7605,15 +7605,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 48 de la Constitución Española («Participación libre de juventud»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los poderes públicos promoverán las condiciones para la participación libre y eficaz de la juventud en el desarrollo político, social, económico y cultural.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre participación libre de juventud sin autorización previa del Tribunal Constitucional.",
-        "Los poderes públicos promoverán las condiciones para la participación libre y eficaz de la juventud en el desarrollo político, social, económico y cultural.",
-        "Para lo previsto en el artículo 48 (participación libre de juventud), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 48 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 49.",
+        "En el artículo 48.",
+        "En el artículo 47.",
+        "En el artículo 58."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 48 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 48 («Participación libre de juventud»). Los tribunales preguntan mucho por la ubicación exacta: el 49 trata sobre «inclusión personas con discapacidad»; el 47 trata sobre «derecho a vivienda digna»; el 58 trata sobre «estatuto del consorte real»."
     }
   },
   {
@@ -7635,15 +7635,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 49 de la Constitución Española («Inclusión personas con discapacidad»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los poderes públicos impulsarán las políticas que garanticen la plena autonomía personal y la inclusión social de las personas con discapacidad, en entornos universalmente accesibles.»",
       "opciones": [
-        "Las personas con discapacidad ejercen los deber inexcusable sujeto a autorización previas previstos en este Título en condiciones de libertad e igualdad reales y efectivas.",
-        "Las personas con discapacidad ejercen los derechos previstos en este Título en condiciones de libertad e igualdad reales y efectivas.",
-        "Para lo previsto en el artículo 49 (inclusión personas con discapacidad), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 49 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 50.",
+        "En el artículo 49.",
+        "En el artículo 48.",
+        "En el artículo 59."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 49 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 49 («Inclusión personas con discapacidad»). Los tribunales preguntan mucho por la ubicación exacta: el 50 trata sobre «pensiones de tercera edad»; el 48 trata sobre «participación libre de juventud»; el 59 trata sobre «regencia constitucional del reino»."
     }
   },
   {
@@ -7660,15 +7660,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 50 de la Constitución Española («Pensiones de tercera edad»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Asimismo, y con independencia de las obligaciones familiares, promoverán su bienestar mediante un sistema de servicios sociales que atenderán sus problemas específicos de salud, vivienda, cultura y ocio.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre pensiones de tercera edad sin autorización previa del Tribunal Constitucional.",
-        "Los poderes públicos garantizarán, mediante pensiones adecuadas y periódicamente actualizadas, la suficiencia económica a los ciudadanos durante la tercera edad.",
-        "Para lo previsto en el artículo 50 (pensiones de tercera edad), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 50 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 51.",
+        "En el artículo 50.",
+        "En el artículo 49.",
+        "En el artículo 60."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 50 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 50 («Pensiones de tercera edad»). Los tribunales preguntan mucho por la ubicación exacta: el 51 trata sobre «defensa consumidores y usuarios»; el 49 trata sobre «inclusión personas con discapacidad»; el 60 trata sobre «tutela del rey menor»."
     }
   },
   {
@@ -7695,15 +7695,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 51 de la Constitución Española («Defensa consumidores y usuarios»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 51.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre defensa consumidores y usuarios sin autorización previa del Tribunal Constitucional.",
-        "Los poderes públicos garantizarán la defensa de los consumidores y usuarios, protegiendo, mediante procedimientos eficaces, la seguridad, la salud y los legítimos intereses económicos de los mismos.",
-        "Para lo previsto en el artículo 51 (defensa consumidores y usuarios), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 51 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Los poderes públicos promoverán la información y la educación de los consumidores y usuarios, fomentarán sus organizaciones y oirán a éstas en las cuestiones que puedan afectar a aquéllos, en los términos que la ley orgánica establezca.",
+        "Los poderes públicos promoverán la información y la educación de los consumidores y usuarios, fomentarán sus organizaciones y oirán a éstas en las cuestiones que puedan afectar a aquéllos, en los términos que la ley establezca.",
+        "Las Comunidades Autónomas promoverán la información y la educación de los consumidores y usuarios, fomentarán sus organizaciones y oirán a éstas en las cuestiones que puedan afectar a aquéllos, en los términos que la ley establezca.",
+        "Las Comunidades Autónomas promoverán la información y la educación de los consumidores y usuarios, fomentarán sus organizaciones y oirán a éstas en las cuestiones que puedan afectar a aquéllos, en los términos que la ley orgánica establezca."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 51 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 51.2 dice: «Los poderes públicos promoverán la información y la educación de los consumidores y usuarios, fomentarán sus organizaciones y oirán a éstas en las cuestiones que puedan afectar a aquéllos, en los términos que la ley establezca.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley» por «ley orgánica»; «Los poderes públicos» por «Las Comunidades Autónomas»."
     }
   },
   {
@@ -7720,15 +7720,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 52 de la Constitución Española («Organizaciones de intereses económicos»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «La ley regulará las organizaciones profesionales que contribuyan a la defensa de los intereses económicos que les sean propios.»",
       "opciones": [
-        "La ley orgánica con mayoría de tres quintos regulará las organizaciones profesionales que contribuyan a la defensa de los intereses económicos que les sean propios.",
-        "La ley regulará las organizaciones profesionales que contribuyan a la defensa de los intereses económicos que les sean propios.",
-        "Para lo previsto en el artículo 52 (organizaciones de intereses económicos), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 52 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 53.",
+        "En el artículo 52.",
+        "En el artículo 51.",
+        "En el artículo 62."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 52 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 52 («Organizaciones de intereses económicos»). Los tribunales preguntan mucho por la ubicación exacta: el 53 trata sobre «garantías de derechos fundamentales»; el 51 trata sobre «defensa consumidores y usuarios»; el 62 trata sobre «funciones constitucionales del rey»."
     }
   },
   {
@@ -7755,15 +7755,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 53 de la Constitución Española («Garantías de derechos fundamentales»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 53.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Los deber inexcusable sujeto a autorización previas y libertades reconocidos en el Capítulo segundo del presente Título vinculan a todos los poderes públicos.",
-        "Los derechos y libertades reconocidos en el Capítulo segundo del presente Título vinculan a todos los poderes públicos.",
-        "Para lo previsto en el artículo 53 (garantías de derechos fundamentales), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 53 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Sólo por ley, que en todo caso podrá respetar su contenido esencial, deberá regularse el ejercicio de tales derechos y libertades, que se tutelarán de acuerdo con lo previsto en el artículo 161, 1, a).",
+        "Sólo por ley, que en todo caso deberá respetar su contenido esencial, podrá regularse el ejercicio de tales derechos y libertades, que se tutelarán de acuerdo con lo previsto en el artículo 161, 1, a).",
+        "Sólo por ley orgánica, que en todo caso deberá respetar su contenido esencial, podrá regularse el ejercicio de tales derechos y libertades, que se tutelarán de acuerdo con lo previsto en el artículo 161, 1, a).",
+        "Sólo por ley, que en su caso deberá respetar su contenido esencial, podrá regularse el ejercicio de tales derechos y libertades, que se tutelarán de acuerdo con lo previsto en el artículo 161, 1, a)."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 53 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 53.1 dice: «Sólo por ley, que en todo caso deberá respetar su contenido esencial, podrá regularse el ejercicio de tales derechos y libertades, que se tutelarán de acuerdo con lo previsto en el artículo 161, 1, a).». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrá» por «deberá»; «ley» por «ley orgánica»; «en todo caso» por «en su caso»."
     }
   },
   {
@@ -7810,15 +7810,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 55 de la Constitución Española («Suspensión de derechos fundamentales»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 55.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Los derechos reconocidos en los artículos 17, 18, apartados 2 y 3, artículos 19, 20, apartados 1, a) y d), y 5, artículos 21, 28, apartado 2, y artículo 37, apartado 2, deberán obligatoriamente en todo caso ser suspendidos cuando se acuer...",
-        "Los derechos reconocidos en los artículos 17, 18, apartados 2 y 3, artículos 19, 20, apartados 1, a) y d), y 5, artículos 21, 28, apartado 2, y artículo 37, apartado 2, podrán ser suspendidos cuando se acuer...",
-        "Para lo previsto en el artículo 55 (suspensión de derechos fundamentales), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 55 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Una ley ordinaria podrá determinar la forma y los casos en los que, de forma individual y con la necesaria intervención judicial y el adecuado control parlamentario…",
+        "Una ley orgánica podrá determinar la forma y los casos en los que, de forma individual y con la necesaria intervención judicial y el adecuado control parlamentario…",
+        "Una ley orgánica deberá determinar la forma y los casos en los que, de forma individual y con la necesaria intervención judicial y el adecuado control parlamentario…",
+        "Una ley ordinaria deberá determinar la forma y los casos en los que, de forma individual y con la necesaria intervención judicial y el adecuado control parlamentario…"
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 55 de la CE: el texto constitucional utiliza el verbo potestativo \"podrán\", no un mandato imperativo (\"deberán\"). Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 55.2 dice: «Una ley orgánica podrá determinar la forma y los casos en los que, de forma individual y con la necesaria intervención judicial y el adecuado control parlamentario…». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley orgánica» por «ley ordinaria»; «podrá» por «deberá»."
     }
   },
   {
@@ -7890,15 +7890,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 57 de la Constitución Española («Sucesión hereditaria en Corona»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «La sucesión en el trono seguirá el orden regular de primogenitura y representación, siendo preferida siempre la línea anterior a las posteriores; en la misma línea, el grado más próximo al más remoto; en el mismo grado, el varón a la mujer, y en el mismo sexo, la persona de más edad a la de menos.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre sucesión hereditaria en corona sin autorización previa del Tribunal Constitucional.",
-        "La Corona de España es hereditaria en los sucesores de S.",
-        "Para lo previsto en el artículo 57 (sucesión hereditaria en corona), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 57 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 58.",
+        "En el artículo 57.",
+        "En el artículo 56.",
+        "En el artículo 67."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 57 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 57 («Sucesión hereditaria en Corona»). Los tribunales preguntan mucho por la ubicación exacta: el 58 trata sobre «estatuto del consorte real»; el 56 trata sobre «el rey jefe estatal»; el 67 trata sobre «mandato parlamentario e incompatibilidad»."
     }
   },
   {
@@ -7915,15 +7915,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 58 de la Constitución Española («Estatuto del consorte real»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «La Reina consorte o el consorte de la Reina no podrán asumir funciones constitucionales, salvo lo dispuesto para la Regencia.»",
       "opciones": [
-        "La Reina consorte o el consorte de la Reina no deberán obligatoriamente en todo caso asumir funciones constitucionales, salvo lo dispuesto para la Regencia.",
-        "La Reina consorte o el consorte de la Reina no podrán asumir funciones constitucionales, salvo lo dispuesto para la Regencia.",
-        "Para lo previsto en el artículo 58 (estatuto del consorte real), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 58 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 59.",
+        "En el artículo 58.",
+        "En el artículo 57.",
+        "En el artículo 68."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 58 de la CE: el texto constitucional utiliza el verbo potestativo \"podrán\", no un mandato imperativo (\"deberán\"). Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 58 («Estatuto del consorte real»). Los tribunales preguntan mucho por la ubicación exacta: el 59 trata sobre «regencia constitucional del reino»; el 57 trata sobre «sucesión hereditaria en corona»; el 68 trata sobre «composición electoral del congreso»."
     }
   },
   {
@@ -7960,15 +7960,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 59 de la Constitución Española («Regencia constitucional del Reino»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Cuando el Rey fuere menor de edad, el padre o la madre del Rey y, en su defecto, el pariente mayor de edad más próximo a suceder en la Corona, según el orden establecido en la Constitución, entrará a ejercer inmediatamente la Regencia y la ejercerá durante el tiempo de la minoría de edad del Rey.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre regencia constitucional del reino sin autorización previa del Tribunal Constitucional.",
-        "Cuando el Rey fuere menor de edad, el padre o la madre del Rey y, en su defecto, el pariente mayor de edad más próximo a suceder en la Corona, según el orden establecido en la Constitución, entrará a ejercer...",
-        "Para lo previsto en el artículo 59 (regencia constitucional del reino), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 59 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 60.",
+        "En el artículo 59.",
+        "En el artículo 58.",
+        "En el artículo 69."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 59 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 59 («Regencia constitucional del Reino»). Los tribunales preguntan mucho por la ubicación exacta: el 60 trata sobre «tutela del rey menor»; el 58 trata sobre «estatuto del consorte real»; el 69 trata sobre «composición territorial del senado»."
     }
   },
   {
@@ -7990,15 +7990,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 60 de la Constitución Española («Tutela del Rey menor»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 60.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre tutela del rey menor sin autorización previa del Tribunal Constitucional.",
-        "Será tutor del Rey menor la persona que en su testamento hubiese nombrado el Rey difunto, siempre que sea mayor de edad y español de nacimiento; si no lo hubiese nombrado, será tutor el padre o la madre mien...",
-        "Para lo previsto en el artículo 60 (tutela del rey menor), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 60 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En su defecto, lo nombrarán las Cortes Generales, pero no podrán acumularse los cargos de Regente y de tutor sino en el padre, madre o ascendientes directos del Presidente del Gobierno.",
+        "En su defecto, lo nombrarán las Cortes Generales, pero no podrán acumularse los cargos de Regente y de tutor sino en el padre, madre o ascendientes directos del Rey.",
+        "En su defecto, lo nombrarán las Cortes Generales, pero no deberán acumularse los cargos de Regente y de tutor sino en el padre, madre o ascendientes directos del Rey.",
+        "En su defecto, lo nombrarán las Cortes Generales, pero no deberán acumularse los cargos de Regente y de tutor sino en el padre, madre o ascendientes directos del Presidente del Gobierno."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 60 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 60.1 dice: «En su defecto, lo nombrarán las Cortes Generales, pero no podrán acumularse los cargos de Regente y de tutor sino en el padre, madre o ascendientes directos del Rey.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Rey» por «Presidente del Gobierno»; «podrán» por «deberán»."
     }
   },
   {
@@ -8020,15 +8020,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 61 de la Constitución Española («Proclamación y juramento real»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 61.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "El Rey, al ser proclamado ante las Cortes Generales, prestará juramento de desempeñar fielmente sus funciones, guardar y hacer guardar la Constitución y las leyes y respetar los derechos de los ciudadanos y...",
-        "El Rey, al ser proclamado ante las Cortes Generales, prestará juramento de desempeñar fielmente sus funciones, guardar y hacer guardar la Constitución y las leyes y respetar los derechos de los ciudadanos y...",
-        "Para lo previsto en el artículo 61 (proclamación y juramento real), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 61 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Presidente del Gobierno, al ser proclamado ante las Cortes Generales, prestará juramento de desempeñar fielmente sus funciones, guardar y hacer guardar la Constitución y las leyes y respetar los derechos de los ciudadanos y de las Comunidades Autónomas.",
+        "El Rey, al ser proclamado ante las Cortes Generales, prestará juramento de desempeñar fielmente sus funciones, guardar y hacer guardar la Constitución y las leyes y respetar los derechos de los ciudadanos y de las Comunidades Autónomas.",
+        "El Rey, al ser proclamado ante las Cortes Generales, prestará juramento de desempeñar fielmente sus funciones, guardar y hacer guardar la Constitución y las leyes y respetar los derechos de los ciudadanos y de las Diputaciones Provinciales.",
+        "El Presidente del Gobierno, al ser proclamado ante las Cortes Generales, prestará juramento de desempeñar fielmente sus funciones, guardar y hacer guardar la Constitución y las leyes y respetar los derechos de los ciudadanos y de las Diputaciones Provinciales."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 61 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 61.1 dice: «El Rey, al ser proclamado ante las Cortes Generales, prestará juramento de desempeñar fielmente sus funciones, guardar y hacer guardar la Constitución y las leyes y respetar los derechos de los ciudadanos y de las Comunidades Autónomas.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Rey» por «Presidente del Gobierno»; «Comunidades Autónomas» por «Diputaciones Provinciales»."
     }
   },
   {
@@ -8045,15 +8045,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 62 de la Constitución Española («Funciones constitucionales del Rey»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 62.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Corresponde al Rey: a) Sancionar y promulgar las leyes.",
-        "Corresponde al Rey: a) Sancionar y promulgar las leyes.",
-        "Para lo previsto en el artículo 62 (funciones constitucionales del rey), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 62 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Corresponde al Presidente del Gobierno: i) Ejercer el derecho de gracia con arreglo a la ley, que no podrá autorizar indultos generales.",
+        "Corresponde al Rey: i) Ejercer el derecho de gracia con arreglo a la ley, que no podrá autorizar indultos generales.",
+        "Corresponde al Rey: i) Ejercer el derecho de gracia con arreglo a la ley, que no deberá autorizar indultos generales.",
+        "Corresponde al Rey: i) Ejercer el derecho de gracia con arreglo a la ley orgánica, que no podrá autorizar indultos generales."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 62 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 62.1 dice: «Corresponde al Rey: i) Ejercer el derecho de gracia con arreglo a la ley, que no podrá autorizar indultos generales.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Rey» por «Presidente del Gobierno»; «podrá» por «deberá»; «ley» por «ley orgánica»."
     }
   },
   {
@@ -8080,15 +8080,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 63 de la Constitución Española («Acreditación diplomática y tratados»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Al Rey corresponde manifestar el consentimiento del Estado para obligarse internacionalmente por medio de tratados, de conformidad con la Constitución y las leyes.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre acreditación diplomática y tratados sin autorización previa del Tribunal Constitucional.",
-        "El Rey acredita a los embajadores y otros representantes diplomáticos.",
-        "Para lo previsto en el artículo 63 (acreditación diplomática y tratados), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 63 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 64.",
+        "En el artículo 63.",
+        "En el artículo 62.",
+        "En el artículo 73."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 63 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 63 («Acreditación diplomática y tratados»). Los tribunales preguntan mucho por la ubicación exacta: el 64 trata sobre «refrendo de actos reales»; el 62 trata sobre «funciones constitucionales del rey»; el 73 trata sobre «períodos de sesiones parlamentarias»."
     }
   },
   {
@@ -8110,15 +8110,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 64 de la Constitución Española («Refrendo de actos reales»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «La propuesta y el nombramiento del Presidente del Gobierno, y la disolución prevista en el artículo 99, serán refrendados por el Presidente del Congreso.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre refrendo de actos reales sin autorización previa del Tribunal Constitucional.",
-        "Los actos del Rey serán refrendados por el Presidente del Gobierno y, en su caso, por los Ministros competentes.",
-        "Para lo previsto en el artículo 64 (refrendo de actos reales), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 64 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 65.",
+        "En el artículo 64.",
+        "En el artículo 63.",
+        "En el artículo 74."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 64 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 64 («Refrendo de actos reales»). Los tribunales preguntan mucho por la ubicación exacta: el 65 trata sobre «presupuesto de casa real»; el 63 trata sobre «acreditación diplomática y tratados»; el 74 trata sobre «sesiones conjuntas de cámaras»."
     }
   },
   {
@@ -8140,15 +8140,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 65 de la Constitución Española («Presupuesto de Casa Real»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «El Rey recibe de los Presupuestos del Estado una cantidad global para el sostenimiento de su Familia y Casa, y distribuye libremente la misma.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre presupuesto de casa real sin autorización previa del Tribunal Constitucional.",
-        "El Rey recibe de los Presupuestos del Estado una cantidad global para el sostenimiento de su Familia y Casa, y distribuye libremente la misma.",
-        "Para lo previsto en el artículo 65 (presupuesto de casa real), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 65 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 66.",
+        "En el artículo 65.",
+        "En el artículo 64.",
+        "En el artículo 75."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 65 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 65 («Presupuesto de Casa Real»). Los tribunales preguntan mucho por la ubicación exacta: el 66 trata sobre «potestades de cortes generales»; el 64 trata sobre «refrendo de actos reales»; el 75 trata sobre «pleno y comisiones parlamentarias»."
     }
   },
   {
@@ -8175,15 +8175,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 66 de la Constitución Española («Potestades de Cortes Generales»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Las Cortes Generales ejercen la potestad legislativa del Estado, aprueban sus Presupuestos, controlan la acción del Gobierno y tienen las demás competencias que les atribuya la Constitución.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre potestades de cortes generales sin autorización previa del Tribunal Constitucional.",
-        "Las Cortes Generales representan al pueblo español y están formadas por el Congreso de los Diputados y el Senado.",
-        "Para lo previsto en el artículo 66 (potestades de cortes generales), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 66 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 67.",
+        "En el artículo 66.",
+        "En el artículo 65.",
+        "En el artículo 76."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 66 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 66 («Potestades de Cortes Generales»). Los tribunales preguntan mucho por la ubicación exacta: el 67 trata sobre «mandato parlamentario e incompatibilidad»; el 65 trata sobre «presupuesto de casa real»; el 76 trata sobre «comisiones parlamentarias de investigación»."
     }
   },
   {
@@ -8210,15 +8210,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 67 de la Constitución Española («Mandato parlamentario e incompatibilidad»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Las reuniones de Parlamentarios que se celebren sin convocatoria reglamentaria no vincularán a las Cámaras, y no podrán ejercer sus funciones ni ostentar sus privilegios.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre mandato parlamentario e incompatibilidad sin autorización previa del Tribunal Constitucional.",
-        "Nadie podrá ser miembro de las dos Cámaras simultáneamente, ni acumular el acta de una Asamblea de Comunidad Autónoma con la de Diputado al Congreso.",
-        "Para lo previsto en el artículo 67 (mandato parlamentario e incompatibilidad), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 67 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 68.",
+        "En el artículo 67.",
+        "En el artículo 66.",
+        "En el artículo 77."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 67 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 67 («Mandato parlamentario e incompatibilidad»). Los tribunales preguntan mucho por la ubicación exacta: el 68 trata sobre «composición electoral del congreso»; el 66 trata sobre «potestades de cortes generales»; el 77 trata sobre «peticiones escritas a cámaras»."
     }
   },
   {
@@ -8310,15 +8310,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 69 de la Constitución Española («Composición territorial del Senado»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 69.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre composición territorial del senado sin autorización previa del Tribunal Constitucional.",
-        "El Senado es la Cámara de representación territorial.",
-        "Para lo previsto en el artículo 69 (composición territorial del senado), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 69 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En cada provincia se elegirán cuatro Senadores por sufragio universal, libre, igual, directo y secreto por los votantes de cada una de ellas, en los términos que señale una ley ordinaria.",
+        "En cada provincia se elegirán cuatro Senadores por sufragio universal, libre, igual, directo y secreto por los votantes de cada una de ellas, en los términos que señale una ley orgánica.",
+        "En cada comarca se elegirán cuatro Senadores por sufragio universal, libre, igual, directo y secreto por los votantes de cada una de ellas, en los términos que señale una ley orgánica.",
+        "En cada comarca se elegirán cuatro Senadores por sufragio universal, libre, igual, directo y secreto por los votantes de cada una de ellas, en los términos que señale una ley ordinaria."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 69 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 69.2 dice: «En cada provincia se elegirán cuatro Senadores por sufragio universal, libre, igual, directo y secreto por los votantes de cada una de ellas, en los términos que señale una ley orgánica.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley orgánica» por «ley ordinaria»; «provincia» por «comarca»."
     }
   },
   {
@@ -8340,15 +8340,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 70 de la Constitución Española («Inelegibilidad e incompatibilidad parlamentaria»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 70.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "La ley orgánica con mayoría de tres quintos electoral determinará las causas de inelegibilidad e incompatibilidad de los Diputados y Senadores, que comprenderán, en todo caso: a) A los componentes del Tribunal Constitucional.",
-        "La ley electoral determinará las causas de inelegibilidad e incompatibilidad de los Diputados y Senadores, que comprenderán, en todo caso: a) A los componentes del Tribunal Constitucional.",
-        "Para lo previsto en el artículo 70 (inelegibilidad e incompatibilidad parlamentaria), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 70 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "La ley orgánica electoral determinará las causas de inelegibilidad e incompatibilidad de los Diputados y Senadores, que comprenderán, en todo caso: f) A los miembros de las Juntas Electorales.",
+        "La ley electoral determinará las causas de inelegibilidad e incompatibilidad de los Diputados y Senadores, que comprenderán, en todo caso: f) A los miembros de las Juntas Electorales.",
+        "La ley electoral determinará las causas de inelegibilidad e incompatibilidad de los Diputados y Senadores, que comprenderán, en su caso: f) A los miembros de las Juntas Electorales.",
+        "La ley orgánica electoral determinará las causas de inelegibilidad e incompatibilidad de los Diputados y Senadores, que comprenderán, en su caso: f) A los miembros de las Juntas Electorales."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 70 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 70.1 dice: «La ley electoral determinará las causas de inelegibilidad e incompatibilidad de los Diputados y Senadores, que comprenderán, en todo caso: f) A los miembros de las Juntas Electorales.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley» por «ley orgánica»; «en todo caso» por «en su caso»."
     }
   },
   {
@@ -8380,15 +8380,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 71 de la Constitución Española («Prerrogativas de los parlamentarios»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Durante el período de su mandato los Diputados y Senadores gozarán asimismo de inmunidad y sólo podrán ser detenidos en caso de flagrante delito.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre prerrogativas de los parlamentarios sin autorización previa del Tribunal Constitucional.",
-        "Los Diputados y Senadores gozarán de inviolabilidad por las opiniones manifestadas en el ejercicio de sus funciones.",
-        "Para lo previsto en el artículo 71 (prerrogativas de los parlamentarios), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 71 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 72.",
+        "En el artículo 71.",
+        "En el artículo 70.",
+        "En el artículo 81."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 71 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 71 («Prerrogativas de los parlamentarios»). Los tribunales preguntan mucho por la ubicación exacta: el 72 trata sobre «autonomía reglamentaria de cámaras»; el 70 trata sobre «inelegibilidad e incompatibilidad parlamentaria»; el 81 trata sobre «aprobación de leyes orgánicas»."
     }
   },
   {
@@ -8415,15 +8415,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 72 de la Constitución Española («Autonomía reglamentaria de Cámaras»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Las sesiones conjuntas serán presididas por el Presidente del Congreso y se regirán por un Reglamento de las Cortes Generales aprobado por mayoría absoluta de cada Cámara.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre autonomía reglamentaria de cámaras sin autorización previa del Tribunal Constitucional.",
-        "Las Cámaras establecen sus propios Reglamentos, aprueban autónomamente sus presupuestos y, de común acuerdo, regulan el Estatuto del Personal de las Cortes Generales.",
-        "Para lo previsto en el artículo 72 (autonomía reglamentaria de cámaras), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 72 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 73.",
+        "En el artículo 72.",
+        "En el artículo 71.",
+        "En el artículo 82."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 72 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 72 («Autonomía reglamentaria de Cámaras»). Los tribunales preguntan mucho por la ubicación exacta: el 73 trata sobre «períodos de sesiones parlamentarias»; el 71 trata sobre «prerrogativas de los parlamentarios»; el 82 trata sobre «delegación legislativa al gobierno»."
     }
   },
   {
@@ -8445,15 +8445,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 73 de la Constitución Española («Períodos de sesiones parlamentarias»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 73.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre períodos de sesiones parlamentarias sin autorización previa del Tribunal Constitucional.",
-        "Las Cámaras se reunirán anualmente en dos períodos ordinarios de sesiones: el primero, de septiembre a diciembre, y el segundo, de febrero a junio.",
-        "Para lo previsto en el artículo 73 (períodos de sesiones parlamentarias), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 73 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las Cámaras podrán reunirse en sesiones extraordinarias a petición del Gobierno, de la Diputación Permanente o de la mayoría simple de los miembros de cualquiera de las Cámaras.",
+        "Las Cámaras podrán reunirse en sesiones extraordinarias a petición del Gobierno, de la Diputación Permanente o de la mayoría absoluta de los miembros de cualquiera de las Cámaras.",
+        "Las Cámaras deberán reunirse en sesiones extraordinarias a petición del Gobierno, de la Diputación Permanente o de la mayoría absoluta de los miembros de cualquiera de las Cámaras.",
+        "Las Cámaras deberán reunirse en sesiones extraordinarias a petición del Gobierno, de la Diputación Permanente o de la mayoría simple de los miembros de cualquiera de las Cámaras."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 73 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 73.2 dice: «Las Cámaras podrán reunirse en sesiones extraordinarias a petición del Gobierno, de la Diputación Permanente o de la mayoría absoluta de los miembros de cualquiera de las Cámaras.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «mayoría absoluta» por «mayoría simple»; «podrán» por «deberán»."
     }
   },
   {
@@ -8475,15 +8475,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 74 de la Constitución Española («Sesiones conjuntas de Cámaras»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «En ambos casos, si no hubiera acuerdo entre Senado y Congreso, se intentará obtener por una Comisión Mixta compuesta de igual número de Diputados y Senadores.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre sesiones conjuntas de cámaras sin autorización previa del Tribunal Constitucional.",
-        "Las Cámaras se reunirán en sesión conjunta para ejercer las competencias no legislativas que el Título II atribuye expresamente a las Cortes Generales.",
-        "Para lo previsto en el artículo 74 (sesiones conjuntas de cámaras), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 74 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 75.",
+        "En el artículo 74.",
+        "En el artículo 73.",
+        "En el artículo 84."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 74 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 74 («Sesiones conjuntas de Cámaras»). Los tribunales preguntan mucho por la ubicación exacta: el 75 trata sobre «pleno y comisiones parlamentarias»; el 73 trata sobre «períodos de sesiones parlamentarias»; el 84 trata sobre «revocación de delegación legislativa»."
     }
   },
   {
@@ -8510,15 +8510,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 75 de la Constitución Española («Pleno y Comisiones parlamentarias»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 75.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre pleno y comisiones parlamentarias sin autorización previa del Tribunal Constitucional.",
-        "Las Cámaras funcionarán en Pleno y por Comisiones.",
-        "Para lo previsto en el artículo 75 (pleno y comisiones parlamentarias), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 75 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las Cámaras deberán delegar en las Comisiones Legislativas Permanentes la aprobación de proyectos o proposiciones de ley.",
+        "Las Cámaras podrán delegar en las Comisiones Legislativas Permanentes la aprobación de proyectos o proposiciones de ley.",
+        "Las Cámaras podrán delegar en las Comisiones Legislativas Permanentes la aprobación de proyectos o proposiciones de ley orgánica.",
+        "Las Cámaras deberán delegar en las Comisiones Legislativas Permanentes la aprobación de proyectos o proposiciones de ley orgánica."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 75 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 75.2 dice: «Las Cámaras podrán delegar en las Comisiones Legislativas Permanentes la aprobación de proyectos o proposiciones de ley.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrán» por «deberán»; «ley» por «ley orgánica»."
     }
   },
   {
@@ -8540,15 +8540,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 76 de la Constitución Española («Comisiones parlamentarias de investigación»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 76.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "El Congreso y el Senado, y, en su caso, ambas Cámaras conjuntamente, deberán obligatoriamente en todo caso nombrar Comisiones de investigación sobre cualquier asunto de interés público.",
+        "El Congreso y el Congreso de los Diputados, y, en su caso, ambas Cámaras conjuntamente, podrán nombrar Comisiones de investigación sobre cualquier asunto de interés público.",
         "El Congreso y el Senado, y, en su caso, ambas Cámaras conjuntamente, podrán nombrar Comisiones de investigación sobre cualquier asunto de interés público.",
-        "Para lo previsto en el artículo 76 (comisiones parlamentarias de investigación), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 76 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Congreso y el Senado, y, en su caso, ambas Cámaras conjuntamente, deberán nombrar Comisiones de investigación sobre cualquier asunto de interés público.",
+        "El Congreso y el Congreso de los Diputados, y, en su caso, ambas Cámaras conjuntamente, deberán nombrar Comisiones de investigación sobre cualquier asunto de interés público."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 76 de la CE: el texto constitucional utiliza el verbo potestativo \"podrán\", no un mandato imperativo (\"deberán\"). Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 76.1 dice: «El Congreso y el Senado, y, en su caso, ambas Cámaras conjuntamente, podrán nombrar Comisiones de investigación sobre cualquier asunto de interés público.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Senado» por «Congreso de los Diputados»; «podrán» por «deberán»."
     }
   },
   {
@@ -8570,15 +8570,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 77 de la Constitución Española («Peticiones escritas a Cámaras»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Las Cámaras pueden recibir peticiones individuales y colectivas, siempre por escrito, quedando prohibida la presentación directa por manifestaciones ciudadanas.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre peticiones escritas a cámaras sin autorización previa del Tribunal Constitucional.",
-        "Las Cámaras pueden recibir peticiones individuales y colectivas, siempre por escrito, quedando prohibida la presentación directa por manifestaciones ciudadanas.",
-        "Para lo previsto en el artículo 77 (peticiones escritas a cámaras), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 77 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 78.",
+        "En el artículo 77.",
+        "En el artículo 76.",
+        "En el artículo 87."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 77 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 77 («Peticiones escritas a Cámaras»). Los tribunales preguntan mucho por la ubicación exacta: el 78 trata sobre «diputaciones permanentes de cámaras»; el 76 trata sobre «comisiones parlamentarias de investigación»; el 87 trata sobre «titulares de iniciativa legislativa»."
     }
   },
   {
@@ -8610,15 +8610,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 78 de la Constitución Española («Diputaciones Permanentes de Cámaras»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Las Diputaciones Permanentes estarán presididas por el Presidente de la Cámara respectiva y tendrán como funciones la prevista en el artículo 73, la de asumir las facultades que correspondan a las Cámaras, de acuerdo con los artículos 86 y 116, en caso de que éstas hubieren sido disueltas o hubiere…»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre diputaciones permanentes de cámaras sin autorización previa del Tribunal Constitucional.",
-        "En cada Cámara habrá una Diputación Permanente compuesta por un mínimo de veintiún miembros, que representarán a los grupos parlamentarios, en proporción a su importancia numérica.",
-        "Para lo previsto en el artículo 78 (diputaciones permanentes de cámaras), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 78 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 79.",
+        "En el artículo 78.",
+        "En el artículo 77.",
+        "En el artículo 88."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 78 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 78 («Diputaciones Permanentes de Cámaras»). Los tribunales preguntan mucho por la ubicación exacta: el 79 trata sobre «adopción de acuerdos parlamentarios»; el 77 trata sobre «peticiones escritas a cámaras»; el 88 trata sobre «aprobación proyectos de ley»."
     }
   },
   {
@@ -8645,15 +8645,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 79 de la Constitución Española («Adopción de acuerdos parlamentarios»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 79.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre adopción de acuerdos parlamentarios sin autorización previa del Tribunal Constitucional.",
-        "Para adoptar acuerdos, las Cámaras deben estar reunidas reglamentariamente y con asistencia de la mayoría de sus miembros.",
-        "Para lo previsto en el artículo 79 (adopción de acuerdos parlamentarios), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 79 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Dichos acuerdos, para ser válidos, podrán ser aprobados por la mayoría de los miembros presentes, sin perjuicio de las mayorías especiales que establezcan la Constitución o las leyes orgánicas y las que para elección de personas establezcan los Reglamentos de las Cámaras.",
+        "Dichos acuerdos, para ser válidos, deberán ser aprobados por la mayoría de los miembros presentes, sin perjuicio de las mayorías especiales que establezcan la Constitución o las leyes orgánicas y las que para elección de personas establezcan los Reglamentos de las Cámaras.",
+        "Dichos acuerdos, para ser válidos, deberán ser aprobados por la mayoría de los miembros presentes, sin perjuicio de las mayorías especiales que establezcan la Constitución o las leyes ordinarias y las que para elección de personas establezcan los Reglamentos de las Cámaras.",
+        "Dichos acuerdos, para ser válidos, podrán ser aprobados por la mayoría de los miembros presentes, sin perjuicio de las mayorías especiales que establezcan la Constitución o las leyes ordinarias y las que para elección de personas establezcan los Reglamentos de las Cámaras."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 79 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 79.2 dice: «Dichos acuerdos, para ser válidos, deberán ser aprobados por la mayoría de los miembros presentes, sin perjuicio de las mayorías especiales que establezcan la Constitución o las leyes orgánicas y las que para elección de personas establezcan los Reglamentos de las Cámaras.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «deberán» por «podrán»; «leyes orgánicas» por «leyes ordinarias»."
     }
   },
   {
@@ -8670,15 +8670,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 80 de la Constitución Española («Publicidad de sesiones plenarias»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Las sesiones plenarias de las Cámaras serán públicas, salvo acuerdo en contrario de cada Cámara, adoptado por mayoría absoluta o con arreglo al Reglamento.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre publicidad de sesiones plenarias sin autorización previa del Tribunal Constitucional.",
-        "Las sesiones plenarias de las Cámaras serán públicas, salvo acuerdo en contrario de cada Cámara, adoptado por mayoría absoluta o con arreglo al Reglamento.",
-        "Para lo previsto en el artículo 80 (publicidad de sesiones plenarias), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 80 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 81.",
+        "En el artículo 80.",
+        "En el artículo 79.",
+        "En el artículo 90."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 80 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 80 («Publicidad de sesiones plenarias»). Los tribunales preguntan mucho por la ubicación exacta: el 81 trata sobre «aprobación de leyes orgánicas»; el 79 trata sobre «adopción de acuerdos parlamentarios»; el 90 trata sobre «enmienda o veto senatorial»."
     }
   },
   {
@@ -8750,15 +8750,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 82 de la Constitución Española («Delegación legislativa al Gobierno»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 82.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Las Cortes Generales podrán delegar en el Gobierno la potestad de dictar normas con rango de ley orgánica con mayoría de tres quintos sobre materias determinadas no incluidas en el artículo anterior.",
-        "Las Cortes Generales podrán delegar en el Gobierno la potestad de dictar normas con rango de ley sobre materias determinadas no incluidas en el artículo anterior.",
-        "Para lo previsto en el artículo 82 (delegación legislativa al gobierno), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 82 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "La delegación legislativa podrá otorgarse mediante una ley de bases cuando su objeto sea la formación de textos articulados o por una ley ordinaria cuando se trate de refundir varios textos legales en uno solo.",
+        "La delegación legislativa deberá otorgarse mediante una ley de bases cuando su objeto sea la formación de textos articulados o por una ley ordinaria cuando se trate de refundir varios textos legales en uno solo.",
+        "La delegación legislativa deberá otorgarse mediante una ley orgánica de bases cuando su objeto sea la formación de textos articulados o por una ley ordinaria cuando se trate de refundir varios textos legales en uno solo.",
+        "La delegación legislativa podrá otorgarse mediante una ley orgánica de bases cuando su objeto sea la formación de textos articulados o por una ley ordinaria cuando se trate de refundir varios textos legales en uno solo."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 82 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 82.2 dice: «La delegación legislativa deberá otorgarse mediante una ley de bases cuando su objeto sea la formación de textos articulados o por una ley ordinaria cuando se trate de refundir varios textos legales en uno solo.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «deberá» por «podrá»; «ley» por «ley orgánica»."
     }
   },
   {
@@ -8775,15 +8775,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 83 de la Constitución Española («Límites de leyes básicas»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 83.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Las leyes de bases no podrán en ningún caso: a) Autorizar la modificación de la propia ley orgánica con mayoría de tres quintos de bases.",
-        "Las leyes de bases no podrán en ningún caso: a) Autorizar la modificación de la propia ley de bases.",
-        "Para lo previsto en el artículo 83 (límites de leyes básicas), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 83 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las leyes de bases no deberán en ningún caso: b) Facultar para dictar normas con carácter retroactivo.",
+        "Las leyes de bases no podrán en ningún caso: b) Facultar para dictar normas con carácter retroactivo.",
+        "Las leyes de bases no podrán salvo autorización judicial: b) Facultar para dictar normas con carácter retroactivo.",
+        "Las leyes de bases no deberán salvo autorización judicial: b) Facultar para dictar normas con carácter retroactivo."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 83 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 83.1 dice: «Las leyes de bases no podrán en ningún caso: b) Facultar para dictar normas con carácter retroactivo.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrán» por «deberán»; «en ningún caso» por «salvo autorización judicial»."
     }
   },
   {
@@ -8800,15 +8800,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 84 de la Constitución Española («Revocación de delegación legislativa»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 84.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Cuando una proposición de ley orgánica con mayoría de tres quintos o una enmienda fuere contraria a una delegación legislativa en vigor, el Gobierno está facultado para oponerse a su tramitación.",
-        "Cuando una proposición de ley o una enmienda fuere contraria a una delegación legislativa en vigor, el Gobierno está facultado para oponerse a su tramitación.",
-        "Para lo previsto en el artículo 84 (revocación de delegación legislativa), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 84 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En tal supuesto, deberá presentarse una proposición de ley para la derogación total o parcial de la ley de delegación.",
+        "En tal supuesto, podrá presentarse una proposición de ley para la derogación total o parcial de la ley de delegación.",
+        "En tal supuesto, podrá presentarse una proposición de ley orgánica para la derogación total o parcial de la ley de delegación.",
+        "En tal supuesto, deberá presentarse una proposición de ley orgánica para la derogación total o parcial de la ley de delegación."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 84 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 84.1 dice: «En tal supuesto, podrá presentarse una proposición de ley para la derogación total o parcial de la ley de delegación.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrá» por «deberá»; «ley» por «ley orgánica»."
     }
   },
   {
@@ -8825,15 +8825,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 85 de la Constitución Española («Concepto de Decretos Legislativos»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Las disposiciones del Gobierno que contengan legislación delegada recibirán el título de Decretos Legislativos.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre concepto de decretos legislativos sin autorización previa del Tribunal Constitucional.",
-        "Las disposiciones del Gobierno que contengan legislación delegada recibirán el título de Decretos Legislativos.",
-        "Para lo previsto en el artículo 85 (concepto de decretos legislativos), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 85 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 86.",
+        "En el artículo 85.",
+        "En el artículo 84.",
+        "En el artículo 95."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 85 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 85 («Concepto de Decretos Legislativos»). Los tribunales preguntan mucho por la ubicación exacta: el 86 trata sobre «convalidación de reales decretos-leyes»; el 84 trata sobre «revocación de delegación legislativa»; el 95 trata sobre «control constitucional de tratados»."
     }
   },
   {
@@ -8895,15 +8895,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 87 de la Constitución Española («Titulares de iniciativa legislativa»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 87.3 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre titulares de iniciativa legislativa sin autorización previa del Tribunal Constitucional.",
-        "La iniciativa legislativa corresponde al Gobierno, al Congreso y al Senado, de acuerdo con la Constitución y los Reglamentos de las Cámaras.",
-        "Para lo previsto en el artículo 87 (titulares de iniciativa legislativa), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 87 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En todo caso se exigirán no menos de 250.000 firmas acreditadas.",
+        "En todo caso se exigirán no menos de 500.000 firmas acreditadas.",
+        "En su caso se exigirán no menos de 500.000 firmas acreditadas.",
+        "En su caso se exigirán no menos de 250.000 firmas acreditadas."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 87 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 87.3 dice: «En todo caso se exigirán no menos de 500.000 firmas acreditadas.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «500.000» por «250.000»; «En todo caso» por «En su caso»."
     }
   },
   {
@@ -8920,15 +8920,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 88 de la Constitución Española («Aprobación proyectos de ley»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los proyectos de ley serán aprobados en Consejo de Ministros, que los someterá al Congreso, acompañados de una exposición de motivos y de los antecedentes necesarios para pronunciarse sobre ellos.»",
       "opciones": [
-        "Los proyectos de ley orgánica con mayoría de tres quintos serán aprobados en Consejo de Ministros, que los someterá al Congreso, acompañados de una exposición de motivos y de los antecedentes necesarios para pronunciarse sobre ellos.",
-        "Los proyectos de ley serán aprobados en Consejo de Ministros, que los someterá al Congreso, acompañados de una exposición de motivos y de los antecedentes necesarios para pronunciarse sobre ellos.",
-        "Para lo previsto en el artículo 88 (aprobación proyectos de ley), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 88 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 89.",
+        "En el artículo 88.",
+        "En el artículo 87.",
+        "En el artículo 98."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 88 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 88 («Aprobación proyectos de ley»). Los tribunales preguntan mucho por la ubicación exacta: el 89 trata sobre «tramitación proposiciones de ley»; el 87 trata sobre «titulares de iniciativa legislativa»; el 98 trata sobre «composición y estatuto gubernamental»."
     }
   },
   {
@@ -8950,15 +8950,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 89 de la Constitución Española («Tramitación proposiciones de ley»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 89.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "La tramitación de las proposiciones de ley orgánica con mayoría de tres quintos se regulará por los Reglamentos de las Cámaras, sin que la prioridad debida a los proyectos de ley impida el ejercicio de la iniciativa legislativa en los términos...",
-        "La tramitación de las proposiciones de ley se regulará por los Reglamentos de las Cámaras, sin que la prioridad debida a los proyectos de ley impida el ejercicio de la iniciativa legislativa en los términos...",
-        "Para lo previsto en el artículo 89 (tramitación proposiciones de ley), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 89 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las proposiciones de ley que, de acuerdo con el artículo 87, tome en consideración el Congreso de los Diputados, se remitirán al Congreso para su trámite en éste como tal proposición.",
+        "Las proposiciones de ley que, de acuerdo con el artículo 87, tome en consideración el Senado, se remitirán al Congreso para su trámite en éste como tal proposición.",
+        "Las proposiciones de ley orgánica que, de acuerdo con el artículo 87, tome en consideración el Senado, se remitirán al Congreso para su trámite en éste como tal proposición.",
+        "Las proposiciones de ley orgánica que, de acuerdo con el artículo 87, tome en consideración el Congreso de los Diputados, se remitirán al Congreso para su trámite en éste como tal proposición."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 89 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 89.2 dice: «Las proposiciones de ley que, de acuerdo con el artículo 87, tome en consideración el Senado, se remitirán al Congreso para su trámite en éste como tal proposición.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Senado» por «Congreso de los Diputados»; «ley» por «ley orgánica»."
     }
   },
   {
@@ -9045,15 +9045,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 92 de la Constitución Española («Convocatoria de referéndum consultivo»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 92.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Las decisiones políticas de especial trascendencia deberán obligatoriamente en todo caso ser sometidas a referéndum consultivo de todos los ciudadanos.",
-        "Las decisiones políticas de especial trascendencia podrán ser sometidas a referéndum consultivo de todos los ciudadanos.",
-        "Para lo previsto en el artículo 92 (convocatoria de referéndum consultivo), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 92 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El referéndum será convocado por el Presidente del Gobierno, mediante propuesta del Rey, previamente autorizada por el Congreso de los Diputados.",
+        "El referéndum será convocado por el Rey, mediante propuesta del Presidente del Gobierno, previamente autorizada por el Congreso de los Diputados.",
+        "El referéndum será convocado por el Rey, mediante propuesta del Presidente del Gobierno, previamente autorizada por el Senado.",
+        "El referéndum será convocado por el Presidente del Gobierno, mediante propuesta del Rey, previamente autorizada por el Senado."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 92 de la CE: el texto constitucional utiliza el verbo potestativo \"podrán\", no un mandato imperativo (\"deberán\"). Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 92.2 dice: «El referéndum será convocado por el Rey, mediante propuesta del Presidente del Gobierno, previamente autorizada por el Congreso de los Diputados.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Presidente del Gobierno» por «Rey»; «Congreso de los Diputados» por «Senado»."
     }
   },
   {
@@ -9070,15 +9070,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 93 de la Constitución Española («Cesión constitucional por tratados»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 93.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Mediante ley ordinaria o real decreto se podrá autorizar la celebración de tratados por los que se atribuya a una organización o institución internacional el ejercicio de competencias derivadas de la Constitución.",
+        "Mediante ley ordinaria se podrá autorizar la celebración de tratados por los que se atribuya a una organización o institución internacional el ejercicio de competencias derivadas de la Constitución.",
         "Mediante ley orgánica se podrá autorizar la celebración de tratados por los que se atribuya a una organización o institución internacional el ejercicio de competencias derivadas de la Constitución.",
-        "Para lo previsto en el artículo 93 (cesión constitucional por tratados), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 93 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Mediante ley orgánica se deberá autorizar la celebración de tratados por los que se atribuya a una organización o institución internacional el ejercicio de competencias derivadas de la Constitución.",
+        "Mediante ley ordinaria se deberá autorizar la celebración de tratados por los que se atribuya a una organización o institución internacional el ejercicio de competencias derivadas de la Constitución."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 93 de la CE: el precepto exige expresamente \"ley orgánica\", no ley ordinaria ni reglamento. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 93.1 dice: «Mediante ley orgánica se podrá autorizar la celebración de tratados por los que se atribuya a una organización o institución internacional el ejercicio de competencias derivadas de la Constitución.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley orgánica» por «ley ordinaria»; «podrá» por «deberá»."
     }
   },
   {
@@ -9100,15 +9100,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 94 de la Constitución Española («Autorización parlamentaria de tratados»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «La prestación del consentimiento del Estado para obligarse por medio de tratados o convenios requerirá la previa autorización de las Cortes Generales, en los siguientes casos: a) Tratados de carácter político. b) Tratados o convenios de carácter militar. c) Tratados o convenios que afecten a la…»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre autorización parlamentaria de tratados sin autorización previa del Tribunal Constitucional.",
-        "La prestación del consentimiento del Estado para obligarse por medio de tratados o convenios requerirá la previa autorización de las Cortes Generales, en los siguientes casos: a) Tratados de carácter político.",
-        "Para lo previsto en el artículo 94 (autorización parlamentaria de tratados), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 94 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 95.",
+        "En el artículo 94.",
+        "En el artículo 93.",
+        "En el artículo 104."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 94 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 94 («Autorización parlamentaria de tratados»). Los tribunales preguntan mucho por la ubicación exacta: el 95 trata sobre «control constitucional de tratados»; el 93 trata sobre «cesión constitucional por tratados»; el 104 trata sobre «fuerzas y cuerpos policiales»."
     }
   },
   {
@@ -9130,15 +9130,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 95 de la Constitución Española («Control constitucional de tratados»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 95.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre control constitucional de tratados sin autorización previa del Tribunal Constitucional.",
-        "La celebración de un tratado internacional que contenga estipulaciones contrarias a la Constitución exigirá la previa revisión constitucional.",
-        "Para lo previsto en el artículo 95 (control constitucional de tratados), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 95 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Gobierno o cualquiera de las Cámaras puede requerir al Tribunal Supremo para que declare si existe o no esa contradicción.",
+        "El Gobierno o cualquiera de las Cámaras puede requerir al Tribunal Constitucional para que declare si existe o no esa contradicción.",
+        "El Consejo de Estado o cualquiera de las Cámaras puede requerir al Tribunal Constitucional para que declare si existe o no esa contradicción.",
+        "El Consejo de Estado o cualquiera de las Cámaras puede requerir al Tribunal Supremo para que declare si existe o no esa contradicción."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 95 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 95.2 dice: «El Gobierno o cualquiera de las Cámaras puede requerir al Tribunal Constitucional para que declare si existe o no esa contradicción.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Tribunal Constitucional» por «Tribunal Supremo»; «El Gobierno» por «El Consejo de Estado»."
     }
   },
   {
@@ -9160,15 +9160,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 96 de la Constitución Española («Vigencia interna de tratados»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Sus disposiciones sólo podrán ser derogadas, modificadas o suspendidas en la forma prevista en los propios tratados o de acuerdo con las normas generales del Derecho internacional.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre vigencia interna de tratados sin autorización previa del Tribunal Constitucional.",
-        "Los tratados internacionales válidamente celebrados, una vez publicados oficialmente en España, formarán parte del ordenamiento interno.",
-        "Para lo previsto en el artículo 96 (vigencia interna de tratados), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 96 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 97.",
+        "En el artículo 96.",
+        "En el artículo 95.",
+        "En el artículo 106."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 96 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 96 («Vigencia interna de tratados»). Los tribunales preguntan mucho por la ubicación exacta: el 97 trata sobre «funciones directivas del gobierno»; el 95 trata sobre «control constitucional de tratados»; el 106 trata sobre «control judicial e indemnización»."
     }
   },
   {
@@ -9185,15 +9185,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 97 de la Constitución Española («Funciones directivas del Gobierno»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «El Gobierno dirige la política interior y exterior, la Administración civil y militar y la defensa del Estado.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre funciones directivas del gobierno sin autorización previa del Tribunal Constitucional.",
-        "El Gobierno dirige la política interior y exterior, la Administración civil y militar y la defensa del Estado.",
-        "Para lo previsto en el artículo 97 (funciones directivas del gobierno), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 97 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 98.",
+        "En el artículo 97.",
+        "En el artículo 96.",
+        "En el artículo 107."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 97 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 97 («Funciones directivas del Gobierno»). Los tribunales preguntan mucho por la ubicación exacta: el 98 trata sobre «composición y estatuto gubernamental»; el 96 trata sobre «vigencia interna de tratados»; el 107 trata sobre «el consejo de estado»."
     }
   },
   {
@@ -9225,15 +9225,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 98 de la Constitución Española («Composición y estatuto gubernamental»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 98.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "El Gobierno se compone del Presidente, de los Vicepresidentes, en su caso, de los Ministros y de los demás miembros que establezca la ley orgánica con mayoría de tres quintos.",
+        "El Consejo de Estado se compone del Presidente, de los Vicepresidentes, en su caso, de los Ministros y de los demás miembros que establezca la ley.",
         "El Gobierno se compone del Presidente, de los Vicepresidentes, en su caso, de los Ministros y de los demás miembros que establezca la ley.",
-        "Para lo previsto en el artículo 98 (composición y estatuto gubernamental), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 98 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Gobierno se compone del Presidente, de los Vicepresidentes, en su caso, de los Ministros y de los demás miembros que establezca la ley orgánica.",
+        "El Consejo de Estado se compone del Presidente, de los Vicepresidentes, en su caso, de los Ministros y de los demás miembros que establezca la ley orgánica."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 98 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 98.1 dice: «El Gobierno se compone del Presidente, de los Vicepresidentes, en su caso, de los Ministros y de los demás miembros que establezca la ley.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «El Gobierno» por «El Consejo de Estado»; «ley» por «ley orgánica»."
     }
   },
   {
@@ -9295,15 +9295,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 100 de la Constitución Española («Nombramiento de los Ministros»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los demás miembros del Gobierno serán nombrados y separados por el Rey, a propuesta de su Presidente.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre nombramiento de los ministros sin autorización previa del Tribunal Constitucional.",
-        "Los demás miembros del Gobierno serán nombrados y separados por el Rey, a propuesta de su Presidente.",
-        "Para lo previsto en el artículo 100 (nombramiento de los ministros), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 100 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 101.",
+        "En el artículo 100.",
+        "En el artículo 99.",
+        "En el artículo 110."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 100 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 100 («Nombramiento de los Ministros»). Los tribunales preguntan mucho por la ubicación exacta: el 101 trata sobre «supuestos de cese gubernamental»; el 99 trata sobre «investidura del presidente gubernamental»; el 110 trata sobre «comparecencia gubernamental en cámaras»."
     }
   },
   {
@@ -9325,15 +9325,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 101 de la Constitución Española («Supuestos de cese gubernamental»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «El Gobierno cesa tras la celebración de elecciones generales, en los casos de pérdida de la confianza parlamentaria previstos en la Constitución, o por dimisión o fallecimiento de su Presidente.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre supuestos de cese gubernamental sin autorización previa del Tribunal Constitucional.",
-        "El Gobierno cesa tras la celebración de elecciones generales, en los casos de pérdida de la confianza parlamentaria previstos en la Constitución, o por dimisión o fallecimiento de su Presidente.",
-        "Para lo previsto en el artículo 101 (supuestos de cese gubernamental), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 101 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 102.",
+        "En el artículo 101.",
+        "En el artículo 100.",
+        "En el artículo 111."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 101 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 101 («Supuestos de cese gubernamental»). Los tribunales preguntan mucho por la ubicación exacta: el 102 trata sobre «responsabilidad criminal del gobierno»; el 100 trata sobre «nombramiento de los ministros»; el 111 trata sobre «interpelaciones y preguntas parlamentarias»."
     }
   },
   {
@@ -9360,15 +9360,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 102 de la Constitución Española («Responsabilidad criminal del Gobierno»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 102.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre responsabilidad criminal del gobierno sin autorización previa del Tribunal Constitucional.",
-        "La responsabilidad criminal del Presidente y los demás miembros del Gobierno será exigible, en su caso, ante la Sala de lo Penal del Tribunal Supremo.",
-        "Para lo previsto en el artículo 102 (responsabilidad criminal del gobierno), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 102 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Si la acusación fuere por traición o por cualquier delito contra la seguridad del Estado en el ejercicio de sus funciones, sólo podrá ser planteada por iniciativa de la cuarta parte de los miembros del Congreso, y con la aprobación de la mayoría simple del mismo.",
+        "Si la acusación fuere por traición o por cualquier delito contra la seguridad del Estado en el ejercicio de sus funciones, sólo podrá ser planteada por iniciativa de la cuarta parte de los miembros del Congreso, y con la aprobación de la mayoría absoluta del mismo.",
+        "Si la acusación fuere por traición o por cualquier delito contra la seguridad del Estado en el ejercicio de sus funciones, sólo deberá ser planteada por iniciativa de la cuarta parte de los miembros del Congreso, y con la aprobación de la mayoría absoluta del mismo.",
+        "Si la acusación fuere por traición o por cualquier delito contra la seguridad del Estado en el ejercicio de sus funciones, sólo deberá ser planteada por iniciativa de la cuarta parte de los miembros del Congreso, y con la aprobación de la mayoría simple del mismo."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 102 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 102.2 dice: «Si la acusación fuere por traición o por cualquier delito contra la seguridad del Estado en el ejercicio de sus funciones, sólo podrá ser planteada por iniciativa de la cuarta parte de los miembros del Congreso, y con la aprobación de la mayoría absoluta del mismo.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «mayoría absoluta» por «mayoría simple»; «podrá» por «deberá»."
     }
   },
   {
@@ -9395,15 +9395,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 103 de la Constitución Española («Principios de Administración Pública»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «La ley regulará el estatuto de los funcionarios públicos, el acceso a la función pública de acuerdo con los principios de mérito y capacidad, las peculiaridades del ejercicio de su derecho a sindicación, el sistema de incompatibilidades y las garantías para la imparcialidad en el ejercicio de sus…»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre principios de administración pública sin autorización previa del Tribunal Constitucional.",
-        "La Administración Pública sirve con objetividad los intereses generales y actúa de acuerdo con los principios de eficacia, jerarquía, descentralización, desconcentración y coordinación, con sometimiento plen...",
-        "Para lo previsto en el artículo 103 (principios de administración pública), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 103 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 104.",
+        "En el artículo 103.",
+        "En el artículo 102.",
+        "En el artículo 113."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 103 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 103 («Principios de Administración Pública»). Los tribunales preguntan mucho por la ubicación exacta: el 104 trata sobre «fuerzas y cuerpos policiales»; el 102 trata sobre «responsabilidad criminal del gobierno»; el 113 trata sobre «moción de censura constructiva»."
     }
   },
   {
@@ -9425,15 +9425,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 104 de la Constitución Española («Fuerzas y Cuerpos policiales»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Las Fuerzas y Cuerpos de seguridad, bajo la dependencia del Gobierno, tendrán como misión proteger el libre ejercicio de los derechos y libertades y garantizar la seguridad ciudadana.»",
       "opciones": [
-        "Las Fuerzas y Cuerpos de seguridad, bajo la dependencia del Gobierno, tendrán como misión proteger el libre ejercicio de los deber inexcusable sujeto a autorización previas y libertades y garantizar la seguridad ciudadana.",
-        "Las Fuerzas y Cuerpos de seguridad, bajo la dependencia del Gobierno, tendrán como misión proteger el libre ejercicio de los derechos y libertades y garantizar la seguridad ciudadana.",
-        "Para lo previsto en el artículo 104 (fuerzas y cuerpos policiales), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 104 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 105.",
+        "En el artículo 104.",
+        "En el artículo 103.",
+        "En el artículo 114."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 104 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 104 («Fuerzas y Cuerpos policiales»). Los tribunales preguntan mucho por la ubicación exacta: el 105 trata sobre «audiencia y archivos administrativos»; el 103 trata sobre «principios de administración pública»; el 114 trata sobre «efectos de dimisión gubernamental»."
     }
   },
   {
@@ -9450,15 +9450,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 105 de la Constitución Española («Audiencia y archivos administrativos»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «La ley regulará: a) La audiencia de los ciudadanos, directamente o a través de las organizaciones y asociaciones reconocidas por la ley, en el procedimiento de elaboración de las disposiciones administrativas que les afecten. b) El acceso de los ciudadanos a los archivos y registros administrativos,…»",
       "opciones": [
-        "La ley orgánica con mayoría de tres quintos regulará: a) La audiencia de los ciudadanos, directamente o a través de las organizaciones y asociaciones reconocidas por la ley, en el procedimiento de elaboración de las disposiciones administrativa...",
-        "La ley regulará: a) La audiencia de los ciudadanos, directamente o a través de las organizaciones y asociaciones reconocidas por la ley, en el procedimiento de elaboración de las disposiciones administrativa...",
-        "Para lo previsto en el artículo 105 (audiencia y archivos administrativos), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 105 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 106.",
+        "En el artículo 105.",
+        "En el artículo 104.",
+        "En el artículo 115."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 105 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 105 («Audiencia y archivos administrativos»). Los tribunales preguntan mucho por la ubicación exacta: el 106 trata sobre «control judicial e indemnización»; el 104 trata sobre «fuerzas y cuerpos policiales»; el 115 trata sobre «disolución anticipada de cámaras»."
     }
   },
   {
@@ -9480,15 +9480,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 106 de la Constitución Española («Control judicial e indemnización»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los particulares, en los términos establecidos por la ley, tendrán derecho a ser indemnizados por toda lesión que sufran en cualquiera de sus bienes y derechos, salvo en los casos de fuerza mayor, siempre que la lesión sea consecuencia del funcionamiento de los servicios públicos.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre control judicial e indemnización sin autorización previa del Tribunal Constitucional.",
-        "Los Tribunales controlan la potestad reglamentaria y la legalidad de la actuación administrativa, así como el sometimiento de ésta a los fines que la justifican.",
-        "Para lo previsto en el artículo 106 (control judicial e indemnización), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 106 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 107.",
+        "En el artículo 106.",
+        "En el artículo 105.",
+        "En el artículo 116."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 106 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 106 («Control judicial e indemnización»). Los tribunales preguntan mucho por la ubicación exacta: el 107 trata sobre «el consejo de estado»; el 105 trata sobre «audiencia y archivos administrativos»; el 116 trata sobre «estados alarma, excepción, sitio»."
     }
   },
   {
@@ -9505,15 +9505,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 107 de la Constitución Española («El Consejo de Estado»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «El Consejo de Estado es el supremo órgano consultivo del Gobierno.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre el consejo de estado sin autorización previa del Tribunal Constitucional.",
-        "El Consejo de Estado es el supremo órgano consultivo del Gobierno.",
-        "Para lo previsto en el artículo 107 (el consejo de estado), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 107 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 108.",
+        "En el artículo 107.",
+        "En el artículo 106.",
+        "En el artículo 117."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 107 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 107 («El Consejo de Estado»). Los tribunales preguntan mucho por la ubicación exacta: el 108 trata sobre «responsabilidad política del gobierno»; el 106 trata sobre «control judicial e indemnización»; el 117 trata sobre «independencia del poder judicial»."
     }
   },
   {
@@ -9530,15 +9530,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 108 de la Constitución Española («Responsabilidad política del Gobierno»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 108.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre responsabilidad política del gobierno sin autorización previa del Tribunal Constitucional.",
+        "El Gobierno responde solidariamente en su gestión política ante el Senado.",
         "El Gobierno responde solidariamente en su gestión política ante el Congreso de los Diputados.",
-        "Para lo previsto en el artículo 108 (responsabilidad política del gobierno), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 108 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Consejo de Estado responde solidariamente en su gestión política ante el Congreso de los Diputados.",
+        "El Consejo de Estado responde solidariamente en su gestión política ante el Senado."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 108 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 108.1 dice: «El Gobierno responde solidariamente en su gestión política ante el Congreso de los Diputados.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Congreso de los Diputados» por «Senado»; «El Gobierno» por «El Consejo de Estado»."
     }
   },
   {
@@ -9555,15 +9555,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 109 de la Constitución Española («Derecho parlamentario de información»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 109.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Las Cámaras y sus Comisiones deberán obligatoriamente en todo caso recabar, a través de los Presidentes de aquéllas, la información y ayuda que precisen del Gobierno y de sus Departamentos y de cualesquiera autoridades del Estado y de las...",
-        "Las Cámaras y sus Comisiones podrán recabar, a través de los Presidentes de aquéllas, la información y ayuda que precisen del Gobierno y de sus Departamentos y de cualesquiera autoridades del Estado y de las...",
-        "Para lo previsto en el artículo 109 (derecho parlamentario de información), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 109 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las Cámaras y sus Comisiones deberán recabar, a través de los Presidentes de aquéllas, la información y ayuda que precisen del Gobierno y de sus Departamentos y de cualesquiera autoridades del Estado y de las Comunidades Autónomas.",
+        "Las Cámaras y sus Comisiones podrán recabar, a través de los Presidentes de aquéllas, la información y ayuda que precisen del Gobierno y de sus Departamentos y de cualesquiera autoridades del Estado y de las Comunidades Autónomas.",
+        "Las Cámaras y sus Comisiones podrán recabar, a través de los Presidentes de aquéllas, la información y ayuda que precisen del Gobierno y de sus Departamentos y de cualesquiera autoridades del Estado y de las Diputaciones Provinciales.",
+        "Las Cámaras y sus Comisiones deberán recabar, a través de los Presidentes de aquéllas, la información y ayuda que precisen del Gobierno y de sus Departamentos y de cualesquiera autoridades del Estado y de las Diputaciones Provinciales."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 109 de la CE: el texto constitucional utiliza el verbo potestativo \"podrán\", no un mandato imperativo (\"deberán\"). Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 109.1 dice: «Las Cámaras y sus Comisiones podrán recabar, a través de los Presidentes de aquéllas, la información y ayuda que precisen del Gobierno y de sus Departamentos y de cualesquiera autoridades del Estado y de las Comunidades Autónomas.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrán» por «deberán»; «Comunidades Autónomas» por «Diputaciones Provinciales»."
     }
   },
   {
@@ -9585,15 +9585,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 110 de la Constitución Española («Comparecencia gubernamental en Cámaras»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los miembros del Gobierno tienen acceso a las sesiones de las Cámaras y a sus Comisiones y la facultad de hacerse oír en ellas, y podrán solicitar que informen ante las mismas funcionarios de sus Departamentos.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre comparecencia gubernamental en cámaras sin autorización previa del Tribunal Constitucional.",
-        "Las Cámaras y sus Comisiones pueden reclamar la presencia de los miembros del Gobierno.",
-        "Para lo previsto en el artículo 110 (comparecencia gubernamental en cámaras), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 110 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 111.",
+        "En el artículo 110.",
+        "En el artículo 109.",
+        "En el artículo 120."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 110 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 110 («Comparecencia gubernamental en Cámaras»). Los tribunales preguntan mucho por la ubicación exacta: el 111 trata sobre «interpelaciones y preguntas parlamentarias»; el 109 trata sobre «derecho parlamentario de información»; el 120 trata sobre «publicidad y motivación judicial»."
     }
   },
   {
@@ -9615,15 +9615,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 111 de la Constitución Española («Interpelaciones y preguntas parlamentarias»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «El Gobierno y cada uno de sus miembros están sometidos a las interpelaciones y preguntas que se le formulen en las Cámaras.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre interpelaciones y preguntas parlamentarias sin autorización previa del Tribunal Constitucional.",
-        "El Gobierno y cada uno de sus miembros están sometidos a las interpelaciones y preguntas que se le formulen en las Cámaras.",
-        "Para lo previsto en el artículo 111 (interpelaciones y preguntas parlamentarias), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 111 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 112.",
+        "En el artículo 111.",
+        "En el artículo 110.",
+        "En el artículo 121."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 111 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 111 («Interpelaciones y preguntas parlamentarias»). Los tribunales preguntan mucho por la ubicación exacta: el 112 trata sobre «planteamiento cuestión de confianza»; el 110 trata sobre «comparecencia gubernamental en cámaras»; el 121 trata sobre «indemnización por error judicial»."
     }
   },
   {
@@ -9710,15 +9710,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 114 de la Constitución Española («Efectos de dimisión gubernamental»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 114.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre efectos de dimisión gubernamental sin autorización previa del Tribunal Constitucional.",
-        "Si el Congreso niega su confianza al Gobierno, éste presentará su dimisión al Rey, procediéndose a continuación a la designación de Presidente del Gobierno, según lo dispuesto en el artículo 99.",
-        "Para lo previsto en el artículo 114 (efectos de dimisión gubernamental), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 114 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Si el Congreso adopta una moción de censura, el Gobierno presentará su dimisión al Presidente del Gobierno y el candidato incluido en aquélla se entenderá investido de la confianza de la Cámara a los efectos previstos en el artículo 99.",
+        "Si el Congreso adopta una moción de censura, el Gobierno presentará su dimisión al Rey y el candidato incluido en aquélla se entenderá investido de la confianza de la Cámara a los efectos previstos en el artículo 99.",
+        "Si el Congreso adopta una moción de censura, el Consejo de Estado presentará su dimisión al Rey y el candidato incluido en aquélla se entenderá investido de la confianza de la Cámara a los efectos previstos en el artículo 99.",
+        "Si el Congreso adopta una moción de censura, el Consejo de Estado presentará su dimisión al Presidente del Gobierno y el candidato incluido en aquélla se entenderá investido de la confianza de la Cámara a los efectos previstos en el artículo 99."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 114 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 114.2 dice: «Si el Congreso adopta una moción de censura, el Gobierno presentará su dimisión al Rey y el candidato incluido en aquélla se entenderá investido de la confianza de la Cámara a los efectos previstos en el artículo 99.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Rey» por «Presidente del Gobierno»; «el Gobierno» por «el Consejo de Estado»."
     }
   },
   {
@@ -9745,15 +9745,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 115 de la Constitución Española («Disolución anticipada de Cámaras»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 115.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre disolución anticipada de cámaras sin autorización previa del Tribunal Constitucional.",
-        "El Presidente del Gobierno, previa deliberación del Consejo de Ministros, y bajo su exclusiva responsabilidad, podrá proponer la disolución del Congreso, del Senado o de las Cortes Generales, que será decret...",
-        "Para lo previsto en el artículo 115 (disolución anticipada de cámaras), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 115 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Rey, previa deliberación del Consejo de Ministros, y bajo su exclusiva responsabilidad, podrá proponer la disolución del Congreso, del Senado o de las Cortes Generales, que será decretada por el Presidente del Gobierno.",
+        "El Presidente del Gobierno, previa deliberación del Consejo de Ministros, y bajo su exclusiva responsabilidad, podrá proponer la disolución del Congreso, del Senado o de las Cortes Generales, que será decretada por el Rey.",
+        "El Presidente del Gobierno, previa deliberación del Consejo de Ministros, y bajo su exclusiva responsabilidad, podrá proponer la disolución del Congreso, del Congreso de los Diputados o de las Cortes Generales, que será decretada por el Rey.",
+        "El Presidente del Gobierno, previa deliberación del Consejo de Ministros, y bajo su exclusiva responsabilidad, deberá proponer la disolución del Congreso, del Senado o de las Cortes Generales, que será decretada por el Rey."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 115 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 115.1 dice: «El Presidente del Gobierno, previa deliberación del Consejo de Ministros, y bajo su exclusiva responsabilidad, podrá proponer la disolución del Congreso, del Senado o de las Cortes Generales, que será decretada por el Rey.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Presidente del Gobierno» por «Rey»; «Senado» por «Congreso de los Diputados»; «podrá» por «deberá»."
     }
   },
   {
@@ -9845,15 +9845,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 117 de la Constitución Española («Independencia del Poder Judicial»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 117.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "La justicia emana del pueblo y se administra en nombre del Rey por Jueces y Magistrados integrantes del poder judicial, independientes, inamovibles, responsables y sometidos únicamente al imperio de la ley orgánica con mayoría de tres quintos.",
+        "La justicia emana del pueblo y se administra en nombre del Presidente del Gobierno por Jueces y Magistrados integrantes del poder judicial, independientes, inamovibles, responsables y sometidos únicamente al imperio de la ley.",
         "La justicia emana del pueblo y se administra en nombre del Rey por Jueces y Magistrados integrantes del poder judicial, independientes, inamovibles, responsables y sometidos únicamente al imperio de la ley.",
-        "Para lo previsto en el artículo 117 (independencia del poder judicial), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 117 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "La justicia emana del pueblo y se administra en nombre del Rey por Jueces y Fiscales integrantes del poder judicial, independientes, inamovibles, responsables y sometidos únicamente al imperio de la ley.",
+        "La justicia emana del pueblo y se administra en nombre del Rey por Jueces y Magistrados integrantes del poder judicial, independientes, inamovibles, responsables y sometidos únicamente al imperio de la ley orgánica."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 117 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 117.1 dice: «La justicia emana del pueblo y se administra en nombre del Rey por Jueces y Magistrados integrantes del poder judicial, independientes, inamovibles, responsables y sometidos únicamente al imperio de la ley.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Rey» por «Presidente del Gobierno»; «Jueces y Magistrados» por «Jueces y Fiscales»; «ley» por «ley orgánica»."
     }
   },
   {
@@ -9870,15 +9870,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 118 de la Constitución Española («Cumplimiento de sentencias judiciales»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Es obligado cumplir las sentencias y demás resoluciones firmes de los Jueces y Tribunales, así como prestar la colaboración requerida por éstos en el curso del proceso y en la ejecución de lo resuelto.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre cumplimiento de sentencias judiciales sin autorización previa del Tribunal Constitucional.",
-        "Es obligado cumplir las sentencias y demás resoluciones firmes de los Jueces y Tribunales, así como prestar la colaboración requerida por éstos en el curso del proceso y en la ejecución de lo resuelto.",
-        "Para lo previsto en el artículo 118 (cumplimiento de sentencias judiciales), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 118 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 119.",
+        "En el artículo 118.",
+        "En el artículo 117.",
+        "En el artículo 128."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 118 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 118 («Cumplimiento de sentencias judiciales»). Los tribunales preguntan mucho por la ubicación exacta: el 119 trata sobre «derecho a justicia gratuita»; el 117 trata sobre «independencia del poder judicial»; el 128 trata sobre «subordinación de riqueza nacional»."
     }
   },
   {
@@ -9895,15 +9895,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 119 de la Constitución Española («Derecho a justicia gratuita»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 119.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "La justicia será gratuita cuando así lo disponga la ley orgánica con mayoría de tres quintos y, en todo caso, respecto de quienes acrediten insuficiencia de recursos para litigar.",
+        "La justicia será gratuita cuando así lo disponga la ley orgánica y, en todo caso, respecto de quienes acrediten insuficiencia de recursos para litigar.",
         "La justicia será gratuita cuando así lo disponga la ley y, en todo caso, respecto de quienes acrediten insuficiencia de recursos para litigar.",
-        "Para lo previsto en el artículo 119 (derecho a justicia gratuita), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 119 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "La justicia será gratuita cuando así lo disponga la ley y, en su caso, respecto de quienes acrediten insuficiencia de recursos para litigar.",
+        "La justicia será gratuita cuando así lo disponga la ley orgánica y, en su caso, respecto de quienes acrediten insuficiencia de recursos para litigar."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 119 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 119.1 dice: «La justicia será gratuita cuando así lo disponga la ley y, en todo caso, respecto de quienes acrediten insuficiencia de recursos para litigar.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley» por «ley orgánica»; «en todo caso» por «en su caso»."
     }
   },
   {
@@ -9930,15 +9930,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 120 de la Constitución Española («Publicidad y motivación judicial»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Las actuaciones judiciales serán públicas, con las excepciones que prevean las leyes de procedimiento.»",
       "opciones": [
-        "Las actuaciones judiciales serán públicas, con las excepciones que prevean las leyes de procedimiento.",
-        "Las actuaciones judiciales serán públicas, con las excepciones que prevean las leyes de procedimiento.",
-        "Para lo previsto en el artículo 120 (publicidad y motivación judicial), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 120 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 121.",
+        "En el artículo 120.",
+        "En el artículo 119.",
+        "En el artículo 130."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 120 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 120 («Publicidad y motivación judicial»). Los tribunales preguntan mucho por la ubicación exacta: el 121 trata sobre «indemnización por error judicial»; el 119 trata sobre «derecho a justicia gratuita»; el 130 trata sobre «modernización de sectores económicos»."
     }
   },
   {
@@ -9955,15 +9955,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 121 de la Constitución Española («Indemnización por error judicial»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Los daños causados por error judicial, así como los que sean consecuencia del funcionamiento anormal de la Administración de Justicia, darán derecho a una indemnización a cargo del Estado, conforme a la ley.»",
       "opciones": [
-        "Los daños causados por error judicial, así como los que sean consecuencia del funcionamiento anormal de la Administración de Justicia, darán derecho a una indemnización a cargo del Estado, conforme a la ley orgánica con mayoría de tres quintos.",
-        "Los daños causados por error judicial, así como los que sean consecuencia del funcionamiento anormal de la Administración de Justicia, darán derecho a una indemnización a cargo del Estado, conforme a la ley.",
-        "Para lo previsto en el artículo 121 (indemnización por error judicial), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 121 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 122.",
+        "En el artículo 121.",
+        "En el artículo 120.",
+        "En el artículo 131."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 121 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 121 («Indemnización por error judicial»). Los tribunales preguntan mucho por la ubicación exacta: el 122 trata sobre «consejo general poder judicial»; el 120 trata sobre «publicidad y motivación judicial»; el 131 trata sobre «planificación económica por ley»."
     }
   },
   {
@@ -10020,15 +10020,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 123 de la Constitución Española («El Tribunal Supremo español»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 123.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre el tribunal supremo español sin autorización previa del Tribunal Constitucional.",
-        "El Tribunal Supremo, con jurisdicción en toda España, es el órgano jurisdiccional superior en todos los órdenes, salvo lo dispuesto en materia de garantías constitucionales.",
-        "Para lo previsto en el artículo 123 (el tribunal supremo español), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 123 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Presidente del Tribunal Constitucional será nombrado por el Rey, a propuesta del Consejo General del Poder Judicial, en la forma que determine la ley.",
+        "El Presidente del Tribunal Supremo será nombrado por el Rey, a propuesta del Consejo General del Poder Judicial, en la forma que determine la ley.",
+        "El Presidente del Tribunal Supremo será nombrado por el Presidente del Gobierno, a propuesta del Consejo General del Poder Judicial, en la forma que determine la ley.",
+        "El Presidente del Tribunal Supremo será nombrado por el Rey, a propuesta del Ministerio de Justicia, en la forma que determine la ley."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 123 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 123.2 dice: «El Presidente del Tribunal Supremo será nombrado por el Rey, a propuesta del Consejo General del Poder Judicial, en la forma que determine la ley.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Tribunal Supremo» por «Tribunal Constitucional»; «Rey» por «Presidente del Gobierno»; «Consejo General del Poder Judicial» por «Ministerio de Justicia»."
     }
   },
   {
@@ -10060,15 +10060,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 124 de la Constitución Española («Misión del Ministerio Fiscal»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 124.4 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "El Ministerio Fiscal, sin perjuicio de las funciones encomendadas a otros órganos, tiene por misión promover la acción de la justicia en defensa de la legalidad, de los deber inexcusable sujeto a autorización previas de los ciudadanos y del inter...",
-        "El Ministerio Fiscal, sin perjuicio de las funciones encomendadas a otros órganos, tiene por misión promover la acción de la justicia en defensa de la legalidad, de los derechos de los ciudadanos y del inter...",
-        "Para lo previsto en el artículo 124 (misión del ministerio fiscal), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 124 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Fiscal General del Estado será nombrado por el Presidente del Gobierno, a propuesta del Gobierno, oído el Consejo General del Poder Judicial.",
+        "El Fiscal General del Estado será nombrado por el Rey, a propuesta del Gobierno, oído el Consejo General del Poder Judicial.",
+        "El Fiscal General del Estado será nombrado por el Rey, a propuesta del Gobierno, oído el Ministerio de Justicia.",
+        "El Fiscal General del Estado será nombrado por el Presidente del Gobierno, a propuesta del Gobierno, oído el Ministerio de Justicia."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 124 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 124.4 dice: «El Fiscal General del Estado será nombrado por el Rey, a propuesta del Gobierno, oído el Consejo General del Poder Judicial.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Rey» por «Presidente del Gobierno»; «Consejo General del Poder Judicial» por «Ministerio de Justicia»."
     }
   },
   {
@@ -10085,15 +10085,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 125 de la Constitución Española («Acción popular y Jurado»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 125.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Los ciudadanos podrán ejercer la acción popular y participar en la Administración de Justicia mediante la institución del Jurado, en la forma y con respecto a aquellos procesos penales que la ley orgánica con mayoría de tres quintos determine,...",
-        "Los ciudadanos podrán ejercer la acción popular y participar en la Administración de Justicia mediante la institución del Jurado, en la forma y con respecto a aquellos procesos penales que la ley determine,...",
-        "Para lo previsto en el artículo 125 (acción popular y jurado), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 125 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Los ciudadanos deberán ejercer la acción popular y participar en la Administración de Justicia mediante la institución del Jurado, en la forma y con respecto a aquellos procesos penales que la ley determine, así como en los Tribunales consuetudinarios y tradicionales.",
+        "Los ciudadanos podrán ejercer la acción popular y participar en la Administración de Justicia mediante la institución del Jurado, en la forma y con respecto a aquellos procesos penales que la ley determine, así como en los Tribunales consuetudinarios y tradicionales.",
+        "Los ciudadanos podrán ejercer la acción popular y participar en la Administración de Justicia mediante la institución del Jurado, en la forma y con respecto a aquellos procesos penales que la ley orgánica determine, así como en los Tribunales consuetudinarios y tradicionales.",
+        "Los ciudadanos deberán ejercer la acción popular y participar en la Administración de Justicia mediante la institución del Jurado, en la forma y con respecto a aquellos procesos penales que la ley orgánica determine, así como en los Tribunales consuetudinarios y tradicionales."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 125 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 125.1 dice: «Los ciudadanos podrán ejercer la acción popular y participar en la Administración de Justicia mediante la institución del Jurado, en la forma y con respecto a aquellos procesos penales que la ley determine, así como en los Tribunales consuetudinarios y tradicionales.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrán» por «deberán»; «ley» por «ley orgánica»."
     }
   },
   {
@@ -10110,15 +10110,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 126 de la Constitución Española («Dependencia de policía judicial»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 126.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "La policía judicial depende de los Jueces, de los Tribunales y del Ministerio Fiscal en sus funciones de averiguación del delito y descubrimiento y aseguramiento del delincuente, en los términos que la ley orgánica con mayoría de tres quintos e...",
-        "La policía judicial depende de los Jueces, de los Tribunales y del Ministerio Fiscal en sus funciones de averiguación del delito y descubrimiento y aseguramiento del delincuente, en los términos que la ley e...",
-        "Para lo previsto en el artículo 126 (dependencia de policía judicial), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 126 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "La policía judicial depende de los Jueces, de los Tribunales y del Defensor del Pueblo en sus funciones de averiguación del delito y descubrimiento y aseguramiento del delincuente, en los términos que la ley establezca.",
+        "La policía judicial depende de los Jueces, de los Tribunales y del Ministerio Fiscal en sus funciones de averiguación del delito y descubrimiento y aseguramiento del delincuente, en los términos que la ley establezca.",
+        "La policía judicial depende de los Jueces, de los Tribunales y del Ministerio Fiscal en sus funciones de averiguación del delito y descubrimiento y aseguramiento del delincuente, en los términos que la ley orgánica establezca.",
+        "La policía judicial depende de los Jueces, de los Tribunales y del Defensor del Pueblo en sus funciones de averiguación del delito y descubrimiento y aseguramiento del delincuente, en los términos que la ley orgánica establezca."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 126 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 126.1 dice: «La policía judicial depende de los Jueces, de los Tribunales y del Ministerio Fiscal en sus funciones de averiguación del delito y descubrimiento y aseguramiento del delincuente, en los términos que la ley establezca.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Ministerio Fiscal» por «Defensor del Pueblo»; «ley» por «ley orgánica»."
     }
   },
   {
@@ -10140,15 +10140,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 127 de la Constitución Española («Incompatibilidades de jueces activos»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 127.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Los Jueces y Magistrados así como los Fiscales, mientras se hallen en activo, no deberán obligatoriamente en todo caso desempeñar otros cargos públicos, ni pertenecer a partidos políticos o sindicatos.",
-        "Los Jueces y Magistrados así como los Fiscales, mientras se hallen en activo, no podrán desempeñar otros cargos públicos, ni pertenecer a partidos políticos o sindicatos.",
-        "Para lo previsto en el artículo 127 (incompatibilidades de jueces activos), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 127 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "La ley establecerá el régimen de incompatibilidades de los miembros del poder judicial, que podrá asegurar la total independencia de los mismos.",
+        "La ley establecerá el régimen de incompatibilidades de los miembros del poder judicial, que deberá asegurar la total independencia de los mismos.",
+        "La ley orgánica establecerá el régimen de incompatibilidades de los miembros del poder judicial, que deberá asegurar la total independencia de los mismos.",
+        "La ley orgánica establecerá el régimen de incompatibilidades de los miembros del poder judicial, que podrá asegurar la total independencia de los mismos."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 127 de la CE: el texto constitucional utiliza el verbo potestativo \"podrán\", no un mandato imperativo (\"deberán\"). Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 127.2 dice: «La ley establecerá el régimen de incompatibilidades de los miembros del poder judicial, que deberá asegurar la total independencia de los mismos.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «deberá» por «podrá»; «ley» por «ley orgánica»."
     }
   },
   {
@@ -10170,15 +10170,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 128 de la Constitución Española («Subordinación de riqueza nacional»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 128.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre subordinación de riqueza nacional sin autorización previa del Tribunal Constitucional.",
-        "Toda la riqueza del país en sus distintas formas y sea cual fuere su titularidad está subordinada al interés general.",
-        "Para lo previsto en el artículo 128 (subordinación de riqueza nacional), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 128 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Mediante ley se deberá reservar al sector público recursos o servicios esenciales, especialmente en caso de monopolio y asimismo acordar la intervención de empresas cuando así lo exigiere el interés general.",
+        "Mediante ley se podrá reservar al sector público recursos o servicios esenciales, especialmente en caso de monopolio y asimismo acordar la intervención de empresas cuando así lo exigiere el interés general.",
+        "Mediante ley orgánica se podrá reservar al sector público recursos o servicios esenciales, especialmente en caso de monopolio y asimismo acordar la intervención de empresas cuando así lo exigiere el interés general.",
+        "Mediante ley orgánica se deberá reservar al sector público recursos o servicios esenciales, especialmente en caso de monopolio y asimismo acordar la intervención de empresas cuando así lo exigiere el interés general."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 128 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 128.2 dice: «Mediante ley se podrá reservar al sector público recursos o servicios esenciales, especialmente en caso de monopolio y asimismo acordar la intervención de empresas cuando así lo exigiere el interés general.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrá» por «deberá»; «ley» por «ley orgánica»."
     }
   },
   {
@@ -10200,15 +10200,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 129 de la Constitución Española («Participación social y cooperativas»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «La ley establecerá las formas de participación de los interesados en la Seguridad Social y en la actividad de los organismos públicos cuya función afecte directamente a la calidad de la vida o al bienestar general.»",
       "opciones": [
-        "La ley orgánica con mayoría de tres quintos establecerá las formas de participación de los interesados en la Seguridad Social y en la actividad de los organismos públicos cuya función afecte directamente a la calidad de la vida o al bienestar g...",
-        "La ley establecerá las formas de participación de los interesados en la Seguridad Social y en la actividad de los organismos públicos cuya función afecte directamente a la calidad de la vida o al bienestar g...",
-        "Para lo previsto en el artículo 129 (participación social y cooperativas), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 129 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 130.",
+        "En el artículo 129.",
+        "En el artículo 128.",
+        "En el artículo 139."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 129 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 129 («Participación social y cooperativas»). Los tribunales preguntan mucho por la ubicación exacta: el 130 trata sobre «modernización de sectores económicos»; el 128 trata sobre «subordinación de riqueza nacional»; el 139 trata sobre «igualdad territorial de derechos»."
     }
   },
   {
@@ -10230,15 +10230,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 130 de la Constitución Española («Modernización de sectores económicos»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 130.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre modernización de sectores económicos sin autorización previa del Tribunal Constitucional.",
-        "Los poderes públicos atenderán a la modernización y desarrollo de todos los sectores económicos y, en particular, de la agricultura, de la ganadería, de la pesca y de la artesanía, a fin de equiparar el nive...",
-        "Para lo previsto en el artículo 130 (modernización de sectores económicos), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 130 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las Comunidades Autónomas atenderán a la modernización y desarrollo de todos los sectores económicos y, en particular, de la agricultura, de la ganadería, de la pesca y de la artesanía, a fin de equiparar el nivel de vida de todos los españoles.",
+        "Los poderes públicos atenderán a la modernización y desarrollo de todos los sectores económicos y, en particular, de la agricultura, de la ganadería, de la pesca y de la artesanía, a fin de equiparar el nivel de vida de todos los españoles.",
+        "Los poderes públicos atenderán a la modernización y desarrollo de todos los sectores económicos y, en particular, de la agricultura, de la ganadería, de la pesca y de la artesanía, a fin de equiparar el nivel de vida de todos los ciudadanos residentes.",
+        "Las Comunidades Autónomas atenderán a la modernización y desarrollo de todos los sectores económicos y, en particular, de la agricultura, de la ganadería, de la pesca y de la artesanía, a fin de equiparar el nivel de vida de todos los ciudadanos residentes."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 130 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 130.1 dice: «Los poderes públicos atenderán a la modernización y desarrollo de todos los sectores económicos y, en particular, de la agricultura, de la ganadería, de la pesca y de la artesanía, a fin de equiparar el nivel de vida de todos los españoles.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Los poderes públicos» por «Las Comunidades Autónomas»; «españoles» por «ciudadanos residentes»."
     }
   },
   {
@@ -10260,15 +10260,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 131 de la Constitución Española («Planificación económica por ley»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 131.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "El Estado, mediante ley orgánica con mayoría de tres quintos, podrá planificar la actividad económica general para atender a las necesidades colectivas, equilibrar y armonizar el desarrollo regional y sectorial y estimular el crecimiento de la...",
-        "El Estado, mediante ley, podrá planificar la actividad económica general para atender a las necesidades colectivas, equilibrar y armonizar el desarrollo regional y sectorial y estimular el crecimiento de la...",
-        "Para lo previsto en el artículo 131 (planificación económica por ley), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 131 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Consejo de Estado elaborará los proyectos de planificación, de acuerdo con las previsiones que le sean suministradas por las Comunidades Autónomas y el asesoramiento y colaboración de los sindicatos y otras organizaciones profesionales, empresariales y económicas.",
+        "El Gobierno elaborará los proyectos de planificación, de acuerdo con las previsiones que le sean suministradas por las Comunidades Autónomas y el asesoramiento y colaboración de los sindicatos y otras organizaciones profesionales, empresariales y económicas.",
+        "El Gobierno elaborará los proyectos de planificación, de acuerdo con las previsiones que le sean suministradas por las Diputaciones Provinciales y el asesoramiento y colaboración de los sindicatos y otras organizaciones profesionales, empresariales y económicas.",
+        "El Consejo de Estado elaborará los proyectos de planificación, de acuerdo con las previsiones que le sean suministradas por las Diputaciones Provinciales y el asesoramiento y colaboración de los sindicatos y otras organizaciones profesionales, empresariales y económicas."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 131 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 131.2 dice: «El Gobierno elaborará los proyectos de planificación, de acuerdo con las previsiones que le sean suministradas por las Comunidades Autónomas y el asesoramiento y colaboración de los sindicatos y otras organizaciones profesionales, empresariales y económicas.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «El Gobierno» por «El Consejo de Estado»; «Comunidades Autónomas» por «Diputaciones Provinciales»."
     }
   },
   {
@@ -10295,15 +10295,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 132 de la Constitución Española («Bienes de dominio público»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 132.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "La ley orgánica con mayoría de tres quintos regulará el régimen jurídico de los bienes de dominio público y de los comunales, inspirándose en los principios de inalienabilidad, imprescriptibilidad e inembargabilidad, así como su desafectación.",
-        "La ley regulará el régimen jurídico de los bienes de dominio público y de los comunales, inspirándose en los principios de inalienabilidad, imprescriptibilidad e inembargabilidad, así como su desafectación.",
-        "Para lo previsto en el artículo 132 (bienes de dominio público), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 132 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Son bienes de dominio público estatal los que determine la ley orgánica y, en todo caso, la zona marítimo-terrestre, las playas, el mar territorial y los recursos naturales de la zona económica y la plataforma continental.",
+        "Son bienes de dominio público estatal los que determine la ley y, en todo caso, la zona marítimo-terrestre, las playas, el mar territorial y los recursos naturales de la zona económica y la plataforma continental.",
+        "Son bienes de dominio público estatal los que determine la ley y, en su caso, la zona marítimo-terrestre, las playas, el mar territorial y los recursos naturales de la zona económica y la plataforma continental.",
+        "Son bienes de dominio público estatal los que determine la ley orgánica y, en su caso, la zona marítimo-terrestre, las playas, el mar territorial y los recursos naturales de la zona económica y la plataforma continental."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 132 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 132.2 dice: «Son bienes de dominio público estatal los que determine la ley y, en todo caso, la zona marítimo-terrestre, las playas, el mar territorial y los recursos naturales de la zona económica y la plataforma continental.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley» por «ley orgánica»; «en todo caso» por «en su caso»."
     }
   },
   {
@@ -10335,15 +10335,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 133 de la Constitución Española («Potestad tributaria del Estado»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 133.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "La potestad originaria para establecer los tributos corresponde exclusivamente al Estado, mediante ley orgánica con mayoría de tres quintos.",
-        "La potestad originaria para establecer los tributos corresponde exclusivamente al Estado, mediante ley.",
-        "Para lo previsto en el artículo 133 (potestad tributaria del estado), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 133 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las Diputaciones Provinciales y las Corporaciones locales podrán establecer y exigir tributos, de acuerdo con la Constitución y las leyes.",
+        "Las Comunidades Autónomas y las Corporaciones locales podrán establecer y exigir tributos, de acuerdo con la Constitución y las leyes.",
+        "Las Comunidades Autónomas y las Corporaciones locales deberán establecer y exigir tributos, de acuerdo con la Constitución y las leyes.",
+        "Las Diputaciones Provinciales y las Corporaciones locales deberán establecer y exigir tributos, de acuerdo con la Constitución y las leyes."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 133 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 133.2 dice: «Las Comunidades Autónomas y las Corporaciones locales podrán establecer y exigir tributos, de acuerdo con la Constitución y las leyes.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Comunidades Autónomas» por «Diputaciones Provinciales»; «podrán» por «deberán»."
     }
   },
   {
@@ -10390,15 +10390,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 134 de la Constitución Española («Presupuestos Generales del Estado»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 134.3 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre presupuestos generales del estado sin autorización previa del Tribunal Constitucional.",
-        "Corresponde al Gobierno la elaboración de los Presupuestos Generales del Estado y a las Cortes Generales, su examen, enmienda y aprobación.",
-        "Para lo previsto en el artículo 134 (presupuestos generales del estado), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 134 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Gobierno deberá presentar ante el Congreso de los Diputados los Presupuestos Generales del Estado al menos cuatro meses antes de la expiración de los del año anterior.",
+        "El Gobierno deberá presentar ante el Congreso de los Diputados los Presupuestos Generales del Estado al menos tres meses antes de la expiración de los del año anterior.",
+        "El Gobierno deberá presentar ante el Senado los Presupuestos Generales del Estado al menos tres meses antes de la expiración de los del año anterior.",
+        "El Consejo de Estado deberá presentar ante el Congreso de los Diputados los Presupuestos Generales del Estado al menos tres meses antes de la expiración de los del año anterior."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 134 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 134.3 dice: «El Gobierno deberá presentar ante el Congreso de los Diputados los Presupuestos Generales del Estado al menos tres meses antes de la expiración de los del año anterior.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «tres meses» por «cuatro meses»; «Congreso de los Diputados» por «Senado»; «El Gobierno» por «El Consejo de Estado»."
     }
   },
   {
@@ -10440,15 +10440,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 135 de la Constitución Española («Principio de estabilidad presupuestaria»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 135.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre principio de estabilidad presupuestaria sin autorización previa del Tribunal Constitucional.",
-        "Todas las Administraciones Públicas adecuarán sus actuaciones al principio de estabilidad presupuestaria.",
-        "Para lo previsto en el artículo 135 (principio de estabilidad presupuestaria), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 135 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Una ley ordinaria fijará el déficit estructural máximo permitido al Estado y a las Comunidades Autónomas, en relación con su producto interior bruto.",
+        "Una ley orgánica fijará el déficit estructural máximo permitido al Estado y a las Comunidades Autónomas, en relación con su producto interior bruto.",
+        "Una ley orgánica fijará el déficit estructural máximo permitido al Estado y a las Diputaciones Provinciales, en relación con su producto interior bruto.",
+        "Una ley ordinaria fijará el déficit estructural máximo permitido al Estado y a las Diputaciones Provinciales, en relación con su producto interior bruto."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 135 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 135.2 dice: «Una ley orgánica fijará el déficit estructural máximo permitido al Estado y a las Comunidades Autónomas, en relación con su producto interior bruto.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley orgánica» por «ley ordinaria»; «Comunidades Autónomas» por «Diputaciones Provinciales»."
     }
   },
   {
@@ -10480,15 +10480,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 136 de la Constitución Española («El Tribunal de Cuentas»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 136.4 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre el tribunal de cuentas sin autorización previa del Tribunal Constitucional.",
-        "El Tribunal de Cuentas es el supremo órgano fiscalizador de las cuentas y de la gestión económica de Estado, así como del sector público.",
-        "Para lo previsto en el artículo 136 (el tribunal de cuentas), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 136 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Una ley orgánica regulará la composición, organización y funciones del Banco de España.",
+        "Una ley orgánica regulará la composición, organización y funciones del Tribunal de Cuentas.",
+        "Una ley ordinaria regulará la composición, organización y funciones del Tribunal de Cuentas.",
+        "Una ley ordinaria regulará la composición, organización y funciones del Banco de España."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 136 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 136.4 dice: «Una ley orgánica regulará la composición, organización y funciones del Tribunal de Cuentas.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Tribunal de Cuentas» por «Banco de España»; «ley orgánica» por «ley ordinaria»."
     }
   },
   {
@@ -10505,15 +10505,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 137 de la Constitución Española («Organización territorial del Estado»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 137.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre organización territorial del estado sin autorización previa del Tribunal Constitucional.",
+        "El Estado se organiza territorialmente en municipios, en provincias y en las Diputaciones Provinciales que se constituyan.",
         "El Estado se organiza territorialmente en municipios, en provincias y en las Comunidades Autónomas que se constituyan.",
-        "Para lo previsto en el artículo 137 (organización territorial del estado), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 137 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Estado se organiza territorialmente en municipios, en comarcas y en las Comunidades Autónomas que se constituyan.",
+        "El Estado se organiza territorialmente en municipios, en comarcas y en las Diputaciones Provinciales que se constituyan."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 137 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 137.1 dice: «El Estado se organiza territorialmente en municipios, en provincias y en las Comunidades Autónomas que se constituyan.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Comunidades Autónomas» por «Diputaciones Provinciales»; «provincias» por «comarcas»."
     }
   },
   {
@@ -10535,15 +10535,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 138 de la Constitución Española («Principio de solidaridad interterritorial»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 138.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre principio de solidaridad interterritorial sin autorización previa del Tribunal Constitucional.",
-        "El Estado garantiza la realización efectiva del principio de solidaridad consagrado en el artículo 2 de la Constitución, velando por el establecimiento de un equilibrio económico, adecuado y justo entre las...",
-        "Para lo previsto en el artículo 138 (principio de solidaridad interterritorial), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 138 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las diferencias entre los Estatutos de las distintas Diputaciones Provinciales no podrán implicar, en ningún caso, privilegios económicos o sociales.",
+        "Las diferencias entre los Estatutos de las distintas Comunidades Autónomas no podrán implicar, en ningún caso, privilegios económicos o sociales.",
+        "Las diferencias entre los Estatutos de las distintas Comunidades Autónomas no deberán implicar, en ningún caso, privilegios económicos o sociales.",
+        "Las diferencias entre los Estatutos de las distintas Comunidades Autónomas no podrán implicar, salvo autorización judicial, privilegios económicos o sociales."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 138 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 138.2 dice: «Las diferencias entre los Estatutos de las distintas Comunidades Autónomas no podrán implicar, en ningún caso, privilegios económicos o sociales.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Comunidades Autónomas» por «Diputaciones Provinciales»; «podrán» por «deberán»; «en ningún caso» por «salvo autorización judicial»."
     }
   },
   {
@@ -10565,15 +10565,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 139 de la Constitución Española («Igualdad territorial de derechos»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Ninguna autoridad podrá adoptar medidas que directa o indirectamente obstaculicen la libertad de circulación y establecimiento de las personas y la libre circulación de bienes en todo el territorio español.»",
       "opciones": [
-        "Todos los españoles tienen los mismos deber inexcusable sujeto a autorización previas y obligaciones en cualquier parte del territorio del Estado.",
-        "Todos los españoles tienen los mismos derechos y obligaciones en cualquier parte del territorio del Estado.",
-        "Para lo previsto en el artículo 139 (igualdad territorial de derechos), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 139 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 140.",
+        "En el artículo 139.",
+        "En el artículo 138.",
+        "En el artículo 149."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 139 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 139 («Igualdad territorial de derechos»). Los tribunales preguntan mucho por la ubicación exacta: el 140 trata sobre «autonomía constitucional de municipios»; el 138 trata sobre «principio de solidaridad interterritorial»; el 149 trata sobre «competencias exclusivas del estado»."
     }
   },
   {
@@ -10590,15 +10590,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 140 de la Constitución Española («Autonomía constitucional de municipios»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 140.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre autonomía constitucional de municipios sin autorización previa del Tribunal Constitucional.",
+        "La Constitución garantiza la autonomía de las provincias.",
         "La Constitución garantiza la autonomía de los municipios.",
-        "Para lo previsto en el artículo 140 (autonomía constitucional de municipios), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 140 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "La Constitución reconoce la autonomía de los municipios.",
+        "La Constitución reconoce la autonomía de las provincias."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 140 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 140.1 dice: «La Constitución garantiza la autonomía de los municipios.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «los municipios» por «las provincias»; «garantiza» por «reconoce»."
     }
   },
   {
@@ -10630,15 +10630,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 141 de la Constitución Española («Administración provincial e insular»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 141.3 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre administración provincial e insular sin autorización previa del Tribunal Constitucional.",
-        "La provincia es una entidad local con personalidad jurídica propia, determinada por la agrupación de municipios y división territorial para el cumplimiento de las actividades del Estado.",
-        "Para lo previsto en el artículo 141 (administración provincial e insular), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 141 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Se deberán crear agrupaciones de municipios diferentes de la provincia.",
+        "Se podrán crear agrupaciones de municipios diferentes de la provincia.",
+        "Se podrán crear agrupaciones de municipios diferentes de la comarca.",
+        "Se deberán crear agrupaciones de municipios diferentes de la comarca."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 141 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 141.3 dice: «Se podrán crear agrupaciones de municipios diferentes de la provincia.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrán» por «deberán»; «provincia» por «comarca»."
     }
   },
   {
@@ -10655,15 +10655,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 142 de la Constitución Española («Suficiencia de Haciendas locales»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 142.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Las Haciendas locales deberán disponer de los medios suficientes para el desempeño de las funciones que la ley orgánica con mayoría de tres quintos atribuye a las Corporaciones respectivas y se nutrirán fundamentalmente de tributos propios y de...",
-        "Las Haciendas locales deberán disponer de los medios suficientes para el desempeño de las funciones que la ley atribuye a las Corporaciones respectivas y se nutrirán fundamentalmente de tributos propios y de...",
-        "Para lo previsto en el artículo 142 (suficiencia de haciendas locales), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 142 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las Haciendas locales podrán disponer de los medios suficientes para el desempeño de las funciones que la ley atribuye a las Corporaciones respectivas y se nutrirán fundamentalmente de tributos propios y de participación en los del Estado y de las Comunidades Autónomas.",
+        "Las Haciendas locales deberán disponer de los medios suficientes para el desempeño de las funciones que la ley atribuye a las Corporaciones respectivas y se nutrirán fundamentalmente de tributos propios y de participación en los del Estado y de las Comunidades Autónomas.",
+        "Las Haciendas locales deberán disponer de los medios suficientes para el desempeño de las funciones que la ley atribuye a las Corporaciones respectivas y se nutrirán fundamentalmente de tributos propios y de participación en los del Estado y de las Diputaciones Provinciales.",
+        "Las Haciendas locales deberán disponer de los medios suficientes para el desempeño de las funciones que la ley orgánica atribuye a las Corporaciones respectivas y se nutrirán fundamentalmente de tributos propios y de participación en los del Estado y de las Comunidades Autónomas."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 142 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 142.1 dice: «Las Haciendas locales deberán disponer de los medios suficientes para el desempeño de las funciones que la ley atribuye a las Corporaciones respectivas y se nutrirán fundamentalmente de tributos propios y de participación en los del Estado y de las Comunidades Autónomas.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «deberán» por «podrán»; «Comunidades Autónomas» por «Diputaciones Provinciales»; «ley» por «ley orgánica»."
     }
   },
   {
@@ -10690,15 +10690,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 143 de la Constitución Española («Iniciativa autonómica vía ordinaria»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 143.3 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En el ejercicio del deber inexcusable sujeto a autorización previa a la autonomía reconocido en el artículo 2 de la Constitución, las provincias limítrofes con características históricas, culturales y económicas comunes, los territorios insulares...",
-        "En el ejercicio del derecho a la autonomía reconocido en el artículo 2 de la Constitución, las provincias limítrofes con características históricas, culturales y económicas comunes, los territorios insulares...",
-        "Para lo previsto en el artículo 143 (iniciativa autonómica vía ordinaria), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 143 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "La iniciativa, en caso de no prosperar, solamente podrá reiterarse pasados cuatro años.",
+        "La iniciativa, en caso de no prosperar, solamente podrá reiterarse pasados cinco años.",
+        "La iniciativa, en caso de no prosperar, solamente deberá reiterarse pasados cinco años.",
+        "La iniciativa, en caso de no prosperar, solamente deberá reiterarse pasados cuatro años."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 143 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 143.3 dice: «La iniciativa, en caso de no prosperar, solamente podrá reiterarse pasados cinco años.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «cinco años» por «cuatro años»; «podrá» por «deberá»."
     }
   },
   {
@@ -10715,15 +10715,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 144 de la Constitución Española («Facultades autonómicas por Cortes»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 144.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Las Cortes Generales, mediante ley ordinaria o real decreto, podrán, por motivos de interés nacional: a) Autorizar la constitución de una comunidad autónoma cuando su ámbito territorial no supere el de una provincia y no re...",
-        "Las Cortes Generales, mediante ley orgánica, podrán, por motivos de interés nacional: a) Autorizar la constitución de una comunidad autónoma cuando su ámbito territorial no supere el de una provincia y no re...",
-        "Para lo previsto en el artículo 144 (facultades autonómicas por cortes), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 144 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las Cortes Generales, mediante ley ordinaria, podrán, por motivos de interés nacional: c) Sustituir la iniciativa de las Corporaciones locales a que se refiere el apartado 2 del artículo 143.",
+        "Las Cortes Generales, mediante ley orgánica, podrán, por motivos de interés nacional: c) Sustituir la iniciativa de las Corporaciones locales a que se refiere el apartado 2 del artículo 143.",
+        "Las Cortes Generales, mediante ley orgánica, deberán, por motivos de interés nacional: c) Sustituir la iniciativa de las Corporaciones locales a que se refiere el apartado 2 del artículo 143.",
+        "Las Cortes Generales, mediante ley ordinaria, deberán, por motivos de interés nacional: c) Sustituir la iniciativa de las Corporaciones locales a que se refiere el apartado 2 del artículo 143."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 144 de la CE: el precepto exige expresamente \"ley orgánica\", no ley ordinaria ni reglamento. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 144.1 dice: «Las Cortes Generales, mediante ley orgánica, podrán, por motivos de interés nacional: c) Sustituir la iniciativa de las Corporaciones locales a que se refiere el apartado 2 del artículo 143.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley orgánica» por «ley ordinaria»; «podrán» por «deberán»."
     }
   },
   {
@@ -10745,15 +10745,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 145 de la Constitución Española («Relaciones y convenios autonómicos»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 145.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre relaciones y convenios autonómicos sin autorización previa del Tribunal Constitucional.",
+        "Salvo autorización judicial se admitirá la federación de Comunidades Autónomas.",
         "En ningún caso se admitirá la federación de Comunidades Autónomas.",
-        "Para lo previsto en el artículo 145 (relaciones y convenios autonómicos), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 145 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En ningún caso se admitirá la federación de Diputaciones Provinciales.",
+        "Salvo autorización judicial se admitirá la federación de Diputaciones Provinciales."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 145 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 145.1 dice: «En ningún caso se admitirá la federación de Comunidades Autónomas.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «En ningún caso» por «Salvo autorización judicial»; «Comunidades Autónomas» por «Diputaciones Provinciales»."
     }
   },
   {
@@ -10770,15 +10770,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 146 de la Constitución Española («Elaboración del proyecto estatutario»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 146.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre elaboración del proyecto estatutario sin autorización previa del Tribunal Constitucional.",
-        "El proyecto de Estatuto será elaborado por una asamblea compuesta por los miembros de la Diputación u órgano interinsular de las provincias afectadas y por los Diputados y Senadores elegidos en ellas y será...",
-        "Para lo previsto en el artículo 146 (elaboración del proyecto estatutario), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 146 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El proyecto de Estatuto será elaborado por una asamblea compuesta por los miembros de la Diputación u órgano interinsular de las comarcas afectadas y por los Diputados y Senadores elegidos en ellas y será elevado a las Cortes Generales para su tramitación como ley.",
+        "El proyecto de Estatuto será elaborado por una asamblea compuesta por los miembros de la Diputación u órgano interinsular de las provincias afectadas y por los Diputados y Senadores elegidos en ellas y será elevado a las Cortes Generales para su tramitación como ley.",
+        "El proyecto de Estatuto será elaborado por una asamblea compuesta por los miembros de la Diputación u órgano interinsular de las provincias afectadas y por los Diputados y Senadores elegidos en ellas y será elevado a las Cortes Generales para su tramitación como ley orgánica.",
+        "El proyecto de Estatuto será elaborado por una asamblea compuesta por los miembros de la Diputación u órgano interinsular de las comarcas afectadas y por los Diputados y Senadores elegidos en ellas y será elevado a las Cortes Generales para su tramitación como ley orgánica."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 146 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 146.1 dice: «El proyecto de Estatuto será elaborado por una asamblea compuesta por los miembros de la Diputación u órgano interinsular de las provincias afectadas y por los Diputados y Senadores elegidos en ellas y será elevado a las Cortes Generales para su tramitación como ley.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «provincias» por «comarcas»; «ley» por «ley orgánica»."
     }
   },
   {
@@ -10805,15 +10805,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 147 de la Constitución Española («Estatutos de autonomía regional»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 147.3 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre estatutos de autonomía regional sin autorización previa del Tribunal Constitucional.",
-        "Dentro de los términos de la presente Constitución, los Estatutos serán la norma institucional básica de cada Comunidad Autónoma y el Estado los reconocerá y amparará como parte integrante de su ordenamiento...",
-        "Para lo previsto en el artículo 147 (estatutos de autonomía regional), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 147 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "La reforma de los Estatutos se ajustará al procedimiento establecido en los mismos y requerirá, en todo caso, la aprobación por las Cortes Generales, mediante ley ordinaria.",
+        "La reforma de los Estatutos se ajustará al procedimiento establecido en los mismos y requerirá, en todo caso, la aprobación por las Cortes Generales, mediante ley orgánica.",
+        "La reforma de los Estatutos se ajustará al procedimiento establecido en los mismos y requerirá, en su caso, la aprobación por las Cortes Generales, mediante ley orgánica.",
+        "La reforma de los Estatutos se ajustará al procedimiento establecido en los mismos y requerirá, en su caso, la aprobación por las Cortes Generales, mediante ley ordinaria."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 147 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 147.3 dice: «La reforma de los Estatutos se ajustará al procedimiento establecido en los mismos y requerirá, en todo caso, la aprobación por las Cortes Generales, mediante ley orgánica.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «ley orgánica» por «ley ordinaria»; «en todo caso» por «en su caso»."
     }
   },
   {
@@ -10835,15 +10835,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 148 de la Constitución Española («Competencias asumibles por Comunidades»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 148.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Las Comunidades Autónomas deberán obligatoriamente en todo caso asumir competencias en las siguientes materias: 1.ª Organización de sus instituciones de autogobierno.",
-        "Las Comunidades Autónomas podrán asumir competencias en las siguientes materias: 1.ª Organización de sus instituciones de autogobierno.",
-        "Para lo previsto en el artículo 148 (competencias asumibles por comunidades), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 148 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Transcurridos cuatro años, y mediante la reforma de sus Estatutos, las Comunidades Autónomas podrán ampliar sucesivamente sus competencias dentro del marco establecido en el artículo 149.",
+        "Transcurridos cinco años, y mediante la reforma de sus Estatutos, las Comunidades Autónomas podrán ampliar sucesivamente sus competencias dentro del marco establecido en el artículo 149.",
+        "Transcurridos cinco años, y mediante la reforma de sus Estatutos, las Diputaciones Provinciales podrán ampliar sucesivamente sus competencias dentro del marco establecido en el artículo 149.",
+        "Transcurridos cinco años, y mediante la reforma de sus Estatutos, las Comunidades Autónomas deberán ampliar sucesivamente sus competencias dentro del marco establecido en el artículo 149."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 148 de la CE: el texto constitucional utiliza el verbo potestativo \"podrán\", no un mandato imperativo (\"deberán\"). Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 148.2 dice: «Transcurridos cinco años, y mediante la reforma de sus Estatutos, las Comunidades Autónomas podrán ampliar sucesivamente sus competencias dentro del marco establecido en el artículo 149.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «cinco años» por «cuatro años»; «Comunidades Autónomas» por «Diputaciones Provinciales»; «podrán» por «deberán»."
     }
   },
   {
@@ -10870,15 +10870,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 149 de la Constitución Española («Competencias exclusivas del Estado»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 149.3 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "El Estado tiene competencia exclusiva sobre las siguientes materias: 1.ª La regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los deber inexcusable sujeto a autorización previas y en el cum...",
-        "El Estado tiene competencia exclusiva sobre las siguientes materias: 1.ª La regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cum...",
-        "Para lo previsto en el artículo 149 (competencias exclusivas del estado), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 149 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las materias no atribuidas expresamente al Estado por esta Constitución deberán corresponder a las Comunidades Autónomas, en virtud de sus respectivos Estatutos.",
+        "Las materias no atribuidas expresamente al Estado por esta Constitución podrán corresponder a las Comunidades Autónomas, en virtud de sus respectivos Estatutos.",
+        "Las materias no atribuidas expresamente al Estado por esta Constitución podrán corresponder a las Diputaciones Provinciales, en virtud de sus respectivos Estatutos.",
+        "Las materias no atribuidas expresamente al Estado por esta Constitución deberán corresponder a las Diputaciones Provinciales, en virtud de sus respectivos Estatutos."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 149 de la CE: el artículo configura esta figura sin exigir autorización administrativa previa. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 149.3 dice: «Las materias no atribuidas expresamente al Estado por esta Constitución podrán corresponder a las Comunidades Autónomas, en virtud de sus respectivos Estatutos.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrán» por «deberán»; «Comunidades Autónomas» por «Diputaciones Provinciales»."
     }
   },
   {
@@ -10905,15 +10905,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 150 de la Constitución Española («Transferencia y armonización estatal»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 150.3 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Las Cortes Generales, en materias de competencia estatal, deberán obligatoriamente en todo caso atribuir a todas o a alguna de las Comunidades Autónomas la facultad de dictar, para sí mismas, normas legislativas en el marco de los princip...",
-        "Las Cortes Generales, en materias de competencia estatal, podrán atribuir a todas o a alguna de las Comunidades Autónomas la facultad de dictar, para sí mismas, normas legislativas en el marco de los princip...",
-        "Para lo previsto en el artículo 150 (transferencia y armonización estatal), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 150 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Estado deberá dictar leyes que establezcan los principios necesarios para armonizar las disposiciones normativas de las Comunidades Autónomas, aun en el caso de materias atribuidas a la competencia de éstas, cuando así lo exija el interés general.",
+        "El Estado podrá dictar leyes que establezcan los principios necesarios para armonizar las disposiciones normativas de las Comunidades Autónomas, aun en el caso de materias atribuidas a la competencia de éstas, cuando así lo exija el interés general.",
+        "El Estado podrá dictar leyes que establezcan los principios necesarios para armonizar las disposiciones normativas de las Diputaciones Provinciales, aun en el caso de materias atribuidas a la competencia de éstas, cuando así lo exija el interés general.",
+        "El Estado deberá dictar leyes que establezcan los principios necesarios para armonizar las disposiciones normativas de las Diputaciones Provinciales, aun en el caso de materias atribuidas a la competencia de éstas, cuando así lo exija el interés general."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 150 de la CE: el texto constitucional utiliza el verbo potestativo \"podrán\", no un mandato imperativo (\"deberán\"). Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 150.3 dice: «El Estado podrá dictar leyes que establezcan los principios necesarios para armonizar las disposiciones normativas de las Comunidades Autónomas, aun en el caso de materias atribuidas a la competencia de éstas, cuando así lo exija el interés general.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrá» por «deberá»; «Comunidades Autónomas» por «Diputaciones Provinciales»."
     }
   },
   {
@@ -10940,15 +10940,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 151 de la Constitución Española («Iniciativa autonómica vía especial»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 151.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre iniciativa autonómica vía especial sin autorización previa del Tribunal Constitucional.",
-        "No será preciso dejar transcurrir el plazo de cinco años, a que se refiere el apartado 2 del artículo 148, cuando la iniciativa del proceso autonómico sea acordada dentro del plazo del artículo 143.2, además...",
-        "Para lo previsto en el artículo 151 (iniciativa autonómica vía especial), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 151 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Aprobado el Estatuto, el Presidente del Gobierno lo sancionará y lo promulgará como ley. 5.º De no alcanzarse el acuerdo a que se refiere el apartado 2 de este número, el proyecto de Estatuto será tramitado como proyecto de ley ante las Cortes Generales.",
+        "Aprobado el Estatuto, el Rey lo sancionará y lo promulgará como ley. 5.º De no alcanzarse el acuerdo a que se refiere el apartado 2 de este número, el proyecto de Estatuto será tramitado como proyecto de ley ante las Cortes Generales.",
+        "Aprobado el Estatuto, el Rey lo sancionará y lo promulgará como ley orgánica. 5.º De no alcanzarse el acuerdo a que se refiere el apartado 2 de este número, el proyecto de Estatuto será tramitado como proyecto de ley ante las Cortes Generales.",
+        "Aprobado el Estatuto, el Presidente del Gobierno lo sancionará y lo promulgará como ley orgánica. 5.º De no alcanzarse el acuerdo a que se refiere el apartado 2 de este número, el proyecto de Estatuto será tramitado como proyecto de ley ante las Cortes Generales."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 151 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 151.2 dice: «Aprobado el Estatuto, el Rey lo sancionará y lo promulgará como ley. 5.º De no alcanzarse el acuerdo a que se refiere el apartado 2 de este número, el proyecto de Estatuto será tramitado como proyecto de ley ante las Cortes Generales.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Rey» por «Presidente del Gobierno»; «ley» por «ley orgánica»."
     }
   },
   {
@@ -10975,15 +10975,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 152 de la Constitución Española («Organización institucional de Comunidades»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 152.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre organización institucional de comunidades sin autorización previa del Tribunal Constitucional.",
-        "En los Estatutos aprobados por el procedimiento a que se refiere el artículo anterior, la organización institucional autonómica se basará en una Asamblea Legislativa, elegida por sufragio universal, con arre...",
-        "Para lo previsto en el artículo 152 (organización institucional de comunidades), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 152 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En los Estatutos de las Diputaciones Provinciales podrán establecerse los supuestos y las formas de participación de aquéllas en la organización de las demarcaciones judiciales del territorio.",
+        "En los Estatutos de las Comunidades Autónomas podrán establecerse los supuestos y las formas de participación de aquéllas en la organización de las demarcaciones judiciales del territorio.",
+        "En los Estatutos de las Comunidades Autónomas deberán establecerse los supuestos y las formas de participación de aquéllas en la organización de las demarcaciones judiciales del territorio.",
+        "En los Estatutos de las Diputaciones Provinciales deberán establecerse los supuestos y las formas de participación de aquéllas en la organización de las demarcaciones judiciales del territorio."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 152 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 152.1 dice: «En los Estatutos de las Comunidades Autónomas podrán establecerse los supuestos y las formas de participación de aquéllas en la organización de las demarcaciones judiciales del territorio.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Comunidades Autónomas» por «Diputaciones Provinciales»; «podrán» por «deberán»."
     }
   },
   {
@@ -11000,15 +11000,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 153 de la Constitución Española («Control de órganos autonómicos»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 153.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "El control de la actividad de los órganos de las Comunidades Autónomas se ejercerá: a) Por el Tribunal Constitucional, el relativo a la constitucionalidad de sus disposiciones normativas con fuerza de ley orgánica con mayoría de tres quintos.",
-        "El control de la actividad de los órganos de las Comunidades Autónomas se ejercerá: a) Por el Tribunal Constitucional, el relativo a la constitucionalidad de sus disposiciones normativas con fuerza de ley.",
-        "Para lo previsto en el artículo 153 (control de órganos autonómicos), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 153 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El control de la actividad de los órganos de las Comunidades Autónomas se ejercerá: d) Por el Banco de España, el económico y presupuestario.",
+        "El control de la actividad de los órganos de las Comunidades Autónomas se ejercerá: d) Por el Tribunal de Cuentas, el económico y presupuestario.",
+        "El control de la actividad de los órganos de las Diputaciones Provinciales se ejercerá: d) Por el Tribunal de Cuentas, el económico y presupuestario.",
+        "El control de la actividad de los órganos de las Diputaciones Provinciales se ejercerá: d) Por el Banco de España, el económico y presupuestario."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 153 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 153.1 dice: «El control de la actividad de los órganos de las Comunidades Autónomas se ejercerá: d) Por el Tribunal de Cuentas, el económico y presupuestario.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Tribunal de Cuentas» por «Banco de España»; «Comunidades Autónomas» por «Diputaciones Provinciales»."
     }
   },
   {
@@ -11025,15 +11025,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 154 de la Constitución Española («El Delegado del Gobierno»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Un Delegado nombrado por el Gobierno dirigirá la Administración del Estado en el territorio de la Comunidad Autónoma y la coordinará, cuando proceda, con la administración propia de la Comunidad.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre el delegado del gobierno sin autorización previa del Tribunal Constitucional.",
-        "Un Delegado nombrado por el Gobierno dirigirá la Administración del Estado en el territorio de la Comunidad Autónoma y la coordinará, cuando proceda, con la administración propia de la Comunidad.",
-        "Para lo previsto en el artículo 154 (el delegado del gobierno), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 154 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 155.",
+        "En el artículo 154.",
+        "En el artículo 153.",
+        "En el artículo 164."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 154 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 154 («El Delegado del Gobierno»). Los tribunales preguntan mucho por la ubicación exacta: el 155 trata sobre «coerción estatal sobre comunidades»; el 153 trata sobre «control de órganos autonómicos»; el 164 trata sobre «sentencias del tribunal constitucional»."
     }
   },
   {
@@ -11085,15 +11085,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 156 de la Constitución Española («Autonomía financiera de Comunidades»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 156.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre autonomía financiera de comunidades sin autorización previa del Tribunal Constitucional.",
-        "Las Comunidades Autónomas gozarán de autonomía financiera para el desarrollo y ejecución de sus competencias con arreglo a los principios de coordinación con la Hacienda estatal y de solidaridad entre todos...",
-        "Para lo previsto en el artículo 156 (autonomía financiera de comunidades), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 156 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las Diputaciones Provinciales podrán actuar como delegados o colaboradores del Estado para la recaudación, la gestión y la liquidación de los recursos tributarios de aquél, de acuerdo con las leyes y los Estatutos.",
+        "Las Comunidades Autónomas podrán actuar como delegados o colaboradores del Estado para la recaudación, la gestión y la liquidación de los recursos tributarios de aquél, de acuerdo con las leyes y los Estatutos.",
+        "Las Comunidades Autónomas deberán actuar como delegados o colaboradores del Estado para la recaudación, la gestión y la liquidación de los recursos tributarios de aquél, de acuerdo con las leyes y los Estatutos.",
+        "Las Diputaciones Provinciales deberán actuar como delegados o colaboradores del Estado para la recaudación, la gestión y la liquidación de los recursos tributarios de aquél, de acuerdo con las leyes y los Estatutos."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 156 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 156.2 dice: «Las Comunidades Autónomas podrán actuar como delegados o colaboradores del Estado para la recaudación, la gestión y la liquidación de los recursos tributarios de aquél, de acuerdo con las leyes y los Estatutos.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Comunidades Autónomas» por «Diputaciones Provinciales»; «podrán» por «deberán»."
     }
   },
   {
@@ -11120,15 +11120,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 157 de la Constitución Española («Recursos financieros de Comunidades»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 157.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre recursos financieros de comunidades sin autorización previa del Tribunal Constitucional.",
-        "Los recursos de las Comunidades Autónomas estarán constituidos por: a) Impuestos cedidos total o parcialmente por el Estado; recargos sobre impuestos estatales y otras participaciones en los ingresos del Est...",
-        "Para lo previsto en el artículo 157 (recursos financieros de comunidades), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 157 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Las Diputaciones Provinciales no podrán en ningún caso adoptar medidas tributarias sobre bienes situados fuera de su territorio o que supongan obstáculo para la libre circulación de mercancías o servicios.",
+        "Las Comunidades Autónomas no podrán en ningún caso adoptar medidas tributarias sobre bienes situados fuera de su territorio o que supongan obstáculo para la libre circulación de mercancías o servicios.",
+        "Las Comunidades Autónomas no deberán en ningún caso adoptar medidas tributarias sobre bienes situados fuera de su territorio o que supongan obstáculo para la libre circulación de mercancías o servicios.",
+        "Las Comunidades Autónomas no podrán salvo autorización judicial adoptar medidas tributarias sobre bienes situados fuera de su territorio o que supongan obstáculo para la libre circulación de mercancías o servicios."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 157 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 157.2 dice: «Las Comunidades Autónomas no podrán en ningún caso adoptar medidas tributarias sobre bienes situados fuera de su territorio o que supongan obstáculo para la libre circulación de mercancías o servicios.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Comunidades Autónomas» por «Diputaciones Provinciales»; «podrán» por «deberán»; «en ningún caso» por «salvo autorización judicial»."
     }
   },
   {
@@ -11150,15 +11150,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 158 de la Constitución Española («Fondo de Compensación Interterritorial»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 158.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre fondo de compensación interterritorial sin autorización previa del Tribunal Constitucional.",
-        "En los Presupuestos Generales del Estado podrá establecerse una asignación a las Comunidades Autónomas en función del volumen de los servicios y actividades estatales que hayan asumido y de la garantía de un...",
-        "Para lo previsto en el artículo 158 (fondo de compensación interterritorial), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 158 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En los Presupuestos Generales del Estado deberá establecerse una asignación a las Comunidades Autónomas en función del volumen de los servicios y actividades estatales que hayan asumido y de la garantía de un nivel mínimo en la prestación de los servicios públicos fundamentales en todo el territorio español.",
+        "En los Presupuestos Generales del Estado podrá establecerse una asignación a las Comunidades Autónomas en función del volumen de los servicios y actividades estatales que hayan asumido y de la garantía de un nivel mínimo en la prestación de los servicios públicos fundamentales en todo el territorio español.",
+        "En los Presupuestos Generales del Estado podrá establecerse una asignación a las Diputaciones Provinciales en función del volumen de los servicios y actividades estatales que hayan asumido y de la garantía de un nivel mínimo en la prestación de los servicios públicos fundamentales en todo el territorio español.",
+        "En los Presupuestos Generales del Estado deberá establecerse una asignación a las Diputaciones Provinciales en función del volumen de los servicios y actividades estatales que hayan asumido y de la garantía de un nivel mínimo en la prestación de los servicios públicos fundamentales en todo el territorio español."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 158 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 158.1 dice: «En los Presupuestos Generales del Estado podrá establecerse una asignación a las Comunidades Autónomas en función del volumen de los servicios y actividades estatales que hayan asumido y de la garantía de un nivel mínimo en la prestación de los servicios públicos fundamentales en todo el territorio español.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «podrá» por «deberá»; «Comunidades Autónomas» por «Diputaciones Provinciales»."
     }
   },
   {
@@ -11220,15 +11220,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 160 de la Constitución Española («Presidente del Tribunal Constitucional»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 160.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre presidente del tribunal constitucional sin autorización previa del Tribunal Constitucional.",
+        "El Presidente del Tribunal Constitucional será nombrado entre sus miembros por el Rey, a propuesta del mismo Tribunal en pleno y por un período de cuatro años.",
         "El Presidente del Tribunal Constitucional será nombrado entre sus miembros por el Rey, a propuesta del mismo Tribunal en pleno y por un período de tres años.",
-        "Para lo previsto en el artículo 160 (presidente del tribunal constitucional), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 160 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "El Presidente del Tribunal Supremo será nombrado entre sus miembros por el Rey, a propuesta del mismo Tribunal en pleno y por un período de tres años.",
+        "El Presidente del Tribunal Constitucional será nombrado entre sus miembros por el Presidente del Gobierno, a propuesta del mismo Tribunal en pleno y por un período de tres años."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 160 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 160.1 dice: «El Presidente del Tribunal Constitucional será nombrado entre sus miembros por el Rey, a propuesta del mismo Tribunal en pleno y por un período de tres años.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «tres años» por «cuatro años»; «Tribunal Constitucional» por «Tribunal Supremo»; «Rey» por «Presidente del Gobierno»."
     }
   },
   {
@@ -11250,15 +11250,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 161 de la Constitución Española («Jurisdicción del Tribunal Constitucional»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 161.2 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "El Tribunal Constitucional tiene jurisdicción en todo el territorio español y es competente para conocer: a) Del recurso de inconstitucionalidad contra leyes y disposiciones normativas con fuerza de ley orgánica con mayoría de tres quintos.",
-        "El Tribunal Constitucional tiene jurisdicción en todo el territorio español y es competente para conocer: a) Del recurso de inconstitucionalidad contra leyes y disposiciones normativas con fuerza de ley.",
-        "Para lo previsto en el artículo 161 (jurisdicción del tribunal constitucional), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 161 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "La impugnación producirá la suspensión de la disposición o resolución recurrida, pero el Tribunal, en su caso, deberá ratificarla o levantarla en un plazo no superior a cuatro meses.",
+        "La impugnación producirá la suspensión de la disposición o resolución recurrida, pero el Tribunal, en su caso, deberá ratificarla o levantarla en un plazo no superior a cinco meses.",
+        "La impugnación producirá la suspensión de la disposición o resolución recurrida, pero el Tribunal, en su caso, podrá ratificarla o levantarla en un plazo no superior a cinco meses.",
+        "La impugnación producirá la suspensión de la disposición o resolución recurrida, pero el Tribunal, en su caso, podrá ratificarla o levantarla en un plazo no superior a cuatro meses."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 161 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 161.2 dice: «La impugnación producirá la suspensión de la disposición o resolución recurrida, pero el Tribunal, en su caso, deberá ratificarla o levantarla en un plazo no superior a cinco meses.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «cinco meses» por «cuatro meses»; «deberá» por «podrá»."
     }
   },
   {
@@ -11280,15 +11280,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 162 de la Constitución Española («Legitimación ante Tribunal Constitucional»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 162.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre legitimación ante tribunal constitucional sin autorización previa del Tribunal Constitucional.",
-        "Están legitimados: a) Para interponer el recurso de inconstitucionalidad, el Presidente del Gobierno, el Defensor del Pueblo, 50 Diputados, 50 Senadores, los órganos colegiados ejecutivos de las Comunidades...",
-        "Para lo previsto en el artículo 162 (legitimación ante tribunal constitucional), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 162 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Están legitimados: a) Para interponer el recurso de inconstitucionalidad, el Presidente del Gobierno, el Defensor del Pueblo, 60 Diputados, 50 Senadores, los órganos colegiados ejecutivos de las Comunidades Autónomas y, en su caso, las Asambleas de las mismas.",
+        "Están legitimados: a) Para interponer el recurso de inconstitucionalidad, el Presidente del Gobierno, el Defensor del Pueblo, 50 Diputados, 50 Senadores, los órganos colegiados ejecutivos de las Comunidades Autónomas y, en su caso, las Asambleas de las mismas.",
+        "Están legitimados: a) Para interponer el recurso de inconstitucionalidad, el Rey, el Defensor del Pueblo, 50 Diputados, 50 Senadores, los órganos colegiados ejecutivos de las Comunidades Autónomas y, en su caso, las Asambleas de las mismas.",
+        "Están legitimados: a) Para interponer el recurso de inconstitucionalidad, el Presidente del Gobierno, el Ministerio Fiscal, 50 Diputados, 50 Senadores, los órganos colegiados ejecutivos de las Comunidades Autónomas y, en su caso, las Asambleas de las mismas."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 162 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 162.1 dice: «Están legitimados: a) Para interponer el recurso de inconstitucionalidad, el Presidente del Gobierno, el Defensor del Pueblo, 50 Diputados, 50 Senadores, los órganos colegiados ejecutivos de las Comunidades Autónomas y, en su caso, las Asambleas de las mismas.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «50» por «60»; «Presidente del Gobierno» por «Rey»; «Defensor del Pueblo» por «Ministerio Fiscal»."
     }
   },
   {
@@ -11305,15 +11305,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 163 de la Constitución Española («Cuestión judicial de inconstitucionalidad»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 163.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Cuando un órgano judicial considere, en algún proceso, que una norma con rango de ley orgánica con mayoría de tres quintos, aplicable al caso, de cuya validez dependa el fallo, pueda ser contraria a la Constitución, planteará la cuestión ante e...",
-        "Cuando un órgano judicial considere, en algún proceso, que una norma con rango de ley, aplicable al caso, de cuya validez dependa el fallo, pueda ser contraria a la Constitución, planteará la cuestión ante e...",
-        "Para lo previsto en el artículo 163 (cuestión judicial de inconstitucionalidad), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 163 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Cuando un órgano judicial considere, en algún proceso, que una norma con rango de ley, aplicable al caso, de cuya validez dependa el fallo, pueda ser contraria a la Constitución, planteará la cuestión ante el Tribunal Supremo en los supuestos, en la forma y con los efectos que establezca la ley, que en ningún caso serán suspensivos.…",
+        "Cuando un órgano judicial considere, en algún proceso, que una norma con rango de ley, aplicable al caso, de cuya validez dependa el fallo, pueda ser contraria a la Constitución, planteará la cuestión ante el Tribunal Constitucional en los supuestos, en la forma y con los efectos que establezca la ley, que en ningún caso serán suspensivos.…",
+        "Cuando un órgano judicial considere, en algún proceso, que una norma con rango de ley, aplicable al caso, de cuya validez dependa el fallo, pueda ser contraria a la Constitución, planteará la cuestión ante el Tribunal Constitucional en los supuestos, en la forma y con los efectos que establezca la ley, que salvo autorización judicial serán suspensivos.…",
+        "Cuando un órgano judicial considere, en algún proceso, que una norma con rango de ley orgánica, aplicable al caso, de cuya validez dependa el fallo, pueda ser contraria a la Constitución, planteará la cuestión ante el Tribunal Constitucional en los supuestos, en la forma y con los efectos que establezca la ley, que en ningún caso serán suspensivos.…"
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 163 de la CE: la Constitución remite a la \"ley\" (reserva de ley ordinaria), sin exigir ley orgánica en este punto. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 163.1 dice: «Cuando un órgano judicial considere, en algún proceso, que una norma con rango de ley, aplicable al caso, de cuya validez dependa el fallo, pueda ser contraria a la Constitución, planteará la cuestión ante el Tribunal Constitucional en los supuestos, en la forma y con los efectos que establezca la ley, que en ningún caso serán suspensivos.…». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Tribunal Constitucional» por «Tribunal Supremo»; «en ningún caso» por «salvo autorización judicial»; «ley» por «ley orgánica»."
     }
   },
   {
@@ -11335,15 +11335,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 164 de la Constitución Española («Sentencias del Tribunal Constitucional»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «Las que declaren la inconstitucionalidad de una ley o de una norma con fuerza de ley y todas las que no se limiten a la estimación subjetiva de un derecho, tienen plenos efectos frente a todos.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre sentencias del tribunal constitucional sin autorización previa del Tribunal Constitucional.",
-        "Las sentencias del Tribunal Constitucional se publicarán en el boletín oficial del Estado con los votos particulares, si los hubiere.",
-        "Para lo previsto en el artículo 164 (sentencias del tribunal constitucional), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 164 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 165.",
+        "En el artículo 164.",
+        "En el artículo 163.",
+        "En el artículo 154."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 164 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 164 («Sentencias del Tribunal Constitucional»). Los tribunales preguntan mucho por la ubicación exacta: el 165 trata sobre «ley del tribunal constitucional»; el 163 trata sobre «cuestión judicial de inconstitucionalidad»; el 154 trata sobre «el delegado del gobierno»."
     }
   },
   {
@@ -11360,15 +11360,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 165 de la Constitución Española («Ley del Tribunal Constitucional»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "Según el artículo 165.1 de la Constitución Española, señale la redacción literal correcta:",
       "opciones": [
-        "Una ley ordinaria o real decreto regulará el funcionamiento del Tribunal Constitucional, el estatuto de sus miembros, el procedimiento ante el mismo y las condiciones para el ejercicio de las acciones.",
+        "Una ley orgánica regulará el funcionamiento del Tribunal Supremo, el estatuto de sus miembros, el procedimiento ante el mismo y las condiciones para el ejercicio de las acciones.",
         "Una ley orgánica regulará el funcionamiento del Tribunal Constitucional, el estatuto de sus miembros, el procedimiento ante el mismo y las condiciones para el ejercicio de las acciones.",
-        "Para lo previsto en el artículo 165 (ley del tribunal constitucional), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 165 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "Una ley ordinaria regulará el funcionamiento del Tribunal Constitucional, el estatuto de sus miembros, el procedimiento ante el mismo y las condiciones para el ejercicio de las acciones.",
+        "Una ley ordinaria regulará el funcionamiento del Tribunal Supremo, el estatuto de sus miembros, el procedimiento ante el mismo y las condiciones para el ejercicio de las acciones."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 165 de la CE: el precepto exige expresamente \"ley orgánica\", no ley ordinaria ni reglamento. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "El texto literal del artículo 165.1 dice: «Una ley orgánica regulará el funcionamiento del Tribunal Constitucional, el estatuto de sus miembros, el procedimiento ante el mismo y las condiciones para el ejercicio de las acciones.». Cada opción incorrecta cambia un solo detalle, como hacen los tribunales: «Tribunal Constitucional» por «Tribunal Supremo»; «ley orgánica» por «ley ordinaria»."
     }
   },
   {
@@ -11385,15 +11385,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 166 de la Constitución Española («Iniciativa de reforma constitucional»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «La iniciativa de reforma constitucional se ejercerá en los términos previstos en los apartados 1 y 2 del artículo 87.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre iniciativa de reforma constitucional sin autorización previa del Tribunal Constitucional.",
-        "La iniciativa de reforma constitucional se ejercerá en los términos previstos en los apartados 1 y 2 del artículo 87.",
-        "Para lo previsto en el artículo 166 (iniciativa de reforma constitucional), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 166 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 167.",
+        "En el artículo 166.",
+        "En el artículo 165.",
+        "En el artículo 156."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 166 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 166 («Iniciativa de reforma constitucional»). Los tribunales preguntan mucho por la ubicación exacta: el 167 trata sobre «reforma constitucional procedimiento ordinario»; el 165 trata sobre «ley del tribunal constitucional»; el 156 trata sobre «autonomía financiera de comunidades»."
     }
   },
   {
@@ -11480,15 +11480,15 @@ const constitucion_json_puro = [
       }
     ],
     "test_trampa": {
-      "enunciado": "En relación con el artículo 169 de la Constitución Española («Límites a reforma constitucional»), señale la afirmación literal y constitucionalmente correcta:",
+      "enunciado": "¿En qué artículo de la Constitución Española se establece lo siguiente? «No podrá iniciarse la reforma constitucional en tiempo de guerra o de vigencia de alguno de los estados previstos en el artículo 116.»",
       "opciones": [
-        "En ningún caso se aplicará lo dispuesto sobre límites a reforma constitucional sin autorización previa del Tribunal Constitucional.",
-        "No podrá iniciarse la reforma constitucional en tiempo de guerra o de vigencia de alguno de los estados previstos en el artículo 116.",
-        "Para lo previsto en el artículo 169 (límites a reforma constitucional), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.",
-        "La competencia exclusiva para acordar y ejecutar lo previsto en el artículo 169 corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo."
+        "En el artículo 168.",
+        "En el artículo 169.",
+        "En el artículo 159.",
+        "En el artículo 167."
       ],
       "indice_correcta": 1,
-      "trampa_explicacion": "Ojo al tenor literal del artículo 169 de la CE: el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial."
+      "trampa_explicacion": "Es el artículo 169 («Límites a reforma constitucional»). Los tribunales preguntan mucho por la ubicación exacta: el 168 trata sobre «reforma constitucional procedimiento agravado»; el 159 trata sobre «composición del tribunal constitucional»; el 167 trata sobre «reforma constitucional procedimiento ordinario»."
     }
   }
 ];

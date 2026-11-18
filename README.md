@@ -23,6 +23,7 @@
 
 4. **🕵️ Modo 4: Cazador de Trampas (Simulador de Examen Oficial)**
    - Preguntas tipo test de 4 opciones mezcladas aleatoriamente centradas en las trampas clásicas de los tribunales de oposición (*plazos cambiados, mayorías alteradas, órganos constitucionales cruzados o excepciones literales*).
+   - 31 preguntas escritas a mano para los artículos más preguntados y, para el resto, preguntas generadas desde el **texto literal del BOE** (`scripts/trampas_literales.ts`). Cada opción incorrecta es la misma frase con **un solo detalle cambiado**: un plazo («setenta y dos horas» por «cuarenta y ocho»), una mayoría, un órgano (Rey/Presidente del Gobierno, Congreso/Senado, Tribunal Constitucional/Supremo…), «podrá» por «deberá», «ley orgánica» por «ley», «garantiza» por «reconoce»… Cuando el artículo no da para tres cambios, la pregunta es de localización: «¿En qué artículo se establece…?», con artículos vecinos como opciones.
    - Incluye el botón **`🧠 Ver anclaje mental`** para desplegar la pista mnemotécnica sin revelar la letra correcta.
    - Al responder, muestra una alerta detallada explicando la trampa exacta junto con el **fragmento literal del BOE vulnerado**.
 
@@ -177,6 +178,7 @@ La compilación usa rutas relativas (`base: './'`), así que funciona en la subc
 - **Imágenes visibles.** Las 169 escenas se subieron en `.webp`, pero la app las buscaba como `.jpg`, así que todas las tarjetas mostraban «Escena en preparación». Ahora se cargan las `.webp` en los cinco modos y en la versión sin React.
 - **Lista para GitHub Pages.** Faltaba `base: './'` en Vite y había rutas absolutas (`/datos_ce.js`, `/simulador_mesa.html`…), así que en la subcarpeta de Pages la página salía en blanco. Además, se añade el workflow de despliegue.
 - **Texto literal verificado.** Se ha comparado el texto de los 169 artículos con el BOE consolidado incluido en el repositorio y coincide palabra por palabra, incluidas las reformas de los artículos 135 (2011) y 49 (2024).
+- **Preguntas trampa de tribunal.** 138 preguntas usaban la misma plantilla con distractores absurdos (siempre «mayoría de dos tercios en 48 horas» y «el CGPJ a propuesta del Defensor del Pueblo»). Ahora salen del texto literal del BOE con un solo detalle cambiado por opción, o son de localización del artículo.
 - **Limpieza.** Fuera las dependencias de AI Studio sin uso (Gemini, Express, `motion`, `dotenv`), `metadata.json` y `.env.example`. La página se declara en español (`lang="es"`).
 
 ---

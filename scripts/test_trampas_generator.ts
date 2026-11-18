@@ -1,4 +1,5 @@
 import { ApartadoCE } from './build_datos_ce';
+import { construirTrampaLiteral } from './trampas_literales';
 
 export interface TestTrampa {
   enunciado: string;
@@ -374,51 +375,6 @@ export function buildTestTrampaForArticle(
     return TRAMPAS_ESPECIFICAS[id];
   }
 
-  const primerApartado = apartados[0]?.texto_oficial || textoOficial;
-  const oraciones = textoOficial
-    .replace(/\n+/g, ' ')
-    .split(/(?<=\.)\s+/)
-    .map((s) => s.trim())
-    .filter((s) => s.length > 20);
-
-  const oracionBase = (oraciones[0] || primerApartado).replace(/^\d+\.\s*/, '').trim();
-  const fragmentoLiteral =
-    oracionBase.length > 210 ? oracionBase.slice(0, 207).trim() + '...' : oracionBase;
-
-  // Crear distractores realistas de oposición (trampa de verbo/carácter, trampa de plazo/mayoría, trampa de órgano)
-  let opcionA = fragmentoLiteral;
-  let detalleTrampa = '';
-
-  if (/ley orgánica/i.test(fragmentoLiteral)) {
-    opcionA = fragmentoLiteral.replace(/ley orgánica/gi, 'ley ordinaria o real decreto');
-    detalleTrampa = 'el precepto exige expresamente "ley orgánica", no ley ordinaria ni reglamento';
-  } else if (/ley/i.test(fragmentoLiteral)) {
-    opcionA = fragmentoLiteral.replace(/\bley\b/i, 'ley orgánica con mayoría de tres quintos');
-    detalleTrampa = 'la Constitución remite a la "ley" (reserva de ley ordinaria), sin exigir ley orgánica en este punto';
-  } else if (/podrán/i.test(fragmentoLiteral)) {
-    opcionA = fragmentoLiteral.replace(/podrán/gi, 'deberán obligatoriamente en todo caso');
-    detalleTrampa = 'el texto constitucional utiliza el verbo potestativo "podrán", no un mandato imperativo ("deberán")';
-  } else if (/deberán|deberá/i.test(fragmentoLiteral)) {
-    opcionA = fragmentoLiteral.replace(/deberán|deberá/gi, 'podrán discrecionalmente');
-    detalleTrampa = 'la norma emplea un mandato imperativo ("deberá/deberán"), no una facultad potestativa ("podrán")';
-  } else if (/derecho/i.test(fragmentoLiteral)) {
-    opcionA = fragmentoLiteral.replace(/derecho/i, 'deber inexcusable sujeto a autorización previa');
-    detalleTrampa = 'el artículo configura esta figura sin exigir autorización administrativa previa';
-  } else {
-    opcionA = `En ningún caso se aplicará lo dispuesto sobre ${temaGeneral.toLowerCase()} sin autorización previa del Tribunal Constitucional.`;
-    detalleTrampa = 'el artículo no subordina su eficacia a autorización previa del Tribunal Constitucional';
-  }
-
-  const opcionB = fragmentoLiteral;
-
-  const opcionC = `Para lo previsto en el artículo ${id} (${temaGeneral.toLowerCase()}), se requerirá siempre mayoría de dos tercios en un plazo improrrogable de cuarenta y ocho horas.`;
-
-  const opcionD = `La competencia exclusiva para acordar y ejecutar lo previsto en el artículo ${id} corresponde únicamente al Consejo General del Poder Judicial a propuesta del Defensor del Pueblo.`;
-
-  return {
-    enunciado: `En relación con el artículo ${id} de la Constitución Española («${temaGeneral}»), señale la afirmación literal y constitucionalmente correcta:`,
-    opciones: [opcionA, opcionB, opcionC, opcionD],
-    indice_correcta: 1,
-    trampa_explicacion: `Ojo al tenor literal del artículo ${id} de la CE: ${detalleTrampa}. Además, los distractores introducen mayorías cualificadas (2/3 en 48 horas) u órganos incompetentes (CGPJ / Defensor del Pueblo) ajenos al precepto oficial.`
-  };
+  // Preguntas de tribunal generadas a partir del texto literal del BOE (un solo detalle cambiado por opción)
+  return construirTrampaLiteral(id, apartados);
 }
