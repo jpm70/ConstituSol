@@ -19,6 +19,75 @@ const STORAGE_KEY_MEJOR_RACHA = 'mejor_racha';
 const STORAGE_KEY_ARTICULOS_FALLOS = 'articulos_con_fallos';
 const STORAGE_KEY_MAPA_FALLOS = 'ce_mapa_fallos_v1';
 const STORAGE_KEY_SIMULACRO_CONFIG = 'ce_simulacro_config_v1';
+const STORAGE_KEY_REPASO_ESPACIADO = 'ce_repaso_espaciado_v1';
+
+/**
+ * Repaso espaciado con cajas de Leitner: cada acierto sube el artículo de caja y aleja su próximo
+ * repaso (1, 3, 7, 14 y 30 días); cada fallo lo devuelve a la caja 1 para repasarlo mañana.
+ */
+const INTERVALOS_REPASO_DIAS = [0, 1, 3, 7, 14, 30];
+
+interface EstadoRepaso {
+  caja: number;
+  proxima: string;
+}
+
+function sumarDiasISO(dias: number, base = new Date()): string {
+  const d = new Date(base.getFullYear(), base.getMonth(), base.getDate() + dias);
+  return formatearFechaLocalISO(d);
+}
+
+function leerRepasoEspaciado(): Record<number, EstadoRepaso> {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY_REPASO_ESPACIADO);
+    const parsed = raw ? JSON.parse(raw) : {};
+    const limpio: Record<number, EstadoRepaso> = {};
+    if (parsed && typeof parsed === 'object') {
+      for (const [k, v] of Object.entries(parsed as Record<string, unknown>)) {
+        const id = Number(k);
+        const e = v as Partial<EstadoRepaso>;
+        if (id >= 1 && id <= 169 && e && typeof e.proxima === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(e.proxima)) {
+          limpio[id] = { caja: Math.min(5, Math.max(1, Math.round(Number(e.caja) || 1))), proxima: e.proxima };
+        }
+      }
+    }
+    return limpio;
+  } catch {
+    return {};
+  }
+}
+
+function registrarRepasoEspaciado(id: number, acierto: boolean): void {
+  try {
+    const estado = leerRepasoEspaciado();
+    const previa = estado[id]?.caja ?? 0;
+    const caja = acierto ? Math.min(5, previa + 1) : 1;
+    estado[id] = { caja, proxima: sumarDiasISO(INTERVALOS_REPASO_DIAS[caja]) };
+    localStorage.setItem(STORAGE_KEY_REPASO_ESPACIADO, JSON.stringify(estado));
+  } catch {
+    // Ignorar errores de almacenamiento
+  }
+}
+
+/** Artículos cuyo próximo repaso es hoy o ya ha pasado. */
+function articulosParaRepasarHoy(): number[] {
+  const hoy = formatearFechaLocalISO();
+  return Object.entries(leerRepasoEspaciado())
+    .filter(([, e]) => e.proxima <= hoy)
+    .map(([id]) => Number(id))
+    .sort((a, b) => a - b);
+}
+
+/** Próxima fecha con repasos pendientes (después de hoy), para el mensaje de «nada por hoy». */
+function proximoDiaDeRepaso(): { fecha: string; cantidad: number } | null {
+  const hoy = formatearFechaLocalISO();
+  const futuras = Object.values(leerRepasoEspaciado())
+    .map((e) => e.proxima)
+    .filter((f) => f > hoy)
+    .sort();
+  if (!futuras.length) return null;
+  return { fecha: futuras[0], cantidad: futuras.filter((f) => f === futuras[0]).length };
+}
 const STORAGE_KEY_SIMULACRO_HISTORIAL = 'ce_simulacro_historial_v1';
 
 interface ConfigSimulacro {
@@ -262,9 +331,10 @@ function barajarArray<T>(array: T[]): T[] {
 export default function App() {
   const [activeView, setActiveView] = useState<'mesa' | 'vanilla_js' | 'datos_ce'>('mesa');
   const [modoActual, setModoActual] = useState<'modo1' | 'modo2' | 'modo3' | 'modo4' | 'simulacro' | 'mapa'>('modo1');
-  const [filtroDominio, setFiltroDominio] = useState<'todos' | 'no_dominados' | 'dominados' | 'con_fallos'>('todos');
+  const [filtroDominio, setFiltroDominio] = useState<'todos' | 'no_dominados' | 'dominados' | 'con_fallos' | 'repaso_hoy'>('todos');
   const [dominadosIds, setDominadosIds] = useState<number[]>(() => leerArticulosDominadosStorage());
   const [fallosIds, setFallosIds] = useState<number[]>(() => leerArticulosConFallosStorage());
+  const [repasoHoyIds, setRepasoHoyIds] = useState<number[]>(() => articulosParaRepasarHoy());
   const [mapaFallos, setMapaFallos] = useState<Record<number, number>>(() => leerMapaFallosStorage());
   const [rachaInfo, setRachaInfo] = useState<EstadoRacha>(() => comprobarYActualizarRachaStorage());
   const [copiedKey, setCopiedKey] = useState<string | null>(null);
@@ -318,13 +388,15 @@ export default function App() {
       localStorage.removeItem(STORAGE_KEY_CAZADOR_ACIERTOS);
       localStorage.removeItem(STORAGE_KEY_ARTICULOS_FALLOS);
       localStorage.removeItem(STORAGE_KEY_MAPA_FALLOS);
+      localStorage.removeItem(STORAGE_KEY_REPASO_ESPACIADO);
     } catch {
       // ignore
     }
+    setRepasoHoyIds([]);
     setDominadosIds([]);
     setFallosIds([]);
     setMapaFallos({});
-    if (filtroDominio === 'con_fallos') {
+    if (filtroDominio === 'con_fallos' || filtroDominio === 'repaso_hoy') {
       setFiltroDominio('todos');
     }
     indiceDescubrimientoRef.current = 0;
@@ -365,20 +437,31 @@ export default function App() {
       if (filtroDominio === 'con_fallos') {
         return db.filter((art) => setFallos.has(art.id));
       }
+      if (filtroDominio === 'repaso_hoy') {
+        const setHoy = new Set(articulosParaRepasarHoy());
+        return db.filter((art) => setHoy.has(art.id));
+      }
       return db;
     }
 
     function renderizarEstadoVacioFiltro() {
       if (!contenedorMesa) return;
+      const proximo = proximoDiaDeRepaso();
       const etiquetaFiltro =
         filtroDominio === 'dominados'
           ? 'Solo los dominados'
           : filtroDominio === 'con_fallos'
           ? 'Solo artículos con fallos'
+          : filtroDominio === 'repaso_hoy'
+          ? 'Toca repasar hoy'
           : 'Solo los no dominados';
 
       const mensajeVacio =
-        filtroDominio === 'dominados'
+        filtroDominio === 'repaso_hoy'
+          ? proximo
+            ? `¡Repaso de hoy completado! El próximo repaso es el ${proximo.fecha.split('-').reverse().join('/')} (${proximo.cantidad} artículo${proximo.cantidad === 1 ? '' : 's'}). Mientras tanto, practica artículos nuevos en el Reto del Casillero, el Cazador de Trampas o un Simulacro: cada respuesta programa su próximo repaso.`
+            : 'Aún no hay repasos programados. Responde en el Reto del Casillero, el Cazador de Trampas o un Simulacro: cada acierto aleja el siguiente repaso (1, 3, 7, 14 y 30 días) y cada fallo lo trae de vuelta mañana.'
+          : filtroDominio === 'dominados'
           ? 'Aún no has dominado ningún artículo en ConstituSol. Ve al «Modo 2: El Reto del Casillero» y acierta un artículo al primer intento para marcarlo como dominado en localStorage.'
           : filtroDominio === 'con_fallos'
           ? '¡Excelente trabajo! No tienes artículos registrados con fallos en el Modo Reto ni en el Modo Cazador de Trampas.'
@@ -741,6 +824,8 @@ export default function App() {
           cajaFeedback.className = 'reto-feedback feedback-exito';
 
           if (intentosRealizados === 1) {
+            registrarRepasoEspaciado(articuloReto.id, true);
+            setRepasoHoyIds(articulosParaRepasarHoy());
             const actualizados = guardarArticuloDominadoStorage(articuloReto.id);
             setDominadosIds(actualizados);
             if (badgeDominio) {
@@ -758,6 +843,8 @@ export default function App() {
             `;
           }
         } else {
+          registrarRepasoEspaciado(articuloReto.id, false);
+          setRepasoHoyIds(articulosParaRepasarHoy());
           const actualizadosFallos = registrarFalloArticuloStorage(articuloReto.id);
           setFallosIds(actualizadosFallos.fallosIds);
           setMapaFallos({ ...actualizadosFallos.mapaFallos });
@@ -1098,6 +1185,8 @@ export default function App() {
               tag.textContent = '✓ ¡Opción Correcta Literal!';
             }
 
+            registrarRepasoEspaciado(articulo.id, true);
+            setRepasoHoyIds(articulosParaRepasarHoy());
             const nuevoTotal = incrementarAciertosCazadorStorage();
             if (pillAciertos) pillAciertos.textContent = `✓ Aciertos acumulados: ${nuevoTotal}`;
             if (hudAciertos) hudAciertos.textContent = `🎯 Trampas Cazadas (Aciertos): ${nuevoTotal}`;
@@ -1119,6 +1208,8 @@ export default function App() {
               `;
             }
           } else {
+            registrarRepasoEspaciado(articulo.id, false);
+            setRepasoHoyIds(articulosParaRepasarHoy());
             const actualizadosFallos = registrarFalloArticuloStorage(articulo.id);
             setFallosIds(actualizadosFallos.fallosIds);
             setMapaFallos({ ...actualizadosFallos.mapaFallos });
@@ -1842,6 +1933,10 @@ export default function App() {
         // Los artículos fallados pasan a la lista de repaso (y los que no se contestaron, no)
         let ultimo: { fallosIds: number[]; mapaFallos: Record<number, number> } | null = null;
         for (const p of fallosLista) ultimo = registrarFalloArticuloStorage(p.articulo.id);
+        for (const p of preguntas) {
+          registrarRepasoEspaciado(p.articulo.id, p.respuesta !== null && p.opciones[p.respuesta].esCorrecta);
+        }
+        setRepasoHoyIds(articulosParaRepasarHoy());
         if (ultimo) {
           setFallosIds(ultimo.fallosIds);
           setMapaFallos({ ...ultimo.mapaFallos });
@@ -2086,7 +2181,7 @@ export default function App() {
                     onChange={(e) => {
                       indiceDescubrimientoRef.current = 0;
                       setFiltroDominio(
-                        e.target.value as 'todos' | 'no_dominados' | 'dominados' | 'con_fallos'
+                        e.target.value as 'todos' | 'no_dominados' | 'dominados' | 'con_fallos' | 'repaso_hoy'
                       );
                     }}
                     className="mode-select-dropdown"
@@ -2101,6 +2196,9 @@ export default function App() {
                     </option>
                     <option value="con_fallos">
                       ⚠️ Solo artículos con fallos ({fallosIds.length})
+                    </option>
+                    <option value="repaso_hoy">
+                      🔁 Toca repasar hoy ({repasoHoyIds.length})
                     </option>
                   </select>
 
@@ -2129,6 +2227,28 @@ export default function App() {
                   <span className="gamificacion-subtitle-pill">Persistencia LocalStorage Activa</span>
                 </div>
                 <div className="gamificacion-actions">
+                  <button
+                    type="button"
+                    id="btn-repaso-hoy"
+                    onClick={() => {
+                      indiceDescubrimientoRef.current = 0;
+                      if (filtroDominio === 'repaso_hoy') {
+                        setFiltroDominio('todos');
+                      } else {
+                        if (modoActual === 'mapa' || modoActual === 'modo1' || modoActual === 'modo3') {
+                          setModoActual('modo4');
+                        }
+                        setFiltroDominio('repaso_hoy');
+                      }
+                    }}
+                    className={`btn-repasar-fallos btn-repaso-hoy ${filtroDominio === 'repaso_hoy' ? 'is-active-filter' : ''}`}
+                    title="Repaso espaciado: cada acierto aleja el siguiente repaso (1, 3, 7, 14 y 30 días); cada fallo lo trae mañana"
+                  >
+                    <span>
+                      🔁 {filtroDominio === 'repaso_hoy' ? 'Viendo el repaso de hoy (Ver todos)' : 'Repaso de hoy'}
+                    </span>
+                    <span className="btn-repasar-fallos-count">{repasoHoyIds.length}</span>
+                  </button>
                   <button
                     type="button"
                     onClick={() => {

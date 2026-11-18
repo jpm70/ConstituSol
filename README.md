@@ -53,6 +53,9 @@
   2. 🎯 **Porcentaje Global Completado** sobre los 169 artículos de la CE.
   3. ✅ **Balance de Progreso**: Artículos Dominados vs. En Repaso vs. Pendientes.
   4. ⚠️ **Artículos con Fallos Frecuentes**: Contador de artículos fallados en el Modo Reto o en el Modo Cazador de Trampas.
+- **Repaso Espaciado (cajas de Leitner)**:
+  - Cada respuesta en el Reto del Casillero, el Cazador de Trampas o un Simulacro programa el próximo repaso de ese artículo. Un acierto lo sube de caja y aleja el siguiente repaso a **1, 3, 7, 14 o 30 días**; un fallo (o dejarlo en blanco en un simulacro) lo devuelve a la caja 1 para **mañana**.
+  - Botón **`🔁 Repaso de hoy`** en el panel y opción **«Toca repasar hoy»** en el filtro: abren cualquier modo solo con los artículos que vencen hoy. Cuando no queda nada, la app indica la fecha del próximo repaso.
 - **Filtro Rápido de Repaso**:
   - Botón directo **`⚠️ Repasar solo artículos con fallos`** que filtra cualquier modo de estudio para practicar exclusivamente los artículos en los que has cometido errores.
 
@@ -188,6 +191,7 @@ La compilación usa rutas relativas (`base: './'`), así que funciona en la subc
 - **Preguntas trampa de tribunal.** 138 preguntas usaban la misma plantilla con distractores absurdos (siempre «mayoría de dos tercios en 48 horas» y «el CGPJ a propuesta del Defensor del Pueblo»). Ahora salen del texto literal del BOE con un solo detalle cambiado por opción, o son de localización del artículo.
 - **Modo 6: Simulacro de Examen** con tiempo, penalización por error, nota sobre 10, corrección e historial; los fallos pasan a la lista de repaso.
 - **Las preguntas de localización no delatan la respuesta.** En el Cazador de Trampas, la cabecera («Artículo N») y el anclaje mental se ocultan hasta responder.
+- **Repaso espaciado** con cajas de Leitner (1, 3, 7, 14 y 30 días), botón «Repaso de hoy» y filtro «Toca repasar hoy».
 - **Barra superior solo para estudiar.** «Código ConstituSol», «JSON Puro (Apartados)» y «Descargar ConstituSol» pasan a un desplegable al pie, «Para docentes y desarrolladores»; desde esas vistas, «← Volver al estudio» regresa a la mesa.
 - **Limpieza.** Fuera las dependencias de AI Studio sin uso (Gemini, Express, `motion`, `dotenv`), `metadata.json` y `.env.example`. La página se declara en español (`lang="es"`).
 
