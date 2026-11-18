@@ -108,6 +108,7 @@ constitusol/
 │   ├── App.tsx                     # Interfaz principal React + Inspector de Código y JSON
 │   ├── datos_ce.ts                 # Base de datos tipada en TypeScript (169 artículos)
 │   ├── estructura_ce.ts            # Jerarquía oficial de Títulos, Capítulos y Disposiciones
+│   ├── preguntas_especiales.ts     # Preguntas del Preámbulo y de las Disposiciones
 │   ├── mesa_juego.css              # Sistema de diseño Mobile-First, 3D Flip y Dashboard
 │   ├── standalone_template.ts      # Plantilla sincronizada para descarga en 1 clic
 │   └── main.tsx                    # Punto de entrada React
@@ -192,6 +193,7 @@ La compilación usa rutas relativas (`base: './'`), así que funciona en la subc
 - **Modo 6: Simulacro de Examen** con tiempo, penalización por error, nota sobre 10, corrección e historial; los fallos pasan a la lista de repaso.
 - **Las preguntas de localización no delatan la respuesta.** En el Cazador de Trampas, la cabecera («Artículo N») y el anclaje mental se ocultan hasta responder.
 - **Repaso espaciado** con cajas de Leitner (1, 3, 7, 14 y 30 días), botón «Repaso de hoy» y filtro «Toca repasar hoy».
+- **Preámbulo y Disposiciones para estudiar.** Antes solo eran un índice en el Mapa. Ahora cada ficha trae preguntas de comprobación con corrección inmediata (25 preguntas escritas sobre el texto del BOE), su progreso se ve con el semáforo del Mapa y el Simulacro las incluye en su proporción real (unas 1 de cada 12; se puede desmarcar). También se completó la transitoria octava, a la que le faltaban dos párrafos del BOE.
 - **Barra superior solo para estudiar.** «Código ConstituSol», «JSON Puro (Apartados)» y «Descargar ConstituSol» pasan a un desplegable al pie, «Para docentes y desarrolladores»; desde esas vistas, «← Volver al estudio» regresa a la mesa.
 - **Limpieza.** Fuera las dependencias de AI Studio sin uso (Gemini, Express, `motion`, `dotenv`), `metadata.json` y `.env.example`. La página se declara en español (`lang="es"`).
 
