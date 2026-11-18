@@ -8,6 +8,7 @@ import {
 } from './datos_ce';
 import { VANILLA_JS_SOURCE } from './standalone_template';
 import { ESTRUCTURA_MAPA_CE, ItemEspecialMapaCE } from './estructura_ce';
+import { PREGUNTAS_ESPECIALES, PreguntaEspecialCE } from './preguntas_especiales';
 import './mesa_juego.css';
 
 const STORAGE_KEY_DOMINADOS = 'ce_articulos_dominados_v1';
@@ -89,11 +90,43 @@ function proximoDiaDeRepaso(): { fecha: string; cantidad: number } | null {
   return { fecha: futuras[0], cantidad: futuras.filter((f) => f === futuras[0]).length };
 }
 const STORAGE_KEY_SIMULACRO_HISTORIAL = 'ce_simulacro_historial_v1';
+const STORAGE_KEY_ESPECIALES = 'ce_especiales_estado_v1';
+
+/** Progreso del Preámbulo y las Disposiciones: 'dominado' tras acertar, 'repaso' tras abrir la ficha o fallar. */
+type EstadoEspecial = 'dominado' | 'repaso';
+
+function leerEstadoEspeciales(): Record<string, EstadoEspecial> {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY_ESPECIALES);
+    const parsed = raw ? JSON.parse(raw) : {};
+    const limpio: Record<string, EstadoEspecial> = {};
+    if (parsed && typeof parsed === 'object') {
+      for (const [k, v] of Object.entries(parsed as Record<string, unknown>)) {
+        if (typeof k === 'string' && k.length <= 40 && (v === 'dominado' || v === 'repaso')) limpio[k] = v;
+      }
+    }
+    return limpio;
+  } catch {
+    return {};
+  }
+}
+
+function guardarEstadoEspecial(codigo: string, estado: EstadoEspecial, soloSiNuevo = false): void {
+  try {
+    const actual = leerEstadoEspeciales();
+    if (soloSiNuevo && actual[codigo]) return;
+    actual[codigo] = estado;
+    localStorage.setItem(STORAGE_KEY_ESPECIALES, JSON.stringify(actual));
+  } catch {
+    // Ignorar errores de almacenamiento
+  }
+}
 
 interface ConfigSimulacro {
   preguntas: number;
   minutos: number;
   penalizacion: number;
+  especiales: boolean;
 }
 
 interface ResultadoSimulacro {
@@ -389,6 +422,7 @@ export default function App() {
       localStorage.removeItem(STORAGE_KEY_ARTICULOS_FALLOS);
       localStorage.removeItem(STORAGE_KEY_MAPA_FALLOS);
       localStorage.removeItem(STORAGE_KEY_REPASO_ESPACIADO);
+      localStorage.removeItem(STORAGE_KEY_ESPECIALES);
     } catch {
       // ignore
     }
@@ -1390,7 +1424,48 @@ export default function App() {
       });
     }
 
-    function abrirModalRapidoEspecial(itemEsp: ItemEspecialMapaCE) {
+    function crearPreguntaEspecialInteractiva(pregunta: PreguntaEspecialCE, alResponder: (acierto: boolean) => void): HTMLElement {
+      const letras = ['A', 'B', 'C', 'D'];
+      const opciones = barajarArray(pregunta.opciones.map((texto, i) => ({ texto, esCorrecta: i === 0 })));
+      const bloque = document.createElement('div');
+      bloque.className = 'especial-pregunta';
+      bloque.innerHTML = `
+        <p class="especial-pregunta-enunciado">${pregunta.enunciado}</p>
+        <div class="cazador-opciones-lista">
+          ${opciones
+            .map(
+              (o, i) => `
+            <button type="button" class="cazador-opcion-btn especial-opcion" data-opcion="${i}">
+              <span class="cazador-opcion-letra">${letras[i]}</span>
+              <span class="cazador-opcion-contenido"><span class="cazador-opcion-texto">${o.texto}</span></span>
+            </button>`
+            )
+            .join('')}
+        </div>
+        <p class="especial-pregunta-explicacion is-hidden" role="status"></p>
+      `;
+      const botones = Array.from(bloque.querySelectorAll<HTMLButtonElement>('.especial-opcion'));
+      const explicacion = bloque.querySelector('.especial-pregunta-explicacion') as HTMLElement;
+      botones.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const elegida = opciones[Number(btn.dataset.opcion)];
+          botones.forEach((b, i) => {
+            b.disabled = true;
+            if (opciones[i].esCorrecta) b.classList.add('is-correct');
+          });
+          if (!elegida.esCorrecta) btn.classList.add('is-wrong');
+          explicacion.textContent = `${elegida.esCorrecta ? '✓ ¡Correcto!' : '✗ No es esa.'} ${pregunta.explicacion}`;
+          explicacion.classList.remove('is-hidden');
+          explicacion.classList.toggle('is-ok', elegida.esCorrecta);
+          alResponder(elegida.esCorrecta);
+        });
+      });
+      return bloque;
+    }
+
+    function abrirModalRapidoEspecial(itemEsp: ItemEspecialMapaCE, alCambiarEstado?: () => void) {
+      guardarEstadoEspecial(itemEsp.codigo, 'repaso', true);
+      const preguntasItem = PREGUNTAS_ESPECIALES.filter((q) => q.codigo === itemEsp.codigo);
       const overlay = document.createElement('div');
       overlay.className = 'mapa-modal-overlay';
       overlay.setAttribute('role', 'dialog');
@@ -1420,9 +1495,19 @@ export default function App() {
                 <span class="reto-boe-badge">${itemEsp.concepto_clave}</span>
               </div>
               <div class="reto-boe-apartado-item">
-                <p class="reto-boe-apartado-texto">${itemEsp.texto_oficial}</p>
+                ${itemEsp.texto_oficial
+                  .split('\n')
+                  .map((parrafo) => `<p class="reto-boe-apartado-texto">${parrafo}</p>`)
+                  .join('')}
               </div>
             </section>
+            ${
+              preguntasItem.length
+                ? `<section class="especial-comprobacion" id="especial-comprobacion">
+              <h4 class="especial-comprobacion-titulo">✍️ Comprueba que lo has entendido</h4>
+            </section>`
+                : ''
+            }
           </div>
 
           <footer class="mapa-modal-footer">
@@ -1434,6 +1519,24 @@ export default function App() {
       `;
 
       document.body.appendChild(overlay);
+      const zonaComprobacion = overlay.querySelector('#especial-comprobacion');
+      if (zonaComprobacion) {
+        const resultados: (boolean | null)[] = preguntasItem.map(() => null);
+        preguntasItem.forEach((pregunta, idx) => {
+          zonaComprobacion.appendChild(
+            crearPreguntaEspecialInteractiva(pregunta, (acierto) => {
+              resultados[idx] = acierto;
+              if (!acierto) {
+                guardarEstadoEspecial(itemEsp.codigo, 'repaso');
+              } else if (resultados.every((r) => r === true)) {
+                guardarEstadoEspecial(itemEsp.codigo, 'dominado');
+              }
+              alCambiarEstado?.();
+            })
+          );
+        });
+      }
+      alCambiarEstado?.();
       const cerrar = () => overlay.remove();
       overlay.querySelector('#btn-cerrar-esp-modal')?.addEventListener('click', cerrar);
       overlay.querySelector('#btn-cerrar-esp-footer')?.addEventListener('click', cerrar);
@@ -1497,6 +1600,7 @@ export default function App() {
       const listaAcordeones = document.createElement('div');
       listaAcordeones.className = 'mapa-acordeones-lista';
 
+      const estadoEspeciales = leerEstadoEspeciales();
       ESTRUCTURA_MAPA_CE.forEach((bloque) => {
         const estaAbierto = bloquesAbiertosRef.current.has(bloque.id_bloque);
         const itemAcordeon = document.createElement('article');
@@ -1511,6 +1615,13 @@ export default function App() {
           for (let num = ini; num <= fin; num++) {
             if (setDom.has(num)) v++;
             else if (setRep.has(num)) a++;
+            else g++;
+          }
+        } else if (bloque.items_especiales) {
+          for (const item of bloque.items_especiales) {
+            const e = estadoEspeciales[item.codigo];
+            if (e === 'dominado') v++;
+            else if (e === 'repaso') a++;
             else g++;
           }
         }
@@ -1529,7 +1640,7 @@ export default function App() {
           <div class="mapa-acordeon-head-right">
             <span class="mapa-acordeon-rango">${bloque.rango_etiqueta}</span>
             ${
-              bloque.rango_articulos
+              bloque.rango_articulos || bloque.items_especiales
                 ? `
               <div class="mapa-acordeon-stats" title="Dominados / En repaso / No estudiados">
                 <span class="mapa-stat-pill stat-verde">🟢 ${v}</span>
@@ -1591,21 +1702,46 @@ export default function App() {
             gridMinicards.appendChild(minicard);
           }
         } else if (bloque.items_especiales) {
+          const statsBloque = btnTrigger.querySelector('.mapa-acordeon-stats');
+          const pintarStatsBloque = () => {
+            if (!statsBloque || !bloque.items_especiales) return;
+            const estados = leerEstadoEspeciales();
+            const cuenta = { v: 0, a: 0, g: 0 };
+            for (const it of bloque.items_especiales) {
+              const e = estados[it.codigo];
+              if (e === 'dominado') cuenta.v++;
+              else if (e === 'repaso') cuenta.a++;
+              else cuenta.g++;
+            }
+            const pills = statsBloque.querySelectorAll('.mapa-stat-pill');
+            pills[0].textContent = `🟢 ${cuenta.v}`;
+            pills[1].textContent = `🟡 ${cuenta.a}`;
+            pills[2].textContent = `⚪ ${cuenta.g}`;
+          };
           bloque.items_especiales.forEach((itemEsp) => {
             const minicard = document.createElement('button');
             minicard.type = 'button';
-            minicard.className = 'mapa-minicard status-repaso';
-            minicard.innerHTML = `
+            const pintarMinicard = () => {
+              const e = leerEstadoEspeciales()[itemEsp.codigo];
+              const claseEstado = e === 'dominado' ? 'status-dominado' : e === 'repaso' ? 'status-repaso' : 'status-no-estudiado';
+              const dotClase = e === 'dominado' ? 'dot-verde' : e === 'repaso' ? 'dot-amarillo' : 'dot-gris';
+              minicard.className = `mapa-minicard ${claseEstado}`;
+              minicard.innerHTML = `
               <div class="mapa-minicard-top">
                 <span class="mapa-minicard-num">${itemEsp.codigo}</span>
-                <span class="mapa-dot dot-amarillo"></span>
+                <span class="mapa-dot ${dotClase}"></span>
               </div>
               <div class="mapa-minicard-peg">🔑 ${itemEsp.palabra_casillero}</div>
               <div class="mapa-minicard-tema">${itemEsp.concepto_clave}</div>
             `;
+            };
+            pintarMinicard();
 
             minicard.addEventListener('click', () => {
-              abrirModalRapidoEspecial(itemEsp);
+              abrirModalRapidoEspecial(itemEsp, () => {
+                pintarMinicard();
+                pintarStatsBloque();
+              });
             });
 
             gridMinicards.appendChild(minicard);
@@ -1670,13 +1806,14 @@ export default function App() {
             minutos: [0, 10, 25, 50, 100].includes(parsed.minutos) ? parsed.minutos : 25,
             penalizacion: [0, 0.25, 1 / 3].some((p) => Math.abs(p - parsed.penalizacion) < 1e-6)
               ? parsed.penalizacion
-              : 1 / 3
+              : 1 / 3,
+            especiales: parsed.especiales !== false
           };
         }
       } catch {
         // Ignorar configuración corrupta
       }
-      return { preguntas: 25, minutos: 25, penalizacion: 1 / 3 };
+      return { preguntas: 25, minutos: 25, penalizacion: 1 / 3, especiales: true };
     }
 
     function leerHistorialSimulacros(): ResultadoSimulacro[] {
@@ -1769,6 +1906,10 @@ export default function App() {
               )}</select>
             </label>
           </div>
+          <label class="simulacro-check">
+            <input type="checkbox" id="sim-especiales" ${config.especiales ? 'checked' : ''} />
+            Incluir preguntas del Preámbulo y de las Disposiciones (en la misma proporción que en la Constitución: 1 de cada 12 aprox.)
+          </label>
           <button type="button" class="btn-mesa btn-mesa-primary simulacro-empezar" id="btn-empezar-simulacro">
             ▶ Empezar simulacro
           </button>
@@ -1784,7 +1925,8 @@ export default function App() {
         const nuevaConfig: ConfigSimulacro = {
           preguntas: Number((panel.querySelector('#sim-preguntas') as HTMLSelectElement).value),
           minutos: Number((panel.querySelector('#sim-minutos') as HTMLSelectElement).value),
-          penalizacion: Number((panel.querySelector('#sim-penalizacion') as HTMLSelectElement).value)
+          penalizacion: Number((panel.querySelector('#sim-penalizacion') as HTMLSelectElement).value),
+          especiales: (panel.querySelector('#sim-especiales') as HTMLInputElement).checked
         };
         try {
           localStorage.setItem(STORAGE_KEY_SIMULACRO_CONFIG, JSON.stringify(nuevaConfig));
@@ -1798,15 +1940,47 @@ export default function App() {
 
     function ejecutarSimulacro(mazo: ArticuloCE[], config: ConfigSimulacro) {
       if (!contenedorMesa) return;
-      const seleccion = barajarArray(mazo).slice(0, Math.min(config.preguntas, mazo.length));
+      const total = Math.min(config.preguntas, mazo.length);
+      // Proporción real de la Constitución: 15 piezas especiales (Preámbulo + Disposiciones) frente a 169 artículos
+      const numEspeciales = config.especiales ? Math.max(1, Math.round((total * 15) / 184)) : 0;
       const letras = ['A', 'B', 'C', 'D'];
-      const preguntas = seleccion.map((articulo) => ({
-        articulo,
-        opciones: barajarArray(
-          articulo.test_trampa.opciones.map((texto, idx) => ({ texto, esCorrecta: idx === articulo.test_trampa.indice_correcta }))
-        ),
-        respuesta: null as number | null
-      }));
+      type PreguntaSim = {
+        articulo: ArticuloCE | null;
+        codigoEspecial: string | null;
+        etiqueta: string;
+        enunciado: string;
+        explicacion: string;
+        opciones: { texto: string; esCorrecta: boolean }[];
+        respuesta: number | null;
+      };
+      const deArticulos: PreguntaSim[] = barajarArray(mazo)
+        .slice(0, total - numEspeciales)
+        .map((articulo) => ({
+          articulo,
+          codigoEspecial: null,
+          etiqueta: `Artículo ${articulo.id_articulo}`,
+          enunciado: articulo.test_trampa.enunciado,
+          explicacion: articulo.test_trampa.trampa_explicacion,
+          opciones: barajarArray(
+            articulo.test_trampa.opciones.map((texto, idx) => ({ texto, esCorrecta: idx === articulo.test_trampa.indice_correcta }))
+          ),
+          respuesta: null
+        }));
+      // Como mucho una pregunta por pieza especial, para que no se repita la misma disposición
+      const especialesVistos = new Set<string>();
+      const deEspeciales: PreguntaSim[] = barajarArray(PREGUNTAS_ESPECIALES)
+        .filter((q) => (especialesVistos.has(q.codigo) ? false : (especialesVistos.add(q.codigo), true)))
+        .slice(0, numEspeciales)
+        .map((q) => ({
+          articulo: null,
+          codigoEspecial: q.codigo,
+          etiqueta: q.codigo === 'Preámbulo' ? 'Preámbulo' : q.codigo.replace('D.', 'Disposición'),
+          enunciado: q.enunciado,
+          explicacion: q.explicacion,
+          opciones: barajarArray(q.opciones.map((texto, i) => ({ texto, esCorrecta: i === 0 }))),
+          respuesta: null
+        }));
+      const preguntas = barajarArray([...deArticulos, ...deEspeciales]);
       let actual = 0;
       let entregado = false;
       const inicio = Date.now();
@@ -1863,7 +2037,7 @@ export default function App() {
               </div>
             </header>
             <div class="cazador-enunciado-box">
-              <p class="cazador-enunciado-texto">${p.articulo.test_trampa.enunciado}</p>
+              <p class="cazador-enunciado-texto">${p.enunciado}</p>
             </div>
             <div class="cazador-opciones-lista" role="radiogroup" aria-label="Opciones de respuesta">
               ${p.opciones
@@ -1932,10 +2106,15 @@ export default function App() {
 
         // Los artículos fallados pasan a la lista de repaso (y los que no se contestaron, no)
         let ultimo: { fallosIds: number[]; mapaFallos: Record<number, number> } | null = null;
-        for (const p of fallosLista) ultimo = registrarFalloArticuloStorage(p.articulo.id);
-        for (const p of preguntas) {
-          registrarRepasoEspaciado(p.articulo.id, p.respuesta !== null && p.opciones[p.respuesta].esCorrecta);
+        for (const p of fallosLista) {
+          if (p.articulo) ultimo = registrarFalloArticuloStorage(p.articulo.id);
         }
+        for (const p of preguntas) {
+          const acierto = p.respuesta !== null && p.opciones[p.respuesta].esCorrecta;
+          if (p.articulo) registrarRepasoEspaciado(p.articulo.id, acierto);
+          else if (p.codigoEspecial) guardarEstadoEspecial(p.codigoEspecial, acierto ? 'dominado' : 'repaso');
+        }
+        const fallosArticulos = fallosLista.filter((p) => p.articulo).length;
         setRepasoHoyIds(articulosParaRepasarHoy());
         if (ultimo) {
           setFallosIds(ultimo.fallosIds);
@@ -1968,13 +2147,13 @@ export default function App() {
             return `
               <li class="simulacro-correccion-item ${p.respuesta === null ? 'is-blanco' : 'is-fallo'}">
                 <div class="simulacro-correccion-cabecera">
-                  <strong>Pregunta ${i + 1} · Artículo ${p.articulo.id_articulo}</strong>
+                  <strong>Pregunta ${i + 1} · ${p.etiqueta}</strong>
                   <span>${p.respuesta === null ? 'En blanco' : 'Fallo'}</span>
                 </div>
-                <p class="simulacro-correccion-enunciado">${p.articulo.test_trampa.enunciado}</p>
+                <p class="simulacro-correccion-enunciado">${p.enunciado}</p>
                 ${marcada ? `<p class="simulacro-tu-respuesta">✗ Tu respuesta: ${marcada}</p>` : ''}
                 <p class="simulacro-respuesta-correcta">✓ Correcta: ${correcta}</p>
-                <p class="simulacro-explicacion">${p.articulo.test_trampa.trampa_explicacion}</p>
+                <p class="simulacro-explicacion">${p.explicacion}</p>
               </li>`;
           })
           .join('');
@@ -1999,8 +2178,8 @@ export default function App() {
               </p>
             </header>
             ${
-              fallosLista.length
-                ? `<button type="button" class="btn-mesa btn-mesa-primary" id="btn-repasar-fallos-simulacro">⚠️ Repasar los ${fallosLista.length} artículo(s) fallados en el Cazador de Trampas</button>`
+              fallosArticulos
+                ? `<button type="button" class="btn-mesa btn-mesa-primary" id="btn-repasar-fallos-simulacro">⚠️ Repasar los ${fallosArticulos} artículo(s) fallados en el Cazador de Trampas</button>`
                 : ''
             }
             ${correccionHtml ? `<h3 class="simulacro-subtitulo">Corrección</h3><ol class="simulacro-correccion">${correccionHtml}</ol>` : '<p class="simulacro-muted">¡Pleno! Ningún fallo ni pregunta en blanco.</p>'}
