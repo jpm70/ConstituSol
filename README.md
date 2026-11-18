@@ -1,5 +1,7 @@
 # 🏛️ ConstituSol — Simulador Mnemotécnico de la Constitución Española (1978)
 
+**[▶ Abrir ConstituSol](https://jpm70.github.io/ConstituSol/)** · versión sin React: [simulador_mesa.html](https://jpm70.github.io/ConstituSol/simulador_mesa.html)
+
 **ConstituSol** es una aplicación web interactiva diseñada específicamente para **opositores** (Administración General del Estado, Justicia, Fuerzas y Cuerpos de Seguridad, Administración Local y Autonómica) que combina el **Sistema Mayor (Casillero Mental)** con el **texto íntegro oficial consolidado del BOE** de los **169 artículos** de la Constitución Española de 1978.
 
 ---
@@ -10,7 +12,7 @@
 1. **🃏 Modo 1: Descubrimiento (Flashcards 3D con BOE por Apartados)**
    - Tarjetas interactivas con giro 3D libre de inversión especular (`rotateY`).
    - **Anverso**: Número del artículo, estado de dominio, tema general y resumen de apartados.
-   - **Reverso**: Escena surrealista (`./assets/images/art_{id_articulo}.jpg`), palabra del Casillero Mental, historia absurda y desglose completo por apartados con botón interactivo **`📖 Ver BOE`** para desplegar/ocultar el texto literal de cada apartado sin voltear la tarjeta.
+   - **Reverso**: Escena surrealista (`./assets/images/art_{id_articulo}.webp`), palabra del Casillero Mental, historia absurda y desglose completo por apartados con botón interactivo **`📖 Ver BOE`** para desplegar/ocultar el texto literal de cada apartado sin voltear la tarjeta.
 
 2. **🎯 Modo 2: El Reto del Casillero (Adivinanza Inversa + BOE)**
    - Muestra la escena mnemotécnica, la palabra del casillero, la historia absurda y un **cuadro destacado con el Contenido Oficial del Artículo (BOE)** antes del formulario de respuesta.
@@ -57,19 +59,21 @@
 
 ## 🖼️ Gestión de Imágenes Mnemotécnicas (`./assets/images/`)
 
-La aplicación carga dinámicamente las ilustraciones mnemotécnicas en formato JPG siguiendo el patrón de nombres:
+La aplicación carga dinámicamente las ilustraciones mnemotécnicas en formato **WebP** (900 × 600 px) siguiendo el patrón de nombres:
 
 ```text
-public/assets/images/art_{id_articulo}.jpg
+public/assets/images/art_{id_articulo}.webp
 ```
 
 Por ejemplo:
-- `public/assets/images/art_1.jpg` → Artículo 1 (*Hada*)
-- `public/assets/images/art_14.jpg` → Artículo 14 (*Toro*)
-- `public/assets/images/art_42.jpg` → Artículo 42 (*Cuna*)
-- `public/assets/images/art_169.jpg` → Artículo 169 (*Tuerca Vuelta*)
+- `public/assets/images/art_1.webp` → Artículo 1 (*Té*)
+- `public/assets/images/art_14.webp` → Artículo 14 (*Taco*)
+- `public/assets/images/art_42.webp` → Artículo 42 (*Cuna*)
+- `public/assets/images/art_169.webp` → Artículo 169 (*Taza-Sapo*)
 
-> **Gestor de errores integrado (`onerror`)**: Si algún archivo `art_X.jpg` aún no se ha copiado a la carpeta `public/assets/images/`, el atributo `onerror` de la etiqueta `<img>` oculta automáticamente el icono de imagen rota y renderiza en su lugar un **cuadro de sustitución limpio** con la palabra del casillero y el título del artículo, manteniendo intacta la maquetación (`height: 200px–240px`, `object-fit: cover` y bordes redondeados).
+Están las 169 (`art_1.webp` … `art_169.webp`). Para cambiar una, sustituye el archivo con el mismo nombre.
+
+> **Gestor de errores integrado (`onerror`)**: si falta algún `art_X.webp`, el atributo `onerror` de la etiqueta `<img>` oculta el icono de imagen rota y muestra en su lugar un **cuadro de sustitución** con la palabra del casillero y el título del artículo, sin romper la maquetación.
 
 ---
 
@@ -81,7 +85,7 @@ El repositorio incluye tanto la aplicación modular en **React + TypeScript + Vi
 constitusol/
 ├── public/
 │   ├── assets/
-│   │   └── images/                 # Carpeta para las imágenes art_1.jpg ... art_169.jpg
+│   │   └── images/                 # Las 169 escenas: art_1.webp ... art_169.webp
 │   ├── app_mnemotecnia.js          # Lógica completa en Vanilla JavaScript (ES6+)
 │   ├── datos_ce.js                 # Base de datos global (window.constitucion_db)
 │   ├── simulador_mesa.html         # Aplicación standalone en HTML5 + CSS3 + JS
@@ -116,7 +120,7 @@ Cada uno de los 169 artículos sigue estrictamente este esquema estructurado:
   "palabra_casillero": "Taco",
   "historia_mnemotecnica": "Un TACO gigante de billar rompe los barrotes de un calabozo exactamente a las 72 horas para liberar a un detenido con un cartel de Habeas Corpus.",
   "prompt_imagen": "Surrealist digital art of a giant billiard cue breaking prison bars with a glowing 72 hours clock, vivid colors",
-  "imagen_url": "./assets/images/art_17.jpg",
+  "imagen_url": "./assets/images/art_17.webp",
   "apartados": [
     {
       "id_apartado": "17.1",
@@ -147,59 +151,33 @@ Cada uno de los 169 artículos sigue estrictamente este esquema estructurado:
 
 ## 🚀 Instalación y Uso Local
 
-### Requisitos previos
-- **Node.js** `>= 18.x`
-- **npm** `>= 9.x` (o `bun` / `pnpm`)
+Requisitos: **[Bun](https://bun.sh/)** (el proyecto usa `bun.lock`).
 
-### Pasos de instalación
-
-1. **Clonar el repositorio:**
-   ```bash
-   git clone https://github.com/jpm70/constitusol.git
-   cd constitusol
-   ```
-
-2. **Instalar las dependencias:**
-   ```bash
-   npm install
-   ```
-
-3. **Iniciar el servidor de desarrollo (puerto 3000):**
-   ```bash
-   npm run dev
-   ```
-   Abre `http://localhost:3000` en tu navegador.
-   *(También puedes acceder directamente a la versión Vanilla JS en `http://localhost:3000/simulador_mesa.html`).*
-
-4. **Compilar para producción:**
-   ```bash
-   npm run build
-   ```
-   Los archivos optimizados se generarán en la carpeta `dist/`.
-
-5. **Regenerar la base de datos (`datos_ce.js` y `src/datos_ce.ts`) si editas el script fuente:**
-   ```bash
-   npm run rebuild:db
-   ```
+```bash
+git clone https://github.com/jpm70/ConstituSol.git
+cd ConstituSol
+bun install
+bun run dev          # http://localhost:3000 (y /simulador_mesa.html para la versión sin React)
+bun run build        # genera ./dist para publicar
+bun run rebuild:db   # regenera datos_ce.js y src/datos_ce.ts si editas el script fuente
+```
 
 ---
 
-## 🌐 Cómo Subir a GitHub y Desplegar
+## 🌐 Publicación en GitHub Pages
 
-### Subir el proyecto a tu cuenta de GitHub
+El flujo [`.github/workflows/deploy.yml`](./.github/workflows/deploy.yml) se ejecuta en cada `push` a `main`: instala con Bun, compila `./dist` y lo publica en **https://jpm70.github.io/ConstituSol/** (en **Settings → Pages**, la fuente es **GitHub Actions**).
 
-```bash
-git init
-git add .
-git commit -m "feat: lanzamiento inicial de ConstituSol (169 artículos CE + Casillero Mental)"
-git branch -M main
-git remote add origin https://github.com/TU_USUARIO/constitusol.git
-git push -u origin main
-```
+La compilación usa rutas relativas (`base: './'`), así que funciona en la subcarpeta `/ConstituSol/` de GitHub Pages y en cualquier otro alojamiento estático.
 
-### Despliegue gratuito en 1 clic
-- **Vercel / Netlify**: Importa el repositorio desde GitHub. El comando de compilación es `npm run build` y el directorio de salida es `dist`.
-- **GitHub Pages (modo estático)**: Puedes publicar el contenido compilado de `dist/` o servir directamente la carpeta `public/` abriendo `simulador_mesa.html`.
+---
+
+## 🛠️ Cambios de esta versión
+
+- **Imágenes visibles.** Las 169 escenas se subieron en `.webp`, pero la app las buscaba como `.jpg`, así que todas las tarjetas mostraban «Escena en preparación». Ahora se cargan las `.webp` en los cinco modos y en la versión sin React.
+- **Lista para GitHub Pages.** Faltaba `base: './'` en Vite y había rutas absolutas (`/datos_ce.js`, `/simulador_mesa.html`…), así que en la subcarpeta de Pages la página salía en blanco. Además, se añade el workflow de despliegue.
+- **Texto literal verificado.** Se ha comparado el texto de los 169 artículos con el BOE consolidado incluido en el repositorio y coincide palabra por palabra, incluidas las reformas de los artículos 135 (2011) y 49 (2024).
+- **Limpieza.** Fuera las dependencias de AI Studio sin uso (Gemini, Express, `motion`, `dotenv`), `metadata.json` y `.env.example`. La página se declara en español (`lang="es"`).
 
 ---
 

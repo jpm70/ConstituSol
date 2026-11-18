@@ -536,7 +536,7 @@
   display: block;
 }
 
-/* Cuadro de sustitución limpio cuando ./assets/images/art_X.jpg aún no existe (onerror) */
+/* Cuadro de sustitución limpio cuando ./assets/images/art_X.webp aún no existe (onerror) */
 .img-fallback-box {
   width: 100%;
   height: 100%;

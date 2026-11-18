@@ -781,11 +781,11 @@
 
   /**
    * Genera la ruta relativa oficial de la imagen mnemotécnica JPG de un artículo:
-   * Patrón: "./assets/images/art_{id_articulo}.jpg" (ej. "./assets/images/art_1.jpg")
+   * Patrón: "./assets/images/art_{id_articulo}.webp" (ej. "./assets/images/art_1.webp")
    */
   function obtenerRutaImagenArticulo(idArticulo) {
     const idLimpio = String(idArticulo).trim();
-    return `./assets/images/art_${idLimpio}.jpg`;
+    return `./assets/images/art_${idLimpio}.webp`;
   }
 
   /**
@@ -1008,7 +1008,7 @@
               <div class="img-fallback-box is-hidden" aria-label="Cuadro de sustitución de escena mnemotécnica">
                 <span class="img-fallback-badge">🎨 Casillero: ${articulo.palabra_casillero}</span>
                 <span class="img-fallback-title">Artículo ${idStr} · ${temaGeneral}</span>
-                <span class="img-fallback-sub">./assets/images/art_${idStr}.jpg · Escena en preparación</span>
+                <span class="img-fallback-sub">./assets/images/art_${idStr}.webp · Escena en preparación</span>
               </div>
             </div>
 
@@ -1154,7 +1154,7 @@
         <div class="img-fallback-box is-hidden" aria-label="Cuadro de sustitución de escena del reto">
           <span class="img-fallback-badge">🔑 Casillero: ${articuloReto.palabra_casillero}</span>
           <span class="img-fallback-title">¿A qué artículo corresponde esta escena y texto del BOE?</span>
-          <span class="img-fallback-sub">./assets/images/art_${idRetoStr}.jpg · Escena en preparación</span>
+          <span class="img-fallback-sub">./assets/images/art_${idRetoStr}.webp · Escena en preparación</span>
         </div>
       </div>
 
@@ -1500,7 +1500,7 @@
           <div class="img-fallback-box is-hidden" aria-label="Cuadro de sustitución de anclaje mental">
             <span class="img-fallback-badge">🎨 Casillero: ${articulo.palabra_casillero}</span>
             <span class="img-fallback-title">Artículo ${idStr} · ${temaGeneral}</span>
-            <span class="img-fallback-sub">./assets/images/art_${idStr}.jpg · Escena en preparación</span>
+            <span class="img-fallback-sub">./assets/images/art_${idStr}.webp · Escena en preparación</span>
           </div>
         </div>
         <div class="cazador-anclaje-body">
@@ -1918,7 +1918,7 @@
               <div class="img-fallback-box is-hidden" aria-label="Cuadro de sustitución de escena mnemotécnica">
                 <span class="img-fallback-badge">🎨 Casillero: ${articulo.palabra_casillero}</span>
                 <span class="img-fallback-title">Artículo ${idStr} · ${temaGeneral}</span>
-                <span class="img-fallback-sub">./assets/images/art_${idStr}.jpg · Escena en preparación</span>
+                <span class="img-fallback-sub">./assets/images/art_${idStr}.webp · Escena en preparación</span>
               </div>
             </div>
             <div class="cazador-anclaje-body">

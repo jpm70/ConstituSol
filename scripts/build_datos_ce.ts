@@ -212,7 +212,7 @@ const fullSimulatorArray: ArticuloCE[] = pureJsonArray.map((item) => {
     id: numId,
     concepto_clave: item.tema_general,
     texto_oficial: extractedTexts[numId],
-    imagen_url: `./assets/images/art_${numId}.jpg`
+    imagen_url: `./assets/images/art_${numId}.webp`
   };
 });
 
