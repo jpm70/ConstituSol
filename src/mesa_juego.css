@@ -2704,3 +2704,10 @@
 .btn-anclaje-mental.is-hidden {
   display: none;
 }
+
+/* Botón «Repaso de hoy» (repaso espaciado): mismo formato que «Repasar fallos», en azul */
+.btn-repasar-fallos.btn-repaso-hoy {
+  background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+  border-color: #38bdf8;
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.35);
+}
