@@ -188,6 +188,7 @@ La compilación usa rutas relativas (`base: './'`), así que funciona en la subc
 - **Preguntas trampa de tribunal.** 138 preguntas usaban la misma plantilla con distractores absurdos (siempre «mayoría de dos tercios en 48 horas» y «el CGPJ a propuesta del Defensor del Pueblo»). Ahora salen del texto literal del BOE con un solo detalle cambiado por opción, o son de localización del artículo.
 - **Modo 6: Simulacro de Examen** con tiempo, penalización por error, nota sobre 10, corrección e historial; los fallos pasan a la lista de repaso.
 - **Las preguntas de localización no delatan la respuesta.** En el Cazador de Trampas, la cabecera («Artículo N») y el anclaje mental se ocultan hasta responder.
+- **Barra superior solo para estudiar.** «Código ConstituSol», «JSON Puro (Apartados)» y «Descargar ConstituSol» pasan a un desplegable al pie, «Para docentes y desarrolladores»; desde esas vistas, «← Volver al estudio» regresa a la mesa.
 - **Limpieza.** Fuera las dependencias de AI Studio sin uso (Gemini, Express, `motion`, `dotenv`), `metadata.json` y `.env.example`. La página se declara en español (`lang="es"`).
 
 ---
