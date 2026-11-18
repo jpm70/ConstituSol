@@ -229,7 +229,7 @@ function incrementarAciertosCazadorStorage(): number {
 
 function obtenerRutaImagenArticulo(idArticulo: string | number): string {
   const idLimpio = String(idArticulo).trim();
-  return `./assets/images/art_${idLimpio}.jpg`;
+  return `./assets/images/art_${idLimpio}.webp`;
 }
 
 function barajarArray<T>(array: T[]): T[] {
@@ -496,7 +496,7 @@ export default function App() {
                 <div class="img-fallback-box is-hidden" aria-label="Cuadro de sustitución de escena mnemotécnica">
                   <span class="img-fallback-badge">🎨 Casillero: ${articulo.palabra_casillero}</span>
                   <span class="img-fallback-title">Artículo ${articulo.id_articulo} · ${articulo.tema_general}</span>
-                  <span class="img-fallback-sub">./assets/images/art_${articulo.id_articulo}.jpg · Escena en preparación</span>
+                  <span class="img-fallback-sub">./assets/images/art_${articulo.id_articulo}.webp · Escena en preparación</span>
                 </div>
               </div>
               <div class="historia-box">
@@ -639,7 +639,7 @@ export default function App() {
           <div class="img-fallback-box is-hidden" aria-label="Cuadro de sustitución de escena del reto">
             <span class="img-fallback-badge">🔑 Casillero: ${articuloReto.palabra_casillero}</span>
             <span class="img-fallback-title">¿A qué artículo corresponde esta escena y texto del BOE?</span>
-            <span class="img-fallback-sub">./assets/images/art_${articuloReto.id_articulo}.jpg · Escena en preparación</span>
+            <span class="img-fallback-sub">./assets/images/art_${articuloReto.id_articulo}.webp · Escena en preparación</span>
           </div>
         </div>
 
@@ -992,7 +992,7 @@ export default function App() {
             <div class="img-fallback-box is-hidden" aria-label="Cuadro de sustitución de anclaje mental">
               <span class="img-fallback-badge">🎨 Casillero: ${articulo.palabra_casillero}</span>
               <span class="img-fallback-title">Artículo ${articulo.id_articulo} · ${articulo.tema_general}</span>
-              <span class="img-fallback-sub">./assets/images/art_${articulo.id_articulo}.jpg · Escena en preparación</span>
+              <span class="img-fallback-sub">./assets/images/art_${articulo.id_articulo}.webp · Escena en preparación</span>
             </div>
           </div>
           <div class="cazador-anclaje-body">
@@ -1200,7 +1200,7 @@ export default function App() {
                 <div class="img-fallback-box is-hidden" aria-label="Cuadro de sustitución de escena mnemotécnica">
                   <span class="img-fallback-badge">🎨 Casillero: ${articulo.palabra_casillero}</span>
                   <span class="img-fallback-title">Artículo ${articulo.id_articulo} · ${articulo.tema_general}</span>
-                  <span class="img-fallback-sub">./assets/images/art_${articulo.id_articulo}.jpg · Escena en preparación</span>
+                  <span class="img-fallback-sub">./assets/images/art_${articulo.id_articulo}.webp · Escena en preparación</span>
                 </div>
               </div>
               <div class="cazador-anclaje-body">
@@ -1556,28 +1556,28 @@ export default function App() {
 
   const handleDownloadPureJson = () => {
     const a = document.createElement('a');
-    a.href = '/constitucion_apartados.json';
+    a.href = './constitucion_apartados.json';
     a.download = 'constitucion_apartados.json';
     a.click();
   };
 
   const handleDownloadDatosCe = () => {
     const a = document.createElement('a');
-    a.href = '/datos_ce.js';
+    a.href = './datos_ce.js';
     a.download = 'datos_ce.js';
     a.click();
   };
 
   const handleDownloadJs = () => {
     const a = document.createElement('a');
-    a.href = '/app_mnemotecnia.js';
+    a.href = './app_mnemotecnia.js';
     a.download = 'app_mnemotecnia.js';
     a.click();
   };
 
   const handleDownloadSpaHtml = () => {
     const a = document.createElement('a');
-    a.href = '/simulador_mesa.html';
+    a.href = './simulador_mesa.html';
     a.download = 'simulador_mesa.html';
     a.click();
   };
