@@ -8,7 +8,7 @@
 
 ## ✨ Características Principales
 
-### 🧠 5 Modos de Estudio y Entrenamiento
+### 🧠 6 Modos de Estudio y Entrenamiento
 1. **🃏 Modo 1: Descubrimiento (Flashcards 3D con BOE por Apartados)**
    - Tarjetas interactivas con giro 3D libre de inversión especular (`rotateY`).
    - **Anverso**: Número del artículo, estado de dominio, tema general y resumen de apartados.
@@ -34,6 +34,13 @@
      - 🟡 **Amarillo**: Artículo en repaso.
      - ⚪ **Gris**: Artículo no estudiado.
    - Clic en cualquier minitarjeta para abrir el **Modal Rápido de Consulta** (cambio manual de estado, escena mnemotécnica, texto íntegro del BOE y acceso directo al Modo Descubrimiento).
+
+6. **📝 Modo 6: Simulacro de Examen**
+   - Examen de **10, 25, 50 o 100 preguntas** al azar entre los artículos del filtro activo (todos, no dominados, dominados o solo los fallados), **sin ver la solución hasta entregar**.
+   - **Cronómetro** de 10 a 100 minutos (o sin límite) que entrega solo al llegar a cero, **penalización por error** configurable (−1/3, −1/4 o ninguna) y opción de **dejar preguntas en blanco**.
+   - Navegación libre: anterior/siguiente y rejilla numerada para saltar a cualquier pregunta, con las contestadas marcadas.
+   - Al entregar: **nota sobre 10**, aciertos, fallos, en blanco y tiempo empleado, y **corrección** de cada fallo con tu respuesta, la correcta y la explicación de la trampa.
+   - Los artículos fallados pasan a **«Repasar solo artículos con fallos»**, con un botón que abre directamente el Cazador de Trampas filtrado. Se guardan los **últimos 10 simulacros** con su nota.
 
 ---
 
@@ -179,6 +186,8 @@ La compilación usa rutas relativas (`base: './'`), así que funciona en la subc
 - **Lista para GitHub Pages.** Faltaba `base: './'` en Vite y había rutas absolutas (`/datos_ce.js`, `/simulador_mesa.html`…), así que en la subcarpeta de Pages la página salía en blanco. Además, se añade el workflow de despliegue.
 - **Texto literal verificado.** Se ha comparado el texto de los 169 artículos con el BOE consolidado incluido en el repositorio y coincide palabra por palabra, incluidas las reformas de los artículos 135 (2011) y 49 (2024).
 - **Preguntas trampa de tribunal.** 138 preguntas usaban la misma plantilla con distractores absurdos (siempre «mayoría de dos tercios en 48 horas» y «el CGPJ a propuesta del Defensor del Pueblo»). Ahora salen del texto literal del BOE con un solo detalle cambiado por opción, o son de localización del artículo.
+- **Modo 6: Simulacro de Examen** con tiempo, penalización por error, nota sobre 10, corrección e historial; los fallos pasan a la lista de repaso.
+- **Las preguntas de localización no delatan la respuesta.** En el Cazador de Trampas, la cabecera («Artículo N») y el anclaje mental se ocultan hasta responder.
 - **Limpieza.** Fuera las dependencias de AI Studio sin uso (Gemini, Express, `motion`, `dotenv`), `metadata.json` y `.env.example`. La página se declara en español (`lang="es"`).
 
 ---
